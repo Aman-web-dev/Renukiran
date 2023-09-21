@@ -3,12 +3,10 @@
 
 
 const nextConfig = {
-    experimental:{
-        appdir:true,
-    },
+   
     images: {
-        hostname:["images.freepik.com","images.pexels.com"],
-        domains:["images.freepik.com","images.pexels.com"]
+        hostname:["images.freepik.com","images.pexels.com","images.unsplash.com"],
+        domains:["images.freepik.com","images.pexels.com","images.unsplash"]
 }
 }
 
