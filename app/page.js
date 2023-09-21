@@ -1,8 +1,14 @@
+import Footer from '@/components/Footer'
+import Nav from '@/components/Nav'
+
 export default function Home() {
   return (
-<>
-
-<h1>Hello</h1>
-</>
+    <>
+    <Nav />
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      hello
+    </main>
+    <Footer />
+    </>
   )
 }
