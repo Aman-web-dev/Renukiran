@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import logo from '../public/assets/images/logo.png'
+import logo from '../public/assets/images/official-logo.png'
 
 const Nav = () => {
   return (
     <>
     
-<nav className="h-[9vh] border-black shadow-md py-0">
+<nav className="bg-white border-b border-gray-400 shadow-md sticky top-0 w-full z-40 backdrop-filter backdrop-blur-lg bg-opacity-30">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="/" className="flex items-center">
         <Image src={logo} width={90} height={10} alt="Flowbite Logo" />
