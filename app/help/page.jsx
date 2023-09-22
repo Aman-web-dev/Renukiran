@@ -1,5 +1,5 @@
 import React from 'react';
-import Helpcards from '../components/helpcards';
+import Helpcards from '../../components/helpcards';
 
 function Help() {
   const backgroundStyle = {
@@ -17,8 +17,12 @@ function Help() {
 
   return (
     <div style={backgroundStyle} className='h-auto flex flex-col items-center justify-center'>
-      <p className='text-6xl font-bold text-center my-2 text-white'>Help Us</p>
-      <div className='flex flex-wrap w-[90vw] p-3 m-auto gap-3 p-4'>
+      <p className='text-6xl font-bold text-center my-2 text-white'>Donate Us</p>
+      <p className='text-3xl font-bold text-center my-2 text-white'>Your help Would Be appericiated</p>
+      <p className='text-1xl font-bold text-center my-2 text-white'>Donation In Renukiran is Not Like other NGO donations We Don't Ask for Money We Ask For a Small Educational, Food or Cloth Donation.</p>
+
+
+      <div className='flex flex-wrap w-[90vw] m-auto xl:gap-5 gap-3 my-4  items-center justify-center'>
       
       <Helpcards title={"Food"} desc={"Provide one-time food to a needy"} price={"$600"} />
       <Helpcards title={"Food"} desc={"Provide one-time food to a needy"} price={"$600"} />

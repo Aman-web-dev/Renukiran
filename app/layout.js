@@ -20,7 +20,12 @@ export default function RootLayout({ children }) {
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
       </Head>
-      <body className={inter.className}>{children}
+      <body className={inter.className}>
+      <Nav/>
+        
+        {children}
+
+      <Footer/>  
       <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script></body>
     </html>
   )
