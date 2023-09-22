@@ -1,7 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Nav from '@/components/Nav'
-import Script from 'next/script'
 import Head from 'next/head'
 import Footer from '@/components/Footer'
 
