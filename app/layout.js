@@ -16,18 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-<<<<<<< HEAD
-<Head>
-<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
-
-</Head>
-=======
       <Head>
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
       </Head>
->>>>>>> e9bd93f26f3e46dee489ed0000444f3d328ed828
       <body className={inter.className}>{children}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script></body>
     </html>
