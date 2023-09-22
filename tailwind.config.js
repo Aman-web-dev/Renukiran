@@ -8,7 +8,7 @@ module.exports = {
     './node_modules/flowbite/**/*.js'
   ],
   theme: {
-    extend: {
+    
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -19,10 +19,12 @@ module.exports = {
         100: '100%'
       }
     },
-  },
-  plugins: [
-    require('flowbite/plugin'),
-    require("daisyui"),
-  ],
+
+    plugins: [
+      require('flowbite/plugin'),
+      require("daisyui"),
+    ],
+    
+  }
   
-}
+
