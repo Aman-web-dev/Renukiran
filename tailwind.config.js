@@ -8,14 +8,20 @@ module.exports = {
     './node_modules/flowbite/**/*.js'
   ],
   theme: {
-    extend: {
+    
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-    },
-  },
+
+      colors:{
+        'main': '#2e5893', 
+        'notmain': '#9abd50',
+      },
+
+
+     },
   plugins: [
     require('flowbite/plugin'),
     require("daisyui")
