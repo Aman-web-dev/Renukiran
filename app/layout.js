@@ -1,10 +1,10 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Nav from '@/components/Nav'
 import Head from 'next/head'
 import Footer from '@/components/Footer'
+import { Mulish } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const mulish = Mulish({ subsets: ['latin-ext'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
       </Head>
-      <body className={inter.className}>
+      <body className={mulish.className}>
       <Nav/>
         
         {children}
