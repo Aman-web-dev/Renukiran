@@ -1,0 +1,51 @@
+.hero-section {
+    -webkit-clip-path: polygon(100% 0, 0 0%, 50% 135%);
+    clip-path: polygon(100% 0, 0 0%, 50% 135%);
+    position: absolute;
+    left: -15%;
+    top: 0;
+    opacity: 88%;
+    width: 80%;
+    height: 100vh;
+    background-color: rgba(46, 88, 147, 1, 0.91);
+  }
+
+@media only screen and (max-width: 1365px) {
+    .hero-section {
+        left: -19%;
+    }
+}
+@media only screen and (max-width: 1439px) {
+    .hero-section {
+        left: -18.9%;
+    }
+}
+
+.hero-section h1 {
+    top: 50%;
+    left: calc(18.9% + 16%);
+    font-size: 50px;
+    line-height: 80px;
+    transform: translateY(-50%);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0 10px 0 0;
+}
+
+@media only screen and (max-width: 1365px) {
+    .hero-section h1 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+    .hero-section h1 {
+        font-size: 50px;
+        line-height: 45px;
+        top: 50%;
+        left: calc(18.9% + 18%);
+    }
+}
