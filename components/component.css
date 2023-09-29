@@ -32,6 +32,13 @@
     letter-spacing: 2px;
     margin: 0;
     padding: 0 10px 0 0;
+    margin-bottom: 12px;
+}
+
+.hero-section .donation-button {
+    top: 60%;
+    left: calc(18.9% + 16%);
+    padding: 0 10px 0 0;
 }
 
 @media only screen and (max-width: 1365px) {
@@ -46,6 +53,13 @@
         font-size: 50px;
         line-height: 45px;
         top: 50%;
+        left: calc(18.9% + 18%);
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+    .hero-section .donation-button {
+        top: 60%;
         left: calc(18.9% + 18%);
     }
 }
