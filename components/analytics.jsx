@@ -5,36 +5,34 @@ import React,{useEffect, useState} from 'react'
 
 function analytics() {
 
-const [pageViews,setPageViews]=useState(0)
-const [Visitors,setVisitors]=useState(0)
+const [pageViews,setPageViews]=useState()
+const [Visitors,setVisitors]=useState()
 
 useEffect(()=>{
 
     if(sessionStorage.getItem('visit')==null){
         //new Page Visit and view
         UpdateCounter('type=visit-pageview')
-
- 
     }else{
         
         //New Page View only
-        'type=pageview'
+        UpdateCounter('type=pageview')
     }
 
-    sessionStorage.setItem('visit','x');
+ function  UpdateCounter (type) {
 
-const UpdateCounter =async(type)=>{
-
-    await fetch("http://localhost:5000/"+type)
+    fetch('http://localhost:5000?'+type)
     .then(res=>res.json())
     .then(data=>{
-        setPageViews(data.pageViews)
-        setVisitors(data.Visitors)
-
-     
-
+        console.log(data)
+        setPageViews(data.PageViews)
+        setVisitors(data.visits)
     })
 }
+
+
+sessionStorage.setItem('visit','x');
+
 },[])
 
 
