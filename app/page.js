@@ -5,6 +5,7 @@ import Partners from '@/components/Partners';
 import Analytics from '@/components/analytics';
 import Homeabout from '@/components/Homeabout';
 import AvinashInfo from '@/components/AvinashInfo';
+import WhatWeProvide from '@/components/WhatWeProvide';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Carousel/>
       <Homeabout />
       <AvinashInfo />
+      <WhatWeProvide />
       <Partners />
       <Analytics/>
     </main>
