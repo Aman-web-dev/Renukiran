@@ -1,7 +1,30 @@
-import React from 'react'
+import React,{useEffect, useState} from 'react'
 
 function analytics() {
+
+const [pageViews,setPageViews]=useState()
+const [Visitors,setVisitors]=useState()
+
+useEffect(()=>{
+
+    if(sessionStorage.getItem('visit')==null){
+        
+
+    }else{
+
+    }
+
+    sessionStorage.setItem('visit','x');
+
+const UpdateCounter =async()=>{
+
+    await fetch("")
+}
+},[])
+
+
   return (
+
     <div>
       
 <div className="w-[90vw] my-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -23,12 +46,12 @@ function analytics() {
         <div className="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800" id="stats" role="tabpanel" aria-labelledby="stats-tab">
             <dl className="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-6 dark:text-white sm:p-8">
                 <div className="flex flex-col items-center justify-center">
-                    <dt className="mb-2 text-3xl font-extrabold">73M+</dt>
+                    <dt className="mb-2 text-3xl font-extrabold">{pageViews}</dt>
                     <dd className="text-gray-500 dark:text-gray-400">Page Views</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <dt className="mb-2 text-3xl font-extrabold">100M+</dt>
-                    <dd className="text-gray-500 dark:text-gray-400">Public repositories</dd>
+                    <dt className="mb-2 text-3xl font-extrabold">{Visitors}</dt>
+                    <dd className="text-gray-500 dark:text-gray-400">Visitors</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <dt className="mb-2 text-3xl font-extrabold">1000s</dt>
