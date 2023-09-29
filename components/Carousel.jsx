@@ -11,7 +11,7 @@ const Carousel = () => {
 
 
     
-    <div className="relative overflow-hidden md:h-96" style={{minHeight:'90vh'}}>
+    <div className="relative overflow-hidden md:h-[90vh] h-[50vh]">
     
         <div className="hidden ease-in-out duration-1000" data-carousel-item>
             <div className=' first-letter:md:text-white md:z-10 md:bg-[#2e5893]/91 hero-section z-20'>

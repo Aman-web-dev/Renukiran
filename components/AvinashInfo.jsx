@@ -7,8 +7,11 @@ const AvinashInfo = () => {
             <h1 className='text-3xl font-extrabold text-white'>Avinash Jha</h1>
             <p className='text-gray-200 font-bold'>Founder</p>
             <hr className='mb-6' />
+            <h1 className='text-3xl font-extrabold text-white'>Avinash surname</h1>
+            <p>Founder</p>
+            <hr className='mb-2 md:m-0' />
         </div>
-        <div><h3 className='text-white text-xl font-bold flex-grow mt-6'>
+        <div><h3 className='text-white text-xl font-bold flex-grow '>
             "Renukiran NGO is a beacon of hope, tirelessly addressing hunger, poverty, and environmental challenges. Through their selfless efforts, they've sown seeds of positive change, nurturing a better world for all."
         </h3></div>
     </section>

@@ -10,6 +10,63 @@
     background-color: rgba(46, 88, 147, 1, 0.91);
   }
 
+
+/* CSS for circular background */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+.item h2 {
+    z-index: 10;
+    font-weight: 700;
+    font-size: larger;
+}
+  .circle {
+    width: 200px;
+    height: 200px;
+    background: #2e5893; /* Background color for the circle */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center the circle horizontally */
+  }
+  
+  /* Add any additional styling you want for the circle here */
+  .circle h2 {
+    margin-top: 10px; /* Adjust the spacing between the circle and text */
+    color: white; /* Text color inside the circle */
+  }
+  
+  /* Rest of your CSS styles go here */
+.circle::before {
+    content: '';
+    height: 200px;
+    width: 200px;
+    background-color: #2e5893;
+    position: absolute;
+    border-radius: 50%;
+    top: calc(10%);
+    left: calc(18% + 12%);
+    opacity: .5;
+    
+}
+
+.circle::before:hover {
+    height: 220px;
+    width: 220px;
+}
+
+@media only screen and (max-width: 650px) {
+    .carousel {
+        min-height: 50vh;
+    }
+}
+
 @media only screen and (max-width: 1365px) {
     .hero-section {
         left: -19%;
