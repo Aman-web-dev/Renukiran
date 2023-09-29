@@ -1,24 +1,39 @@
+'use client'
+
+
 import React,{useEffect, useState} from 'react'
 
 function analytics() {
 
-const [pageViews,setPageViews]=useState()
-const [Visitors,setVisitors]=useState()
+const [pageViews,setPageViews]=useState(0)
+const [Visitors,setVisitors]=useState(0)
 
 useEffect(()=>{
 
     if(sessionStorage.getItem('visit')==null){
-        
+        //new Page Visit and view
+        UpdateCounter('type=visit-pageview')
 
+ 
     }else{
-
+        
+        //New Page View only
+        'type=pageview'
     }
 
     sessionStorage.setItem('visit','x');
 
-const UpdateCounter =async()=>{
+const UpdateCounter =async(type)=>{
 
-    await fetch("")
+    await fetch("http://localhost:5000/"+type)
+    .then(res=>res.json())
+    .then(data=>{
+        setPageViews(data.pageViews)
+        setVisitors(data.Visitors)
+
+     
+
+    })
 }
 },[])
 
