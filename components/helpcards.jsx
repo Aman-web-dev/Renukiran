@@ -4,7 +4,7 @@ function helpcards({desc,title,price}) {
   return (
     <div>
       
-<div className="max-w-sm bg-notmain border border-main rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-auto">
+<div className="max-w-sm bg-gray-900 border border-main rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-auto">
     <a href="#">
         <img className="rounded-t-lg" src="https://img.freepik.com/free-photo/kids-having-fun-as-boy-scouts_23-2149657072.jpg?w=1480&t=st=1695292816~exp=1695293416~hmac=748a0b60020562444edf315137c9b7e581809ff1d91c8840bd31f1694f7cf563" alt="" />
     </a>
