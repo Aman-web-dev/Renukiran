@@ -7,7 +7,6 @@ import Homeabout from '@/components/Homeabout';
 import AvinashInfo from '@/components/AvinashInfo';
 import WhatWeProvide from '@/components/WhatWeProvide';
 import LastSection from '@/components/LastSection';
-import Campaign from '../components/Campaign';
 
 export default function Home() {
   return (

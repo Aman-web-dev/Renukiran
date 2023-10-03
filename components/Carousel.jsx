@@ -16,7 +16,7 @@ const Carousel = () => {
         <div className="hidden ease-in-out duration-1000" data-carousel-item>
             <div className=' first-letter:md:text-white md:z-10 md:bg-[#2e5893]/91 hero-section z-20'>
                 <h1 className='md:absolute hidden md:block'>Donate <br/>for a <br/>child</h1>
-                <Button className='donation-button' variant="contained" style={{padding: '10px 30px'}}>Donate now</Button>
+                <Button className='donation-button' variant="contained">Donate now</Button>
             </div>
             <img src="https://drive.google.com/uc?export=view&id=1OYIximpNn0y0ogzlFoHRCtZ-UlI2Znby" className=" grayscale-[100%] absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 " alt="..." />
         </div>
