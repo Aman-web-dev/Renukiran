@@ -48,7 +48,7 @@ export default function Partners() {
   };
 
   return (
-    <div id='keen-slider' className='keen-slider'>
+    <div id='keen-slider' className='keen-slider mb-24'>
         <section className="bg-gray-100">
           <div
     className="mx-auto max-w-full px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24"
