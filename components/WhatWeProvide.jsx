@@ -39,7 +39,7 @@ import Image from 'next/image';
 
 const WhatWeProvide = () => {
   return (
-    <section className='overflow-hidden md:flex block w-full m-auto gap-20 justify-center py-7 text-black md:space-y-0 space-y-10 mx-12'>
+    <section className='overflow-hidden md:flex block w-full m-auto gap-20 justify-center py-7 text-black md:space-y-0 space-y-10 mx-12 my-24'>
     
       <div className="item">
         <div className="circle">

@@ -6,6 +6,7 @@ import Analytics from '@/components/analytics';
 import Homeabout from '@/components/Homeabout';
 import AvinashInfo from '@/components/AvinashInfo';
 import WhatWeProvide from '@/components/WhatWeProvide';
+import LastSection from '@/components/LastSection';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <WhatWeProvide />
       <Partners />
       <Analytics/>
+      <LastSection />
     </main>
     </>
   )

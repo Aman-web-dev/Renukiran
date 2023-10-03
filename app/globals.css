@@ -10,14 +10,3 @@
 body {
   background-color: white;
 }
-
-.hero-section {
-  -webkit-clip-path: polygon(100% 0, 0 0%, 50% 135%);
-  clip-path: polygon(100% 0, 0 0%, 50% 135%);
-  position: absolute;
-  left: -15%;
-  top: 0;
-  opacity: 88%;
-  width: 80%;
-  height: full;
-}
