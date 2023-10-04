@@ -1,5 +1,5 @@
 import React from 'react'
-import lastSectionImage from '../public/assets/images/last-section-img.avif'
+import lastSectionImage from '../public/assets/images/last-element.jpg'
 import Image from 'next/image'
 
 const LastSection = () => {

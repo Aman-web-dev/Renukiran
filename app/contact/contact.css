@@ -1,20 +1,39 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
- 
+
 #firstImageContainer {
-    background-image: url('https://www.nazindia.org/wp-content/uploads/2020/05/work-withus-slider.jpg');
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#firstImageContainer::before {
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(46, 88, 147, 0.7));
+  z-index: 1;
+}
+
+#firstImageContainer {
+    background-image: url('https://pixabay.com/get/g449e310db17e764d6284e1ce07e8a38ad46e5317a4a722589a139a041114040f4745c15c099057f53257e422e11da1eaf07e478532f386cf08ebe63a2d9e25fd_1280.jpg');
     background-position: top center;
     width: 100%;
     display: block;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 80vh;
+    height: 90vh;
 }
 
+
 .about-section {
-    height: 80vh;
+    height: 90vh;
     position: relative;
     display: block;
 
@@ -31,7 +50,7 @@
 
 #contact-page-overlay {
     width: 80%;
-    height: 80vh;
+    height: 90vh;
     -webkit-clip-path: polygon(100% 0, 0 0%, 50% 135%);    
     clip-path: polygon(100% 0, 0 0%, 24% 169%);
     background-color: #235893;
@@ -63,7 +82,7 @@
 }
 
 
-
+/* 
 #contact-now-text p::before {
     content: '';
     position: absolute;
@@ -73,14 +92,14 @@
     height: 5px;
     top: 65px;
     height: 8px;
-}
+} */
 
 @media only screen and (max-width: 1150px) {
     #contact-now-text h1 {
         font-size: 30px;
         margin-left: 15px;
     }
-
+/* 
     #contact-now-text p::before {
         content: '';
         left: 0;
@@ -90,7 +109,7 @@
         top: 50px;
         height: 4px;
         margin-left: 15px;
-    }
+    } */
 
     #contact-now-text p {
         margin-left: 15px;
@@ -124,7 +143,7 @@
         left: 45%;
     }
 
-    #contact-now-text p::before {
+    /* #contact-now-text p::before {
         content: '';
         position: absolute;
         left: 0;
@@ -133,7 +152,7 @@
         top: 30px;
         height: 3px;
         margin-left: 15px;
-    }
+    } */
 
     #contact-now-text p {
         font-size: 14px;
@@ -163,7 +182,7 @@
         top: 40%;
         left: 45%;
     }
-
+/* 
     #contact-now-text p::before {
         content: '';
         position: absolute;
@@ -173,7 +192,7 @@
         top: 30px;
         height: 3px;
         margin-left: 15px;
-    }
+    } */
 
     #contact-now-text p {
         font-size: 11px;
