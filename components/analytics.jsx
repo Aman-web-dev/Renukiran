@@ -1,42 +1,89 @@
 'use client'
 
 
-import React,{useEffect, useState} from 'react'
+import React,{useEffect, useState,useRef} from 'react'
 
 function analytics() {
 
-const [pageViews,setPageViews]=useState()
-const [Visitors,setVisitors]=useState()
+const [pageViews,setPageViews]=useState(0)
+const [visits,setVisits]=useState(0)
 
-useEffect(()=>{
 
-    if(sessionStorage.getItem('visit')==null){
-        //new Page Visit and view
-        UpdateCounter('type=visit-pageview')
-    }else{
-        //New Page View only
-        UpdateCounter('type=pageview')
+
+
+
+const getData=async()=>{
+
+    try{
+    const response=await fetch("http://localhost:5000/api/viewanalytics")
+
+    if(response.ok){
+        const result=await response.json()
+        console.log(result[0])
+
+
+        setPageViews(result[0].view);
+        setVisits(result[0].visit);
+        
+        const view=result[0].view
+        const vis=result[0].visit
+
+
+        console.log("viewVist",view,vis)
+        updateView(view,vis)
+
+
+        console.log("details",pageViews,visits)
+
+      }
+
+    }catch  (error){
+        console.error("Error fetching data:", error);
+
     }
-
- function  UpdateCounter (type) {
-
-    fetch('http://localhost:5000?'+type)
-    .then(res=>res.json())
-    .then(data=>{
-        console.log(data)
-        setPageViews(data.PageViews)
-        setVisitors(data.visits)
-    })
 }
 
+const updateView=async(viewcoming,visitcoming)=>{
 
-sessionStorage.setItem('visit','x');
+console.log('uop',viewcoming,visitcoming)
+console.log(sessionStorage.getItem('visit'))
 
+
+    if(sessionStorage.getItem('visit')==null){
+
+
+        const visitUpdateResponse = await fetch("http://localhost:5000/api/update", {
+            method: "PUT",
+            body: JSON.stringify({ view:viewcoming+1,visit:visitcoming+1 }),
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+
+        console.log("you are New")
+    }else{
+
+        const visitUpdateResponse = await fetch("http://localhost:5000/api/update", {
+            method: "PUT",
+            body: JSON.stringify({ view:viewcoming+1,visit:visitcoming }),
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+
+          console.log("you are Old")
+    }
+       
+    }
+
+useEffect(()=>{
+    getData()
+    sessionStorage.setItem('visit','x');
 },[])
 
 
-  return (
 
+  return (
     <div>
       
 <div className="w-[90vw] my-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -62,7 +109,7 @@ sessionStorage.setItem('visit','x');
                     <dd className="text-gray-500 dark:text-gray-400">Page Views</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <dt className="mb-2 text-3xl font-extrabold">{Visitors}</dt>
+                    <dt className="mb-2 text-3xl font-extrabold">{visits}</dt>
                     <dd className="text-gray-500 dark:text-gray-400">Visitors</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
