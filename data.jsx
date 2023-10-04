@@ -1,17 +1,17 @@
-import bbc from './public/assets/icons/bbc.svg'
-import samsung from './public/assets/icons/samsung.svg'
+import hdfc from './public/assets/icons/hdfc.svg'
+import titan from './public/assets/icons/titan.svg'
 import tata from './public/assets/icons/tata.svg'
 import zoom from './public/assets/icons/zoom.svg'
 
 const data = [{
-    icon: bbc,
+    icon: hdfc,
     reveiw:'',
-    author: 'BBC'
+    author: 'HDFC'
 },
 {
-    icon: samsung,
+    icon: titan,
     reveiw:'',
-    author: 'Samsung'
+    author: 'Titan'
 },
 {
     icon: tata,
