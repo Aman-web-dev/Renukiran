@@ -7,7 +7,7 @@ import Vision from '@/components/vision';
 
 function work() {
 
-  const divStyle = {
+  const divStylee = {
     'backgroundImage': `${Background}`,
     'backgroundSize': 'cover', // You can adjust these properties as needed
     'backgroundRepeat': 'no-repeat',
@@ -16,7 +16,7 @@ function work() {
   };
 
   return (
-    <div className='text-black m-auto ' style={divStyle}>
+    <div className='text-black m-auto ' style={divStylee}>
       <div style={divStyle}>
         <h1 className='flex font-serif text-6xl font-bold align-center justify-center my-4'>Gallery</h1>
         <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
