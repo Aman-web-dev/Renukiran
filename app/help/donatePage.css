@@ -1,0 +1,29 @@
+#img-sub-container{
+    background-image:
+    linear-gradient(to bottom, rgba(143, 145, 155, 0.527), rgba(0, 0, 0, 0.774)),
+    url('https://images.unsplash.com/photo-1569173675610-42c361a86e37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1467&q=80');
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+#image-container .donate-div button {
+      filter: none !important;
+}
+
+.donate-div {
+    top: 2%;
+    left: 57%;
+}
+
+@media screen and (max-width: 650px) {
+    .donate-div {
+        position: absolute;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
