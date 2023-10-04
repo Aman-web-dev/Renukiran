@@ -1,39 +1,29 @@
-import React from 'react';
-import Helpcards from '../../components/helpcards';
+import React from 'react'
+import './donatePage.css'
 
-function Help() {
-  const backgroundStyle = {
-    
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)),url('https://images.pexels.com/photos/6416199/pexels-photo-6416199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    width: '100%',
-    
-    backgroundAttachment: 'fixed', 
-  };
-
-  
-
+const DonateNow = () => {
   return (
-    <div style={backgroundStyle} className='h-auto flex flex-col items-center justify-center'>
-      <p className='text-6xl font-bold text-center my-2 text-white'>Donate Us</p>
-      <p className='text-3xl font-bold text-center my-2 text-white'>Your help Would Be appericiated</p>
-      <p className='text-1xl font-bold text-center my-2 text-notmain'>Donation In Renukiran is Not Like other NGO donations We Don't Ask for Money We Ask For a Small Educational, Food or Cloth Donation.</p>
-
-
-      <div className='flex flex-wrap w-[90vw] m-auto xl:gap-5 gap-3 my-4  items-center justify-center'>
-      
-      <Helpcards title={"Food"} desc={"Provide one-time food to a needy"} price={"$600"} />
-      <Helpcards title={"Food"} desc={"Provide one-time food to a needy"} price={"$600"} />
-      <Helpcards title={"Food"} desc={"Provide one-time food to a needy"} price={"$600"} />
-      <Helpcards title={"Food"} desc={"Provide one-time food to a needy"} price={"$600"} />
-      <Helpcards title={"Food"} desc={"Provide one-time food to a needy"} price={"$600"} />
-      <Helpcards title={"Food"} desc={"Provide one-time food to a needy"} price={"$600"} />
-      
+    <section >
+      <div className='text-black text-center md:my-24 my-12  z-10'>
+          <h1 className='md:text-6xl text-4xl md:mb-8 mb-3 md:font-bold'>Donate</h1>
+            <p className='px-3'>Donating helps save lives, uplifts communities, and fosters a better future for all. Your contribution matters. <br className='hidden md:block'/>
+        Your generous contribution empowers us to continue our vital work, touching countless lives with hope and opportunity.
+            </p>
       </div>
-    </div>
-  );
+
+      <div className='md:h-[100vh] h-[60vh] w-full' id='image-container'>
+        <div id='img-sub-container' className='w-full h-full grayscale-100'>
+        <div className='absolute z-10 text-center py-3 px-3 donate-div bg-white text-black rounded-lg shadow-md sm:mr-3' style={{opacity:".7"}}>
+          <h3 className='md:text-2xl text-base md:font-bold font-semibold md:mb-4 mb-2'>Give where the need is greatest</h3>
+          <p className='md:text-base text-sm md:mb-4 mb-4'>Your donation makes a big impact! It helps provide education, healthcare, and relief to those less fortunate. Your kindness sparks positive change and brings smiles to faces in need.</p>
+          <button className='text-white bg-black md:px-16 md:mb-10 mb-4 px-8 py-2' >DONATE</button>
+        </div>
+        </div>
+        
+      </div>
+      
+    </section>
+  )
 }
 
-export default Help;
+export default DonateNow
