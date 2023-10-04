@@ -1,0 +1,188 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+ 
+#firstImageContainer {
+    background-image: url('https://www.nazindia.org/wp-content/uploads/2020/05/work-withus-slider.jpg');
+    background-position: top center;
+    width: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+.about-section {
+    height: 80vh;
+    position: relative;
+    display: block;
+
+}
+
+.contact-slider {
+    position: relative;
+}
+
+.main-image {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#contact-page-overlay {
+    width: 80%;
+    height: 80vh;
+    -webkit-clip-path: polygon(100% 0, 0 0%, 50% 135%);    
+    clip-path: polygon(100% 0, 0 0%, 24% 169%);
+    background-color: #235893;
+    position: absolute;
+    top: 0;
+    left: -15%;
+    opacity: 88%;
+}
+
+#contact-now-text {
+    left: 42%;
+    top: 64%;
+    position: absolute;
+    transform: translate(-45%, -60%);
+}
+
+#contact-now-text h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--white);
+    opacity: 1;
+    font-weight: 900;
+    padding: 0px 0px;
+    margin: 0;
+    display: inline-block;
+    padding-bottom: 5px;
+    color: white;
+}
+
+
+
+#contact-now-text p::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    background: #fff;
+    width: 101%;
+    height: 5px;
+    top: 65px;
+    height: 8px;
+}
+
+@media only screen and (max-width: 1150px) {
+    #contact-now-text h1 {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    #contact-now-text p::before {
+        content: '';
+        left: 0;
+        position: absolute;
+        background: #fff;
+        width: 90%;
+        top: 50px;
+        height: 4px;
+        margin-left: 15px;
+    }
+
+    #contact-now-text p {
+        margin-left: 15px;
+        font-size: 14.5px;
+    }
+
+}
+
+@media only screen and (max-width: 720px) {
+    #firstImageContainer {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .about-section {
+        height: 50vh;
+    }
+
+    #contact-now-text h1 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 15px;
+    }
+
+    #contact-page-overlay {
+        height: 50vh;
+    }
+
+    #contact-now-text {
+        top: 40%;
+        left: 45%;
+    }
+
+    #contact-now-text p::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        background: #fff;
+        width: 70%;
+        top: 30px;
+        height: 3px;
+        margin-left: 15px;
+    }
+
+    #contact-now-text p {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+    #firstImageContainer {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #contact-now-text h1 {
+        font-size: 14px;
+        font-weight: 700;
+        margin-left: 15px;
+    }
+
+    #contact-page-overlay {
+        height: 50vh;
+    }
+
+    #contact-now-text {
+        top: 40%;
+        left: 45%;
+    }
+
+    #contact-now-text p::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        background: #fff;
+        width: 70%;
+        top: 30px;
+        height: 3px;
+        margin-left: 15px;
+    }
+
+    #contact-now-text p {
+        font-size: 11px;
+        margin-left: 15px;
+    }
+}
+
+
+#contact-now-text p {
+    color: white;
+    margin-top: 12px;
+}
