@@ -1,3 +1,7 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 .hero-section {
     -webkit-clip-path: polygon(100% 0, 0 0%, 50% 135%);
     clip-path: polygon(100% 0, 0 0%, 50% 135%);
@@ -19,6 +23,39 @@
     text-align: center;
     position: relative;
   }
+
+.ourValuesPosican .ourValuesOverlayText .largeContent .heading:before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background: var(--white);
+    width: 100%;
+    top: -15px;
+}
+
+@media only screen and (max-width: 1365px) {
+    .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
+    font-size: 18px;
+}
+    }
+
+@media only screen and (max-width: 1439px) {
+        .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
+            font-size: 18px;
+        }
+    }
+    
+    .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
+        font-size: 22px;
+        color: var(--white);
+        text-decoration: none;
+        font-weight: 400;
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: inline-block;
+    }
+
 
 .item h2 {
     z-index: 10;
@@ -93,10 +130,60 @@
     color: white;
 }
 
+#last-section {
+    position: absolute;
+    top: 0;
+    width: 44%;
+    height: 100%;
+    left: -14%;
+    -webkit-transform: skewX(-28deg);
+    transform: skewX(348deg);
+    
+    background-color: #2e5893;
+    opacity: 88%;
+}
+
+#last-section h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: skewX(11deg);
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+@media (max-width: 991px) { #last-section {
+    width: 80%;}
+
+}
+
+@media (max-width: 991px) {
+    #last-section {
+        width: 60%;
+        left: -21%;
+    }
+}
+
+@media only screen and (max-width: 1365px) {
+    #last-section {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+    #last-section {
+        width: 50%;
+    }
+}
+
+
+
+
 .hero-section .donation-button {
-    top: 60%;
+    top: 50%;
     left: calc(18.9% + 16%);
-    padding: 0 10px 0 0;
+    background-color: #193d70;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 1365px) {
