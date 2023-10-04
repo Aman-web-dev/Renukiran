@@ -23,7 +23,8 @@ const ContactUs = () => {
             <div id='firstImageContainer' className='main-image'>
               <div id='contact-page-overlay'>
                 <div id='contact-now-text'>
-                  <h1>CONTACT NOW</h1>
+                  <h1 className='ip'>CONTACT NOW</h1>
+                  <hr/>
                   <p>Contact renukiran now or later as you like <br/>but don't contact other NGOs</p>
                 </div>
               </div>
