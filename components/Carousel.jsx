@@ -23,7 +23,7 @@ const Carousel = () => {
   
         <div className="hidden ease-in-out duration-1000 " data-carousel-item>
         <div className=' first-letter:md:text-white md:z-10 md:bg-[#2e5893]/91 hero-section z-20'>
-                <h1 className='md:absolute hidden md:block'>Donate <br/>for Women <br/>Empowerment</h1>
+                <h1 className='md:absolute hidden md:block'>Donate for <br/>Empowerment</h1>
                 <Button className='donation-button' variant="contained" style={{padding: '10px 30px'}}>Donate now</Button>
             </div>
             <img src="https://drive.google.com/uc?export=view&id=1jwLuB2C3tDnoEVoltg_eKbpy7D9zLphE
