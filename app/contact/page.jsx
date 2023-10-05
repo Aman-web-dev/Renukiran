@@ -11,7 +11,7 @@ const ContactUs = () => {
 
 
   function makeCall() {
-    // Replace '1234567890' with the phone number you want to call
+  
     window.location.href = 'tel:9625881835';
   }
   return (
