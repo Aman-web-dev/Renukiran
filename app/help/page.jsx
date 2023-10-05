@@ -1,18 +1,20 @@
 import React from 'react'
 import './donatePage.css'
+import Image from 'next/image'
 
 const DonateNow = () => {
   return (
     <>
-     <section className='w-full md:h-[90vh]'>
-  <div className='first-image-container'>
+     <section className='w-full md:h-[90vh] h-[50vh]'>
+  <div id='first-image-container'>
     <div className='text-container absolute z-20 md:ml-40 ml-6'>
-        <h2 className='uppercase text-white md:font-extrabold md:text-4xl'>Donate for the betterment<br/> of the society</h2>
+        <h2 className='uppercase text-white md:font-extrabold md:text-4xl'>Contact Now</h2>
         <p className='text-slate-400 md:text-sm text-xs'>Donations can provide access to education, healthcare,< br className='md:hidden block'/> and basic necessities, empowering <br className='hidden md:block'/>individuals to break<br className='md:hidden block'/> the cycle of poverty and build a brighter future.</p>
-        <button className='uppercase md:py-3 md:px-8 py-1 px-4 mt-4 text-white hover:bg-[#223752] bg-[#2e5893]'>Donate</button>
+        <button className='uppercase md:py-3 md:px-8 py-1 px-4 mt-4 text-white hover:bg-[#223752] bg-[#2e5893]'>Call now</button>
     </div>
-    <img src="https://pixabay.com/get/g5f338a717ef36cfe684707f21832ea57e0abe43d92c8f35d967dbc7bc38f9329b3589aa7cee8510b566780a342ef210a.jpg" alt="image" className='w-full' />
-    
+    <div id='gradient-overlay' className='text-black text-4xl'>
+    </div>
+    <Image src="https://drive.google.com/uc?export=view&id=1aefTW2-XHNUTMeW5J9UxQFOxcL_JjCRF" layout='fill' fill objectFit='cover' loading='lazy' alt="contact now" className='w-full' id='img' />
   </div>
 </section>
 

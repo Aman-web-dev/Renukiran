@@ -118,7 +118,7 @@ export default function Partners() {
         <div id="keen-slider" className="keen-slider">
             {/* mapping here */}
             {data.map(partnersData => {
-                return <div className="keen-slider__slide">
+                return <div className="keen-slider__slide" key={partnersData.id}>
                 <blockquote
                   className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12"
                 >
