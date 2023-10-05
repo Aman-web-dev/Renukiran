@@ -38,8 +38,8 @@ function Pages() {
 <div className='relative flex  w-full items-center justify-center'>
 
 <button className="absolute  text-pink-500 border border-pink-500 hover:bg-pink-500 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"
-      >
-  Large
+>
+ Lets Start
 </button>
 
 
