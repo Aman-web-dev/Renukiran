@@ -44,7 +44,7 @@ const WhatWeProvide = () => {
       <div className="item">
         <div className="circle">
           <div style={{ width: '200px', height: '200px' }}>
-            <Image src={servicesOne} alt="women empowerment" height={200} width={200} className='w-full h-full object-cover rounded-full grayscale-100' />
+            <Image loading='lazy' src={servicesOne} alt="women empowerment" height={200} width={200} className='w-full h-full object-cover rounded-full grayscale-100' />
           </div>
         </div>
         <h2>Child Education</h2>
@@ -53,7 +53,7 @@ const WhatWeProvide = () => {
       <div className="item">
         <div className="circle">
           <div style={{ width: '200px', height: '200px' }}>
-            <Image src={servicesTwo} alt="women empowerment" height={200} width={200} className='w-full h-full object-cover rounded-full grayscale-100' />
+            <Image loading='lazy' src={servicesTwo} alt="women empowerment" height={200} width={200} className='w-full h-full object-cover rounded-full grayscale-100' />
           </div>
         </div>
         <h2>Women Empowerment</h2>
@@ -62,7 +62,7 @@ const WhatWeProvide = () => {
       <div className="item">
         <div className="circle">
           <div style={{ width: '200px', height: '200px' }}>
-            <Image src={servicesTwo} alt="women empowerment" height={200} width={200} className='w-full h-full object-cover rounded-full grayscale-100' />
+            <Image loading='lazy' src={servicesTwo} alt="women empowerment" height={200} width={200} className='w-full h-full object-cover rounded-full grayscale-100' />
           </div>
         </div>
         <h2>Children Education</h2>
