@@ -203,7 +203,7 @@ export default function Partners() {
       </div>
     </div>
 
-    <div className="mt-8 flex justify-center gap-4 lg:hidden">
+    <div className="mt-8 justify-center gap-4 hidden">
       <button
         aria-label="Previous slide"
         id="keen-slider-previous"
