@@ -2,10 +2,10 @@ import React from 'react';
 
 function Pages() {
   return (
-    <div className='w-[100vw] h-[150vh] ' style={{
+    <div className='w-[100vw] h-[100vh] ' style={{
         backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Fwatercolour-4761786.jpg?alt=media&token=eb62becc-28ad-4799-8068-ffdf3edb4dd8&_gl=1*bvl7w2*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NjQ4NTg2MC4xOS4xLjE2OTY0ODcxMjUuMjQuMC4w')`,
         backgroundRepeat: "no-repeat",
-            height:"",
+            height:"100vh",
             backgroundSize: "cover",
             width:"100vw",
             backgroundPosition:"center"
@@ -30,17 +30,17 @@ function Pages() {
 
   }}>Celebrate The Festival Of Giving</h1>
 
-      <p className='text-xl border-4 rounded my-3 border-dotted border-l-0 p-2 border-orange-400 font-serif'>Celebrated every year from October 2 to 8, #DaanUtsav is India’s biggest festival of giving during which people come together and perform acts of kindness by giving their time, material or money in interesting ways to any cause(s) of their choice.</p>
+      <p className='text-xl bg-orange-100 border-4 rounded my-3 border-dotted border-l-0 p-2 border-orange-400 font-serif backdrop-blur-lg bg-opacity-50'>Celebrated every year from October 2 to 8, #DaanUtsav is India’s biggest festival of giving during which people come together and perform acts of kindness by giving their time, material or money in interesting ways to any cause(s) of their choice.</p>
 
 
 </section>     
 
 <div className='relative flex  w-full items-center justify-center'>
 
-<button className="absolute  text-pink-500 border border-pink-500 hover:bg-pink-500 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"
+{/* <button className="absolute  text-pink-500 border border-pink-500 hover:bg-pink-500 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button"
 >
  Lets Start
-</button>
+</button> */}
 
 
 </div>
