@@ -8,9 +8,9 @@ const DonateNow = () => {
      <section className='w-full md:h-[90vh] h-[50vh]'>
   <div id='first-image-container'>
     <div className='text-container absolute z-20 md:ml-40 ml-6'>
-        <h2 className='uppercase text-white md:font-extrabold md:text-4xl'>Contact Now</h2>
+        <h2 className='uppercase text-white md:font-extrabold md:text-4xl'>Donate</h2>
         <p className='text-slate-400 md:text-sm text-xs'>Donations can provide access to education, healthcare,< br className='md:hidden block'/> and basic necessities, empowering <br className='hidden md:block'/>individuals to break<br className='md:hidden block'/> the cycle of poverty and build a brighter future.</p>
-        <button className='uppercase md:py-3 md:px-8 py-1 px-4 mt-4 text-white hover:bg-[#223752] bg-[#2e5893]'>Call now</button>
+        <button className='uppercase md:py-3 md:px-8 py-1 px-4 mt-4 text-white hover:bg-[#223752] bg-[#2e5893]'>Donate now</button>
     </div>
     <div id='gradient-overlay' className='text-black text-4xl'>
     </div>
