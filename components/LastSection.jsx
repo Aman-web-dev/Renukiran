@@ -12,7 +12,7 @@ const LastSection = () => {
             <Image
                 alt='Kids picture'
                 src={lastSectionImage}
-                layout='fill'
+                fill
                 objectFit='cover'
                 className='grayscale-100'
             />
