@@ -1,8 +1,28 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import './donatePage.css'
 import Image from 'next/image'
+import Form from '@/components/form'
+import Modal from '@/components/modal'
 
 const DonateNow = () => {
+
+  const [clicked,setClicked]=useState(false)
+
+  const handleClick=()=>{
+
+    console.log('clicked')
+
+    if(clicked==true){
+      setClicked(false)
+    }
+
+    else{
+      setClicked(true)
+    }
+
+  }
   return (
     <>
      <section className='w-full md:h-[90vh] h-[50vh]'>
@@ -18,6 +38,10 @@ const DonateNow = () => {
   </div>
 </section>
 
+
+
+
+
     <section className='bg-[#2e5893]'>
       <div className='text-white text-center md:my-24 my-12  z-10'>
           <h1 className='md:text-6xl text-4xl md:mb-8 mb-3 md:font-bold'>Donate</h1>
@@ -26,13 +50,16 @@ const DonateNow = () => {
             </p>
       </div>
 
-      <div className='md:h-[100vh] h-[60vh] w-full' id='image-container'>
+      <div className='md:h-[100vh] h-[60vh] z-10 w-full' id='image-container' >
         <div id='img-sub-container' className='w-full h-full grayscale-100'>
         <div className='absolute z-10 text-center py-3 px-3 donate-div bg-white text-black rounded-lg shadow-md sm:mr-3 donation-box' style={{opacity:".7"}}>
           <h3 className='md:text-2xl text-base md:font-bold font-semibold md:mb-4 mb-2'>Give where the need is greatest</h3>
+
+
           <p className='md:text-base text-sm md:mb-4 mb-4 text-slate-500'>Your donation makes a big impact! It helps provide education, healthcare, and relief to those less fortunate. Your kindness sparks positive change and brings smiles to faces in need.</p>
-          <button className='text-white bg-black md:px-16 md:mb-10 mb-4 px-8 py-2' >DONATE</button>
+          <button className='uppercase md:py-3 md:px-8 py-1 px-4 mt-4 text-white hover:bg-[#223752] bg-[#2e5893]'>Donate now</button>
         </div>
+        
         </div>
         
       </div>

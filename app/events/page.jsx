@@ -1,22 +1,20 @@
 import React from 'react'
-import Form from '@/components/form'
 
 function events() {
   return (
     <div>
       <section>
-        <Form/>
     <div className=" text-black py-8">
     <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
       <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-        <p className="ml-2 text-blue-700 uppercase tracking-loose">Events and Important Dates</p>
-        <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Working & Process Of Registration</p>
+        <p className="ml-2 text-blue-700 uppercase tracking-loose">Calendar</p>
+        <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Calendars And Important Dates</p>
         <p className="text-sm md:text-base text-black mb-4">
-         Here's a guide On what our upcomning Events and Fests are and What we Do in Those Fests and Events
+        Stay informed and be part of something bigger. Explore our calendar of important dates, where you'll discover the upcoming events and campaigns that will shape our journey towards positive change
         </p>
         <a href="#"
         className="bg-transparent mr-auto hover:bg-blue-700 text-blue-700 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-blue-700 hover:border-transparent">
-        Explore Now</a>
+        Explore Now</a> 
       </div>
       <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
         <div className="container mx-auto w-full h-full">
