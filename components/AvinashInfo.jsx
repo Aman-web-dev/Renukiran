@@ -4,7 +4,7 @@ const AvinashInfo = () => {
   return (
     <section className='bg-[#2e5893] sm:flex w-full sm:px-9 sm:py-28 block px-7 py-20'>
         <div className='w-[40%] flex-grow pr-20'>
-            <h1 className='text-3xl font-extrabold text-white'>Avinash Jha</h1>
+            <h1 className='text-3xl font-extrabold text-white'>Avinash Kumar</h1>
             <p className='text-gray-200 font-bold'>Founder</p>
             <hr className='mb-6' />
       
