@@ -80,7 +80,7 @@
   }
   
   /* Rest of your CSS styles go here */
-.circle::before {
+.circle::after {
     content: '';
     height: 170px;
     width: 170px;
@@ -89,7 +89,8 @@
     border-radius: 50%;
     top: calc(10%);
     left: calc(18% + 12%);
-    opacity: .5;
+    opacity: 0;
+    z-index: 0;
     
 }
 

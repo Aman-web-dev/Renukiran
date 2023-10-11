@@ -8,7 +8,7 @@ function Campaign() {
       className="relative bg-gradient-to-t from-transparent to-green-500 w-full" 
       style={{
         backgroundImage:
-          'linear-gradient(180deg, rgba(225, 237, 236, 0.31), rgba(46, 88, 247, 0.35)), url("https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Fpicture.png?alt=media&token=c25d4195-035a-4dfb-b5a8-54a89cbc97a0&_gl=1*1w66xrt*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NjQwMjgxMy4xNi4xLjE2OTY0MDMzODYuNjAuMC4w")',
+          'linear-gradient(180deg, rgba(225, 237, 236, 0.31), rgba(46, 88, 247, 0.35)), url("https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Fimage_DaanUtsavBg.JPG?alt=media&token=2ad1c265-c561-43c9-bee2-0eedae48db51&_gl=1*11keeb4*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NzAxODEyNi4yNS4xLjE2OTcwMTgyMzUuMjAuMC4w")',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
