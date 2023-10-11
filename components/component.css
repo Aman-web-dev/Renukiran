@@ -152,6 +152,17 @@
     font-weight: 900;
     color: white;
 }
+
+
+.partners-image {
+    width: 100%;
+    position: relative;
+    max-width: 200px;
+    aspect-ratio: 16/6; /* Set the aspect ratio for each image */ /* Adjust this alignment as needed */
+}
+
+
+
 @media (max-width: 991px) { #last-section {
     width: 80%;}
 

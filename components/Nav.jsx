@@ -7,7 +7,7 @@ const Nav = () => {
     <>
     
 <nav className="bg-white border-b border-gray-400 shadow-md sticky top-0 w-full z-40 backdrop-filter backdrop-blur-lg bg-opacity-50">
-  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1 md:px-8">
     <a href="/" className="flex items-center">
         <Image src={logo} width={120} height={10} alt="Renukiran" priority={true} />
     </a>
