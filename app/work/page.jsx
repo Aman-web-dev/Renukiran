@@ -8,7 +8,7 @@ import Collage from '@/components/collage';
 function work() {
 
   const divStyle = {
-    'backgroundImage': `url(https://images.unsplash.com/photo-1596367407372-96cb88503db6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)`,
+    'backgroundImage': `url(https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2148&q=80)`,
     'backgroundSize': 'cover', 
     'backgroundRepeat': 'no-repeat',
     'width': '100vw',
