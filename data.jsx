@@ -14,6 +14,8 @@ import tcl from './public/assets/images/tcl.png'
 import titan from './public/assets/images/titan.png'
 import ihe from './public/assets/images/ihe.png'
 import opjindal from './public/assets/images/opjindal.png'
+import drc from './public/assets/images/drc.png'
+import ldu from './public/assets/images/ldu.png'
 
 const data = [{
     id:'image-1',
@@ -118,6 +120,20 @@ const data = [{
     icon: opjindal,
     reveiw:'',
     author:'O.P Jindal University'
+},
+
+{
+    id:'image-18',
+    icon: drc,
+    reveiw:'',
+    author:'Daulat ram college'
+},
+
+{
+    id:'image-19',
+    icon: ldu,
+    reveiw:'',
+    author:'Lady shri ram of college'
 },
 
 ]
