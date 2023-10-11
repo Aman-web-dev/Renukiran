@@ -2,11 +2,13 @@ import React from 'react'
 
 function events() {
   return (
-    <div>
+    <div className='flex flex-col items-center justify-between p-2 text-center'>
      <h3
-  class="mb-6 ml-3 text-2xl font-bold text-neutral-700 dark:text-neutral-300">
-  Latest News
+  class="mb-6 ml-3  font-bold text-neutral-700 dark:text-neutral-300 text-6xl ">
+  Latest Events
 </h3>
+
+<p className='mb-6 ml-3 w-[80vw] text-xl text-neutral-700 dark:text-neutral-300 '> The Renukiran Welfare Foundation fosters strong bonds among underprivileged children, women, and marginalized sectors through educational, healthcare, and empowerment programs.</p>
 
 <ol class="border-l-2 border-info-100">
   <li>

@@ -12,10 +12,10 @@ function Founders() {
 <h3 className="text-3xl font-bold   text-blue-900 dark:text-black">Avinash Kumar<span> (Founder & Director)</span></h3>
 
       <div className='flex flex-col items-center text-lg my-4 p-2 text-center w-[80vw] text-black'>
-
-
+      <div className='flex xl:flex-row flex-col'>
+<img src='https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Favinash_sir_pfp.JPG?alt=media&token=9b443e2b-0b7b-4e87-a2f6-21272ccc8278&_gl=1*1amastk*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NzAxODEyNi4yNS4xLjE2OTcwMTk1MTEuMjYuMC4w' className='mx-4 rounded-xl  h-[20vw] w-[30vw]'></img>
       Avinash Kumar, the Founder & Director of Renukiran Welfare Foundation hails from the Jharkhand, commonly known as the ‘Land of Forests’. 
-He holds over 11 years of professional work experience with Civil Society Organizations and MNCs based in India. With his ingrained leadership, communication and attention to detailed managerial skills he started the journey of Renukiran. Today, he is successfully driving the organization's vision ahead. Apart from looking all operations, Mr. Avinash directly handle multiple verticals of our work, like accounts department & volunteer body. He is a compassionate soul, who believe in exploring ideas through creativity and new ways towards helping more & more underprivileged children in transforming their lives by bringing collective efforts. 
+He holds over 11 years of professional work experience with Civil Society Organizations and MNCs based in India. With his ingrained leadership, communication and attention to detailed managerial skills he started the journey of Renukiran. Today, he is successfully driving the organization's vision ahead. Apart from looking all operations, Mr. Avinash directly handle multiple verticals of our work, like accounts department & volunteer body. He is a compassionate soul, who believe in exploring ideas through creativity and new ways towards helping more & more underprivileged children in transforming their lives by bringing collective efforts. </div>
 
 
 <p className="text-lg font-normal my-4 w-[50vw] text-center text-gray-500 lg:text-xl dark:text-gray-400">"Every day, I walk this path, running an NGO that my mother dreamt of. Her vision is my guiding light, and her love is the fuel that keeps me going. In her honor, we strive to make the world a better place, one act of kindness at a time." <span>~ Avinash Kumar</span></p>
