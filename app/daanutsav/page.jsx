@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-
+import dannutsavLogo from '../../public/assets/images/dann-utsav.png'
 
 
 function Circle(url) {
@@ -38,7 +38,7 @@ function Pages() {
 
     }}>
 
-<Image height={25} width={90} className='absolute h-20 w-25  right-2 ' src="https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Fdaan-utsav-logo.png?alt=media&token=ffa9f8c3-84e6-42f6-94d4-88a355bc4f0e&_gl=1*bs69f9*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NjQwODM0Ni4xNy4xLjE2OTY0MDg0NTUuNDQuMC4w" alt='daanUtsavLogo' ></Image>
+<Image height={25} width={90} className='absolute h-20 w-25  right-2 ' src={dannutsavLogo} alt='daanUtsavLogo' ></Image>
 
 <section className='w-[80vw] m-auto text-xl my-4 '>
 
