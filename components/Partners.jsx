@@ -181,8 +181,9 @@ export default function Partners() {
                     </div>
     
                     <div className="mt-4">
-                      <Image src={partnersData.icon} alt={partnersData.author} width={100} height={100}/>
-    
+                      <div className='relative max-h-[50px]'>
+                      <Image src={partnersData.icon} alt={partnersData.author} width={100} height={100} className='mb-8'/>
+                      </div>
                       <p className="mt-4 leading-relaxed text-gray-700">
                         No, Rose, they are not breathing. And they have no arms or
                         legs … Where are they? You know what? If we come across
