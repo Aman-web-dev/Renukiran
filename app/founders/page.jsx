@@ -28,12 +28,8 @@ He holds over 11 years of professional work experience with Civil Society Organi
 
 
 <div className='flex flex-col items-center text-lg my-4 p-2 text-center w-[80vw] text-black'>
-
-
 Pooja Gupta, the Co-Founder and Director of Renukiran is born and brought up in the state of Uttar Pradesh, Agra. 
 She holds work experience of above 11 years and currently associated with a reputed MNC in Bangalore, Karnataka as a Senior Analyst in Portuguese Language. She is a diploma holder in PGDHRM (Post graduation diploma in Human Resource Management) from Symbiosis Centre of Distance Learning (SCDL) in Pune. At Renukiran Welfare Foundation Pooja is actively involved in managing volunteer’s engagement with team & organizing events towards empowering women. She is involved in operational activities involving Data management.
-
-
 
 </div>
 
