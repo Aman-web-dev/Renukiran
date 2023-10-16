@@ -17,7 +17,7 @@ function Campaign() {
         backgroundAttachment:'fixed'
       }}
     >
-<img className='absolute h-20 w-25 top-2 right-2 ' src="https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Fdann-utsav.png?alt=media&token=688f2972-4841-4a94-ad85-060c0236afd7&_gl=1*1hoh9vc*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5NjY2MjI0Ny4yLjEuMTY5NjY2MjMxNC41NS4wLjA." alt='daanUtsavLogo' ></img>
+<img className='absolute h-20 w-25 top-2 right-2 ' loading='lazy' src="https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Fdann-utsav.png?alt=media&token=688f2972-4841-4a94-ad85-060c0236afd7&_gl=1*1hoh9vc*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5NjY2MjI0Ny4yLjEuMTY5NjY2MjMxNC41NS4wLjA." alt='daanUtsavLogo' ></img>
       <div className='xl:w-[40vw] w-[90vw] m-3 flex flex-col items-center justify-center'>
 <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl drop-shadow-xl"><span className="text-yellow-400"><span className='text-green-400'>Give</span>  a Little </span><p className='text-yellow-400'><span className='text-green-400'>Change</span> a Lot</p></h1>
 <p className="xl:text-lg  text-lg p-2 font-bold text-white lg:text-xl dark:text-gray-400 text-center text-wrap">Generosity is the key to unlocking the doors of compassion and kindness. Your donation, no matter how big or small, can create ripples of positive change that touch countless lives. Join us in making a difference today.</p>
