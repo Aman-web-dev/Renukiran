@@ -3,20 +3,10 @@ import TeamCards from '@/components/teamCards'
 
 function Team() {
   return (
-    <div>
-<div className="container my-24 mx-auto md:px-6">
-  <section className="mb-32 text-center">
-    <h2 className="mb-12 text-3xl font-bold">
-      Meet Our <u className="text-primary dark:text-primary-400">Team</u>
-    </h2>
 
-    <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
-
-
-
-     
-    
-      <TeamCards name={"Raj Kushwaha"} designation={"Project Coordinator"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/rajProfile.png"}/>
+  <section className="w-[100vw]">
+    <div className="grid grid-cols-3 grid-rows-3 gap-4"> 
+    <TeamCards name={"Raj Kushwaha"} designation={"Project Coordinator"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/rajProfile.png"}/>
       <TeamCards name={"Bibhav Kumar"} designation={"Executive – Corporate Social Responsibility"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/bibhavProfile.png"}/>
       <TeamCards name={"Shrey Gupta"} designation={"Executive Administration & Billings"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/shreyProfile.png"}/>
       <TeamCards name={"Kankana"} designation={"MANAGER - Fundraising & Corporate Social Responsibility"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/kanakanaProfile.png"}/>
@@ -25,14 +15,10 @@ function Team() {
       <TeamCards name={"Akshita Chabra"} designation={"Teacher & Event Coordination"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/168291-woman-vector-png-download-free.png"}/>
       <TeamCards name={"Aman Kumar"} designation={"Web - Developer & Event Volunteer"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/man-avatar-image-for-profile-png%20(1).png"}/>
       <TeamCards name={"Rajnikant"} designation={"Web - Developer & Event Volunteer"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/man-avatar-image-for-profile-png%20(1).png"}/>
-
-
- 
-
-    </div>
+    
+          </div>
   </section>
-</div>
-    </div>
+
   )
 }
 
