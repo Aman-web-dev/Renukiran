@@ -25,7 +25,7 @@ const ContactUs = () => {
     </div>
     <div id='gradient-overlay' className='text-black text-4xl'>
     </div>
-    <Image src="https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FcontactPageBg.jpg?alt=media&token=1048a4d3-2ebb-4091-a119-eb3730f2117b&_gl=1*1bea39e*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NjQ5OTM1Ny4yMC4xLjE2OTY0OTk2NzUuNjAuMC4w" fill objectFit='cover' loading='lazy' alt="contact now" className='w-full' id='img' />
+    <Image alt='contact-bg' src="https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FcontactPageBg.jpg?alt=media&token=1048a4d3-2ebb-4091-a119-eb3730f2117b&_gl=1*1bea39e*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NjQ5OTM1Ny4yMC4xLjE2OTY0OTk2NzUuNjAuMC4w" fill objectFit='cover' loading='lazy' alt="contact now" className='w-full' id='img' />
   </div>
 </section>
 <section>

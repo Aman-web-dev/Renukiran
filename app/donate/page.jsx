@@ -34,7 +34,7 @@ const DonateNow = () => {
     </div>
     <div id='gradient-overlay' className='text-black text-4xl'>
     </div>
-    <Image src="https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FdonationPageBg.jpg?alt=media&token=8f5c78d8-f6f4-4864-b569-3c80f881847a&_gl=1*1szz4lf*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NjQ5OTM1Ny4yMC4xLjE2OTY0OTk3OTYuNjAuMC4w" fill loading='lazy' alt="contact now" className='w-full object-cover' id='img' />
+    <Image alt='donate-bg' src="https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FdonationPageBg.jpg?alt=media&token=8f5c78d8-f6f4-4864-b569-3c80f881847a&_gl=1*1szz4lf*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NjQ5OTM1Ny4yMC4xLjE2OTY0OTk3OTYuNjAuMC4w" fill loading='lazy' className='w-full object-cover' id='img' />
   </div>
 </section>
 

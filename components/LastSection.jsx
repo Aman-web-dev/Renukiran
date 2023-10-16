@@ -12,7 +12,7 @@ const LastSection = () => {
                 alt='Kids picture'
                 sizes="(max-width: 1400px) 100vw, 1400px"
                 loading='lazy'
-                srcset="
+                srcSet="
                     /assets/carousel-images/last-element_l0ylrd_c_scale,w_200.webp 200w,
                     /assets/carousel-images/last-element_l0ylrd_c_scale,w_629.webp 629w,
                     /assets/carousel-images/last-element_l0ylrd_c_scale,w_918.webp 918w,
