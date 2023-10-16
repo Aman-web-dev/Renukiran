@@ -20,7 +20,7 @@ const Carousel = () => {
                 <Button href='/donate' className='donation-button' variant="contained" style={{padding: '10px 30px'}}>Donate now</Button>
             </div>
             <Image src="/assets/carousel-images/carouselbg_l3ol6o_c_scale,w_1280.webp" fill sizes="(max-width: 1280px) 100vw, 1280px"
-                srcset="
+                srcSet="
                             /assets/carousel-images/carouselbg_l3ol6o_c_scale,w_200.webp 200w,
                             /assets/carousel-images/carouselbg_l3ol6o_c_scale,w_430.webp 430w,
                             /assets/carousel-images/carouselbg_l3ol6o_c_scale,w_619.webp 619w,
@@ -39,7 +39,7 @@ const Carousel = () => {
                 <Button href='/donate' className='donation-button' variant="contained" style={{padding: '10px 30px'}}>Donate now</Button>
             </div>
             <Image sizes="(max-width: 1400px) 100vw, 1400px"
-                srcset="
+                srcSet="
                 /assets/carousel-images/carousel2Bg_hyinot_c_scale,w_200.webp 200w,
                 /assets/carousel-images/carousel2Bg_hyinot_c_scale,w_447.webp 447w,
                 /assets/carousel-images/carousel2Bg_hyinot_c_scale,w_623.webp 623w,
@@ -59,7 +59,7 @@ const Carousel = () => {
                 <Button href='/donate' className='donation-button' variant="contained" style={{padding: '10px 30px'}}>Donate now</Button>
             </div>
             <Image sizes="(max-width: 1152px) 100vw, 1152px"
-srcset="
+srcSet="
 /assets/carousel-images/carousel3Bg_dsqnuh_c_scale,w_200.webp 200w,
 /assets/carousel-images/carousel3Bg_dsqnuh_c_scale,w_431.webp 431w,
 /assets/carousel-images/carousel3Bg_dsqnuh_c_scale,w_592.webp 592w,
@@ -79,7 +79,7 @@ src="/assets/carousel-images/carousel3Bg_dsqnuh_c_scale,w_1152.webp" fill
                 <Button href='/donate' className='donation-button' variant="contained" style={{padding: '10px 30px'}}>Donate now</Button>
             </div>
             <Image sizes="(max-width: 1280px) 100vw, 1280px"
-                    srcset="
+                    srcSet="
                                 /assets/carousel-images/carousel4Bg_nclumo_c_scale,w_200.webp 200w,
                                 /assets/carousel-images/carousel4Bg_nclumo_c_scale,w_438.webp 438w,
                                 /assets/carousel-images/carousel4Bg_nclumo_c_scale,w_652.webp 652w,
