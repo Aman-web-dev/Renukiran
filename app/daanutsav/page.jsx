@@ -34,8 +34,6 @@ function Circle(url) {
   )
 }
 
-
-
 function Pages() {
   return (
     <div className='flex flex-col w-[100vw]  ' style={{
