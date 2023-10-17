@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 function teamCards({name,designation,pic}) {
   return (
-    <section class="bg-white dark:bg-gray-900  w-[30vw] mx-auto h-[60vh] shadow-md my-8">
+    <section class="bg-white dark:bg-gray-900  md:w-[20vw] w-[50vw] mx-auto h-[60vh] shadow-md my-8">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
      
       <div class="">
           
           <div class="text-center text-gray-500 dark:text-gray-400">
-              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src={pic} alt="Neil Avatar" />
+              <img loading='lazy' class="mx-auto mb-4 w-36 h-36 rounded-full" src={pic} alt="Neil Avatar" />
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   <a href="#">{name}</a>
               </h3>
