@@ -1,6 +1,14 @@
+'use client'
 import React from 'react'
 
 function payment() {
+
+  useEffect(()=>{
+
+    document.title = "Renukiran-Payment"
+  
+  
+  },[])
   return (
 
     <div className='relative  bg-blue-300 h-[90vh] w-[100vw] m-auto '

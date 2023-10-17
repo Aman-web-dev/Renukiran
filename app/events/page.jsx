@@ -1,6 +1,13 @@
-import React from 'react'
+'use client'
+
+import React,{useEffect} from 'react'
 
 function events() {
+  useEffect(()=>{
+
+    document.title = "Renukiran-Events"
+  },[])
+
   return (
 //     <div className='flex flex-col items-center justify-between p-2 text-center'>
 //      <h3
@@ -168,7 +175,7 @@ function events() {
 // </ol>
     // </div>
 
-    "Coming Soon"
+    <div className='flex item-center justify-center text-black font-bold text-4xl my-auto'>Coming Soon....</div> 
   )
 }
 

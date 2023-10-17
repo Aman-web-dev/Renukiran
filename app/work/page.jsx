@@ -1,11 +1,20 @@
-import React from 'react'
-// import Carousel from '@/components/Carousel' 
+'use client'
+
 import EventCards from '@/components/eventCards'
 import MiniCarousel from '@/components/miniCarousel';
 import Vision from '@/components/vision';
 import Collage from '@/components/collage';
+import { useEffect } from 'react'
 
 function work() {
+
+
+  useEffect(()=>{
+
+    document.title = "Renukiran-Work"
+  
+  
+  },[])
 
   const divStyle = {
     'backgroundImage': `url(https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2148&q=80)`,

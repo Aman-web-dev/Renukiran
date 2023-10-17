@@ -1,6 +1,13 @@
-import React from 'react'
+'use client'
+
+import React, { useEffect } from 'react'
 
 function contact() {
+ 
+  useEffect(()=>{
+    document.title = "Renukiran-Contact"
+  },[])
+
   return (
     <div className='bg-gray-300 py-2'>
 <div className="container m-auto md:px-6">

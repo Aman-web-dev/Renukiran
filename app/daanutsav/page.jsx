@@ -1,9 +1,19 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
 import dannutsavLogo from '../../public/assets/images/dann-utsav.png'
 
 
 function Circle(url) {
+
+  useEffect(()=>{
+
+    document.title = "Renukiran-Daanutsavx  "
+  
+  
+  },[])
+
+
   return (
     <div className='h-[14vw] w-[14vw] m-auto  bg-blue-300 rounded-full'
   

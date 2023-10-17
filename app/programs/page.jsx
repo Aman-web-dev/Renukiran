@@ -1,7 +1,14 @@
-import React from 'react'
+'use client'
+
+import React,{useEffect} from 'react'
 
 function Programs
 () {
+
+  useEffect(()=>{
+
+    document.title = "Renukiran-Programs"
+  },[])
   return (
     <div className='flex flex-col items-center justify-between p-2 text-center'>
     
