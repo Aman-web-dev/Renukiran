@@ -20,7 +20,7 @@ const WhatWeProvide = () => {
             <Image quality={20} loading='lazy' src={"https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FLYAV0887.JPG?alt=media&token=b3d14a53-9e19-4cde-84dd-a95c269df43e&_gl=1*ebkn70*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5NjU3NzkzMS4xLjEuMTY5NjU3ODQ1Ni40OC4wLjA."} alt="women empowerment" height={170} width={170} className='w-full h-full object-cover rounded-full' />
           </div>
         </div>
-        <h2 className='uppercase'>Skiling of communities & <br/>livelihood - generation</h2>
+        <h2 className='uppercase'>Skilling of communities & <br/>livelihood - generation</h2>
       </a>
 
       <a className='cursor item' href='/programs#women-empowerment'>

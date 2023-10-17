@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React,{useEffect} from 'react'
 import './contact.css'
 import Image from 'next/image'
 import callingIcon from '../../public/assets/icons/calling.svg'
@@ -8,6 +8,14 @@ import emailIcon from '../../public/assets/icons/email.svg'
 import addressIcon from '../../public/assets/icons/address.svg'
 
 const ContactUs = () => {
+
+
+  useEffect(()=>{
+
+    document.title = "Renukiran-Contact"
+  
+  
+  },[])
 
 
   function makeCall() {

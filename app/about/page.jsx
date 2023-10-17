@@ -1,6 +1,16 @@
-import React from 'react'
+'use client'
+
+import React, { useEffect } from 'react'
 
 function About() {
+  useEffect(()=>{
+
+  document.title = "Renukiran-About"
+
+
+},[])
+
+
   return (
     <div className='flex flex-col items-center my-4 p-2 text-center'>
      
