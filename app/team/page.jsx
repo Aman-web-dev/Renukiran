@@ -1,17 +1,17 @@
 'use client'
 
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import TeamCards from '@/components/teamCards'
 
 function Team() {
 
 
-  useEffect(()=>{
+  useEffect(() => {
 
     document.title = "Renukiran-Team"
-  
-  
-  },[])
+
+
+  }, [])
   return (
 
     <section className="flex flex-col items-center w-[90vw] m-auto ">

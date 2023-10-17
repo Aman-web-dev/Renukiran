@@ -1,4 +1,6 @@
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -12,7 +14,7 @@
     width: 80%;
     height: 100vh;
     background-color: rgba(46, 88, 147, 1, 0.91);
-  }
+}
 
 
 /* CSS for circular background */
@@ -22,7 +24,7 @@
     align-items: center;
     text-align: center;
     position: relative;
-  }
+}
 
 .ourValuesPosican .ourValuesOverlayText .largeContent .heading:before {
     content: "";
@@ -35,26 +37,26 @@
 
 @media only screen and (max-width: 1365px) {
     .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
-    font-size: 18px;
-}
+        font-size: 18px;
     }
+}
 
 @media only screen and (max-width: 1439px) {
-        .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
-            font-size: 18px;
-        }
-    }
-    
     .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
-        font-size: 22px;
-        color: var(--white);
-        text-decoration: none;
-        font-weight: 400;
-        position: relative;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        display: inline-block;
+        font-size: 18px;
     }
+}
+
+.ourValuesPosican .ourValuesOverlayText .largeContent .heading {
+    font-size: 22px;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+}
 
 
 .item h2 {
@@ -62,24 +64,29 @@
     font-weight: 700;
     font-size: larger;
 }
-  .circle {
+
+.circle {
     width: 170px;
     height: 170px;
-    background: #2d9f44; /* Background color for the circle */
+    background: #2d9f44;
+    /* Background color for the circle */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto; /* Center the circle horizontally */
-  }
-  
-  /* Add any additional styling you want for the circle here */
-  .circle h2 {
-    margin-top: 10px; /* Adjust the spacing between the circle and text */
-    color: white; /* Text color inside the circle */
-  }
-  
-  /* Rest of your CSS styles go here */
+    margin: 0 auto;
+    /* Center the circle horizontally */
+}
+
+/* Add any additional styling you want for the circle here */
+.circle h2 {
+    margin-top: 10px;
+    /* Adjust the spacing between the circle and text */
+    color: white;
+    /* Text color inside the circle */
+}
+
+/* Rest of your CSS styles go here */
 .circle::after {
     content: '';
     height: 170px;
@@ -91,7 +98,7 @@
     left: calc(18% + 12%);
     opacity: 0;
     z-index: 0;
-    
+
 }
 
 .circle::before:hover {
@@ -110,6 +117,7 @@
         left: -19%;
     }
 }
+
 @media only screen and (max-width: 1439px) {
     .hero-section {
         left: -18.9%;
@@ -139,7 +147,7 @@
     left: -14%;
     -webkit-transform: skewX(-28deg);
     transform: skewX(348deg);
-    
+
     background-color: #2e5893;
     opacity: 88%;
 }
@@ -159,13 +167,17 @@
     width: 100%;
     position: relative;
     max-width: 200px;
-    aspect-ratio: 16/6; /* Set the aspect ratio for each image */ /* Adjust this alignment as needed */
+    aspect-ratio: 16/6;
+    /* Set the aspect ratio for each image */
+    /* Adjust this alignment as needed */
 }
 
 
 
-@media (max-width: 991px) { #last-section {
-    width: 80%;}
+@media (max-width: 991px) {
+    #last-section {
+        width: 80%;
+    }
 
 }
 
