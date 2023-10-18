@@ -14,9 +14,9 @@ function Team() {
   }, [])
   return (
 
-    <section className="flex flex-col items-center w-[90vw] m-auto ">
+    <section className="flex flex-col items-center w-[90vw] m-auto text-center">
 
-      <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"> Our Resilient<span className='text-blue-700' >  Renukiran Team</span> </h1>
+      <h1 class="my-4 font-extrabold leading-none tracking-tight text-gray-900 text-3xl md:text-5xl lg:text-6xl dark:text-white">Our Resilient <span className='text-blue-700' >Renukiran Team</span> </h1>
       <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 text-center">Renukiran Welfare Foundation values its employees, nourishing their internal strength and treating them with respect by actively listening to their ideas and offering support in every way.</p>
 
 
