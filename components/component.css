@@ -35,17 +35,6 @@
     top: -15px;
 }
 
-@media only screen and (max-width: 1365px) {
-    .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (max-width: 1439px) {
-    .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
-        font-size: 18px;
-    }
-}
 
 .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
     font-size: 22px;
@@ -106,24 +95,6 @@
     width: 220px;
 }
 
-@media only screen and (max-width: 650px) {
-    .carousel {
-        min-height: 50vh;
-    }
-}
-
-@media only screen and (max-width: 1365px) {
-    .hero-section {
-        left: -19%;
-    }
-}
-
-@media only screen and (max-width: 1439px) {
-    .hero-section {
-        left: -18.9%;
-    }
-}
-
 .hero-section h1 {
     top: 50%;
     left: calc(18.9% + 16%);
@@ -174,6 +145,48 @@
 
 
 
+.hero-section .donation-button {
+    top: 60%;
+    left: calc(18.9% + 18%);
+    background-color: #193d70;
+    margin-top: 20px;
+}
+
+
+.hero-section .donation-button {
+    top: 60%;
+    left: calc(18.9% + 18%);
+    background-color: #193d70;
+    margin-top: 20px;
+}
+
+#about {
+    position: relative;
+}
+
+.description {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position it below the icon */
+    left: -40%;
+    transform: translateX(-50%); /* Center it horizontally */
+    background-color: #fff; /* Tooltip background color */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust the width as needed */
+    z-index: 1; /* Ensure it's above other elements */
+    font-size: 14px;
+    padding: 1rem;
+}
+
+
+
+#about:hover .description {
+    display: block;
+}
+
 @media (max-width: 991px) {
     #last-section {
         width: 80%;
@@ -201,32 +214,11 @@
 }
 
 
-
-
-.hero-section .donation-button {
-    top: 60%;
-    left: calc(18.9% + 18%);
-    background-color: #193d70;
-    margin-top: 20px;
-}
-
-
 @media only screen and (max-width: 1439px) {
     #last-section {
         width: 50%;
     }
 }
-
-
-
-
-.hero-section .donation-button {
-    top: 60%;
-    left: calc(18.9% + 18%);
-    background-color: #193d70;
-    margin-top: 20px;
-}
-
 
 @media only screen and (max-width: 1439px) {
     .hero-section h1 {
@@ -262,5 +254,35 @@
     .hero-section h1 {
         font-size: 30px;
         line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .carousel {
+        min-height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 1365px) {
+    .hero-section {
+        left: -19%;
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+    .hero-section {
+        left: -18.9%;
+    }
+}
+
+@media only screen and (max-width: 1365px) {
+    .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1439px) {
+    .ourValuesPosican .ourValuesOverlayText .largeContent .heading {
+        font-size: 18px;
     }
 }
