@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react'
 import TeamCards from '@/components/teamCards'
+import rajni from '../../public/assets/images/rajni about.webp'
 
 function Team() {
 
@@ -29,7 +30,7 @@ function Team() {
         <TeamCards name={"Deepak"} designation={"Project Co-ordinator"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/DeeepakProfile.png"} />
         <TeamCards name={"Akshita Chabra"} designation={"Teacher & Event Coordination"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/168291-woman-vector-png-download-free.png"} />
         <TeamCards name={"Aman Kumar"} designation={"Web - Developer & Event Volunteer"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/man-avatar-image-for-profile-png%20(1).png"} />
-        <TeamCards name={"Rajnikant"} designation={"Web - Developer & Event Volunteer"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/man-avatar-image-for-profile-png%20(1).png"} />
+        <TeamCards name={"Rajnikant"} designation={"Web - Developer & Event Volunteer"} pic={"https://renukiran.b-cdn.net/employeesRenukiran/rajni%20about.webp"} />
 
       </div>
     </section>
