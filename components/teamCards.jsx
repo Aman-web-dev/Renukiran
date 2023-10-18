@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import linkedin from '../public/assets/icons/linkedin.svg'
+import linkedinlogo from '../public/assets/icons/linkedin.svg'
 import about from '../public/assets/icons/about.svg'
 
-function teamCards({name,designation,pic}) {
+function teamCards({name,designation,pic,linkedin}) {
   return (
     <section class="bg-white dark:bg-gray-900  lg:w-[20vw] w-[70vw] mx-auto h-[50vh] lg:h-[60vh] shadow-md my-8">
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
@@ -17,9 +17,9 @@ function teamCards({name,designation,pic}) {
               </h3>
               <p className='text-sm'>{designation}</p>
               <ul class="flex justify-center items-center mt-4 space-x-4">
-              <li>
-                      <a href="#">
-                          <Image src={linkedin} width={20} height={50}/>
+              <li> 
+                      <a href={linkedin} target='_blank'>
+                          <Image src={linkedinlogo} width={20} height={50}/>
                       </a>
                   </li>
 
