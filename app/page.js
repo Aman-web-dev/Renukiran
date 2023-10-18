@@ -8,7 +8,7 @@ import AvinashInfo from '@/components/AvinashInfo';
 import WhatWeProvide from '@/components/WhatWeProvide';
 import LastSection from '@/components/LastSection';
 import Campaign from '../components/Campaign';
-import NewCarousel from '@/components/newCarousel';
+import CompanysLogo from '@/components/CompanysLogo';
 
 export default function Home() {
   return (
@@ -20,7 +20,8 @@ export default function Home() {
       <AvinashInfo />
       <WhatWeProvide />
       <Campaign/>
-      <Partners />
+      {/* <Partners /> */}
+      <CompanysLogo />
       <Analytics/>
       <LastSection />
       {/* <NewCarousel/> */}

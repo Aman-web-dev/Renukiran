@@ -59,12 +59,10 @@ export default function Partners() {
             {/* not mapping here */}
             <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Hear from our Partners...
+                OUr Partners
               </h2>
 
               <p className="mt-4 text-gray-700">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
-                veritatis illo placeat harum porro optio fugit a culpa sunt id!
               </p>
 
               <div className="hidden lg:mt-8 lg:flex lg:gap-4">
@@ -185,10 +183,6 @@ export default function Partners() {
                             <Image quality={30} loading='lazy' src={partnersData.icon} alt={partnersData.author} width={100} height={100} className='mb-8' />
                           </div>
                           <p className="mt-4 leading-relaxed text-gray-700">
-                            No, Rose, they are not breathing. And they have no arms or
-                            legs … Where are they? You know what? If we come across
-                            somebody with no arms or legs, do we bother resuscitating
-                            them? I mean, what quality of life do we have there?
                           </p>
                         </div>
                       </div>
