@@ -2,7 +2,6 @@
 
 import React, { useEffect } from 'react'
 import TeamCards from '@/components/teamCards'
-import rajni from '../../public/assets/images/rajni about.webp'
 
 function Team() {
 
