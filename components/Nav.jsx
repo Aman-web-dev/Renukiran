@@ -19,9 +19,9 @@ const Nav = () => {
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border  md:flex-row md:space-x-8 md:mt-0 md:border-0">
-              <li>
+              {/* <li>
                 <a href="/work" className="block py-2 pl-3 pr-4 text-gray-900 bg-blue-700 rounded md:bg-transparent md:p-0 md:hover:text-blue-700" aria-current="page">Our Work</a>
-              </li>
+              </li> */}
               <li>
                 <a href="/donate" className="block py-2 pl-3 pr-4 text-gray-900 rounded  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Donate us</a>
               </li>
