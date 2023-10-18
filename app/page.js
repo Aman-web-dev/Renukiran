@@ -22,7 +22,7 @@ export default function Home() {
       <Campaign/>
       {/* <Partners /> */}
       <CompanysLogo />
-      <Analytics/>
+      {/* <Analytics/> */}
       <LastSection />
       {/* <NewCarousel/> */}
     </main>

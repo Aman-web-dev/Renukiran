@@ -11,6 +11,17 @@ import niit from '../public/assets/icons/company logo/niit.svg'
 import opjindal from '../public/assets/icons/company logo/opjindal.svg'
 import tata from '../public/assets/icons/company logo/tatacomm.svg'
 import titan from '../public/assets/icons/company logo/titan.svg'
+import goodera from '../public/assets/icons/company logo/goodera.svg'
+import mit from '../public/assets/icons/company logo/mit.svg'
+import drc from '../public/assets/icons/company logo/drc.svg'
+import matasundari from '../public/assets/icons/company logo/matasundari.svg'
+import gargi from '../public/assets/icons/company logo/gargi.svg'
+import ldu from '../public/assets/icons/company logo/ldu.svg'
+import ihe from '../public/assets/icons/company logo/ihe.svg'
+import ibm from '../public/assets/icons/company logo/ibm.svg'
+import goonj from '../public/assets/icons/company logo/goonj.svg'
+import blessingsfoundation from '../public/assets/icons/company logo/blessingsfoundation.svg'
+import mitujjain from '../public/assets/icons/company logo/mitujjain.svg'
 
 const companyLogo = [
     {
@@ -77,6 +88,57 @@ const companyLogo = [
         id:13,
         icon: airbnb,
     }, 
+
+    {
+        id:14,
+        icon: goodera,
+    },
+
+    {
+        id:15,
+        icon: ldu,
+    }, 
+
+    {
+        id:16,
+        icon: drc,
+    }, 
+
+    {
+        id:17,
+        icon: matasundari,
+    }, 
+
+    {
+        id:18,
+        icon: gargi,
+    },
+    
+    {
+        id:19,
+        icon: mitujjain,
+    }, 
+
+    {
+        id:20,
+        icon: ihe,
+    },
+    
+    {
+        id:21,
+        icon: ibm,
+    }, 
+
+    {
+        id:22,
+        icon: goonj,
+    }, 
+
+    {
+        id:23,
+        icon: blessingsfoundation,
+    }, 
+
 ]
 
 export default companyLogo
