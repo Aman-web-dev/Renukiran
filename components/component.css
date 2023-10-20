@@ -181,10 +181,16 @@
     padding: 1rem;
 }
 
-
-
 #about:hover .description {
     display: block;
+}
+
+@media (max-width:800px) {
+    .description {
+        width: 350px;
+        height: auto;
+        left: -150%;
+    }
 }
 
 @media (max-width: 991px) {

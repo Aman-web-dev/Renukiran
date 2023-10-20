@@ -15,19 +15,19 @@ function teamCards({name,designation,pic,desc}) {
             
               <img loading='lazy' class="mx-auto mb-4 w-36 h-36 rounded-full" src={pic} alt="Neil Avatar" />
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">{name}</a>
+                  <a href="">{name}</a>
               </h3>
               <p className='text-sm'>{designation}</p>
               <ul class="flex justify-center items-center mt-4 space-x-4">
               <li>
-                      <a href="#">
+                      <a href="">
                           <Image src={linkedin} width={20} height={50}/>
                       </a>
                   </li>
 
                   <li>
                     <div>
-                      <a href="#" id='about'>
+                      <a href="" id='about'>
                           <Image src={about} width={25} height={50} />
                           <div className='description'>{desc}</div>
                       </a>
