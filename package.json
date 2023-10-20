@@ -14,6 +14,7 @@
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@mui/material": "^5.14.11",
+    "@vercel/analytics": "^1.1.1",
     "autoprefixer": "10.4.16",
     "flowbite": "^1.8.1",
     "keen-slider": "^6.8.6",
