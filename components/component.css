@@ -185,11 +185,19 @@
     display: block;
 }
 
-@media (max-width:800px) {
+@media (max-width:1150px) {
     .description {
         width: 350px;
         height: auto;
-        left: -150%;
+        left: -20%;
+    }
+}
+
+@media (max-width: 1140px) {
+    .description {
+        width: 300px;
+        height: auto;
+        left: -20%;
     }
 }
 

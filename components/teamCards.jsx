@@ -19,18 +19,18 @@ function teamCards({name,designation,pic,desc,linkedin}) {
               </h3>
               <p className='text-sm'>{designation}</p>
               <ul class="flex justify-center items-center mt-4 space-x-4">
-              <li>
-                      <a href="">
-                          <Image src={linkedin} width={20} height={50}/>
+              <li> 
+                      <a href={linkedin} target='_blank'>
+                          <Image src={linkedinlogo} width={20} height={50}/>
                       </a>
                   </li>
 
                   <li>
                     <div>
-                      <a href="" id='about'>
+                      <div id='about'>
                           <Image src={about} width={25} height={50} />
                           <div className='description'>{desc}</div>
-                      </a>
+                      </div>
                       </div>
                   </li>
               </ul>
