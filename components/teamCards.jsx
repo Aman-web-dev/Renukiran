@@ -20,14 +20,14 @@ function teamCards({name,designation,pic,desc,linkedin}) {
               <p className='text-sm'>{designation}</p>
               <ul class="flex justify-center items-center mt-4 space-x-4">
               <li> 
-                      <a href={linkedin} target='_blank'>
+                      <a href={linkedin} target='_blank' className='cursor'>
                           <Image src={linkedinlogo} width={20} height={50}/>
                       </a>
                   </li>
 
                   <li>
                     <div>
-                      <div id='about'>
+                      <div id='about' className='cursor'>
                           <Image src={about} width={25} height={50} />
                           <div className='description'>{desc}</div>
                       </div>
