@@ -20,7 +20,7 @@ const Carousel = () => {
                         <Button href='/donate' className='donation-button' variant="contained" style={{ padding: '10px 30px' }}>Donate now</Button>
                     </div>
                     <Image src="/assets/carousel-images/carouselbg_l3ol6o_c_scale,w_1280.webp" fill sizes="(max-width: 1280px) 100vw, 1280px"
-                 className="absolute grayscale-[100%] block object-cover" alt="child education image" placeholder='blur' />
+                 className="absolute grayscale-[100%] block object-cover" alt="child education image"/>
                 </div>
 
                 <div className="hidden ease-in-out duration-1000 " data-carousel-item>
@@ -29,7 +29,7 @@ const Carousel = () => {
                         <Button href='/donate' className='donation-button' variant="contained" style={{ padding: '10px 30px' }}>Donate now</Button>
                     </div>
                     <Image sizes="(max-width: 1400px) 100vw, 1400px"
-                        src="/assets/carousel-images/carousel2Bg_hyinot_c_scale,w_1400.webp" fill  className="absolute grayscale-[100%] block object-cover" alt="Women empowerment image" placeholder='blur' />
+                        src="/assets/carousel-images/carousel2Bg_hyinot_c_scale,w_1400.webp" fill  className="absolute grayscale-[100%] block object-cover" alt="Women empowerment image"  />
 
                 </div>
 
@@ -40,8 +40,7 @@ const Carousel = () => {
                     </div>
                     <Image sizes="(max-width: 1152px) 100vw, 1152px"
             
-                        src="/assets/carousel-images/carousel3Bg_dsqnuh_c_scale,w_1152.webp" fill
-                         className="absolute bottom-0 grayscale-[100%] block object-cover" alt="3" placeholder='blur' />
+                        src="/assets/carousel-images/carousel3Bg_dsqnuh_c_scale,w_1152.webp" fill />
                 </div>
 
                 <div className="hidden ease-in-out duration-1000 " data-carousel-item>
@@ -50,7 +49,7 @@ const Carousel = () => {
                         <Button href='/donate' className='donation-button' variant="contained" style={{ padding: '10px 30px' }}>Donate now</Button>
                     </div>
                     <Image sizes="(max-width: 1280px) 100vw, 1280px"
-                        src="/assets/carousel-images/carousel4Bg_nclumo_c_scale,w_1280.webp" fill  className="absolute bottom-0 grayscale-[100%] block object-cover" alt="4" placeholder='blur' />
+                        src="/assets/carousel-images/carousel4Bg_nclumo_c_scale,w_1280.webp" fill  className="absolute bottom-0 grayscale-[100%] block object-cover" alt="4"/>
                 </div>
             </div>
 
