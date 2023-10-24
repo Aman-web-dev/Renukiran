@@ -39,7 +39,7 @@ const Carousel = () => {
                         <Button href='/donate' className='donation-button' variant="contained" style={{ padding: '10px 30px' }}>Donate now</Button>
                     </div>
                     <Image sizes="(max-width: 1152px) 100vw, 1152px"
-            
+                        className="absolute grayscale-[100%] block object-cover"
                         src="/assets/carousel-images/carousel3Bg_dsqnuh_c_scale,w_1152.webp" fill />
                 </div>
 
