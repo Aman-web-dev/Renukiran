@@ -4,6 +4,8 @@ import linkedinlogo from '../public/assets/icons/linkedin.svg'
 import about from '../public/assets/icons/about.svg'
 import './component.css'
 
+
+
 function teamCards({name,designation,pic,desc,linkedin}) {
   return (
     <section class="bg-white dark:bg-gray-900  lg:w-[20vw] w-[70vw] mx-auto h-[50vh] lg:h-[60vh] shadow-md my-8">
@@ -27,7 +29,7 @@ function teamCards({name,designation,pic,desc,linkedin}) {
 
                   <li>
                     <div>
-                      <div id='about' className='cursor'>
+                      <div id='about' className='cursor-pointer'>
                           <Image src={about} width={25} height={50} />
                           <div className='description'>{desc}</div>
                       </div>

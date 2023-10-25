@@ -179,10 +179,12 @@
     z-index: 1; /* Ensure it's above other elements */
     font-size: 14px;
     padding: 1rem;
+    cursor: pointer;
 }
 
 #about:hover .description {
     display: block;
+    cursor: pointer;
 }
 
 @media (max-width:1150px) {
