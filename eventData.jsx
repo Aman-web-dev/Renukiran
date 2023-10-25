@@ -1,95 +1,47 @@
 const eventData = [
     {
         id:1,
-        title: 'Adolescent Girls & Women Sanitary Pad Distribution in Slum Community Report',
+        title: `COVID Relief - Ration & Hygiene Kit Distribution for Residents of Yamuna Bank Settlement Report`,
         src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
-        Date: 'September 20, 2021',
-        Location: 'Faridpuri',
-        Introduction: 'In collaboration with LSR College, our organization, Renukiran Welfare Foundation, conducted a sanitary pad distribution initiative in a slum community on September 20, 2021. The aim of this program was to provide essential sanitary pads to adolescent girls and women in need, while also imparting knowledge about reproductive health and hygiene. This report outlines the activities undertaken and the impact achieved during this initiative.',
-        Objectives: ['To distribute sanitary pads to adolescent girls and women in the slum community, ensuring access to menstrual hygiene products.', 'To educate participants about reproductive health, menstrual hygiene, and overall personal hygiene.', 'To promote awareness and reduce stigma associated with menstruation in the community.'],
+        Date: 'June, 2023',
+        Location: 'Basant-pur & Yamuna Pushta',
+        Introduction: 'In response to the ongoing challenges posed by the COVID-19 pandemic, our organization, Renukiran Welfare Foundation initiated a relief effort to provide essential supplies to the residents of Yamuna Bank Settlement, one of the vulnerable & most backward communities in Delhi severely affected by the pandemic & natural disasters. This initiative focused on distributing ration kits and hygiene supplies to alleviate the immediate needs of the residents and promote hygiene practices during these challenging times.',
+
+        Objectives: ['To provide essential food supplies through ration kits to families facing economic hardship due to the COVID-19 pandemic.', 'To distribute hygiene kits containing essential items to promote cleanliness and prevent the spread of COVID-19 among the residents.', 'To offer support and solidarity to the vulnerable communities in Yamuna Bank Settlement.'],
+
         Activites: [{
-            title:'Sanitary Pad Distribution:',
-            pointArr : ['Number of Beneficiaries: 150 adolescent girls and women in the slum community.', 'Number of Sanitary Pads Distributed: 3000 pads (20 pads per beneficiary).','Distribution Process: Sanitary pads were distributed in a dignified and discreet manner, ensuring the privacy and comfort of the recipients.'],
+            title:'Ration Kit Distribution:',
+            pointArr : ['Prepared and distributed 500 ration kits containing staple food items such as rice, wheat flour, lentils, cooking oil, and spices.', 'Collaborated with local suppliers and ensured the quality and nutritional value of the items included in the kits.'],
         }, 
 
         {
-            title:'Educational Workshops:',
-            pointArr: ['LSR College volunteers conducted interactive workshops on reproductive health, menstrual    hygiene, and general personal hygiene practices.', 'Topics covered included the menstrual cycle, proper usage and disposal of sanitary pads, symptoms of reproductive health issues, and where to seek medical help if needed.'],
-        },
-
-        
-        {
-            title:'Interactive Workshops:',
-            pointArr: ['Participants engaged in open discussions and Q & A sessions, allowing them to address their concerns and queries related to reproductive health and hygiene.', 'Practical demonstrations were provided to ensure proper usage of sanitary pads and disposal methods.']
-        },
+            title:'Hygiene Kit Distribution:',
+            pointArr : ['Assembled and distributed 500 hygiene kits containing masks, sanitizers, soap, disinfectant wipes, and informational pamphlets on COVID-19 prevention.', 'Conducted demonstrations on proper handwashing techniques and mask usage to promote good hygiene practices.'],
+        }, 
 
         {
-            title:'Distribution of Informational Materials:',
-            pointArr: ['Pamphlets and brochures containing essential information about menstrual hygiene and reproductive health were distributed among participants, encouraging further reading and understanding of the topics discussed.']
-        }
-    
+            title:'Community Engagement:',
+            pointArr : ['Organized awareness sessions on COVID-19 prevention, emphasizing the importance of social distancing, mask usage, and vaccination.', 'Engaged with community leaders and volunteers to ensure the efficient distribution of relief kits and address specific needs within the settlement.'],
+        }, 
+
     ],
         Impact: [
-            {
-                title:'Impact',
-                pointArr: ['Improved Access: 150 adolescent girls and women gained access to sanitary pads, ensuring a more comfortable and hygienic menstruation experience.', 'Increased Awareness: Participants acquired knowledge about proper menstrual hygiene practices and reproductive health, empowering them to make informed decisions about their well-being.', 'Reduced Stigma: Open discussions helped reduce stigma associated with menstruation, fostering a more supportive and understanding community environment.']
-            }
-        ],
+        {
+            title:'Impact:',
+            pointArr: ['Number of Families Served: 110 families in Yamuna Bank Settlement received ration kits and hygiene supplies, benefiting approximately 500 individuals.', 'Immediate Relief: Families gained access to essential food items, ensuring they had sufficient meals during the challenging times.', 'Hygiene Awareness: Residents received crucial hygiene supplies and education, empowering them to protect themselves and their community from COVID-19.', 'Community Strengthening: The initiative fostered a sense of community solidarity and demonstrated the collective strength of the residents in facing the pandemic.']
+        },
+    ],  
 
         Feedback: [
-            'Participants: Many participants expressed gratitude for the informative sessions and the provision of sanitary pads, emphasizing the importance of such initiatives in their community.',
-            'LSR College Volunteers: Volunteers from LSR College found the experience rewarding and highlighted the positive impact of education on menstrual hygiene in marginalized communities.'
+        'Residents: Families expressed gratitude for the support, emphasizing the relief provided by the ration and hygiene kits during a period of economic hardship and health concerns.', 'Local Leaders: Community leaders appreciated the initiative, acknowledging the positive impact on the settlement"s overall well-being.'
         ],
 
-        Conclusion: 'The collaborative effort between our organization and LSR College successfully addressed a critical need within the slum community. By providing sanitary pads and knowledge about reproductive health and hygiene, we have taken a significant step toward improving the overall well-being of adolescent girls and women. We remain committed to continuing such initiatives and fostering positive change in the lives of those in need.'
+        Conclusion: 'The COVID relief effort in Yamuna Bank Settlement successfully addressed immediate needs related to food security and hygiene awareness. By providing essential supplies and promoting good hygiene practices, the initiative aimed to mitigate the impact of the pandemic on backward and vulnerable families. We are committed to continuing our support for communities affected by COVID-19 and will work tirelessly to provide relief and promote resilience during these challenging times.'
 
     },
 
     {
         id:2,
-        title: 'Snacks for Police Personnel in COVID-19 in Delhi Report',
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(7).webp',
-        Date: 'April-May, 2020 (45 Days)',
-        Location: 'South Delhi',
-        Introduction: 'Amid the challenging times brought about by the COVID-19 pandemic, our organization, Renukiran Welfare Foundation initiated a project to provide snacks and refreshments to the dedicated police personnel who was trying their best to keep us safe from Covid-19 in Delhi. Recognizing their relentless efforts in maintaining law and order, especially during the pandemic, this initiative aimed to show our gratitude and support for their hard work and sacrifice.',
-        Objectives: ['To express gratitude and appreciation to the police personnel in Delhi for their unwavering dedication during the COVID-19 pandemic.', 'To provide snacks and refreshments to boost the morale and energy of the police officers working tirelessly on the frontlines.', 'To strengthen community relations by demonstrating solidarity with law enforcement agencies.'],
-
-        Activites: [{
-            title:'Snack Preparation:',
-            pointArr : ['Our volunteers prepared a variety of snacks, including sandwiches, fruit packs, energy bars, and beverages(tea/juices), ensuring nutritional value and freshness.','Strict adherence to COVID-19 safety protocols was maintained during the preparation, including regular hand sanitization and mask-wearing.'],
-        }, 
-
-        {
-            title:'Distribution Process:',
-            pointArr: ['Collaborated with local police stations and law enforcement agencies to identify high-impact areas where police personnel were stationed.', 'Organized snack distribution drives at these locations, ensuring timely and hygienic delivery of refreshments.'],
-        },
-
-        
-        {
-            title:'Safety Awareness:',
-            pointArr: ['Included informational pamphlets in the snack packs, providing COVID-19 safety tips and reminders on maintaining personal health and hygiene.', 'Encouraged police personnel to follow safety measures both at work and in their personal lives. Practical demonstrations were provided to ensure proper usage of sanitary pads and disposal methods.']
-        },
-    
-    ],
-        Impact: [
-            {
-                title:'Impact',
-                pointArr: ['Number of Police Personnel Served: Approximately 600 police officers across various stations in Delhi received snacks and refreshments.', 'Positive Feedback: Police personnel expressed gratitude for the thoughtful gesture, emphasizing the boost in their morale during challenging times.', 'Community Engagement: The initiative garnered positive attention on social media and local news outlets, enhancing community relations and inspiring other organizations to contribute to similar causes.']
-            }
-        ],
-
-        Feedback: [
-            'Police Personnel: Officers appreciated the initiative, acknowledging the support provided by the community and our organizations during the pandemic.',
-            'Community Members: The community expressed pride in the initiative, recognizing the importance of supporting frontline workers and law enforcement agencies.'
-        ],
-
-        Conclusion: 'The "Snacks for Police Personnel in COVID-19" initiative played a small yet significant role in expressing gratitude to the police officers who have been tirelessly working on the frontline during the pandemic. By providing refreshments and promoting awareness about COVID-19 safety, the initiative aimed not only to nourish the bodies of the police personnel but also to uplift their spirits and show the community solidarity and appreciation.We remain committed to supporting our frontline heroes and look forward to continuing our efforts in strengthening community bonds and fostering a sense of unity and resilience.'
-
-    },
-
-
-    {
-        id:3,
         title: 'Ration Distribution in Slum Community with Amazon Kits Report',
         src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(10).webp',
         Date: 'August 28, 2023 – September 2, 2023',
@@ -136,56 +88,7 @@ const eventData = [
     },
 
     {
-        id:4,
-        title: 'National Science Centre Visit for Slum Children: Renukiran Welfare Foundation Report',
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
-        Date: 'March 5, 2019',
-        Location: 'Basantpur & Yamuna Pushta',
-        Introduction: 'On March 5, 2019, the Renukiran Welfare Foundation organized a special educational excursion to the National Science Centre for children from slum communities in Delhi. The aim of this initiative was to provide an enriching and educational experience to children who often lack access to such opportunities. The event was designed to engage the children in interactive learning, fun-filled activities, storytelling, and to provide them with wholesome meals, snacks, and a memorable day of exploration and learning.',
-
-        Objectives: ['Educational Enrichment: To expose slum children to the wonders of science, fostering a love for learning and curiosity about the world.', 'Nutritional Support: To provide wholesome snacks and lunch to ensure the children received adequate nutrition during the visit.', 'Cultural and Recreational Activities: To engage the children in storytelling sessions and fun-filled activities, promoting creativity and social interaction.'],
-
-        Activites: [{
-            title:'National Science Centre Visit:',
-            pointArr : ['Children were guided through interactive exhibits, science experiments, and demonstrations, enhancing their understanding of various scientific concepts.', 'Expert educators provided informative sessions on astronomy, physics, biology, and technology, sparking the children"s interest in STEM (Science, Technology, Engineering, Mathematics) fields.'],
-        }, 
-
-        {
-            title:'Nutritional Support:',
-            pointArr: ['Upon arrival, children were provided with nutritious snacks and beverages to energize them for the days activities.','A balanced and delicious lunch was served, ensuring the children received a fulfilling and healthy meal.']
-        },
-
-        
-        {
-            title:'Fun-filled Activities:',
-            pointArr: ['Engaging storytelling sessions were conducted, captivating the childrens imaginations and enhancing their language skills.', 'Creative workshops, including art and craft activities, puzzles, and group games, encouraged teamwork and creativity among the children.']
-        },
-
-        {
-            title:'Exploration and Hands-on Learning:',
-            pointArr: ['Children were given the opportunity to participate in hands-on experiments and activities, promoting a deeper understanding of scientific concepts through exploration and play.']
-        }
-    
-    ],
-        Impact: [
-        {
-            title:'Impact',
-            pointArr: ['Educational Empowerment: The visit inspired a keen interest in science among the children, encouraging them to explore further and consider future educational pursuits in STEM fields.', 'Nutritional Support: The provision of snacks and a nutritious lunch ensured the children had access to wholesome meals, supporting their overall well-being.', 'Cultural and Social Development: Storytelling and fun-filled activities promoted creativity, language skills, and social interaction, enhancing the childrens overall development.']
-        }
-    ],
-
-        Feedback: [
-            'Children: The children expressed excitement and gratitude for the enriching experience, particularly enjoying the interactive exhibits and storytelling sessions.',
-            'Parents/Guardians: Parents appreciated the Foundation"s efforts in providing both educational and nutritional support to their children, expressing hopes for similar future initiatives.'
-        ],
-
-        Conclusion: 'The National Science Centre visit organized by the Renukiran Welfare Foundation provided a transformative experience for slum children, offering them not only a day of educational enrichment but also a sense of wonder and inspiration. By combining interactive learning, nutritional support, and fun-filled activities, the event aimed to break barriers to access quality education and holistic development. The Foundation remains committed to creating more such opportunities, fostering a brighter and more informed future for these young minds.'
-
-    },
-
-    
-    {
-        id:5,
+        id:3,
         title: 'COVID-19 Hygiene Kit Distribution for Street Vendors in Delhi Report',
         src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(2).webp',
         Date: 'December-January, 2022',
@@ -228,7 +131,154 @@ const eventData = [
     },
 
     {
+        id:4,
+        title: 'Free Walk-in Healthcare Camp for Residents of Jaitpur Ext. (Badarpur) - Renukiran Welfare Foundation Report',
+        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
+        Date: 'July 15, 2022',
+        Location: 'Jaitpur Extension (Badarpur)',
+        Introduction: 'On July 15, 2022, the Renukiran Welfare Foundation organized a one-day free walk-in healthcare camp for the residents of Jaitpur Extension in Badarpur. The camp aimed to provide accessible healthcare services to the community, especially focusing on preventive care, general health check-ups, and medical consultations. The event was designed to address the healthcare needs of the underserved population, promoting overall well-being and health awareness.',
+
+        Objectives: ['Accessible Healthcare: To provide free medical consultations, basic health check-ups, and preventive healthcare services to the residents of Jaitpur Ext.', 'Health Education: To raise awareness about common health issues, preventive measures, and healthy lifestyle choices within the community.', 'Community Engagement: To engage with the residents, understand their healthcare concerns, and establish a sense of trust and cooperation.'],
+
+        Activites: [{
+            title:'Medical Consultations:',
+            pointArr : ['Experienced doctors and healthcare professionals offered free consultations to individuals, addressing various health concerns and providing personalized advice.'],
+        }, 
+
+        {
+            title:'Basic Health Check-ups:',
+            pointArr: ['Vital parameters such as blood pressure, blood sugar levels, and BMI were measured for all attendees to assess their overall health status.','Dental and eye check-ups were conducted, and necessary referrals were made for further specialized care.']
+        },
+
+        
+        {
+            title:'Preventive Healthcare Services:',
+            pointArr: ['Immunization and vaccination services were provided for children, ensuring they were up-to-date with their immunization schedules.', 'Health education sessions were conducted on topics such as hygiene, nutrition, and the importance of regular exercise.']
+        },
+
+        {
+            title:'Community Engagement:',
+            pointArr: ['Informational booths were set up, offering pamphlets, brochures, and interactive sessions to educate attendees about common health issues and preventive measures.', 'Volunteers engaged with the community, answering questions, providing guidance, and promoting the importance of regular health check-ups.']
+        },
+
+    ],
+        Impact: [
+        {
+            title:'Impact',
+            pointArr: ['Number of Individuals Served: Approximately 800 residents from Jaitpur Ext. received medical consultations and healthcare services during the camp.', 'Health Awareness: Attendees gained valuable insights into their health status, received essential preventive care, and learned about healthy lifestyle choices.', 'Community Empowerment: The camp established a sense of trust and cooperation within the community, encouraging residents to prioritize their health and well-being.']
+        }
+    ],
+
+        Feedback: [
+            'Residents: The residents expressed gratitude for the Foundation’s initiative, appreciating the accessible healthcare services and health education provided.',
+            'Healthcare Professionals: Medical staff and volunteers found the experience fulfilling, emphasizing the positive impact of community-based healthcare initiatives.'
+        ],
+
+        Conclusion: 'The free walk-in healthcare camp organized by the Renukiran Welfare Foundation played a crucial role in addressing the healthcare needs of the underserved community in Jaitpur Ext. By providing accessible medical consultations, basic health check-ups, and health education, the Foundation aimed to improve the overall health awareness and well-being of the residents. The event"s success underlines the importance of community engagement and accessible healthcare services, and the Foundation remains dedicated to continuing such initiatives to support the community"s health and wellness.'
+
+    },
+
+    {
         id:6,
+        title: 'Adolescent Girls & Women Sanitary Pad Distribution in Slum Community Report',
+        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
+        Date: 'September 20, 2021',
+        Location: 'Faridpuri',
+        Introduction: 'In collaboration with LSR College, our organization, Renukiran Welfare Foundation, conducted a sanitary pad distribution initiative in a slum community on September 20, 2021. The aim of this program was to provide essential sanitary pads to adolescent girls and women in need, while also imparting knowledge about reproductive health and hygiene. This report outlines the activities undertaken and the impact achieved during this initiative.',
+        Objectives: ['To distribute sanitary pads to adolescent girls and women in the slum community, ensuring access to menstrual hygiene products.', 'To educate participants about reproductive health, menstrual hygiene, and overall personal hygiene.', 'To promote awareness and reduce stigma associated with menstruation in the community.'],
+        Activites: [{
+            title:'Sanitary Pad Distribution:',
+            pointArr : ['Number of Beneficiaries: 150 adolescent girls and women in the slum community.', 'Number of Sanitary Pads Distributed: 3000 pads (20 pads per beneficiary).','Distribution Process: Sanitary pads were distributed in a dignified and discreet manner, ensuring the privacy and comfort of the recipients.'],
+        }, 
+
+        {
+            title:'Educational Workshops:',
+            pointArr: ['LSR College volunteers conducted interactive workshops on reproductive health, menstrual    hygiene, and general personal hygiene practices.', 'Topics covered included the menstrual cycle, proper usage and disposal of sanitary pads, symptoms of reproductive health issues, and where to seek medical help if needed.'],
+        },
+
+        
+        {
+            title:'Interactive Workshops:',
+            pointArr: ['Participants engaged in open discussions and Q & A sessions, allowing them to address their concerns and queries related to reproductive health and hygiene.', 'Practical demonstrations were provided to ensure proper usage of sanitary pads and disposal methods.']
+        },
+
+        {
+            title:'Distribution of Informational Materials:',
+            pointArr: ['Pamphlets and brochures containing essential information about menstrual hygiene and reproductive health were distributed among participants, encouraging further reading and understanding of the topics discussed.']
+        }
+    
+    ],
+        Impact: [
+            {
+                title:'Impact',
+                pointArr: ['Improved Access: 150 adolescent girls and women gained access to sanitary pads, ensuring a more comfortable and hygienic menstruation experience.', 'Increased Awareness: Participants acquired knowledge about proper menstrual hygiene practices and reproductive health, empowering them to make informed decisions about their well-being.', 'Reduced Stigma: Open discussions helped reduce stigma associated with menstruation, fostering a more supportive and understanding community environment.']
+            }
+        ],
+
+        Feedback: [
+            'Participants: Many participants expressed gratitude for the informative sessions and the provision of sanitary pads, emphasizing the importance of such initiatives in their community.',
+            'LSR College Volunteers: Volunteers from LSR College found the experience rewarding and highlighted the positive impact of education on menstrual hygiene in marginalized communities.'
+        ],
+
+        Conclusion: 'The collaborative effort between our organization and LSR College successfully addressed a critical need within the slum community. By providing sanitary pads and knowledge about reproductive health and hygiene, we have taken a significant step toward improving the overall well-being of adolescent girls and women. We remain committed to continuing such initiatives and fostering positive change in the lives of those in need.'
+
+    },
+
+        
+    {
+        id:6,
+        title: `Empower Women, Support Education of Girl Child, ${<br/>}Women Safety & Protection in Everyday Life, and Safety at Workplace Awareness Section for a Month Report`,
+        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
+        Date: 'October 2021',
+        Location: 'Faridabad',
+        Introduction: 'Throughout the month of October 2021, our organization, Renukiran Welfare Foundation, conducted a comprehensive awareness campaign and program dedicated to empowering women, supporting the education of the girl child, ensuring women"s safety and protection in everyday life, and raising awareness about safety at the workplace. This report summarizes the activities and outcomes of this a month-long initiative.',
+
+        Objectives: ['Empower women by providing them with essential knowledge and resources.', 'Support the education of girl children, emphasizing the importance of education in achieving gender equality.', 'Promote women"s safety and protection in everyday life.', 'Raise awareness about workplace safety, with a focus on women"s rights and safety at work.'],
+
+        Activites: [{
+            title:'Week 1: Empower Women:',
+            pointArr : ['Organized a series of workshops and webinars on financial literacy, leadership, and self-confidence.', 'Distributed informational pamphlets and resources to women in the community.', 'Collaborated with local NGOs to provide mentorship opportunities for women seeking career advancement.'],
+        }, 
+
+        {
+            title:'Week 2: Support Education of Girl Child:',
+            pointArr : ['Conducted awareness sessions in local schools, emphasizing the significance of education for girls.', 'Distributed educational materials, including school supplies and scholarships, to underprivileged girl students.', 'Hosted a fundraising event to support girls education initiatives.'],
+        }, 
+
+        {
+            title:'Week 3: Women Safety & Protection in Everyday Life:',
+            pointArr : ['Offered self defense workshops for women and girls.', 'Organized seminars on legal rights and how to report and seek help in cases of domestic violence or harassment.', 'Distributed personal safety kits to women, including pepper sprays and whistles.'],
+        }, 
+
+        {
+            title:'Week 4: Safety at Workplace Awareness:',
+            pointArr : ['Collaborated with local businesses to implement gender-neutral safety protocols and policies.', 'Conducted workshops on workplace safety, addressing issues such as harassment and discrimination.', 'Promoted dialogue between employees, employers, and government authorities to improve workplace safety for women.'],
+        }, 
+
+    ],
+        Impact: [
+        {
+            title:'Impact:',
+            pointArr: ['Over 300 women attended empowerment workshops and reported increased self-confidence and financial literacy.', '200 underprivileged girl children received educational support, including certificates and supplies.', 'More than 100 women and girls participated in self-defense training.', 'Numerous women gained knowledge about their legal rights and how to seek help in cases of abuse.', 'Several local businesses adopted improved workplace safety policies, enhancing the work environment for women.']
+        },
+
+        {
+            title:'Challenges and Future Plans:',
+            pointArr: ['Some challenges included reaching remote communities and overcoming cultural barriers.', 'Future plans involve expanding our initiatives, continuing awareness campaigns, and collaborating with more local organizations and government agencies to ensure sustained progress.']
+        }
+    ],
+
+        Feedback: [
+        'Residents: Families expressed gratitude for the support, emphasizing the relief provided by the ration and hygiene kits during a period of economic hardship and health concerns.',
+        ],
+
+        Conclusion: 'The month-long campaign dedicated to empowering women, supporting girl child education, ensuring women"s safety, and promoting workplace safety for women has made a significant impact in our community. By addressing these critical issues, we have taken substantial steps toward achieving gender equality and enhancing the well-being of women and girls. We are committed to continuing these efforts and working collaboratively with various stakeholders to create a safer and more empowering environment for women in our society.'
+
+    },
+
+
+    {
+        id:7,
         title: 'Free Walk-in Healthcare Camp for Residents & RWA Staff in Ghaziabad"s Colony: Renukiran Welfare Foundation Report',
         src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
         Date: 'April 12, 2020',
@@ -281,56 +331,103 @@ const eventData = [
     },
 
     
-    {
-        id:7,
-        title: 'Free Walk-in Healthcare Camp for Residents of Jaitpur Ext. (Badarpur) - Renukiran Welfare Foundation Report',
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
-        Date: 'July 15, 2022',
-        Location: 'Jaitpur Extension (Badarpur)',
-        Introduction: 'On July 15, 2022, the Renukiran Welfare Foundation organized a one-day free walk-in healthcare camp for the residents of Jaitpur Extension in Badarpur. The camp aimed to provide accessible healthcare services to the community, especially focusing on preventive care, general health check-ups, and medical consultations. The event was designed to address the healthcare needs of the underserved population, promoting overall well-being and health awareness.',
 
-        Objectives: ['Accessible Healthcare: To provide free medical consultations, basic health check-ups, and preventive healthcare services to the residents of Jaitpur Ext.', 'Health Education: To raise awareness about common health issues, preventive measures, and healthy lifestyle choices within the community.', 'Community Engagement: To engage with the residents, understand their healthcare concerns, and establish a sense of trust and cooperation.'],
+    {
+        id:8,
+        title: 'Snacks for Police Personnel in COVID-19 in Delhi Report',
+        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(7).webp',
+        Date: 'April-May, 2020 (45 Days)',
+        Location: 'South Delhi',
+        Introduction: 'Amid the challenging times brought about by the COVID-19 pandemic, our organization, Renukiran Welfare Foundation initiated a project to provide snacks and refreshments to the dedicated police personnel who was trying their best to keep us safe from Covid-19 in Delhi. Recognizing their relentless efforts in maintaining law and order, especially during the pandemic, this initiative aimed to show our gratitude and support for their hard work and sacrifice.',
+        Objectives: ['To express gratitude and appreciation to the police personnel in Delhi for their unwavering dedication during the COVID-19 pandemic.', 'To provide snacks and refreshments to boost the morale and energy of the police officers working tirelessly on the frontlines.', 'To strengthen community relations by demonstrating solidarity with law enforcement agencies.'],
 
         Activites: [{
-            title:'Medical Consultations:',
-            pointArr : ['Experienced doctors and healthcare professionals offered free consultations to individuals, addressing various health concerns and providing personalized advice.'],
+            title:'Snack Preparation:',
+            pointArr : ['Our volunteers prepared a variety of snacks, including sandwiches, fruit packs, energy bars, and beverages(tea/juices), ensuring nutritional value and freshness.','Strict adherence to COVID-19 safety protocols was maintained during the preparation, including regular hand sanitization and mask-wearing.'],
         }, 
 
         {
-            title:'Basic Health Check-ups:',
-            pointArr: ['Vital parameters such as blood pressure, blood sugar levels, and BMI were measured for all attendees to assess their overall health status.','Dental and eye check-ups were conducted, and necessary referrals were made for further specialized care.']
+            title:'Distribution Process:',
+            pointArr: ['Collaborated with local police stations and law enforcement agencies to identify high-impact areas where police personnel were stationed.', 'Organized snack distribution drives at these locations, ensuring timely and hygienic delivery of refreshments.'],
         },
 
         
         {
-            title:'Preventive Healthcare Services:',
-            pointArr: ['Immunization and vaccination services were provided for children, ensuring they were up-to-date with their immunization schedules.', 'Health education sessions were conducted on topics such as hygiene, nutrition, and the importance of regular exercise.']
+            title:'Safety Awareness:',
+            pointArr: ['Included informational pamphlets in the snack packs, providing COVID-19 safety tips and reminders on maintaining personal health and hygiene.', 'Encouraged police personnel to follow safety measures both at work and in their personal lives. Practical demonstrations were provided to ensure proper usage of sanitary pads and disposal methods.']
+        },
+    
+    ],
+        Impact: [
+            {
+                title:'Impact',
+                pointArr: ['Number of Police Personnel Served: Approximately 600 police officers across various stations in Delhi received snacks and refreshments.', 'Positive Feedback: Police personnel expressed gratitude for the thoughtful gesture, emphasizing the boost in their morale during challenging times.', 'Community Engagement: The initiative garnered positive attention on social media and local news outlets, enhancing community relations and inspiring other organizations to contribute to similar causes.']
+            }
+        ],
+
+        Feedback: [
+            'Police Personnel: Officers appreciated the initiative, acknowledging the support provided by the community and our organizations during the pandemic.',
+            'Community Members: The community expressed pride in the initiative, recognizing the importance of supporting frontline workers and law enforcement agencies.'
+        ],
+
+        Conclusion: 'The "Snacks for Police Personnel in COVID-19" initiative played a small yet significant role in expressing gratitude to the police officers who have been tirelessly working on the frontline during the pandemic. By providing refreshments and promoting awareness about COVID-19 safety, the initiative aimed not only to nourish the bodies of the police personnel but also to uplift their spirits and show the community solidarity and appreciation.We remain committed to supporting our frontline heroes and look forward to continuing our efforts in strengthening community bonds and fostering a sense of unity and resilience.'
+
+    },
+
+
+    
+
+    {
+        id:9,
+        title: 'National Science Centre Visit for Slum Children: Renukiran Welfare Foundation Report',
+        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
+        Date: 'March 5, 2019',
+        Location: 'Basantpur & Yamuna Pushta',
+        Introduction: 'On March 5, 2019, the Renukiran Welfare Foundation organized a special educational excursion to the National Science Centre for children from slum communities in Delhi. The aim of this initiative was to provide an enriching and educational experience to children who often lack access to such opportunities. The event was designed to engage the children in interactive learning, fun-filled activities, storytelling, and to provide them with wholesome meals, snacks, and a memorable day of exploration and learning.',
+
+        Objectives: ['Educational Enrichment: To expose slum children to the wonders of science, fostering a love for learning and curiosity about the world.', 'Nutritional Support: To provide wholesome snacks and lunch to ensure the children received adequate nutrition during the visit.', 'Cultural and Recreational Activities: To engage the children in storytelling sessions and fun-filled activities, promoting creativity and social interaction.'],
+
+        Activites: [{
+            title:'National Science Centre Visit:',
+            pointArr : ['Children were guided through interactive exhibits, science experiments, and demonstrations, enhancing their understanding of various scientific concepts.', 'Expert educators provided informative sessions on astronomy, physics, biology, and technology, sparking the children"s interest in STEM (Science, Technology, Engineering, Mathematics) fields.'],
+        }, 
+
+        {
+            title:'Nutritional Support:',
+            pointArr: ['Upon arrival, children were provided with nutritious snacks and beverages to energize them for the days activities.','A balanced and delicious lunch was served, ensuring the children received a fulfilling and healthy meal.']
+        },
+
+        
+        {
+            title:'Fun-filled Activities:',
+            pointArr: ['Engaging storytelling sessions were conducted, captivating the childrens imaginations and enhancing their language skills.', 'Creative workshops, including art and craft activities, puzzles, and group games, encouraged teamwork and creativity among the children.']
         },
 
         {
-            title:'Community Engagement:',
-            pointArr: ['Informational booths were set up, offering pamphlets, brochures, and interactive sessions to educate attendees about common health issues and preventive measures.', 'Volunteers engaged with the community, answering questions, providing guidance, and promoting the importance of regular health check-ups.']
-        },
-
+            title:'Exploration and Hands-on Learning:',
+            pointArr: ['Children were given the opportunity to participate in hands-on experiments and activities, promoting a deeper understanding of scientific concepts through exploration and play.']
+        }
+    
     ],
         Impact: [
         {
             title:'Impact',
-            pointArr: ['Number of Individuals Served: Approximately 800 residents from Jaitpur Ext. received medical consultations and healthcare services during the camp.', 'Health Awareness: Attendees gained valuable insights into their health status, received essential preventive care, and learned about healthy lifestyle choices.', 'Community Empowerment: The camp established a sense of trust and cooperation within the community, encouraging residents to prioritize their health and well-being.']
+            pointArr: ['Educational Empowerment: The visit inspired a keen interest in science among the children, encouraging them to explore further and consider future educational pursuits in STEM fields.', 'Nutritional Support: The provision of snacks and a nutritious lunch ensured the children had access to wholesome meals, supporting their overall well-being.', 'Cultural and Social Development: Storytelling and fun-filled activities promoted creativity, language skills, and social interaction, enhancing the childrens overall development.']
         }
     ],
 
         Feedback: [
-            'Residents: The residents expressed gratitude for the Foundation’s initiative, appreciating the accessible healthcare services and health education provided.',
-            'Healthcare Professionals: Medical staff and volunteers found the experience fulfilling, emphasizing the positive impact of community-based healthcare initiatives.'
+            'Children: The children expressed excitement and gratitude for the enriching experience, particularly enjoying the interactive exhibits and storytelling sessions.',
+            'Parents/Guardians: Parents appreciated the Foundation"s efforts in providing both educational and nutritional support to their children, expressing hopes for similar future initiatives.'
         ],
 
-        Conclusion: 'The free walk-in healthcare camp organized by the Renukiran Welfare Foundation played a crucial role in addressing the healthcare needs of the underserved community in Jaitpur Ext. By providing accessible medical consultations, basic health check-ups, and health education, the Foundation aimed to improve the overall health awareness and well-being of the residents. The event"s success underlines the importance of community engagement and accessible healthcare services, and the Foundation remains dedicated to continuing such initiatives to support the community"s health and wellness.'
+        Conclusion: 'The National Science Centre visit organized by the Renukiran Welfare Foundation provided a transformative experience for slum children, offering them not only a day of educational enrichment but also a sense of wonder and inspiration. By combining interactive learning, nutritional support, and fun-filled activities, the event aimed to break barriers to access quality education and holistic development. The Foundation remains committed to creating more such opportunities, fostering a brighter and more informed future for these young minds.'
 
     },
 
+    
     {
-        id:8,
+        id:10,
         title: 'Food Distribution Activity Report (2018)',
         src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(42).webp',
         Date: '15 March, 2018',
@@ -369,98 +466,7 @@ const eventData = [
         Conclusion: 'The food distribution activity was successful in reaching out to the vulnerable members of the community and providing them with essential food supplies. The event would not have been possible without the dedicated efforts of our volunteers and the support of our sponsors and donors. We remain committed to addressing food insecurity in our community and look forward to organizing more such initiatives in the future.'
 
     },
-    
-    {
-        id:9,
-        title: `Empower Women, Support Education of Girl Child, ${<br/>}Women Safety & Protection in Everyday Life, and Safety at Workplace Awareness Section for a Month Report`,
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
-        Date: 'October 2021',
-        Location: 'Faridabad',
-        Introduction: 'Throughout the month of October 2021, our organization, Renukiran Welfare Foundation, conducted a comprehensive awareness campaign and program dedicated to empowering women, supporting the education of the girl child, ensuring women"s safety and protection in everyday life, and raising awareness about safety at the workplace. This report summarizes the activities and outcomes of this a month-long initiative.',
 
-        Objectives: ['Empower women by providing them with essential knowledge and resources.', 'Support the education of girl children, emphasizing the importance of education in achieving gender equality.', 'Promote women"s safety and protection in everyday life.', 'Raise awareness about workplace safety, with a focus on women"s rights and safety at work.'],
-
-        Activites: [{
-            title:'Week 1: Empower Women:',
-            pointArr : ['Organized a series of workshops and webinars on financial literacy, leadership, and self-confidence.', 'Distributed informational pamphlets and resources to women in the community.', 'Collaborated with local NGOs to provide mentorship opportunities for women seeking career advancement.'],
-        }, 
-
-        {
-            title:'Week 2: Support Education of Girl Child:',
-            pointArr : ['Conducted awareness sessions in local schools, emphasizing the significance of education for girls.', 'Distributed educational materials, including school supplies and scholarships, to underprivileged girl students.', 'Hosted a fundraising event to support girls education initiatives.'],
-        }, 
-
-        {
-            title:'Week 3: Women Safety & Protection in Everyday Life:',
-            pointArr : ['Offered self defense workshops for women and girls.', 'Organized seminars on legal rights and how to report and seek help in cases of domestic violence or harassment.', 'Distributed personal safety kits to women, including pepper sprays and whistles.'],
-        }, 
-
-        {
-            title:'Week 4: Safety at Workplace Awareness:',
-            pointArr : ['Collaborated with local businesses to implement gender-neutral safety protocols and policies.', 'Conducted workshops on workplace safety, addressing issues such as harassment and discrimination.', 'Promoted dialogue between employees, employers, and government authorities to improve workplace safety for women.'],
-        }, 
-
-    ],
-        Impact: [
-        {
-            title:'Impact:',
-            pointArr: ['Over 300 women attended empowerment workshops and reported increased self-confidence and financial literacy.', '200 underprivileged girl children received educational support, including certificates and supplies.', 'More than 100 women and girls participated in self-defense training.', 'Numerous women gained knowledge about their legal rights and how to seek help in cases of abuse.', 'Several local businesses adopted improved workplace safety policies, enhancing the work environment for women.']
-        },
-
-        {
-            title:'Challenges and Future Plans:',
-            pointArr: ['Some challenges included reaching remote communities and overcoming cultural barriers.', 'Future plans involve expanding our initiatives, continuing awareness campaigns, and collaborating with more local organizations and government agencies to ensure sustained progress.']
-        }
-    ],
-
-        Feedback: [
-        'Residents: Families expressed gratitude for the support, emphasizing the relief provided by the ration and hygiene kits during a period of economic hardship and health concerns.',
-        ],
-
-        Conclusion: 'The month-long campaign dedicated to empowering women, supporting girl child education, ensuring women"s safety, and promoting workplace safety for women has made a significant impact in our community. By addressing these critical issues, we have taken substantial steps toward achieving gender equality and enhancing the well-being of women and girls. We are committed to continuing these efforts and working collaboratively with various stakeholders to create a safer and more empowering environment for women in our society.'
-
-    },
-
-    {
-        id:10,
-        title: `COVID Relief - Ration & Hygiene Kit Distribution for Residents of Yamuna Bank Settlement Report`,
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(5).webp',
-        Date: 'June, 2023',
-        Location: 'Basant-pur & Yamuna Pushta',
-        Introduction: 'In response to the ongoing challenges posed by the COVID-19 pandemic, our organization, Renukiran Welfare Foundation initiated a relief effort to provide essential supplies to the residents of Yamuna Bank Settlement, one of the vulnerable & most backward communities in Delhi severely affected by the pandemic & natural disasters. This initiative focused on distributing ration kits and hygiene supplies to alleviate the immediate needs of the residents and promote hygiene practices during these challenging times.',
-
-        Objectives: ['To provide essential food supplies through ration kits to families facing economic hardship due to the COVID-19 pandemic.', 'To distribute hygiene kits containing essential items to promote cleanliness and prevent the spread of COVID-19 among the residents.', 'To offer support and solidarity to the vulnerable communities in Yamuna Bank Settlement.'],
-
-        Activites: [{
-            title:'Ration Kit Distribution:',
-            pointArr : ['Prepared and distributed 500 ration kits containing staple food items such as rice, wheat flour, lentils, cooking oil, and spices.', 'Collaborated with local suppliers and ensured the quality and nutritional value of the items included in the kits.'],
-        }, 
-
-        {
-            title:'Hygiene Kit Distribution:',
-            pointArr : ['Assembled and distributed 500 hygiene kits containing masks, sanitizers, soap, disinfectant wipes, and informational pamphlets on COVID-19 prevention.', 'Conducted demonstrations on proper handwashing techniques and mask usage to promote good hygiene practices.'],
-        }, 
-
-        {
-            title:'Community Engagement:',
-            pointArr : ['Organized awareness sessions on COVID-19 prevention, emphasizing the importance of social distancing, mask usage, and vaccination.', 'Engaged with community leaders and volunteers to ensure the efficient distribution of relief kits and address specific needs within the settlement.'],
-        }, 
-
-    ],
-        Impact: [
-        {
-            title:'Impact:',
-            pointArr: ['Number of Families Served: 110 families in Yamuna Bank Settlement received ration kits and hygiene supplies, benefiting approximately 500 individuals.', 'Immediate Relief: Families gained access to essential food items, ensuring they had sufficient meals during the challenging times.', 'Hygiene Awareness: Residents received crucial hygiene supplies and education, empowering them to protect themselves and their community from COVID-19.', 'Community Strengthening: The initiative fostered a sense of community solidarity and demonstrated the collective strength of the residents in facing the pandemic.']
-        },
-    ],  
-
-        Feedback: [
-        'Residents: Families expressed gratitude for the support, emphasizing the relief provided by the ration and hygiene kits during a period of economic hardship and health concerns.', 'Local Leaders: Community leaders appreciated the initiative, acknowledging the positive impact on the settlement"s overall well-being.'
-        ],
-
-        Conclusion: 'The COVID relief effort in Yamuna Bank Settlement successfully addressed immediate needs related to food security and hygiene awareness. By providing essential supplies and promoting good hygiene practices, the initiative aimed to mitigate the impact of the pandemic on backward and vulnerable families. We are committed to continuing our support for communities affected by COVID-19 and will work tirelessly to provide relief and promote resilience during these challenging times.'
-
-    },
 
 ]
 
