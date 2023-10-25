@@ -67,7 +67,7 @@ const DonateNow = () => {
               <h3 className='md:text-2xl text-base md:font-bold font-semibold md:mb-4 mb-2'>Give where the need is greatest</h3>
 
 
-              <p className='md:text-base text-sm md:mb-4 mb-4 text-slate-500 text-justify'>Your donation makes a big impact! It helps provide education, healthcare, and relief to those less fortunate. Your kindness sparks positive change and brings smiles to faces in need.</p>
+              <p className='md:text-base text-sm md:mb-4 mb-4 text-slate-500 text-start'>Your donation makes a big impact! It helps provide education, healthcare, and relief to those less fortunate. Your kindness sparks positive change and brings smiles to faces in need.</p>
 
               <a href="https://rzp.io/l/renukiran" target='_blank'>
               <button  className='uppercase md:py-3 md:px-8 py-1 px-4 mt-4 text-white hover:bg-[#223752] bg-[#2e5893]'>Donate now</button>
