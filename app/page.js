@@ -1,7 +1,6 @@
 import Carousel from '@/components/Carousel'
 import {register} from 'swiper/element/bundle';
 register();
-import Partners from '@/components/Partners';
 import Analytics from '@/components/analytics';
 import Homeabout from '@/components/Homeabout';
 import AvinashInfo from '@/components/AvinashInfo';
