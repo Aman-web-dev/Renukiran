@@ -19,11 +19,8 @@ export default function Home() {
       <AvinashInfo />
       <WhatWeProvide />
       <Campaign/>
-      {/* <Partners /> */}
       <CompanysLogo />
-      {/* <Analytics/> */}
       <LastSection />
-      {/* <NewCarousel/> */}
     </main>
     </>
   )
