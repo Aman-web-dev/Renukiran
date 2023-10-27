@@ -7,11 +7,9 @@ function Founders() {
 
 
       useEffect(()=>{
-
             document.title = "Renukiran-Founders"
-          
-          
           },[])
+          
   return (
     <div className='flex flex-col items-center my-4 p-2 text-center'>
       <h1 className="flex items-center text-5xl text-blue-900 font-extrabold dark:text-blue-800 my-4">Founders<span className="bg-blue-100 text-blue-800 text-2xl font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-2">RWF</span></h1>
@@ -41,7 +39,7 @@ He holds over 11 years of professional work experience with Civil Society Organi
 <div className='flex flex-col justify-center text-center text-lg my-4 p-2 md:mx-52 sm:mx-12 mx-0 text-black'>
       <div className='flex justify-center flex-col'>
             <div className='my-4'>
-                  <img src='https://renukiran.b-cdn.net/backgroundImages/Driector.JPG' loading='lazy' className='rounded-xl w-full' alt='Pooja Gupta'/>
+                  <Image width={800} height={600} src='https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FDriector%20(1).webp?alt=media&token=87ed5971-4652-422d-8a45-aeedf4ae2fd5&_gl=1*l79mt9*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5NjI4NC40OS4wLjA.' loading='lazy' className='rounded-xl w-full' alt='Pooja Gupta'/>
             </div>
             <div  className='text-start md:text-justify'>
       Pooja Gupta, the Co-Founder and Director of Renukiran is born and brought up in the state of Uttar Pradesh, Agra. 
