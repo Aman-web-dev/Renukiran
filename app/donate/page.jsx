@@ -1,10 +1,9 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import './donatePage.css'
 import Image from 'next/image'
-import Form from '@/components/form'
-import Modal from '@/components/modal'
+
 
 const DonateNow = () => {
 
@@ -16,21 +15,6 @@ const DonateNow = () => {
 
   }, [])
 
-  const [clicked, setClicked] = useState(false)
-
-  const handleClick = () => {
-
-    console.log('clicked')
-
-    if (clicked == true) {
-      setClicked(false)
-    }
-
-    else {
-      setClicked(true)
-    }
-
-  }
   return (
     <>
       <section className='w-full md:h-[90vh] h-[50vh]'>
