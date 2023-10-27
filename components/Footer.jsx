@@ -4,6 +4,7 @@ import Image from 'next/image'
 import fb from '../public/assets/icons/facebook.svg'
 import ig from '../public/assets/icons/ig.svg'
 import x from '../public/assets/icons/twitter.svg'
+import linkedin from '../public/assets/icons/linkedinrenukiran.svg'
 
 const Footer = () => {
   return (
@@ -26,6 +27,9 @@ const Footer = () => {
           </a>
           <a href="https://www.instagram.com/renukiran_foundation/?hl=en">
             <Image src={ig} width={35} height={30} viewBox='0 0 24 24' className='fill-current' />
+          </a>
+          <a href="https://in.linkedin.com/company/renukiran-welfare-foundation">
+            <Image src={linkedin} width={30} height={30} viewBox='0 0 24 24' className='fill-current' />
           </a>
         </div>
       </nav>
