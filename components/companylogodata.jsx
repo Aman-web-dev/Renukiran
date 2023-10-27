@@ -6,7 +6,6 @@ import ey from '../public/assets/icons/company logo/ey.svg'
 import hdfc from '../public/assets/icons/company logo/Hdfc.svg'
 import jica from '../public/assets/icons/company logo/jica-seeklogo.com.svg'
 import jpmorgan from '../public/assets/icons/company logo/JPmorgan.svg'
-import mcd from '../public/assets/icons/company logo/mcd.svg'
 import niit from '../public/assets/icons/company logo/niit.svg'
 import opjindal from '../public/assets/icons/company logo/opjindal.svg'
 import tata from '../public/assets/icons/company logo/tatacomm.svg'
@@ -62,7 +61,7 @@ const companyLogo = [
 
     {
         id:8,
-        icon: mcd,
+        icon: mcdd,
     }, 
 
     {
@@ -139,11 +138,6 @@ const companyLogo = [
         id:23,
         icon: blessingsfoundation,
     }, 
-
-    {
-        id:24,
-        icon: mcdd,
-    },
 
 ]
 
