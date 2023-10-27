@@ -133,7 +133,7 @@ const eventData = [
     {
         id:4,
         title: 'Free Walk-in Healthcare Camp for Residents of Jaitpur Ext. (Badarpur) - Renukiran Welfare Foundation Report',
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
+        src: 'https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FmedicalCamp2.webp?alt=media&token=aa250237-760d-4442-9a51-a7f618d77d55&_gl=1*1nyvos0*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5OTkwNy41OS4wLjA.',
         Date: 'July 15, 2022',
         Location: 'Jaitpur Extension (Badarpur)',
         Introduction: 'On July 15, 2022, the Renukiran Welfare Foundation organized a one-day free walk-in healthcare camp for the residents of Jaitpur Extension in Badarpur. The camp aimed to provide accessible healthcare services to the community, especially focusing on preventive care, general health check-ups, and medical consultations. The event was designed to address the healthcare needs of the underserved population, promoting overall well-being and health awareness.',
@@ -181,7 +181,7 @@ const eventData = [
     {
         id:5,
         title: 'Adolescent Girls & Women Sanitary Pad Distribution in Slum Community Report',
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
+        src: 'https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Fsanitarypad.webp?alt=media&token=95880364-7b55-4fe1-bcc6-c7660497d90f&_gl=1*1ooymrr*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5OTgyOC41OS4wLjA.',
         Date: 'September 20, 2021',
         Location: 'Faridpuri',
         Introduction: 'In collaboration with LSR College, our organization, Renukiran Welfare Foundation, conducted a sanitary pad distribution initiative in a slum community on September 20, 2021. The aim of this program was to provide essential sanitary pads to adolescent girls and women in need, while also imparting knowledge about reproductive health and hygiene. This report outlines the activities undertaken and the impact achieved during this initiative.',
@@ -228,7 +228,7 @@ const eventData = [
     {
         id:6,
         title: `Empower Women, Support Education of Girl Child, ${<br/>}Women Safety & Protection in Everyday Life, and Safety at Workplace Awareness Section for a Month Report`,
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
+        src: 'https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FwomenEmpowerment.webp?alt=media&token=30e4f92b-a3dd-463d-af00-86a043205adb&_gl=1*3160c3*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5OTcwNS4yNC4wLjA.',
         Date: 'October 2021',
         Location: 'Faridabad',
         Introduction: 'Throughout the month of October 2021, our organization, Renukiran Welfare Foundation, conducted a comprehensive awareness campaign and program dedicated to empowering women, supporting the education of the girl child, ensuring women"s safety and protection in everyday life, and raising awareness about safety at the workplace. This report summarizes the activities and outcomes of this a month-long initiative.',
@@ -280,7 +280,7 @@ const eventData = [
     {
         id:7,
         title: 'Free Walk-in Healthcare Camp for Residents & RWA Staff in Ghaziabad"s Colony: Renukiran Welfare Foundation Report',
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
+        src: 'https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FMedicalCamp.webp?alt=media&token=ff84bd53-a941-45bc-b07a-3c3d78efe0aa&_gl=1*kt5itj*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5OTg3MS4xNi4wLjA.',
         Date: 'April 12, 2020',
         Location: 'Ghaziabad',
         Introduction: 'On April 12, 2020, the Renukiran Welfare Foundation organized a one-day free walk-in healthcare camp in Ghaziabad"s Colony. This initiative aimed to provide essential healthcare services to the residents and staff of the Residents Welfare Association (RWA) in the community. The camp offered a range of medical services, consultations, health check-ups, and distributed necessary medications to those in need.',
