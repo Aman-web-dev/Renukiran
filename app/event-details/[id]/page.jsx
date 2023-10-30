@@ -8,7 +8,7 @@ const EventDetails = ({params}) => {
 
   return (
     <section className='w-full h-auto my-16 px-8'>
-        <div className='md:w-[45vw] md:h-[50vh] mx-auto mb-12' style={{position:'relative', aspectRatio:'16/9'}}>
+        <div className='md:w-[45vw] md:h-[55vh] h-[56.25vw] w-[85vw] mx-auto mb-12' style={{position:'relative'}}>
             <Image loading='lazy' src={pageData.src} fill='true' alt={pageData.title} quality={55} decoding='async' />
         </div>
 

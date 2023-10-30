@@ -1,7 +1,8 @@
+'use client'
+import { useEffect } from 'react';
 import Carousel from '@/components/Carousel'
 import {register} from 'swiper/element/bundle';
 register();
-import Analytics from '@/components/analytics';
 import Homeabout from '@/components/Homeabout';
 import AvinashInfo from '@/components/AvinashInfo';
 import WhatWeProvide from '@/components/WhatWeProvide';
