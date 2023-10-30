@@ -2,8 +2,8 @@ import React from 'react'
 
 const PrivacyPolicy = () => {
   return (
-    <section className='text-start md:px-16 py-12 text-black'>
-        <header className='mb-8 font-bold text-4xl'>Privay Policy</header>
+    <section className='px-8 text-start md:px-16 py-12 text-black'>
+        <header className='text-3xl mb-8 font-bold md:text-4xl'>Privay Policy</header>
         <h1>
         With our office located at B-122, Upper Ground Floor, Gali Number 13, Amritpuri, Garhi, New Delhi, 110065 ("Renukiran Welfare", "we", "us", "our"), this privacy policy ("Policy") will help you understand how and why The Renukiran Welfare Foundation (India) Trust collects information from you, how we use it, including whether and how we share it with third parties, and the choices you have regarding your information.
         </h1>
@@ -64,9 +64,9 @@ const PrivacyPolicy = () => {
         <div className='mb-6'>
             <h2 className='font-bold mb-4'>6. External Web Services</h2>
 
-            <li>Third-party web beacons and buttons collect information directly; Naz is not involved in this process. This kind of information collection is subject to the data collection, use, and disclosure policies of the third party that collected it. Such third parties and the way they gather and use your information are not covered by this Policy.</li>
+            <li>Third-party web beacons and buttons collect information directly; Renukiran Welfare Foundation is not involved in this process. This kind of information collection is subject to the data collection, use, and disclosure policies of the third party that collected it. Such third parties and the way they gather and use your information are not covered by this Policy.</li>
 
-            <li>When such a third party collects, uses, and retains personal information about a user, Naz is not liable or expressly responsible for any loss or damage that results. Before providing any information, it is crucial that you read the privacy policies on every website owned by a third party that you visit.</li>
+            <li>When such a third party collects, uses, and retains personal information about a user, Renukiran Welfare Foundation is not liable or expressly responsible for any loss or damage that results. Before providing any information, it is crucial that you read the privacy policies on every website owned by a third party that you visit.</li>
 
         </div>
 

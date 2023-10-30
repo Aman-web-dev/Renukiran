@@ -35,6 +35,7 @@ const Footer = () => {
         <div className='md:flex block md:space-x-0 '>
           <Link href="/terms-conditions" className='md:border-r pr-2 md:hover:underline border-[#9CA3B0]'>Terms & Conditions</Link>
           <Link href="/privacy-policy" className='md:border-r px-2 md:hover:underline border-[#9CA3B0]'>Privacy Policy</Link>
+          <Link href="/refund-cancellation-policy" className='md:border-r px-2 md:hover:underline border-[#9CA3B0]'>Refund Policy</Link>
           <Link href="/contact" className='md:border-r px-2 md:hover:underline border-[#9CA3B0]'>Contact Us</Link>
         </div>
       </nav>

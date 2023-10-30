@@ -2,8 +2,8 @@ import React from 'react'
 
 const TermsAndConditions = () => {
   return (
-    <section className='text-start md:px-16 py-12 text-black'>
-        <h1 className='md:text-4xl'>Terms and Conditions - Renukiran Welfare Foundation</h1>
+    <section className='px-8 text-start md:px-16 py-12 text-black'>
+        <h1 className='text-3xl md:text-4xl font-bold'>Terms and Conditions</h1>
         <div className='my-8'>
             <p>Since 2018, the Renukiran Welfare Foundation (India) Trust, a non-governmental organization established in New Delhi, has worked in the fields of gender, health, and rights . The Foreign Contribution Regulation Act has registered Renukiran Welfare Foundation as a charity trust.</p>
 
