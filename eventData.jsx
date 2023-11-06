@@ -380,7 +380,7 @@ const eventData = [
     {
         id:9,
         title: 'National Science Centre Visit for Slum Children: Renukiran Welfare Foundation Report',
-        src: 'https://renukiran.b-cdn.net/event%20images%20webp/1%20(1).webp',
+        src: 'https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/assests%2FsciEve.webp?alt=media&token=9cb1f5c5-7708-499d-aafe-23c4c68fcf61&_gl=1*1ytg1jf*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5OTI0ODM5MS4xMS4xLjE2OTkyNDg1MTYuMjEuMC4w',
         Date: 'March 5, 2019',
         Location: 'Basantpur & Yamuna Pushta',
         Introduction: 'On March 5, 2019, the Renukiran Welfare Foundation organized a special educational excursion to the National Science Centre for children from slum communities in Delhi. The aim of this initiative was to provide an enriching and educational experience to children who often lack access to such opportunities. The event was designed to engage the children in interactive learning, fun-filled activities, storytelling, and to provide them with wholesome meals, snacks, and a memorable day of exploration and learning.',
