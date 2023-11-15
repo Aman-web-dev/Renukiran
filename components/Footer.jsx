@@ -18,13 +18,13 @@ const Footer = () => {
       <nav>
         <header className="footer-title">Social</header>
         <div className="gap-4 flex items-center">
-          <a href="https://twitter.com/RenukiranW">
+          <a href="https://twitter.com/RenukiranW" target='_blank'>
             <Image src={x} width={30} height={30} viewBox='0 0 24 24' className='fill-current' />
           </a>
-          <a href="https://www.facebook.com/renukiranorg/">
+          <a href="https://www.facebook.com/renukiranorg/" target='_blank'>
             <Image src={fb} width={30} height={30} viewBox='0 0 24 24' className='fill-current' />
           </a>
-          <a href="https://www.instagram.com/renukiran_foundation/?hl=en">
+          <a href="https://www.instagram.com/renukiran_foundation/?hl=en" target='_blank'>
             <Image src={ig} width={35} height={30} viewBox='0 0 24 24' className='fill-current' />
           </a>
         </div>
