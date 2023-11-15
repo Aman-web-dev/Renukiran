@@ -6,13 +6,11 @@ import ey from '../public/assets/icons/company logo/ey.svg'
 import hdfc from '../public/assets/icons/company logo/Hdfc.svg'
 import jica from '../public/assets/icons/company logo/jica-seeklogo.com.svg'
 import jpmorgan from '../public/assets/icons/company logo/JPmorgan.svg'
-import mcd from '../public/assets/icons/company logo/mcd.svg'
 import niit from '../public/assets/icons/company logo/niit.svg'
 import opjindal from '../public/assets/icons/company logo/opjindal.svg'
 import tata from '../public/assets/icons/company logo/tatacomm.svg'
 import titan from '../public/assets/icons/company logo/titan.svg'
 import goodera from '../public/assets/icons/company logo/goodera.svg'
-import mit from '../public/assets/icons/company logo/mit.svg'
 import drc from '../public/assets/icons/company logo/drc.svg'
 import matasundari from '../public/assets/icons/company logo/matasundari.svg'
 import gargi from '../public/assets/icons/company logo/gargi.svg'
@@ -22,6 +20,8 @@ import ibm from '../public/assets/icons/company logo/ibm.svg'
 import goonj from '../public/assets/icons/company logo/goonj.svg'
 import blessingsfoundation from '../public/assets/icons/company logo/blessingsfoundation.svg'
 import mitujjain from '../public/assets/icons/company logo/mitujjain.svg'
+import du from '../public/assets/icons/company logo/du.svg'
+import mcdd from '../public/assets/icons/company logo/Mcdd.svg'
 
 const companyLogo = [
     {
@@ -61,7 +61,7 @@ const companyLogo = [
 
     {
         id:8,
-        icon: mcd,
+        icon: mcdd,
     }, 
 
     {

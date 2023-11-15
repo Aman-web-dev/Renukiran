@@ -9,7 +9,7 @@ const AvinashInfo = () => {
         <hr className='mb-6' />
 
       </div>
-      <div><h3 className='text-white text-xl font-bold flex-grow '>
+      <div><h3 className='text-white text-xl font-bold flex-grow text-start'>
         "Renukiran NGO is a beacon of hope, tirelessly addressing hunger, poverty, and environmental challenges. Through their selfless efforts, they've sown seeds of positive change, nurturing a better world for all."
       </h3></div>
     </section>

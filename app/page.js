@@ -1,8 +1,8 @@
+'use client'
+import { useEffect } from 'react';
 import Carousel from '@/components/Carousel'
 import {register} from 'swiper/element/bundle';
 register();
-import Partners from '@/components/Partners';
-import Analytics from '@/components/analytics';
 import Homeabout from '@/components/Homeabout';
 import AvinashInfo from '@/components/AvinashInfo';
 import WhatWeProvide from '@/components/WhatWeProvide';
@@ -20,11 +20,8 @@ export default function Home() {
       <AvinashInfo />
       <WhatWeProvide />
       <Campaign/>
-      {/* <Partners /> */}
       <CompanysLogo />
-      {/* <Analytics/> */}
       <LastSection />
-      {/* <NewCarousel/> */}
     </main>
     </>
   )
