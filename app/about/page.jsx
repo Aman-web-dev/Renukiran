@@ -14,7 +14,7 @@ function About() {
   return (
     <div className='flex flex-col items-center md:text-justify text-start my-4 px-4'>
      
-<h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"><span className='text-green-600'>Renukiran</span> <span className='text-blue-500'>"Kiran Umeed Ki"</span></h1>
+<h1 className="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"><span className='text-green-600'></span> <span className='text-[#205893]'> Renukiran - Kiran Umeed Ki</span></h1>
 <p className="mb-6 text-lg font-normal  text-black lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"> Renukiran Welfare Foundation is a rooted non-profit organization committed towards making a positive and lasting impact on communities inhabited across varying regions of India. Since our inception, we have worked tirelessly to address pressing humanitarian challenges. Our mission is to create a more equitable and sustainable world by providing essential support, resources, and advocacy for those in need. The organisation is registered under Section 8 of the Companies Act, 2013. Its paradigm revolves around United Nations (UN) Sustainable Development Goals 2, 3, 4, and 8. These are defined and directed in helping communities raising at a standard of Zero Hunger, Good Health and Well-Being, Quality education, and Decent Work and Economic Growth..
 </p>
 
