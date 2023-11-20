@@ -15,6 +15,8 @@ const ContactUs = () => {
   const [subject, setSubject] = useState('')
   const [message, setMessage] = useState('')
   const [date, setDate] = useState('')
+  const [buttonText,setButtonText] =useState("Send Message")
+  const [buttonState,setButtonState] =useState(false)
 
 
 
@@ -27,6 +29,8 @@ const ContactUs = () => {
 
 
   const handleFromSubmit = async (e) => {
+    setButtonState(true);
+    setButtonText("Sending")
 
     e.preventDefault();
 
@@ -57,6 +61,8 @@ const ContactUs = () => {
       setMessage("")
       setName("")
       setSubject("")
+      setButtonState(false);
+      setButtonText("Send Message")
       console.log(result)
     }
   }
@@ -67,7 +73,7 @@ const ContactUs = () => {
   }
   return (
     <>
-      <section className='w-full md:h-[90vh] h-[50vh]'>
+      {/* <section className='w-full md:h-[90vh] h-[50vh]'>
         <div id='realtive w-[100%] h-[100%] overflow-hidden first-image-container'>
           <div className='text-container absolute z-20 md:ml-40 ml-6'>
             <h2 className='uppercase text-white md:font-extrabold md:text-4xl'>Contact Now</h2>
@@ -82,7 +88,7 @@ const ContactUs = () => {
           <div className='h-[50vh] bg-gray-300'>hi</div>
 
         </div>
-      </section>
+      </section> */}
 
 
 
@@ -127,7 +133,7 @@ const ContactUs = () => {
             </div>
 
 
-            <button type="submit" className="focus:outline-none text-white bg-[#205893]   focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Send Message</button>
+            <button type="submit" className="focus:outline-none text-white bg-[#205893]   focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900" disblaed={buttonState} >{buttonText}</button>
 
           </form>
 
