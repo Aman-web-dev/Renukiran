@@ -37,6 +37,8 @@ const Footer = () => {
           <Link href="/privacy-policy" className='md:border-r px-2 md:hover:underline border-[#9CA3B0]'>Privacy Policy</Link>
           <Link href="/refund-cancellation-policy" className='md:border-r px-2 md:hover:underline border-[#9CA3B0]'>Refund Policy</Link>
           <Link href="/contact" className='md:border-r px-2 md:hover:underline border-[#9CA3B0]'>Contact Us</Link>
+          <Link href="/careers" className='md:border-r px-2 md:hover:underline border-[#9CA3B0]'>Careers</Link>
+
         </div>
       </nav>
     </footer>

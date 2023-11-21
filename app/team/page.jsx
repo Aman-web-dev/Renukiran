@@ -56,6 +56,13 @@ function Team() {
         <TeamCards name={"Rajnikant"} designation={"Web  Developer & Event Volunteer"} pic={"https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Frajni%20about.webp?alt=media&token=47d543d2-61d4-42fb-ad03-dde3aa37c458&_gl=1*8m215w*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5ODEwMC42MC4wLjA."} desc={"I'm Rajnikant, your web developer hailing from the bustling streets of Delhi, India. I'm currently in my second year at Maharishi Dayanand University, passionately immersing myself in the world of web development. In parallel, I'm fueling my skills as a web developer during my internship at Renukiran Welfare Foundation. Much like the legendary Rajnikant's invincible presence, I bring unwavering dedication to every project I undertake. I believe in the power of teamwork and the magic of collaboration. Sharing knowledge and working collectively are values I hold dear."} />
 
       </div>
+
+<a href='/careers'>
+      <button class= " my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+JOIN OUR TEAM 
+</button>
+
+</a>
     </section>
 
   )
