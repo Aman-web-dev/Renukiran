@@ -16,8 +16,8 @@ function Team() {
 
     <section className="flex flex-col items-center w-[90vw] m-auto text-center">
 
-      <h1 class="my-4 font-extrabold leading-none tracking-tight text-gray-900 text-3xl md:text-5xl lg:text-6xl dark:text-white">Our Resilient <span className='' >Renukiran Team</span> </h1>
-      <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 text-center">Renukiran Welfare Foundation values its employees, nourishing their internal strength and treating them with respect by actively listening to their ideas and offering support in every way.</p>
+      <h1 className="my-4 font-extrabold leading-none tracking-tight text-gray-900 text-3xl md:text-5xl lg:text-6xl dark:text-white">Our Resilient <span className='' >Renukiran Team</span> </h1>
+      <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 text-center">Renukiran Welfare Foundation values its employees, nourishing their internal strength and treating them with respect by actively listening to their ideas and offering support in every way.</p>
 
 
       <div className="flex flex-wrap gap-4 w-[90vw] m-auto ">
@@ -58,7 +58,7 @@ function Team() {
       </div>
 
 <a href='/careers'>
-      <button class= " my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <button className= " my-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
 JOIN OUR TEAM 
 </button>
 
