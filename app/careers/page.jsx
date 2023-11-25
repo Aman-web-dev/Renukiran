@@ -60,6 +60,8 @@ function Page() {
       setCoverLetter("")
       setEducation("")
       setPhoneNumber("")
+      setAddress.city("")
+      
       setButtonState(false);
       setButtonText("Submit")
       console.log(result)
