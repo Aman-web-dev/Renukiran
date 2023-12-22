@@ -24,9 +24,9 @@ Our organisational vision and Mission initiated through shared dream of Avinash 
 
 
 <p className='mb-6 text-lg font-normal  text-black lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400'>
-In those days’ teaching the children belonging from the farmer communities and daily wage workers living at the riverbanks of Yamuna in Delhi after the office hours and weekends has been a day-to-day activity of these two changemakers. Driving unto this path they also started with food distribution drives, healthcare camps, and WASH campaigns. Bringing together all these efforts and collaboration RENUKIRAN WELFARE FOUNDATION was officially established in the year 2018. With a never-ending enthusiasm and passion to nurture lives of the many underprivileged children, woman, and communities became the organization’s foundational element. Our projects are spreaded across 4 Programme verticals: 
+In those days’ teaching the children belonging from the farmer communities and daily wage workers living at the riverbanks of Yamuna in Delhi after the office hours and weekends has been a day-to-day activity of these two changemakers. Driving unto this path they also started with food distribution drives, healthcare camps, and WASH campaigns. Bringing together all these efforts and collaboration RENUKIRAN WELFARE FOUNDATION was officially established in the year 2018. With a never-ending enthusiasm and passion to nurture lives of the many underprivileged children, woman, and communities became the organization’s foundational element. Our projects are spreaded across 4 Programme verticals. Details Of those can Be read in 
+<a href="/programs" className='text-blue-500'> Programs </a> 
 </p>
-
     </div>
   )
 }
