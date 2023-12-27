@@ -12,12 +12,12 @@ const Footer = () => {
   return (
 
     
-    <footer class="relative bg-white pb-6 text-black">
+    <footer class="relative bg-white pb-6 text-black my-4">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap text-left lg:text-left">
           <div class="w-full lg:w-6/12 px-4">
             <Image src={logo} className='w-40'/>  
-            <h4 class="text-3xl fonat-semibold text-blueGray-700 font-extrabold my-4">Renukiran Welfare Foundation</h4>
+            <h4 class="text-4xl fonat-semibold text-blueGray-700 font-bold ">Renukiran Welfare Foundation</h4>
             <h5 class="text-lg mt-0 mb-2 text-blueGray-600 font-bold">
             Renukiran is a Civil Society Organisation that promotes programmes through Quality Education, Digital literacy, Medical facilitation services, Skill trainings and Women empowerment to underprivileged communities, transforming lives with compassion and dedication. These impactful initiatives have empowered thousands and fostered a brighter future for those in real need across various parts in India.
             </h5>
@@ -39,22 +39,22 @@ const Footer = () => {
           </a>
         </div>
           </div>
-          <div class="w-full lg:w-6/12 px-4">
+          <div class="w-full lg:w-6/12 px-4 my-auto">
             <div class="flex flex-wrap items-top mb-6">
               <div class="w-full lg:w-4/12 px-4 ml-auto">
                 <span class="block uppercase text-blueGray-500 text-2xl font-semibold mb-2">Useful Links</span>
                 <ul class="list-unstyled">
                   <li>
-                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-xl" href="/about">About Us</a>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="/about">About Us</a>
                   </li>
                   <li>
-                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-xl" href="h/donate">Donate</a>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="h/donate">Donate</a>
                   </li>
                   <li>
-                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-xl" href="/contact">Contact</a>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="/contact">Contact</a>
                   </li>
                   <li>
-                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-xl" href="/careers">Join Us</a>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="/careers">Join Us</a>
                   </li>
                 </ul>
               </div>
@@ -62,39 +62,31 @@ const Footer = () => {
                 <span class="block uppercase text-blueGray-500 text-2xl font-semibold mb-2">Quick Links</span>
                 <ul class="list-unstyled text-3xl">
                   <li>
-                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-xl" href="/refund-cancellation-policy">Refund Policy</a>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="/refund-cancellation-policy">Refund Policy</a>
                   </li>
                   <li>
-                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-xl" href="/terms-conditions">Terms &amp; Conditions</a>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="/terms-conditions">Terms &amp; Conditions</a>
                   </li>
                   <li>
-                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-xl" href="privacy-policy">Privacy Policy</a>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="privacy-policy">Privacy Policy</a>
                   </li>
                   <li>
-                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-xl" href="contact">Contact Us</a>
+                    <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="contact">Contact Us</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <hr class="my-6 border-blueGray-300"/>
-        <div class="flex flex-wrap items-center md:justify-between justify-center">
+        {/* <hr class="my-6 border-blueGray-300"/> */}
+        <div class="flex flex-wrap items-center md:justify-between ">
           <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-         <div class="text-xl text-blueGray-500 font-semibold py-1 text-center">
-              {/* Copyright © <span id="get-current-year">2021</span><a href="https://www.creative-tim.com/product/notus-js" class="text-blueGray-500 hover:text-gray-800" target="_blank"/> Notus JS by
-              <a href="https://www.creative-tim.com?ref=njs-profile" class="text-blueGray-500 hover:text-blueGray-800">Creative Tim</a>. */}
-
-
-
+         <div class="text-lg text-blueGray-500 font-semibold py-1 text-center">
               Verified By
-
-
-              <div className='flex xl:flex-row  flex-wrap gap-4 m-auto text-center'>
-
+              <div className='flex xl:flex-row  flex-wrap gap-4 m-auto text-center xl:w-[40vw]'>
               <img src='https://nasscom.in/themes/custom/nasscomtheme/logo.svg' className='w-40 m-auto'/>
               <img src='https://niitfoundation.org/wp-content/uploads/2023/10/niitfoundatinLogonew.png' className='w-40 m-auto'/>
-              <img src='https://niti.gov.in/sites/default/files/2023-01/NITI-Aayog-logo.png' className='w-20 h-10 my-auto m-auto'/>
+              <img src='https://niti.gov.in/sites/default/files/2023-01/NITI-Aayog-logo.png' className='w-20 h-10  m-auto'/>
               <img src='https://www.arenasolutions.com/wp-content/uploads/what-is-iso.png' className='w-20 m-auto'/>
 
 

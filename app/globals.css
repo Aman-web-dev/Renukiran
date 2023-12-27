@@ -20,3 +20,11 @@ body {
   margin-top: auto;
 }
 
+.hoverable img {
+  opacity: 1;
+  transition: opacity 0.5s ease; /* Adjust the duration and easing as needed */
+}
+
+.hoverable:hover img {
+  opacity: 0;
+}

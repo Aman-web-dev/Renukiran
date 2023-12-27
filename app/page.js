@@ -9,6 +9,7 @@ import WhatWeProvide from '@/components/WhatWeProvide';
 import LastSection from '@/components/LastSection';
 import Campaign from '../components/Campaign';
 import CompanysLogo from '@/components/CompanysLogo';
+import SDGgoals from '@/components/SDGgoals';
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
       <WhatWeProvide />
       <Campaign/>
       <CompanysLogo />
+      <SDGgoals/>
+
       <LastSection />
     </main>
     </>
