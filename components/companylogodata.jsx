@@ -22,6 +22,8 @@ import blessingsfoundation from '../public/assets/icons/company logo/blessingsfo
 import mitujjain from '../public/assets/icons/company logo/mitujjain.svg'
 import du from '../public/assets/icons/company logo/du.svg'
 import mcdd from '../public/assets/icons/company logo/Mcdd.svg'
+import idfclogo from '../public/assets/icons/company logo/idfcfirst.svg'
+
 
 const companyLogo = [
     {
@@ -138,6 +140,11 @@ const companyLogo = [
         id:23,
         icon: blessingsfoundation,
     }, 
+
+    {
+        id:24,
+        icon: idfclogo,
+    }
 
 ]
 

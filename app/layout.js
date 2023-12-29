@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Footer from '@/components/Footer'
 import { Mulish } from 'next/font/google'
 import {Analytics} from '@vercel/analytics/react'
+import WhatsappButton from '@/components/WhatsappButton'
 
 const mulish = Mulish({ subsets: ['latin-ext'] })
 
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
       <Nav/>
         
         {children}
+        <WhatsappButton/>
         <Analytics/>
       <Footer/>  
       <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script></body>

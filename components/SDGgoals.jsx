@@ -7,7 +7,7 @@ function SDGgoals() {
 
 
 
-<div className='text-center'>
+<div className='text-center mb-12'>
 
   <div>
 

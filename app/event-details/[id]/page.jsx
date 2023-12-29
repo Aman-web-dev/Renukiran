@@ -1,6 +1,8 @@
 'use client'
 import eventData from '@/eventData';
 import Image from 'next/image';
+import InstagramEmbed from 'react-instagram-embed';
+
 
 const EventDetails = ({params}) => {
   const event = eventData.filter((data) => data.id == params.id);
@@ -69,6 +71,22 @@ const EventDetails = ({params}) => {
           <h2 className='md:text-xl font-extrabold text-black'>Conclusion:</h2>
           <h4 className='text-black'>{pageData.Conclusion}</h4> 
         </div>
+
+
+
+<InstagramEmbed
+  url='https://www.instagram.com/p/C0JF8tnseYn/?igsh=ZHI2NGJodzdtdXY5/'
+  clientAccessToken='123|456'
+  maxWidth={320}
+  hideCaption={false}
+  containerTagName='div'
+  protocol=''
+  injectScript
+  onLoading={() => {console.log("post Loading .....")}}
+  onSuccess={() => {console.log("post Loaded")}}
+  onAfterRender={() => {console.log("post rendered Successfully")}}
+  onFailure={() => {console.log("failed To load the Post")}}
+/>
 
     </section>
   )

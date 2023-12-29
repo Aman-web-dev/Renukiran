@@ -5,6 +5,7 @@ import ig from '../public/assets/icons/ig.svg'
 import x from '../public/assets/icons/twitter.svg'
 import linkedin from '../public/assets/icons/linkedinrenukiran.svg'
 import Link from 'next/link'
+import youtube from '../public/assets/icons/youtube.svg'
 import logo from '../public/assets/images/official-logo.png'
 
 
@@ -12,7 +13,7 @@ const Footer = () => {
   return (
 
     
-    <footer class="relative bg-white pb-6 text-black my-4">
+    <footer class="relative bg-white pb-6 text-black  border-t-2  border-hray-500 p-2">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap text-left lg:text-left">
           <div class="w-full lg:w-6/12 px-4">
@@ -25,17 +26,21 @@ const Footer = () => {
 
 
 <div className="gap-4 flex items-center">
-          <a href="https://twitter.com/RenukiranW">
-            <Image src={x} width={30} height={30} viewBox='0 0 45 36' className='fill-current' />
+          <a href="https://twitter.com/RenukiranW" target="_blank">
+            <Image src={x} width={30} height={30} viewBox='0 0 45 36' className='fill-current'  />
           </a>
-          <a href="https://www.facebook.com/renukiranorg/">
-            <Image src={fb} width={30} height={30} viewBox='0 0 24 24' className='fill-current' />
+          <a href="https://www.facebook.com/renukiranorg/" target="_blank">
+            <Image src={fb} width={30} height={30} viewBox='0 0 24 24' className='fill-current'  />
           </a>
-          <a href="https://www.instagram.com/renukiran_foundation/?hl=en">
-            <Image src={ig} width={35} height={30} viewBox='0 0 24 24' className='fill-current' />
+          <a href="https://www.instagram.com/renukiran_foundation/?hl=en" target="_blank">
+            <Image src={ig} width={35} height={30} viewBox='0 0 24 24' className='fill-current'  />
           </a>
-          <a href="https://in.linkedin.com/company/renukiran-welfare-foundation">
-            <Image src={linkedin} width={30} height={30} viewBox='0 0 24 24' className='fill-current' />
+          <a href="https://in.linkedin.com/company/renukiran-welfare-foundation" target="_blank">
+            <Image src={linkedin} width={30} height={30} viewBox='0 0 24 24' className='fill-current'  />
+          </a>
+
+          <a href="https://youtube.com/@renukiranwelfarefoundation3066?si=7PXcYS4IRIH4PI-u"  target="_blank">
+            <Image src={youtube} width={30} height={30} viewBox='0 0 24 24' className='fill-current'  />
           </a>
         </div>
           </div>
