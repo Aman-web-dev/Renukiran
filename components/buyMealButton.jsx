@@ -12,7 +12,7 @@ function BuyMeal() {
                     style={{ backgroundColor: "#ffffff" }}>
                     
   
-                    <svg id="Layer_1" className="sm:h-12 sm:w-12 h-full w-4" fill='#84c722' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88" style={{fillRule:"evenodd"}}>
+                    <svg id="Layer_1" className="sm:h-12 sm:w-12 h-full w-4" fill='#4a6b9b' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88" style={{fillRule:"evenodd"}}>
                         <defs>
                            
                         </defs>

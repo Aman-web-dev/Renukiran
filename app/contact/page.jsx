@@ -1,6 +1,6 @@
 'use client'
 
-import React, { Fragment, useEffect,useState } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import './contact.css'
 import Image from 'next/image'
 import callingIcon from '../../public/assets/icons/calling.svg'
@@ -15,8 +15,8 @@ const ContactUs = () => {
   const [subject, setSubject] = useState('')
   const [message, setMessage] = useState('')
   const [date, setDate] = useState('')
-  const [buttonText,setButtonText] =useState("Send Message")
-  const [buttonState,setButtonState] =useState(false)
+  const [buttonText, setButtonText] = useState("Send Message")
+  const [buttonState, setButtonState] = useState(false)
 
 
 
@@ -107,16 +107,16 @@ const ContactUs = () => {
 
             <div>
               <label for="Name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Name</label>
-              <input type="text" id="text" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Joe XYZ.." required onChange={(e)=>setName(e.target.value)} value={name}/>
+              <input type="text" id="text" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Joe XYZ.." required onChange={(e) => setName(e.target.value)} value={name} />
             </div>
             <div>
               <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-              <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required onChange={(e)=>setEmail(e.target.value)} value={email}/>
+              <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required onChange={(e) => setEmail(e.target.value)} value={email} />
             </div>
 
             <div className=''>
               <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-              <select className='border border-grey-300 bg-gray-50 rounded-lg' name="Subject" onChange={(e)=>setSubject(e.target.value)} value={subject}>
+              <select className='border border-grey-300 bg-gray-50 rounded-lg' name="Subject" onChange={(e) => setSubject(e.target.value)} value={subject}>
                 <option value="">Subject</option>
                 <option value="suggestion">Suggestion</option>
                 <option value="feedback">FeedBack</option>
@@ -129,7 +129,7 @@ const ContactUs = () => {
 
             <div className="sm:col-span-2">
               <label for="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-              <textarea id="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..." onChange={(e)=>setMessage(e.target.value)} value={message}></textarea>
+              <textarea id="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..." onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
             </div>
 
 
@@ -147,11 +147,18 @@ const ContactUs = () => {
 
       <section>
         <div className='contact-page-main-content md:flex block justify-center md:my-24 my-14 md:gap-20 md:mx-6'>
+
+
+          
           <div onClick={makeCall} className='cursor-pointer text-center flex flex-col items-center md:border md:border-solid border-black md:py-8 md:px-12 rounded-lg md:mx-0 mx-4 py-4 my-4'><Image src={callingIcon} width={50} height={50} alt='call' /> <h2>Phone</h2> <p>+91 9625881835</p></div>
+
+
+
+
           <div className='cursor-pointer text-center flex flex-col items-center md:border md:border-solid border-black md:py-8 md:px-12 rounded-lg md:mx-0 mx-4 py-4 my-4'><Image src={emailIcon} width={50} height={50} alt='email' /> <h2>Email</h2> <p>info@renukiran.org</p></div>
 
           <a href='https://maps.app.goo.gl/X9uNp1FJREzWwsxF8' target='_blank'>
-            <div className='cursor-pointer text-center flex flex-col items-center md:border md:border-solid border-black md:py-8 md:px-12 rounded-lg md:mx-0 mx-4 py-4 my-4'><Image src={addressIcon} width={50} height={50} alt='address' /> <h2>Address</h2> <p className='text-wrap'>B-122, Upper Ground Floor, Gali Number 13, <br />Amritpuri, Garhi, New Delhi, Delhi 110065</p></div>
+            <div className='cursor-pointer text-center flex flex-col items-center md:border md:border-solid border-black md:py-8 md:px-12 rounded-lg md:mx-0 mx-4 py-4 my-4'><Image src={addressIcon} width={50} height={50} alt='address' /> <h2>Address</h2> <p className='text-wrap'>B-122, Upper Ground Floor, Gali Number 13, <br />Amritpuri, Garhi, New Delhi, Delhi 110065</p><h2 className='font-bold'>Head Office</h2> <p className='text-wrap'>282, Basement, <br />Sant Nagar, East OF Kailash, New Delhi-110065</p></div>
           </a>
         </div>
       </section>
