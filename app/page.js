@@ -23,7 +23,6 @@ export default function Home() {
       <Campaign/>
       <CompanysLogo />
       <SDGgoals/>
-
       <LastSection />
     </main>
     </>

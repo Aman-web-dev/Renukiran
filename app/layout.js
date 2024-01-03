@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import { Mulish } from 'next/font/google'
 import {Analytics} from '@vercel/analytics/react'
 import WhatsappButton from '@/components/WhatsappButton'
+import BuyMeal from '@/components/buyMealButton'
 
 const mulish = Mulish({ subsets: ['latin-ext'] })
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
       <Nav/>
         
         {children}
+        <BuyMeal/>
         <WhatsappButton/>
         <Analytics/>
       <Footer/>  

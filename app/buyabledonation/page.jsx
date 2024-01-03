@@ -3,17 +3,15 @@ import BuyingCard from '@/components/BuyingCard'
 
 function page() {
   return (
-    <div className='text-black  w-full m-auto gap-4 bg-gray-100 text-center pt-4' >
+    <div className='text-black  w-full m-auto gap-4 bg-gray-100 text-center pt-8 pb-4' >
 
 
-<div className='text-center shadow-xl max-w-[85vw] bg-gray-200 m-auto px-2 rounded-lg lg:rounded-full p-2 my-4'>
+<div className='text-center shadow-xl max-w-[85vw] bg-gray-200 m-auto px-2 rounded-lg lg:rounded-full pt-4  p-2 my-4'>
 
 <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Donate Where Need Is Great.</h1>
 <p className="mb-6 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Empower Dreams, Spark Change: Donate Cash or Kind to Renukiran, Nurturing Lives with Every Contribution.</p>
 
 </div>
-
-
 
         <div className='flex flex-wrap  w-[100vw] m-auto gap-4 justify-center'>
 
