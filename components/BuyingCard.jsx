@@ -5,7 +5,7 @@ function BuyingCard(props) {
 
 
 
-            <div className="lg:max-w-[20vw]   sm:w-[40vw] mx-4 px-auto bg-white  -gray-200 rounded-lg shadow dark:bg-gray-800 dark:-gray-700  my-4 overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100">
+            <div className="lg:max-w-[20vw] shadow-xl  sm:w-[40vw] mx-4 px-auto bg-white  -gray-200 rounded-lg shadow dark:bg-gray-800 dark:-gray-700  my-4 overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100">
                 <a href="#">
                     <img className="rounded-t-lg w-full h-[15rem] object-cover "  src={props.pictureLink}alt=""/>
                 </a>

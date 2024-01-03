@@ -6,12 +6,14 @@ function page() {
     <div className='text-black  w-full m-auto gap-4 bg-gray-100 text-center pt-4' >
 
 
-<div className='text-center'>
+<div className='text-center shadow-xl max-w-[85vw] bg-gray-200 m-auto px-2 rounded-lg lg:rounded-full p-2 my-4'>
 
-<h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Donate Where Need Is Great</h1>
-<p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+<h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Donate Where Need Is Great.</h1>
+<p className="mb-6 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Empower Dreams, Spark Change: Donate Cash or Kind to Renukiran, Nurturing Lives with Every Contribution.</p>
 
 </div>
+
+
 
         <div className='flex flex-wrap  w-[100vw] m-auto gap-4 justify-center'>
 
@@ -30,7 +32,7 @@ function page() {
 
 
 
-      <BuyingCard pictureLink="https://img.freepik.com/free-vector/tiny-students-sitting-near-books-getting-university-degree-paying-money-education-business-flat-vector-illustration-college-scholarship-finance-system-school-fee-economy-student-loan-concept_74855-21037.jpg?w=826&t=st=1704268491~exp=1704269091~hmac=a3bc1b3385f77a6264f2d1e61e2794a07de9697b71e46adbc73d9ca2df0f6ea7" DonationTitle="Home Essentials Donation" DonationDetails="Make a house a home – Your donated household items transform lives." />
+      <BuyingCard pictureLink="https://img.freepik.com/free-vector/charity-concept-illustration_114360-4471.jpg?w=900&t=st=1704273334~exp=1704273934~hmac=ee9b54f764b036364d5c714e580fbfcca24acefed6431b18abaee41c3fe48bbe" DonationTitle="Home Essentials Donation" DonationDetails="Make a house a home – Your donated household items transform lives." />
 
 
 
@@ -38,8 +40,12 @@ function page() {
 
 
 
-      <BuyingCard pictureLink="https://img.freepik.com/free-vector/charity-flowchart-layout-with-free-lunches-health-care-donations-box-dollar-bills-isometric-elements-illustration_1284-28203.jpg?w=740&t=st=1704268770~exp=1704269370~hmac=17bf97706ad122be8d5a264a017fad183a0ad87061d8c0689e767587ec852c80" DonationTitle="Toy Donation" DonationDetails="Ignite joy. Donate toys for brighter smiles and active play. Make a difference today!" />
+      <BuyingCard pictureLink="https://img.freepik.com/free-vector/charity-flowchart-layout-with-free-lunches-health-care-donations-box-dollar-bills-isometric-elements-illustration_1284-28203.jpg?w=740&t=st=1704268770~exp=1704269370~hmac=17bf97706ad122be8d5a264a017fad183a0ad87061d8c0689e767587ec852c80" DonationTitle="Tech Education Donation" DonationDetails="Power up education – Donate old devices to empower students." />
+     
 
+
+     
+      <BuyingCard pictureLink="https://img.freepik.com/free-vector/volunteers-packing-donation-boxes_74855-5299.jpg?w=1060&t=st=1704273053~exp=1704273653~hmac=4b5a99e4e2df66b62ca20ef5554bf2671e847eb6e9c6045a2277142cfb1b176a" DonationTitle="Toy Donation" DonationDetails="Power up education – Donate old devices to empower students." />
 
 
 
