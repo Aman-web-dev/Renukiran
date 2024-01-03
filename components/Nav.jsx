@@ -29,7 +29,7 @@ const Nav = () => {
 
               <li>
                 <a href="/">
-                <svg xmlns="http://www.w3.org/2000/svg"  fill="#00000" class="h-10 w-8   bi bi-house-door-fill" viewBox="0 0 16 16"> <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/> </svg>
+                <svg xmlns="http://www.w3.org/2000/svg"  fill="#00000" className="h-10 w-8   bi bi-house-door-fill" viewBox="0 0 16 16"> <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/> </svg>
                 </a>
               </li>
 
@@ -72,7 +72,7 @@ const Nav = () => {
               </li>
 
               <li>
-                <ul className="font-medium flex lg:gap-2 gap-4 mx-auto my-2 p-4 md:p-0 md:items-center mt-4 border  md:flex-row md:space-x-2 md:mt-0 md:border-0">
+                <ul className="font-medium flex lg:gap-2 gap-4 mx-auto md:my-0 my-2 p-4 md:p-0 md:items-center mt-4 border  md:flex-row md:space-x-2 md:mt-0 md:border-0">
 
 
 
@@ -82,7 +82,7 @@ const Nav = () => {
                   <a href="https://www.facebook.com/renukiranorg/" target='_blank'>
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
+                    className="h-5 w-5"
                     fill="currentColor"
                     style={{ color: "#1877f2" }}
                     viewBox="0 0 24 24">
@@ -97,7 +97,7 @@ const Nav = () => {
                     <a href="https://www.instagram.com/renukiran_foundation/?hl=en" target='_blank'>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="currentColor"
                       style={{ color: "#c13584" }}
                       viewBox="0 0 24 24">
@@ -113,7 +113,7 @@ const Nav = () => {
                     <a href="https://youtube.com/@renukiranwelfarefoundation3066?si=7PXcYS4IRIH4PI-u" target='_blank'>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="currentColor"
                       style={{ color: "#ff0000" }}
                       viewBox="0 0 24 24">
@@ -128,7 +128,7 @@ const Nav = () => {
                     <a href="https://twitter.com/RenukiranW" target='_blank'>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="currentColor"
                       style={{ color: "#1da1f2" }}
                       viewBox="0 0 24 24">
@@ -143,7 +143,7 @@ const Nav = () => {
                     <a href='https://wa.me/message/U7OZ4BHQNPA4J1' target='_blank'>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5"
+                      className="h-5 w-5"
                       fill="currentColor"
                       style={{ color: "#128c7e" }}
                       viewBox="0 0 24 24">
@@ -159,7 +159,7 @@ const Nav = () => {
 
 
               <li>
-                <a href="/donate" className="bg-[#205893] block py-2 pl-3 pr-4 text-white rounded md:hover:border md:hover:border-blue-800 md:border-0 md:px-2 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:text-[#205893]">Donate us</a>
+                <a href="/donate" className="bg-[#205893] block py-2 pl-3 pr-4 text-white rounded md:hover:border-blue-800 md:border-0 md:px-2 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:text-[#205893]">Donate us</a>
               </li>
 
             </ul>
