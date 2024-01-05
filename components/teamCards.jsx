@@ -23,14 +23,14 @@ function teamCards({name,designation,pic,desc,linkedin}) {
               <ul className="flex justify-center items-center mt-4 space-x-4">
               <li> 
                       <a href={linkedin} target='_blank' className='cursor'>
-                          <Image src={linkedinlogo} width={20} height={50}/>
+                          <Image src={linkedinlogo} width={20} height={50} alt='LinkedInLogo'/>
                       </a>
                   </li>
 
                   <li>
                     <div>
                       <div id='about' className='cursor-pointer'>
-                          <Image src={about} width={25} height={50} />
+                          <Image src={about} width={25} height={50} alt="about"/>
                           <div className='description'>{desc}</div>
                       </div>
                       </div>

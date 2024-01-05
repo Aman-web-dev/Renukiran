@@ -8,11 +8,11 @@ function BuyMeal() {
                     type="button"
                     data-te-ripple-init
                     data-te-ripple-color="light"
-                    className="mb-4 fixed sm:bottom-20 bottom-0 z-7 right-2 inline-block rounded-full p-1  text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-                    style={{ backgroundColor: "#ffffff" }}>
+                    className="mb-4 fixed sm:bottom-20 bottom-14 z-7 right-2 inline-block rounded-full p-1  text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                    style={{ backgroundColor:"#ffffff"}}>
                     
   
-                    <svg id="Layer_1" className="sm:h-12 sm:w-12 h-full w-4" fill='#4a6b9b' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88" style={{fillRule:"evenodd"}}>
+                    <svg id="Layer_1" className="sm:h-12 sm:w-12 h-12 w-12" fill='#4a6b9b' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 122.88" style={{fillRule:"evenodd"}}>
                         <defs>
                            
                         </defs>

@@ -13,7 +13,7 @@ function WhatsappButton() {
   style={{backgroundColor: "#4a6b9b"}}>
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  className="sm:h-9 sm:w-9 h-4 w-4 p-1"
+  className="sm:h-9 sm:w-9 h-8 w-8 p-1"
   fill="#ffffff"
   style={{color: "#ffffff"}}
   viewBox="0 0 24 24">

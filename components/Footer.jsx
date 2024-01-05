@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap text-left lg:text-left">
           <div className="w-full lg:w-6/12 px-4">
-            <Image src={logo} className='w-40'/>  
+            <Image src={logo} className='w-40' alt='Logo'/>  
             <h4 className="text-4xl fonat-semibold text-blueGray-700 font-bold ">Renukiran Welfare Foundation</h4>
             <h5 className="text-lg mt-0 mb-2 text-blueGray-600 font-bold">
             Renukiran is a Civil Society Organisation that promotes programmes through Quality Education, Digital literacy, Medical facilitation services, Skill trainings and Women empowerment to underprivileged communities, transforming lives with compassion and dedication. These impactful initiatives have empowered thousands and fostered a brighter future for those in real need across various parts in India.
@@ -27,20 +27,20 @@ const Footer = () => {
 
 <div className="gap-4 flex items-center">
           <a href="https://twitter.com/RenukiranW" target="_blank">
-            <Image src={x} width={30} height={30} viewBox='0 0 45 36' className='fill-current'  />
+            <Image src={x} width={30} height={30} viewBox='0 0 45 36' className='fill-current' alt="Social Media Icons"  />
           </a>
           <a href="https://www.facebook.com/renukiranorg/" target="_blank">
-            <Image src={fb} width={30} height={30} viewBox='0 0 24 24' className='fill-current'  />
+            <Image src={fb} width={30} height={30} viewBox='0 0 24 24' className='fill-current' alt="Social Media Icons"  />
           </a>
           <a href="https://www.instagram.com/renukiran_foundation/?hl=en" target="_blank">
-            <Image src={ig} width={35} height={30} viewBox='0 0 24 24' className='fill-current'  />
+            <Image src={ig} width={35} height={30} viewBox='0 0 24 24' className='fill-current' alt="Social Media Icons"  />
           </a>
           <a href="https://in.linkedin.com/company/renukiran-welfare-foundation" target="_blank">
-            <Image src={linkedin} width={30} height={30} viewBox='0 0 24 24' className='fill-current'  />
+            <Image src={linkedin} width={30} height={30} viewBox='0 0 24 24' className='fill-current' alt="Social Media Icons"  />
           </a>
 
           <a href="https://youtube.com/@renukiranwelfarefoundation3066?si=7PXcYS4IRIH4PI-u"  target="_blank">
-            <Image src={youtube} width={30} height={30} viewBox='0 0 24 24' className='fill-current'  />
+            <Image src={youtube} width={30} height={30} viewBox='0 0 24 24' className='fill-current' alt="Social Media Icons"  />
           </a>
         </div>
           </div>
