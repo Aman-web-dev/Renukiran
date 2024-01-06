@@ -9,7 +9,7 @@ const Carousel = () => {
 
         <div id="default-carousel" className="relative w-full mb-24" data-carousel="slide">
 
-            <div className="relative overflow-hidden md:h-[90vh] h-[50vh]">
+            <div className="relative overflow-hidden md:h-[95vh] h-[50vh]">
 
                 <div className="hidden ease-in-out duration-1000" style={{ width: '100%', height: '100%', position: 'relative' }} data-carousel-item priority>
                     <div className=' first-letter:md:text-white md:z-10 md:bg-[#2e5893]/91 hero-section z-20'>
