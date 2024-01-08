@@ -2,7 +2,7 @@ import React from 'react'
 
 function ReviewCards(props) {
     return (
-        <div className='flex flex-col bg-white border  border-black  rounded-lg max-w-[20vw] shadow-lg overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100 sm:max-w-[30vw] max-w-[95vw]'>
+        <div className='flex flex-col bg-white border  border-black  rounded-lg max-w-[20vw] shadow-lg overflow-hidden transform-gpu transition-transform ease-in-out duration-300 sm:hover:scale-110 hover:scale-100 sm:max-w-[15vw] max-w-[95vw]'>
 
             <div className='flex flex-row  justify-between  rounded-lg'>
 
@@ -25,7 +25,7 @@ function ReviewCards(props) {
                     </div>
                 </div>
             </div>
-            <div className='my-4 p-4 font-sm text-black font-bold'><p className='text-4xl'>"</p>{props.review}<p>"</p> </div>
+            <div className='my-2 p-4 font-xs text-black '><p>{props.review}</p></div>
         </div>
     )
 }

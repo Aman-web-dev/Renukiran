@@ -69,12 +69,12 @@ function Reviews() {
 
 
 
-                  <ReviewCards
+                  {/* <ReviewCards
             imgURL="https://lh3.googleusercontent.com/a-/ALV-UjUCKnNXD3TMsaVpyhg8DbtsSweKWhYQOuSE0whh-0J3moA=w66-h66-p-rp-mo-br100"
             review="Working with Renukiran for helping others and spreading Happiness is my best experience. I really enjoy helping children in their studies. Since when I joined Renukiran I am awarded with many opportunities to work with Renukiran family."
             ReviewerName="Arun"
             color="purple"
-            />
+            /> */}
 
 
            </div>
