@@ -13,7 +13,7 @@ function Reviews() {
 
   <div className='text-center'>          
 <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Renukiran's Precious Testimonials</h1>
-<p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here are the Testimonials from the people we have worked with, throughout our journey we have made clients and army Of volunteers. Hear from Them and learn the true potential of Renukrian Welfare Foundation</p>
+<p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Discover the Impact: Testimonials from our Valued Collaborators and Dedicated Volunteers. Unveil the True Potential of Renukiran Welfare Foundation through Their Experiences and Insights gained along our Journey.</p>
 </div>
 <div className='flex flex-wrap  gap-6 align-center justify-center'>
            <ReviewCards imgURL="https://lh3.googleusercontent.com/a-/ALV-UjVzghuGrYCWGjZ7nd6fvgithePpkTcyyjbKhZDsvTCYU3PO=w66-h66-p-rp-mo-br100" 
