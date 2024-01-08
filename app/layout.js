@@ -9,6 +9,8 @@ import WhatsappButton from '@/components/WhatsappButton'
 import BuyMeal from '@/components/buyMealButton'
 import Loader from '@/components/Loader'
 // import { useState, useEffect } from 'react'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 const mulish = Mulish({ subsets: ['latin-ext'] })
 
@@ -43,6 +45,7 @@ export default function RootLayout({ children }) {
             <Analytics />
             <Footer />
             <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+            <SpeedInsights/>
           </>
         </body>
       </html>
