@@ -82,21 +82,21 @@ function Page() {
 
   return (
 
-    <form onSubmit={handleFormSubmit}>
+    <form onSubmit={handleFormSubmit} className='linear-gradient(to right, rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234))'>
       <div>
-        <div className="min-h-screen p-6 bg-gray-100 flex items-center justify-center">
+        <div className="min-h-screen p-6  flex items-center justify-center bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
           <div className="container max-w-screen-lg mx-auto">
             <div>
 
-              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Renukiran Careers</h1>
-              <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16  dark:text-gray-400">Cultivating Careers: Where Personal and Professional Flourish</p>
+              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">Renukiran Careers</h1>
+              <p className="mb-6 text-lg font-normal text-white lg:text-xl sm:px-16  dark:text-gray-400">Cultivating Careers: Where Personal and Professional Flourish</p>
 
 
 
               <div className="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
                 <div className="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
-                  <div className="text-gray-600">
-                    <p className="font-medium text-lg">Personal Details</p>
+                  <div className="text-black">
+                    <p className="font-medium text-lg text-black">Personal Details</p>
                     <p>Working with Renukiran Welfare Foundation provides a unique opportunity for both career and personal growth. The foundation's commitment to helping millions of people aligns with a noble and impactful mission, offering employees the chance to contribute meaningfully to society. Being a part of such a philanthropic organization not only allows individuals to apply their skills and expertise towards a greater cause but also provides a sense of purpose and fulfillment. The diverse range of projects and initiatives undertaken by Renukiran Welfare Foundation exposes employees to various challenges, fostering continuous learning and professional development. Moreover, the collaborative and compassionate work environment cultivates a strong sense of community and shared values, enhancing not only one's career but also contributing to personal growth by fostering empathy, resilience, and a broader perspective on life. In essence, working with Renukiran Welfare Foundation is a rewarding experience that not only boosts one's career but also nurtures personal growth through meaningful contributions to the well-being of millions.</p>
                   </div>
 

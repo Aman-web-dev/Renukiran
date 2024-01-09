@@ -10,8 +10,6 @@ function SDGgoals() {
 <div className='text-center mb-12'>
 
   <div>
-
-    
 <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Sustainable Development Goals</h1>
 <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Empowering Lives at Renukiran Welfare Foundation: Focused on WHO's Main SDGs - Health (SDG 3), Education (SDG 4), Gender Equality (SDG 5), and Climate Action (SDG 13).</p>
 
@@ -31,6 +29,9 @@ function SDGgoals() {
 
 
  <SDGCards  bgColor={"bg-[#4a7634]"} smallTitle={"Good Health and Well-Being"} pictureSRC={"https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/SDGlogos%2FclimateAction.svg?alt=media&token=98a8d76e-2454-4f70-92bd-90fb0462a409"} secondImage={"https://img.freepik.com/free-photo/close-up-soil-sprout_23-2148905251.jpg?w=360&t=st=1703667798~exp=1703668398~hmac=def1639d37d70de68ef89822862efa0580e97825caaf0f6aa48b399e6255272d"} SDGNumber={"13"} SDGTitle={"Goal 13"} SDGText={""}/>
+
+
+
 
  </div>
     </div>
