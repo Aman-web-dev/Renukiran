@@ -7,8 +7,8 @@ const CompanysLogo = () => {
     <section className="bg-white w-full">
     <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 text-center">
       
-<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Our Allies</h1>
-<p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Long-Standing Collaborations: Companies Partnered with Renukiran Welfare Foundation Since Inception</p>
+<h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Our Allies</h1>
+<p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Long-Standing Collaborations: Companies Partnered with Renukiran Welfare Foundation Since Inception</p>
 
 
         <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6">

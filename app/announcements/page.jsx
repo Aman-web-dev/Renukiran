@@ -11,8 +11,8 @@ function page() {
       <div className='flex flex-col text-center my-4'>
 
 
-        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">Announcements</h1>
-        <p class="mb-6 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Stay Updated with Renukiran Annoucements and keep track of the Latest </p>
+        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white">Announcements</h1>
+        <p className="mb-6 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Stay Updated with Renukiran Annoucements and keep track of the Latest </p>
  
 
       </div>
