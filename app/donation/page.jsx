@@ -35,7 +35,7 @@ function page() {
                                 className="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
                                 Your Name
                             </h6>
-                            <div className="relative h-11 w-full min-w-[200px]">
+                            <div className="relative h-11 w-full min-w-[200px] mx-auto">
                                 <input placeholder="name@mail.com"
                                     className="peer h-full w-full rounded-md border border-blue-gray-200 border-t-transparent !border-t-blue-gray-200 bg-transparent px-3 py-3 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
                                 <label
@@ -45,11 +45,11 @@ function page() {
                             <div className=''>
                                 <h6
                                     className="block  font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-                                    Your Email
+                                    
                                 </h6>
 
 
-                                <select id="countries" class=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <select id="countries" className=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                     <option selected>Choose a country</option>
                                     <option value="US">United States</option>
                                     <option value="CA">Canada</option>
@@ -118,7 +118,7 @@ function page() {
                 </div>
 
 
-                <div className='my-auto'>
+                <div className='my-auto '>
 
                     <img src="https://img.freepik.com/free-vector/clothing-donation-concept-flat-hand-drawn_52683-55267.jpg?w=900&t=st=1704797217~exp=1704797817~hmac=293731c04e2172d431bbccefa7a449f40820422e643005f99fdab0a69957b14a" alt="" />
                 </div>

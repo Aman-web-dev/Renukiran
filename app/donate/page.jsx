@@ -1,70 +1,161 @@
-'use client'
+import React from 'react'
 
-import React, { useEffect } from 'react'
-import './donatePage.css'
-import Image from 'next/image'
-
-
-const DonateNow = () => {
-
-
-  useEffect(() => {
-
-    document.title = "Renukiran-Donate"
-
-
-  }, [])
-
+function page() {
   return (
-    <>
-      <section className='w-full md:h-[90vh] h-[50vh]'>
-        <div id='first-image-container'>
-          <div className='text-container absolute z-20 md:ml-40 ml-6'>
-            <h2 className='uppercase text-white md:font-extrabold md:text-4xl'>Donate</h2>
-            <p className='text-slate-400 md:text-sm text-xs'>Donations can provide access to education, healthcare,< br className='md:hidden block' /> and basic necessities, empowering <br className='hidden md:block' />individuals to break<br className='md:hidden block' /> the cycle of poverty and build a brighter future.</p>
+
+    <div className='bg-gradient-to-t from-green-500 py-8'>
+
+
+      <div className='text-center my-2 '>
+
+        <h1 className="mb-4 text-4xl font-sans font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Help us in <span className="text-blue-600 dark:text-blue-500">0 Hunger</span> Mission.</h1>
+        <p className="text-lg font-bold text-black lg:text-xl dark:text-black"> <span className='bg-blue-600 font-bold text-white p-1 rounded-xg'>Join the Fight Against Hunger:</span> Renukiran Welfare Foundation Launches '0 Hunger' Program, Urgently Seeking Your Support through Donations</p>
+
+      </div>
+
+
+
+
+      <div className='flex md:flex-row flex-col'>
+
+
+        <div id='rightSection' className='flex flex-col sm:w-[70vw] w-[90vw] my-4 rounded-xl align-center jutify-center py-4 lg:w-[40vw] md:m-auto bg-transparent m-auto' >
+
+
+
+          <div className="w-[100%] relative flex flex-col text-black bg-transparent shadow-none rounded-xl bg-clip-border my-auto justify-center align-center  px-4  my-2  backdrop-blur-xl border-4 ">
+
+
+            <h4 className="block font-sans text-4xl font-extrabold antialiased  leading-snug tracking-normal text-black">
+              DONATE IN KIND
+            </h4>
+            <p className="block mt-1 font-sans text-base antialiased font-bold leading-relaxed text-black">
+              Thankyou For Donating Your Valuables
+            </p>
+            <form className="max-w-screen-lg mt-8 mb-2 w-80 sm:w-96">
+              <div className="flex flex-col gap-6 mb-1">
+                <h6
+                  className="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                  Your Name
+                </h6>
+                <div className="relative h-11 w-full min-w-[200px] mx-auto">
+                  <input for="name" id="name" placeholder="John Doe"
+                    className="peer bg-white h-full w-full rounded-md border border-blue-gray-200 border-t-transparent !border-t-blue-gray-200 bg-transparent px-3 py-3 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
+                  <label
+                    className="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] font-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all before:content-none after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all after:content-none peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.1] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-gray-900 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-gray-900 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500"></label>
+                </div>
+
+
+
+                <h6
+                  className="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                  Your Address
+                </h6>
+                <textarea id="Address" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+
+                <h6
+                  className="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                  Donation List
+                </h6>
+                <textarea id="DonationList" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Books,Clothes,shoes..."></textarea>
+
+
+
+
+                <h6
+                  className="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                  Your Email
+                </h6>
+                <div className="relative h-11 w-full min-w-[200px]">
+                  <input placeholder="name@mail.com"
+                    className="peer bg-white h-full w-full rounded-md border border-blue-gray-200 border-t-transparent !border-t-blue-gray-200 bg-transparent px-3 py-3 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
+                  <label
+                    className="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none !overflow-visible truncate text-[11px] font-normal leading-tight text-gray-500 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all before:content-none after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all after:content-none peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[4.1] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:!border-gray-900 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:!border-gray-900 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500"></label>
+                </div>
+                <h6
+                  className="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
+                  Phone Number
+                </h6>
+
+
+
+                <div class="relative">
+                  <div class="absolute inset-y-0 start-0 top-0 flex items-center ps-3.5 pointer-events-none">
+                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 19 18">
+                      <path d="M18 13.446a3.02 3.02 0 0 0-.946-1.985l-1.4-1.4a3.054 3.054 0 0 0-4.218 0l-.7.7a.983.983 0 0 1-1.39 0l-2.1-2.1a.983.983 0 0 1 0-1.389l.7-.7a2.98 2.98 0 0 0 0-4.217l-1.4-1.4a2.824 2.824 0 0 0-4.218 0c-3.619 3.619-3 8.229 1.752 12.979C6.785 16.639 9.45 18 11.912 18a7.175 7.175 0 0 0 5.139-2.325A2.9 2.9 0 0 0 18 13.446Z" />
+                    </svg>
+                  </div>
+                  <input type="text" id="phone-input" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required />
+                </div>
+
+
+
+              </div>
+
+              <div className=' py-2 px-2   rounded-xl'>
+
+                <p className='text-lg italic'>
+                  <label className='font-bold text-xl '>Note: </label>
+                  If Donatable Item's Weight is Less than 20kgs Please Deliver it to Renukiran's Head Office between 11 Am to 6 Pm </p>
+                  <p className='my-4 italic'> <label className='font-bold text-xl'>Address:</label>
+                    282, Basement,Sant Nagar, East Of Kailash, New Delhi-110065</p> 
+
+              </div>
+
+              <button
+                type="button"
+                className="inline-block  rounded-full  mx-auto bg-blue-700 my-4 px-6  text-lg font-bold py-2 uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#14a44d] transition duration-150 ease-in-out hover:bg-blue-600 hover:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.3),0_4px_18px_0_rgba(20,164,77,0.2)] focus:bg-blue-600 focus:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.3),0_4px_18px_0_rgba(20,164,77,0.2)] focus:outline-none focus:ring-0 active:bg-blue-700 active:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.3),0_4px_18px_0_rgba(20,164,77,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(20,164,77,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)]">
+                CONFIRM DONATION
+              </button>
+
+            </form>
+          </div>
+        </div>
+
+        <div id='leftSection' className='flex flex-col h-screen lg:w-1/2 my-auto border-black rounded-xl align-center justify-center   m-auto bg-gray-500 ' style={{ backgroundImage: 'url("https://img.freepik.com/free-photo/money-calculation-economy_23-2148568054.jpg?w=900&t=st=1704868007~exp=1704868607~hmac=23cec2360897f331cfad879e2a82b6b665623f48d89c4a415114f65838287b5c")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+
+
+
+
+
+          <div className='w-[50%] flex flex-col align-center justify-center mx-2  text-center'>
+
+
+            <h1 class="mb-4 text-4xl font-sans font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">Donate Cash From Here </h1>
+
+
+
+            <a href="/buyabledonation">
+              <button
+
+                type="button"
+                className="inline-block  rounded-full my-2 mx-auto bg-blue-700 px-6  text-lg font-bold py-2 uppercase leading-normal text-white  transition duration-150 ease-in-out hover:bg-blue-700  focus:bg-blue-600  focus:outline-none focus:ring-0 active:bg-blue-900  dark:shadow-[0_4px_9px_-4px_rgba(20,164,77,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)]">
+                Donate For a Cause
+              </button>
+            </a>
+
+            <p className='text-4xl text-black font-bold font-sans'> OR</p>
+
             <a href="https://rzp.io/l/renukiran" target='_blank'>
+              <button
 
-            <button href="https://rzp.io/l/renukiran" className='uppercase md:py-3 md:px-8 py-1 px-4 mt-4 text-white hover:bg-[#223752] bg-[#2e5893]'>Donate now</button>
-          </a>
-          </div>
-          <div id='gradient-overlay' className='text-black text-4xl'>
-          </div>
-          <Image alt='donate-bg' src="https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FdonationPageBg.jpg?alt=media&token=8f5c78d8-f6f4-4864-b569-3c80f881847a&_gl=1*1szz4lf*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NjQ5OTM1Ny4yMC4xLjE2OTY0OTk3OTYuNjAuMC4w" fill loading='lazy' className='w-full object-cover' id='img' />
-        </div>
-      </section>
+                type="button"
+                className="inline-block  rounded-full my-2 mx-auto bg-blue-700 px-6  text-lg font-bold py-2 uppercase leading-normal text-white  transition duration-150 ease-in-out hover:bg-blue-700  focus:bg-blue-600  focus:outline-none focus:ring-0 active:bg-blue-900  dark:shadow-[0_4px_9px_-4px_rgba(20,164,77,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(20,164,77,0.2),0_4px_18px_0_rgba(20,164,77,0.1)]">
+                Donate Directly
+              </button>
+            </a>
 
-
-
-
-
-      <section className='bg-[#2e5893]'>
-        <div className='text-white text-center md:my-24 my-12  z-10'>
-          <h1 className='md:text-6xl text-4xl md:mb-8 mb-3 md:font-bold'>Donate</h1>
-          <p className='px-3 text-slate-400 '>Donating helps save lives, uplifts communities, and fosters a better future for all. Your contribution matters. <br className='hidden md:block' />
-            Your generous contribution empowers us to continue our vital work, touching countless lives with hope and opportunity.
-          </p>
-        </div>
-
-        <div className='md:h-[100vh] h-[60vh] z-10 w-full' id='image-container' >
-          <div id='img-sub-container' className='w-full h-full grayscale-100'>
-            <div className='absolute z-10 text-center py-3 px-3 donate-div bg-white text-black rounded-lg shadow-md sm:mr-3 donation-box' style={{ opacity: ".7" }}>
-              <h3 className='md:text-2xl text-base md:font-bold font-semibold md:mb-4 mb-2'>Give where the need is greatest</h3>
-
-
-              <p className='md:text-base text-sm md:mb-4 mb-4 text-slate-500 text-start'>Your donation makes a big impact! It helps provide education, healthcare, and relief to those less fortunate. Your kindness sparks positive change and brings smiles to faces in need.</p>
-
-              <a href="https://rzp.io/l/renukiran" target='_blank'>
-              <button  className='uppercase md:py-3 md:px-8 py-1 px-4 mt-4 text-white hover:bg-[#223752] bg-[#2e5893]'>Donate now</button>
-              </a>
-            </div>
 
           </div>
 
+
+
         </div>
 
-      </section>
-    </>
+      </div>
+
+    </div>
   )
 }
 
-export default DonateNow
+export default page
