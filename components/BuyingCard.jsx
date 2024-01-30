@@ -20,8 +20,8 @@ function BuyingCard(props) {
                     <div className='flex  lg:flex-row sm:flex-col  mx-auto '>
 
                     
-                    <a href={props.DonationLink} className="mx-2 my-2 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Donate In Cash
+                    <a href={props.DonationLink}  target="_blank" className="mx-2 my-2 inline-flex items-center px-3 py-1 text-sm font-bold text-center text-white bg-green-600 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Donate ₹{props.DonationAmount}
 
                     </a>
 

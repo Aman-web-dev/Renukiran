@@ -9,8 +9,7 @@ import WhatsappButton from '@/components/WhatsappButton'
 import BuyMeal from '@/components/buyMealButton'
 import Loader from '@/components/Loader'
 // import { useState, useEffect } from 'react'
-import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const mulish = Mulish({ subsets: ['latin-ext'] })
 

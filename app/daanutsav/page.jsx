@@ -102,7 +102,10 @@ function Pages() {
 
           <p>The advertising agency, EuroRSCG India created the ‘Joy of Giving Week’ brand identity in March 2009. Between 2009 and 2013, as the festival grew in scale and reached all socio-economic strata and geographies of India, it became apparent that the festival needed a name that was easily understood by people across the length and breadth of the country. Thus, in February 2014, volunteers renamed the festival ‘#DaanUtsav’, based on feedback received from several people living in various parts of India.</p>
         </h1>
-        <button className="my-5 w-[60vw] h-12 px-6 text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">Provide a Donation</button>
+
+        <a href="https://rzp.io/l/renukiran">
+        <button  className="my-5 w-[60vw] h-12 px-6 text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">Provide a Donation</button>
+        </a>
       </div>
 
       <div className='flex flex-row gap-2 w-[80vw] m-auto flex-wrap my-2'>

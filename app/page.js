@@ -9,6 +9,7 @@ import Campaign from '../components/Campaign';
 import CompanysLogo from '@/components/CompanysLogo';
 import SDGgoals from '@/components/SDGgoals';
 import Loader from '@/components/Loader';
+import Reviews from '@/components/Reviews';
 
 
 
@@ -22,11 +23,11 @@ export default function Home() {
         <Homeabout />
         <AvinashInfo />
         <WhatWeProvide />
-        <Loader/>
         <Campaign />
-        
         <CompanysLogo />
         <SDGgoals />
+        <Reviews/>
+        <Loader/>
         <LastSection />
       </main>
 

@@ -52,6 +52,10 @@ const Nav = () => {
                     <li>
                       <a href="/programs" className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Programs</a>
                     </li>
+
+                    <li>
+                      <a href="/announcements" className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Announcements</a>
+                    </li>
                   </ul>
 
                 </div>

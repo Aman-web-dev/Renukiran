@@ -115,7 +115,7 @@ const ContactUs = () => {
             </div>
 
             <div className=''>
-              <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+              <label for="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
               <select className='border border-grey-300 bg-gray-50 rounded-lg' name="Subject" onChange={(e) => setSubject(e.target.value)} value={subject}>
                 <option value="">Subject</option>
                 <option value="suggestion">Suggestion</option>

@@ -28,7 +28,7 @@ function Founders() {
             <div  className='text-start md:text-justify'>
       Avinash Kumar, the Founder & Director of Renukiran Welfare Foundation hails from the Jharkhand, commonly known as the ‘Land of Forests’. 
 He holds over 11 years of professional work experience with Civil Society Organizations and MNCs based in India. With his ingrained leadership, communication and attention to detailed managerial skills he started the journey of Renukiran. Today, he is successfully driving the organization's vision ahead. Apart from looking all operations, Mr. Avinash directly handle multiple verticals of our work, like accounts department & volunteer body. He is a compassionate soul, who believe in exploring ideas through creativity and new ways towards helping more & more underprivileged children in transforming their lives by bringing collective efforts.</div>
-<p className="text-base text-justify font-normal my-4  text-gray-500 dark:text-gray-400">"Every day, I walk this path, running an NGO that my mother dreamt of. Her vision is my guiding light, and her love is the fuel that keeps me going. In her honor, we strive to make the world a better place, one act of kindness at a time." <span>~ Avinash Kumar</span></p>
+<p className="text-base text-justify  my-4  text-black font-bold dark:text-gray-400">"Every day, I walk this path, running an NGO that my mother dreamt of. Her vision is my guiding light, and her love is the fuel that keeps me going. In her honor, we strive to make the world a better place, one act of kindness at a time." <span>~ Avinash Kumar</span></p>
  </div>
       </div>
 
@@ -44,7 +44,7 @@ He holds over 11 years of professional work experience with Civil Society Organi
             <div  className='text-start md:text-justify'>
       Pooja Gupta, the Co-Founder and Director of Renukiran is born and brought up in the state of Uttar Pradesh, Agra. 
 She holds work experience of above 11 years and currently associated with a reputed MNC in Bangalore, Karnataka as a Senior Analyst in Portuguese Language. She is a diploma holder in PGDHRM (Post graduation diploma in Human Resource Management) from Symbiosis Centre of Distance Learning (SCDL) in Pune. At Renukiran Welfare Foundation Pooja is actively involved in managing volunteer’s engagement with team & organizing events towards empowering women. She is involved in operational activities involving Data management.</div>
-<p className="text-base text-justify font-normal my-4  text-gray-500 dark:text-gray-400">"Passion drives us, purpose guides us. Together, we make a world of difference" <span>~ Pooja Gupta</span></p>
+<p className="text-base text-justify font-bold my-4  text-black dark:text-gray-400">"Passion drives us, purpose guides us. Together, we make a world of difference" <span>~ Pooja Gupta</span></p>
  </div>
 
 
