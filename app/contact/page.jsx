@@ -1,15 +1,11 @@
 'use client'
 
-import React, { Fragment, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './contact.css'
-import Image from 'next/image'
-import callingIcon from '../../public/assets/icons/calling.svg'
-import emailIcon from '../../public/assets/icons/email.svg'
-import addressIcon from '../../public/assets/icons/address.svg'
+import Link from 'next/link'
+import { copyText } from '../utils/copyFunction'
 
 const ContactUs = () => {
-
-
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [subject, setSubject] = useState('')
@@ -18,15 +14,9 @@ const ContactUs = () => {
   const [buttonText, setButtonText] = useState("Send Message")
   const [buttonState, setButtonState] = useState(false)
 
-
-
   useEffect(() => {
     document.title = "Renukiran-Contact"
   }, [])
-
-
-
-
 
   const handleFormSubmit = async (e) => {
     setButtonState(true);
@@ -73,32 +63,6 @@ const ContactUs = () => {
   }
   return (
     <>
-      {/* <section className='w-full md:h-[90vh] h-[50vh]'>
-        <div id='realtive w-[100%] h-[100%] overflow-hidden first-image-container'>
-          <div className='text-container absolute z-20 md:ml-40 ml-6'>
-            <h2 className='uppercase text-white md:font-extrabold md:text-4xl'>Contact Now</h2>
-            <p className='text-slate-400 md:text-sm text-xs'>You can contact us at info@renukiran.org or connect with us on Linkedin. <br />We're always open for new opportunities and collaborations.< br className='md:hidden block' /> and basic necessities, empowering <br className='hidden md:block' />individuals to break<br className='md:hidden block' /> the cycle of poverty and build a brighter future.</p>
-            <button onClick={makeCall} className='uppercase md:py-3 md:px-8 py-1 px-4 mt-4 text-white hover:bg-[#223752] bg-[#2e5893]'>Call now</button>
-          </div>
-          <div id='gradient-overlay' className='text-black text-4xl'>
-      
-    </div>
-          <Image alt='contact-now' src="https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FcontactPageBg.jpg?alt=media&token=1048a4d3-2ebb-4091-a119-eb3730f2117b&_gl=1*1bea39e*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NjQ5OTM1Ny4yMC4xLjE2OTY0OTk2NzUuNjAuMC4w" fill objectFit='cover' loading='lazy' className='w-full' id='img' />
-
-          <div className='h-[50vh] bg-gray-300'>hi</div>
-
-        </div>
-      </section> */}
-
-
-
-
-
-
-
-
-
-
       <section className="bg-white dark:bg-gray-900" >
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Renukiran Welfare Foundation</h2>
@@ -141,29 +105,96 @@ const ContactUs = () => {
         </div>
       </section>
 
+      <div>
+  <div className='md:flex block justify-center bg-[#F3F2F3] py-20 gap-8'>
+
+    <div className='h-[250px] max-h-[300px] shadow-md p-8 w-full max-w-[300px] relative border border-gray-200 flex items-center justify-center'>
+  <svg
+    onClick={(e) => copyText("phone", e)}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="#2e5893"
+    className="absolute w-8 h-8 right-5 cursor-pointer top-5"
+  >
+    <path fillRule="evenodd" d="M13.887 3.182c.396.037.79.08 1.183.128C16.194 3.45 17 4.414 17 5.517V16.75A2.25 2.25 0 0 1 14.75 19h-9.5A2.25 2.25 0 0 1 3 16.75V5.517c0-1.103.806-2.068 1.93-2.207.393-.048.787-.09 1.183-.128A3.001 3.001 0 0 1 9 1h2c1.373 0 2.531.923 2.887 2.182ZM7.5 4A1.5 1.5 0 0 1 9 2.5h2A1.5 1.5 0 0 1 12.5 4v.5h-5V4Z" clipRule="evenodd" />
+  </svg>
+  <div className='w-full flex flex-col items-center justify-between h-full'>
+    <div className='flex-1 w-full flex justify-center items-center'>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#2e5893" className="w-16 mb-8">
+  <path fillRule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clipRule="evenodd" />
+</svg>
+    </div>
+    <div className='flex-1 w-full flex justify-center items-center flex-col'>
+      <h3 className='truncate header-text-400 text-black text-lg'>Phone</h3>
+      <span id='phone' className='truncate sub-text-400'>+91 9625881835</span>
+    </div>
+  </div>
+</div>
+
+    <div className='h-[250px] max-h-[300px] shadow-md p-8 w-full max-w-[300px] relative border border-gray-200 flex items-center justify-center'>
+  <svg
+    onClick={(e) => copyText("email", e)}
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="#2e5893"
+    className="absolute w-8 h-8 right-5 cursor-pointer top-5"
+  >
+    <path fillRule="evenodd" d="M13.887 3.182c.396.037.79.08 1.183.128C16.194 3.45 17 4.414 17 5.517V16.75A2.25 2.25 0 0 1 14.75 19h-9.5A2.25 2.25 0 0 1 3 16.75V5.517c0-1.103.806-2.068 1.93-2.207.393-.048.787-.09 1.183-.128A3.001 3.001 0 0 1 9 1h2c1.373 0 2.531.923 2.887 2.182ZM7.5 4A1.5 1.5 0 0 1 9 2.5h2A1.5 1.5 0 0 1 12.5 4v.5h-5V4Z" clipRule="evenodd" />
+  </svg>
+  <div className='w-full flex flex-col items-center justify-between h-full'>
+    <div className='flex-1 w-full flex justify-center items-center'>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="#205893"
+        className="w-16 mb-8"
+      >
+        <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+        <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+      </svg>
+    </div>
+    <div className='flex-1 w-full flex justify-center items-center flex-col'>
+      <h3 className='truncate header-text-400 text-black text-lg'>Email</h3>
+      <span id='email' className='truncate sub-text-400'>info@renukiran.org</span>
+    </div>
+  </div>
+</div>
 
 
+    <Link href='https://maps.app.goo.gl/X9uNp1FJREzWwsxF8' target='_blank'>
+  <div className='shadow-md p-8 w-full max-w-[300px] relative border border-gray-200 flex items-center justify-center h-[250px] max-h-[300px]'>
+    <svg
+      onClick={(e) => copyText("address", e)}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 20 20"
+      fill="#2e5893"
+      className="absolute w-8 h-8 right-5 cursor-pointer top-5"
+    >
+      <path fillRule="evenodd" d="M13.887 3.182c.396.037.79.08 1.183.128C16.194 3.45 17 4.414 17 5.517V16.75A2.25 2.25 0 0 1 14.75 19h-9.5A2.25 2.25 0 0 1 3 16.75V5.517c0-1.103.806-2.068 1.93-2.207.393-.048.787-.09 1.183-.128A3.001 3.001 0 0 1 9 1h2c1.373 0 2.531.923 2.887 2.182ZM7.5 4A1.5 1.5 0 0 1 9 2.5h2A1.5 1.5 0 0 1 12.5 4v.5h-5V4Z" clipRule="evenodd" />
+    </svg>
+    <div className='w-full flex flex-col items-center justify-between h-full'>
+      <div className='flex-1 w-full flex justify-center items-center'>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#205893" className="w-16 mb-8">
+            <path fillRule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clipRule="evenodd" />
+        </svg>
+      </div>
+      <div className='flex-1 w-full flex justify-center items-center flex-col'>
+        <h3 className='truncate header-text-400 text-black text-lg'>Address</h3>
+        <span id='address' className='text-center sub-text-400 w-full'>
+          B-122, Upper Ground Floor, Gali Number 13, Amritpuri, Garhi, New Delhi, Delhi 110065
+        </span>
+      </div>
+    </div>
+  </div>
+</Link>
 
 
-      <section>
-        <div className='contact-page-main-content md:flex block justify-center md:my-24 my-14 md:gap-20 md:mx-6'>
-
-
-          
-          <div onClick={makeCall} className='cursor-pointer text-center flex flex-col items-center md:border md:border-solid border-black md:py-8 md:px-12 rounded-lg md:mx-0 mx-4 py-4 my-4'><Image src={callingIcon} width={50} height={50} alt='call' /> <h2>Phone</h2> <p>+91 9625881835</p></div>
-
-
-
-
-          <div className='cursor-pointer text-center flex flex-col items-center md:border md:border-solid border-black md:py-8 md:px-12 rounded-lg md:mx-0 mx-4 py-4 my-4'><Image src={emailIcon} width={50} height={50} alt='email' /> <h2>Email</h2> <p>info@renukiran.org</p></div>
-
-          <a href='https://maps.app.goo.gl/X9uNp1FJREzWwsxF8' target='_blank'>
-            <div className='cursor-pointer text-center flex flex-col items-center md:border md:border-solid border-black md:py-8 md:px-12 rounded-lg md:mx-0 mx-4 py-4 my-4'><Image src={addressIcon} width={50} height={50} alt='address' /> <h2>Address</h2> <p className='text-wrap'>B-122, Upper Ground Floor, Gali Number 13, <br />Amritpuri, Garhi, New Delhi, Delhi 110065</p><h2 className='font-bold'>Head Office</h2> <p className='text-wrap'>282, Basement, <br />Sant Nagar, East OF Kailash, New Delhi-110065</p></div>
-          </a>
-        </div>
-      </section>
+  </div>
+</div>
     </>
   )
 }
 
 export default ContactUs
+{/* <h2 className='truncate header-text-400 text-black text-lg'>Head Office</h2>
+        <p className='line-clamp-2 sub-text-400'>282, Basement, Sant Nagar, East OF Kailash, New Delhi-110065</p> */}

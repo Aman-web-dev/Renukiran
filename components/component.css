@@ -17,7 +17,6 @@
 }
 
 
-/* CSS for circular background */
 .item {
     display: flex;
     flex-direction: column;
@@ -58,24 +57,18 @@
     width: 170px;
     height: 170px;
     background: #2d9f44;
-    /* Background color for the circle */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    /* Center the circle horizontally */
 }
 
-/* Add any additional styling you want for the circle here */
 .circle h2 {
     margin-top: 10px;
-    /* Adjust the spacing between the circle and text */
     color: white;
-    /* Text color inside the circle */
 }
 
-/* Rest of your CSS styles go here */
 .circle::after {
     content: '';
     height: 170px;
@@ -112,22 +105,24 @@
 
 #last-section {
     position: absolute;
+    /* -webkit-clip-path: polygon(100% 0, 0 0%, 50% 145%);
+    clip-path: polygon(100% 0, 0 0%, 40% 105%); */
     top: 0;
-    width: 44%;
-    height: 100%;
-    left: -14%;
-    -webkit-transform: skewX(-28deg);
-    transform: skewX(348deg);
-
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* height: 100%;
+    left: -4%; */
     background-color: #2e5893;
     opacity: 88%;
+    z-index: 20;
 }
 
 #last-section h4 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: skewX(11deg);
+    top: 20%;
+    left: 30%;
     font-size: 30px;
     font-weight: 900;
     color: white;
@@ -139,8 +134,7 @@
     position: relative;
     max-width: 200px;
     aspect-ratio: 16/6;
-    /* Set the aspect ratio for each image */
-    /* Adjust this alignment as needed */
+
 }
 
 
@@ -167,21 +161,25 @@
 .description {
     display: none;
     position: absolute;
-    top: 100%; /* Position it below the icon */
+    top: 100%;
     left: -40%;
-    transform: translateX(-50%); /* Center it horizontally */
-    background-color: #fff; /* Tooltip background color */
+    transform: translateX(-50%);
+    background-color: #fff;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 400px; /* Adjust the width as needed */
-    z-index: 1; /* Ensure it's above other elements */
+    width: 400px;
+    z-index: 1;
     font-size: 14px;
     padding: 1rem;
     cursor: pointer;
 }
 
+.nav-bar-heading-text {
+    font-size: 14px;
+    
+}
 #about:hover .description {
     display: block;
     cursor: pointer;

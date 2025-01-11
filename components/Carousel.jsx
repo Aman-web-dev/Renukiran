@@ -7,10 +7,8 @@ import Image from 'next/image';
 const Carousel = () => {
     return (
 
-        <div id="default-carousel" className="relative w-full mb-24" data-carousel="slide">
-
+        <div id="default-carousel" className="relative w-full" data-carousel="slide">
             <div className="relative overflow-hidden md:h-[95vh] h-[50vh]">
-
                 <div className="hidden ease-in-out duration-1000" style={{ width: '100%', height: '100%', position: 'relative' }} data-carousel-item priority>
                     <div className=' first-letter:md:text-white md:z-10 md:bg-[#2e5893]/91 hero-section z-20'>
                         <h1 className='md:absolute hidden md:block'>Child <br />Education</h1>
@@ -18,9 +16,6 @@ const Carousel = () => {
                     </div>
                     <Image quality={70} src="/assets/carousel-images/carouselbg_l3ol6o_c_scale,w_1280.webp" fill sizes="(max-width: 1280px) 100vw, 1280px"
                  className="absolute grayscale-[100%] block object-cover" alt="child education image" priority/>
-
-
-                 hii
                 </div>
 
                 <div className="hidden ease-in-out duration-1000 " data-carousel-item>

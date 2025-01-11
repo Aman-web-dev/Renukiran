@@ -3,17 +3,11 @@ import ReviewCards from './ReviewCards'
 
 function Reviews() {
   return (
- 
+        <div className='flex flex-wrap gap-6 align-center justify-center md:py-12 py-6'>
 
-
-
-
-
-        <div className='flex flex-wrap  gap-6 align-center justify-center my-4'>
-
-  <div className='text-center'>          
-<h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Renukiran's Precious Testimonials</h1>
-<p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Discover the Impact: Testimonials from our Valued Collaborators and Dedicated Volunteers. Unveil the True Potential of Renukiran Welfare Foundation through Their Experiences and Insights gained along our Journey.</p>
+  <div className='text-center lg:px-40'>          
+<h1 className="header-text-400 md:text-4xl lg:text-6xl uppercase text-black">Renukiran's Precious Testimonials</h1>
+<p className="lg:text-lg sub-text">Discover the Impact: Testimonials from our Valued Collaborators and Dedicated Volunteers. Unveil the True Potential of Renukiran Welfare Foundation through Their Experiences and Insights gained along our Journey.</p>
 </div>
 <div className='flex flex-wrap  gap-6 align-center justify-center'>
            <ReviewCards imgURL="https://lh3.googleusercontent.com/a-/ALV-UjVzghuGrYCWGjZ7nd6fvgithePpkTcyyjbKhZDsvTCYU3PO=w66-h66-p-rp-mo-br100" 
@@ -21,8 +15,6 @@ function Reviews() {
            ReviewerName="Rishabh Choudhary"
            BorderColor="border-green-600"
            />
-
-
             <ReviewCards 
             imgURL="https://lh3.googleusercontent.com/a/ACg8ocK18Ycze2uKEcoBvTD7Kt17niOKZHQNvU0wQyErdKYR=w66-h66-p-rp-mo-br100"
             review="I feel grateful to be a part of Renukiran welfare foundation. They are doing amazing work by uplifting the underprivileged children of the society and empowering women." 
@@ -41,7 +33,7 @@ function Reviews() {
 
 
 
-             <ReviewCards
+             {/* <ReviewCards
             imgURL="https://lh3.googleusercontent.com/a-/ALV-UjWFlrjvPGBTY3YjSfy-WElW9KAPTmZTKo3GdmPJZg2r8pP-=w66-h66-p-rp-mo-br100"
             review="This NGO does excellent work when it comes to taking care of unprivileged children. I'm very impressed by their ethics and morals to help people in need. They have some definite goal reaching priorities and I think they're succeeding in what they do."
             ReviewerName="Varsha"
@@ -65,7 +57,7 @@ function Reviews() {
             review="The NGO is doing such a great job. Very organized and very focused to reach their goal. The work and effort they have put is seen ... Good Job .. keep up the good work"
             ReviewerName="Samarth Koppala"
             BorderColor="border-indigo-400"
-            />
+            /> */}
 
 
 

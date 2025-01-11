@@ -5,8 +5,8 @@ const LastSection = () => {
   return (
     <section className='w-full md:h-[100vh] h-[50vh]'>
       <div style={{ width: '100%', height: '100%', position: 'relative' }}>
-        <div className='hidden md:block first-letter:md:text-white md:z-10 md:bg-[#2e5893]/91 z-20' id='last-section'>
-          <h4 className='md:absolute hidden md:block z-10'>Renukiran empower communities <br /> for a brighter<br /> future.</h4>
+        <div className='hidden md:block first-letter:md:text-white md:bg-[#2e5893]/91' id='last-section'>
+          <h4 className='md:absolute hidden md:block z-10 header-text-400 text-white'>Renukiran empower communities <br /> for a brighter<br /> future.</h4>
         </div>
         <Image
           alt='Kids picture'

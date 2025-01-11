@@ -8,12 +8,6 @@ module.exports = {
     './node_modules/flowbite/**/*.js'
   ],
   theme: {
-    
-      // backgroundImage: {
-      //   'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-      //   'gradient-conic':
-      //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      // },
       grayscale: {
         50: '50%',
         100: '100%'

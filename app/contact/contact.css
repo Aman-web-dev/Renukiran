@@ -2,28 +2,12 @@
     box-sizing: border-box;
 }
 
-
-
-/* #firstImageContainer::before {
-    content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(46, 88, 147, 0.7));
-  z-index: 1;
-} */
-
-
 #first-image-container {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-
-
 
 #img {
     /* Preserve aspect ratio and cover the container */
@@ -44,14 +28,3 @@
     top: 50%;
     transform: translateY(-50%);
 }
-
-
-/* #first-image-container::before {
-    content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(46, 88, 147, 0.7));
-  z-index: 1; /* Ensure the gradient is behind the image }*/
