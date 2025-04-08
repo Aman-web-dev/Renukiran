@@ -82,7 +82,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>About</span>
+                        <span>About Us- Story Behind RWF</span>
                       </Link>
                     </li>
                     <li>
@@ -90,7 +90,7 @@ const Nav = () => {
                         href="/founders"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Founders
+                        People Behind RWF- Team Acknowledge
                       </Link>
                     </li>
                     <li>
@@ -98,7 +98,7 @@ const Nav = () => {
                         href="/team"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Team
+                        Our Vision, Mission and Goal
                       </Link>
                     </li>
                     <li>
@@ -106,7 +106,7 @@ const Nav = () => {
                         href="/programs"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Programs
+                        Reach and Presence- India Map with work location
                       </Link>
                     </li>
                     <li>
@@ -114,7 +114,7 @@ const Nav = () => {
                         href="/announcements"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Announcements
+                        SDG
                       </Link>
                     </li>
                   </ul>
@@ -150,7 +150,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>About</span>
+                        <span>Quality Education</span>
                       </Link>
                     </li>
                     <li>
@@ -158,7 +158,7 @@ const Nav = () => {
                         href="/founders"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Founders
+                        Women Empowerment
                       </Link>
                     </li>
                     <li>
@@ -166,7 +166,7 @@ const Nav = () => {
                         href="/team"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Team
+                        Livelihood
                       </Link>
                     </li>
                     <li>
@@ -174,7 +174,7 @@ const Nav = () => {
                         href="/programs"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Programs
+                        Health &amp; Nutritive Food
                       </Link>
                     </li>
                     <li>
@@ -182,7 +182,7 @@ const Nav = () => {
                         href="/announcements"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Announcements
+                        Climate Control
                       </Link>
                     </li>
                   </ul>
@@ -218,7 +218,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>About</span>
+                        <span>Blood donation Camp</span>
                       </Link>
                     </li>
                     <li>
@@ -226,7 +226,7 @@ const Nav = () => {
                         href="/founders"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Founders
+                        Plantation Drive
                       </Link>
                     </li>
                     <li>
@@ -234,23 +234,7 @@ const Nav = () => {
                         href="/team"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Team
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/programs"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Programs
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/announcements"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Announcements
+                        Other Drives
                       </Link>
                     </li>
                   </ul>
@@ -286,7 +270,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>About</span>
+                        <span>Individual Support</span>
                       </Link>
                     </li>
                     <li>
@@ -294,7 +278,7 @@ const Nav = () => {
                         href="/founders"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Founders
+                        CSR
                       </Link>
                     </li>
                     <li>
@@ -302,7 +286,7 @@ const Nav = () => {
                         href="/team"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Team
+                        CRM and Events
                       </Link>
                     </li>
                     <li>
@@ -310,7 +294,7 @@ const Nav = () => {
                         href="/programs"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Programs
+                        Employee Engagement
                       </Link>
                     </li>
                     <li>
@@ -318,7 +302,23 @@ const Nav = () => {
                         href="/announcements"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Announcements
+                        Payroll Giving
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/announcements"
+                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        Be a Fundraiser
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/announcements"
+                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        Volunteer and Internship
                       </Link>
                     </li>
                   </ul>
@@ -354,7 +354,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>About</span>
+                        <span>Press Release</span>
                       </Link>
                     </li>
                     <li>
@@ -362,7 +362,7 @@ const Nav = () => {
                         href="/founders"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Founders
+                        Workshops and Events
                       </Link>
                     </li>
                     <li>
@@ -370,23 +370,7 @@ const Nav = () => {
                         href="/team"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Team
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/programs"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Programs
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/announcements"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Announcements
+                        Awards and Recognitions
                       </Link>
                     </li>
                   </ul>
@@ -422,7 +406,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>About</span>
+                        <span>Get in Touch</span>
                       </Link>
                     </li>
                     <li>
@@ -430,31 +414,7 @@ const Nav = () => {
                         href="/founders"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Founders
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/team"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Team
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/programs"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Programs
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/announcements"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Announcements
+                        FAQ
                       </Link>
                     </li>
                   </ul>

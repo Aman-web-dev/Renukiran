@@ -53,7 +53,7 @@ const Footer = () => {
           <div className="w-full lg:w-6/12 px-4 my-auto">
             <div className="flex flex-wrap items-top mb-6">
               <nav className="w-full lg:w-4/12 px-4 ml-auto">
-                <span className="header-text-400 text-lg">Useful Links</span>
+                {/* <span className="header-text-400 text-lg">Useful Links</span> */}
                 <ul className="list-unstyled">
                   <li className="link link-hover">
                     <Link
@@ -68,15 +68,7 @@ const Footer = () => {
                       className="sub-text hover:text-blueGray-800 sub-text"
                       href="h/donate"
                     >
-                      Donate
-                    </Link>
-                  </li>
-                  <li className="link link-hover">
-                    <Link
-                      className="hover:text-blueGray-800 sub-text"
-                      href="/contact"
-                    >
-                      Contact
+                      Child Policy
                     </Link>
                   </li>
                   <li className="link link-hover">
@@ -84,13 +76,21 @@ const Footer = () => {
                       className="hover:text-blueGray-800 sub-text"
                       href="/careers"
                     >
-                      Join Us
+                      Posh
+                    </Link>
+                  </li>
+                      <li className="link link-hover">
+                    <Link
+                      className="hover:text-blueGray-800 sub-text"
+                      href="/contact"
+                    >
+                      Contact
                     </Link>
                   </li>
                 </ul>
               </nav>
               <div className="w-full lg:w-4/12 px-4">
-                <span className="header-text-400 text-lg">Quick Links</span>
+                {/* <span className="header-text-400 text-lg">Quick Links</span> */}
                 <ul className="list-unstyled">
                   <li>
                     <Link
@@ -116,14 +116,14 @@ const Footer = () => {
                       Privacy Policy
                     </Link>
                   </li>
-                  <li className="link link-hover">
+                  {/* <li className="link link-hover">
                     <Link
                       className="hover:text-blueGray-800 sub-text"
                       href="contact"
                     >
                       Contact Us
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

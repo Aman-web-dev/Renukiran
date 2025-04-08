@@ -10,13 +10,20 @@
 
 .sub-text {
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: black;
 }
 
 .sub-text-400 {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  color: black;
+  font-size: 16px;
+}
+
+.sub-text-heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600; /* semi-bold */
   color: black;
   font-size: 16px;
 }
@@ -48,8 +55,9 @@
   font-weight: 400;
   font-style: normal;
   line-height: 20px;
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 1px;
+  color: black;
 }
 
 .background-color {
@@ -91,8 +99,12 @@
   background-color: #81C421;
 }
 
-.renukiran-border-green-color {
+.renukiran-green-color {
   color: #81C421;
+}
+
+.renukiran-blue-color {
+  color: #2e5893;
 }
 
 *{
@@ -120,4 +132,8 @@ body {
 
 .hoverable:hover img {
   opacity: 0;
+}
+
+.screen-padding {
+  padding: 2rem 10rem 2rem 10rem;
 }
