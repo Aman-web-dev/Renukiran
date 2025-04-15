@@ -17,7 +17,7 @@ const RazorpayButton = () => {
 
   }, []);
 
-  return <div className='bg-blue-700 h-28' id="razorpay-btn-container"></div>;
+  return <div className='' id="razorpay-btn-container"></div>;
 };
 
 export default RazorpayButton;
