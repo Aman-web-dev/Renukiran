@@ -163,7 +163,7 @@ const Nav = () => {
 
 
               <li>
-                <a href="/donate" className="bg-[#205893] block py-2 pl-3 pr-4 text-white rounded md:hover:border-blue-800 md:border-0 md:px-2 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:text-[#205893]">Donate us</a>
+                <a href="/general-donations" className="bg-[#205893] block py-2 pl-3 pr-4 text-white rounded md:hover:border-blue-800 md:border-0 md:px-2 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:text-[#205893]">Donate us</a>
               </li>
 
             </ul>
