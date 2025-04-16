@@ -183,7 +183,7 @@ export default function DonationPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-blue-800 mb-2">
-                 Skill Training
+                 Health and Hygiene
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Empowering communities through quality education and
@@ -329,13 +329,3 @@ const donationCardDetails = [
     cardId: "liveli_hood_card",
   },
 ];
-
-<form>
-  <script
-    src="https://checkout.razorpay.com/v1/payment-button.js"
-    data-payment_button_id="pl_QJePWVvMQeQyQ5"
-    async
-  >
-    {" "}
-  </script>{" "}
-</form>;
