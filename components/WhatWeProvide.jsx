@@ -4,91 +4,171 @@ import Link from 'next/link';
 const WhatWeProvide = () => {
   return (
     <div className="text-center overflow-hidden md:my-12 my-6 max-w-[1300px] flex-wrap">
-      <span className="uppercase header-text-400 text-lg md:text-5xl lg:text-6xl text-black">
+      <span className="uppercase header-text-400 text-3xl md:text-5xl lg:text-6xl text-black">
         Our Programmes
       </span>
-      <div className="md:flex block w-full m-auto gap-20 justify-center py-7 text-black md:space-y-0 space-y-10">
-        <Link className="cursor item" href="/programs#education">
-          <div className="circle">
-            <div
-              className=" border-r-8 rounded-full border-blue-600"
-              style={{ width: "170px", height: "170px" }}
-            >
-              <Image
-                quality={20}
-                loading="lazy"
-                src={
-                  "https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FANXB4051.JPG?alt=media&token=a341ea6d-247c-4a40-b4be-649159e5f7ef&_gl=1*gwxrl1*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5NjU3NzkzMS4xLjEuMTY5NjU3ODU5Ni4yMS4wLjA."
-                }
-                alt="child education"
-                height={170}
-                width={170}
-                className="w-full h-full object-cover rounded-full "
-              />
+      <div className="md:flex block w-full m-auto gap-20 text-black md:space-y-0 space-y-10  items-center justify-content-center">
+        <Link
+          className="cursor-pointer group"
+          href="/programs#women-empowerment"
+        >
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 122.88 73.27"
+                className="w-full h-full text-[#205893] transition-all ease-in-out group-hover:text-[#81C421]"
+              >
+                <style>{`.st0{fill-rule:evenodd;clip-rule:evenodd;}`}</style>
+                <g>
+                  <path
+                    className="st0"
+                    fill="currentColor"
+                    d="M104.27,58.88l-0.54-19.99l-32.85,9.49c-2.96,0.65-5.88,0.96-8.74,0.97c-3.07,0.01-6.09-0.32-9.06-0.97 
+            L21.7,38.79v20.27c0.9,10.53,31.11,13.75,40.38,14.19c7.43,0.36,36.78-3.52,40.64-9.57C103.55,62.36,104.07,60.76,104.27,58.88 
+            L104.27,58.88z M117.58,24.5v24.43h0.77c0.53,0,0.96,0.43,0.96,0.96v6.57c0,0.52-0.43,0.96-0.96,0.96h-0.77v2.3 c0.98,0.18,1.73,1.05,1.73,2.08v0c0,1.16-0.96,2.12-2.12,2.12h-3.79c-1.16,0-2.12-0.95-2.12-2.12v0c0-1.03,0.75-1.90,1.73-2.08v-2.3 
+            h-0.77c-0.52,0-0.96-0.43-0.96-0.96v-6.57c0-0.53,0.43-0.96,0.96-0.96h0.77v-23L73.03,38.35c-7.24,1.72-14.48,1.84-21.72,0 
+            L7.18,25.18l-3.99-1.19c-4.97-2.03-3.73-6.80,0.9-7.9L54,1.19c5.15-1.47,10.29-1.70,15.44,0l49.01,14.72 c5.33,1.30,6.38,6.23,0.18,8.26L117.58,24.5L117.58,24.50z"
+                  />
+                </g>
+              </svg>
             </div>
+            <h2 className="uppercase mt-2 text-sm sm:text-base md:text-lg font-semibold text-center">
+              Education
+            </h2>
           </div>
-          <h2 className="uppercase">
-            Quality education <br /> for all
-          </h2>
         </Link>
 
-        <Link className="item cursor" href="/programs#skill">
-          <div className="circle">
-            <div
-              className=" border-r-8 rounded-full border-blue-600"
-              style={{ width: "170px", height: "170px" }}
-            >
-              <Image
-                quality={20}
-                loading="lazy"
-                src={
-                  "https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FLYAV0887.JPG?alt=media&token=b3d14a53-9e19-4cde-84dd-a95c269df43e&_gl=1*ebkn70*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5NjU3NzkzMS4xLjEuMTY5NjU3ODQ1Ni40OC4wLjA."
-                }
-                alt="women empowerment"
-                height={170}
-                width={170}
-                className="w-full h-full object-cover rounded-full"
-              />
+        {/* Card: Healthcare */}
+        <Link className="cursor-pointer group" href="/programs#foodandhygine">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 122.88 88.37"
+                className="w-full h-full text-[#205893] transition-all ease-in-out group-hover:text-[#81C421]"
+              >
+                <style>{`.st0{fill-rule:evenodd;clip-rule:evenodd;}`}</style>
+                <g>
+                  <path
+                    className="st0"
+                    fill="currentColor"
+                    d="M68.49,10.41H57.14L59.41,0h7.31L68.49,10.41L68.49,10.41z M111.17,76.3c0,3.33-1.1,6.18-3.35,8.53 
+              c-2.22,2.35-4.93,3.54-8.09,3.54c-3.18,0-5.88-1.19-8.11-3.54c-2.22-2.35-3.35-5.2-3.35-8.53c0-3.33,1.12-6.18,3.35-8.53 
+              c2.23-2.37,4.93-3.54,8.11-3.54c3.16,0,5.87,1.16,8.09,3.54C110.06,70.13,111.17,72.98,111.17,76.3L111.17,76.3z 
+              M38.68,76.3c0,3.33-1.1,6.18-3.35,8.53c-2.23,2.35-4.93,3.54-8.09,3.54c-3.18,0-5.89-1.19-8.11-3.54
+              c-2.23-2.35-3.35-5.2-3.35-8.53 c0-3.33,1.12-6.18,3.35-8.53c2.22-2.37,4.93-3.54,8.11-3.54c3.16,0,5.86,1.16,8.09,3.54
+              C37.58,70.13,38.68,72.98,38.68,76.3 L38.68,76.3z M100.62,47.11V34.13H91.5V25H78.52v9.14h-9.18v12.98h9.18v9.18H91.5v-9.18
+              H100.62L100.62,47.11z M122.88,82.56h-8.51 c0.74-1.92,1.11-4.01,1.11-6.26c0-4.54-1.51-8.43-4.57-11.64
+              c-3.04-3.24-6.73-4.83-11.05-4.83c-4.35,0-8.03,1.59-11.07,4.83 c-3.04,3.21-4.57,7.1-4.57,11.64c0,2.25,0.37,4.33,1.12,6.26H45.82
+              V12.62h77.06V82.56L122.88,82.56z M42.89,65.38l-2.83,1.41 c-0.51-0.75-1.1-1.46-1.75-2.14c-3.04-3.24-6.74-4.84-11.06-4.84
+              c-4.35,0-8.05,1.59-11.09,4.84c-3.04,3.21-4.58,7.11-4.58,11.66 c0,1.54,0.52,4.88,0.87,6.27L0,82.56V47.58c0-4.55,2.9-6.83,8.73-6.83
+              l3.27,0l8.39-17.48c1.17-2.79,3.27-4.18,6.26-4.18h16.24 V65.38L42.89,65.38z M37.53,48.79V28.62H23.07l-7.65,20.16H37.53
+              L37.53,48.79L37.53,48.79z"
+                  />
+                </g>
+              </svg>
             </div>
+            <h2 className="uppercase mt-2 text-sm sm:text-base md:text-lg font-semibold text-center">
+              Healthcare
+            </h2>
           </div>
-          <h2 className="uppercase">
-            Skilling of communities & <br />
-            livelihood - generation
-          </h2>
         </Link>
 
-        <Link className="cursor item" href="/programs#women-empowerment">
-          <div className="circle">
-            <div
-              className=" border-r-8 rounded-full border-blue-600"
-              style={{ width: "170px", height: "170px" }}
-            >
-              <Image
+        {/* Card: Livelihood */}
+        <Link
+          className="cursor-pointer group"
+          href="/programs#women-empowerment"
+        >
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 121 85.2"
+                className="w-full h-full text-[#205893] transition-all ease-in-out group-hover:text-[#81C421]"
+              >
+                <style>{`.st0{fill-rule:evenodd;clip-rule:evenodd;}`}</style>
+                <g>
+                  <path
+                    className="st0"
+                    fill="currentColor"
+                    d="M46.26,0c5.32,0,9.63,4.31,9.63,9.63c0,5.32-4.31,9.63-9.63,9.63s-9.63-4.31-9.63-9.63 C36.63,4.31,40.94,0,46.26,0L46.26,0z M18.51,25.26c3.75,0,6.8,3.04,6.8,6.8c0,3.75-3.04,6.8-6.8,6.8s-6.8-3.04-6.8-6.8 C11.71,28.31,14.75,25.26,18.51,25.26L18.51,25.26z M9.26,42.14c0.52-0.71,1.28-1.13,2.09-1.23V40.9c4.7-0.74,9.4-0.71,14.1-0.01 c0.83,0.04,1.64,0.44,2.17,1.16c3.11,4.25,4.42,6.97,6.38,11.03c0.64,1.32,1.34,2.78,1.92,3.93c0.7,1.41,0.13,3.12-1.27,3.82 c-1.41,0.7-3.12,0.13-3.82-1.27c-0.91-1.83-1.46-2.97-1.96-4c-1.18-2.45-2.11-4.38-3.38-6.47v15.67v0.81v15.87 c0,1.61-1.38,2.93-3.06,2.93l0,0c-1.68,0-3.06-1.32-3.06-2.93V65.58h-1.9v15.87c0,1.61-1.38,2.93-3.06,2.93l0,0 c-1.68,0-3.06-1.32-3.06-2.93V65.58v-0.81V50.08c-1.26,2.12-2.22,4.11-3.43,6.61c-0.54,1.12-1.13,2.34-2.11,4.31 c-0.76,1.51-2.6,2.13-4.11,1.37c-1.51-0.76-2.13-2.6-1.37-4.11c0.62-1.24,1.38-2.81,2.06-4.24C4.5,49.64,5.91,46.71,9.26,42.14 L9.26,42.14z M102.51,15.4c3.75,0,6.8,3.04,6.8,6.8c0,3.75-3.04,6.8-6.8,6.8s-6.8-3.04-6.8-6.8C95.71,18.44,98.75,15.4,102.51,15.4 L102.51,15.4z M109.45,31.45c0.83,0.04,1.64,0.44,2.17,1.16c3.11,4.24,5.19,9.75,7.15,13.81c0.64,1.33,1.34,2.78,1.92,3.94 c0.7,1.41,0.13,3.12-1.28,3.82c-1.41,0.7-3.12,0.13-3.82-1.27c-0.91-1.82-1.46-2.96-1.96-4c-1.24-2.57-2.55-5.84-4.15-8.88v2.41 l4.78,21.12h-4.78v17.72c0,1.61-1.38,2.93-3.06,2.93l0,0c-1.68,0-3.06-1.32-3.06-2.93V63.56h-1.9v17.72c0,1.61-1.38,2.93-3.06,2.93 l0,0c-1.68,0-3.06-1.32-3.06-2.93V63.56h-4.34l4.34-20.74v-1.84c-0.61,1.28-1.09,2.56-2.07,4.59c-0.54,1.12-0.73,1.66-1.72,3.62 c-0.76,1.51-2.6,2.13-4.11,1.37c-1.51-0.76-2.13-2.6-1.37-4.11c0.62-1.24,0.98-2.12,1.67-3.55c2.11-4.38,2.17-5.63,5.51-10.2 c0.52-0.71,1.28-1.13,2.09-1.23v-0.02C99.84,30.65,104.54,30.63,109.45,31.45L109.45,31.45z M73.11,0c5.32,0,9.63,4.31,9.63,9.63 c0,5.32-4.31,9.63-9.63,9.63c-5.32,0-9.63-4.31-9.63-9.63C63.47,4.31,67.79,0,73.11,0L73.11,0z M74.43,67.09v13.99 c0,2.26,2,4.12,4.45,4.12l0,0c2.45,0,4.45-1.85,4.45-4.12V67.09h6.35l-3.14-14.88c-1.19-0.62-2.03-1.65-2.43-2.84 c-0.4-1.2-0.34-2.55,0.27-3.77c0.19-0.38,0.36-0.74,0.53-1.1l-1.89-8.98v-0.79c1.3,2.14,2.35,4.16,3.46,6.4 c0.34-0.73,0.63-1.4,0.9-2.01c0.98-2.24,1.68-3.82,3.83-6.84c-1.36-2.4-2.92-4.84-5.09-7.8c-0.77-1.05-1.94-1.63-3.15-1.69 c-6.73-1.22-13.15-1.18-19.28,0.01v0.03c-0.98,0.08-1.92,0.5-2.63,1.24c2.02,2.8,3.5,5.17,4.81,7.5c1.41,2.52,2.62,5.02,4.06,8.01 c0.46,0.96,0.95,1.98,1.43,2.96c0.54,1.11,1.02,2.09,1.35,2.75c0.7,1.4,0.76,2.94,0.31,4.31c-0.46,1.37-1.44,2.57-2.83,3.27 c-1.39,0.7-2.94,0.76-4.31,0.31c-1.37-0.46-2.57-1.44-3.27-2.83c-0.57-1.14-3.16-6.46-3.56-7.26l-1.65,24.01h5.99v13.99 c0,2.26,2,4.12,4.45,4.12l0,0c2.45,0,4.45-1.85,4.45-4.12V67.09H74.43L74.43,67.09z M47.28,57.54v23.54c0,2.26,2,4.12,4.45,4.12 l0,0c2.45,0,4.45-1.85,4.45-4.12V57.54h0v-23.1c1.85,3.04,3.2,5.85,4.92,9.41c0.73,1.51,1.53,3.17,2.86,5.82 c1.02,2.05,3.51,2.88,5.56,1.85c2.04-1.02,2.88-3.51,1.85-5.56c-0.84-1.68-1.86-3.79-2.79-5.72c-2.85-5.91-4.76-9.88-9.29-16.05 c-0.77-1.05-1.93-1.63-3.13-1.69c-3.33-0.79-20.06-2.33-23,1.69c-4.16,5.68-6.11,9.48-8.62,14.66c0.39,0.05,0.77,0.1,1.15,0.16 c0.65,0.05,1.29,0.24,1.87,0.55c0.61,0.33,1.16,0.79,1.59,1.38c0.81,1.11,1.51,2.12,2.12,3.07l0.07-0.15 c1.9-3.94,3.35-6.95,5.52-10.38v21.18c0.29,0.59,0.55,1.12,0.75,1.53c0.58,1.17,0.64,2.46,0.26,3.61 c-0.21,0.63-0.55,1.22-1.01,1.71v19.58c0,2.26,2,4.12,4.45,4.12l0,0c2.45,0,4.45-1.85,4.45-4.12V57.54H47.28L47.28,57.54z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <h2 className="uppercase mt-2 text-sm sm:text-base md:text-lg font-semibold text-center">
+              Livelihood
+            </h2>
+          </div>
+        </Link>
+
+        {/* Card: Women Empowerment */}
+        <Link
+          className="cursor-pointer group"
+          href="/programs#women-empowerment"
+        >
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 122.88 103.22"
+                className="w-full h-full text-[#205893] ease-in-out group-hover:text-[#81C421]"
+              >
+                <style>{`.cls-1{fill-rule:evenodd;}`}</style>
+                <path
+                  className="cls-1"
+                  fill="currentColor"
+                  d="M43.92,41.94a1.66,1.66,0,0,1,1-.51,1.88,1.88,0,0,1,.61.07,2.61,2.61,0,0,1,1.17.77,60.08,60.08,0,0,1,6,6.1c1,.93,1.24,1.9.45,2.83l-1.45,1.62c-.74.74-1.67.7-2.69,0-4.58-3.85-10-5.84-5.14-10.84ZM30.61,65.6a20.79,20.79,0,0,1-9.77-6.15c6.54-2.47,9.56-9.08,10-20.64.31-8.59-1.46-12.82,1.47-21.3C38.07.72,59.54-5,71.49,4.8c9.38-1,18.83,3.85,20.86,18.3,1.52,10.78-1.7,18,1.7,27.91a15.51,15.51,0,0,0,8,9.47c-2.55,2.44-6.25,4.06-10.69,5.14a91,91,0,0,1-13.61,1.67c.68,4.57,2.1,4.75,6.13,7a20.56,20.56,0,0,1-8.64,7.21L69.31,65.69c-.83-1.33-1-1,.08-2A44.65,44.65,0,0,0,75.18,57c4.61-6.45,7.07-8.85,3.34-15.51l-2.81-5.13c-3.44-6.2-10.53-.48-15.84,2.56-1.55,1.93,2,6.06,5,4.9l4-1.5,1.18,2.8c-9.76-1.29-11.75,5-12.42,13.24-1-5-.16-9.09,1.86-11.14a28.86,28.86,0,0,0-5.24,5c-.41.5-.81,1-1.19,1.58C51,56.58,49,54.69,47,53.15c-1-.82-2.11-1.7-3.08-2.43a16.07,16.07,0,0,0,1.93,7.7,27.76,27.76,0,0,1,4,6.43c.54,1.38,1,2.7,1.58,4.11l4.37,15.15C48.64,83,42.2,79.76,39,74.34c2.47-3,4.2-4.52,5-6.86-5.81-.36-10.64-1-13.4-1.88Zm34.64-41a1.83,1.83,0,0,1,.62.16c1,.46,2.24,2.56,2.76,3.52.33.61,1.27,2.28,2,3.68l-6.56,2.65c-1-1.7-2-3.44-3-4.84a2.08,2.08,0,0,1-.35-2.23,5.11,5.11,0,0,1,2.08-2,6,6,0,0,1,2.36-1ZM57.48,29a2.12,2.12,0,0,1,.63.12,2.89,2.89,0,0,1,1.15.9,15.65,15.65,0,0,1,1.82,2.44l1.76,2.76c-2.27,1-5.32,1.56-5.42,4.47-1.34-1.82-2.53-3.77-3.7-5.27a2.09,2.09,0,0,1-.49-2.21c.47-1.28,3-3.23,4.25-3.21Zm-7,5.86a1.84,1.84,0,0,1,.61.06,2.73,2.73,0,0,1,1.18.77,14.28,14.28,0,0,1,1.93,2.18c.82,1.08,3.95,5.07,4.39,6a1.64,1.64,0,0,1-.23,1.94L56.5,47.56c-.74.74-1.67.69-2.69,0-2.38-2.29-4.56-5.17-6.47-7.22a2,2,0,0,1-.65-2.07c.32-1.17,2.61-3.34,3.79-3.41ZM87.07,75c19.42,7.46,30,6.41,35.81,28.25H83.33L76.68,85.41C82,82.88,85.91,79.22,87.07,75ZM61.29,103.22H0c5.7-21.29,16.17-20.49,35.07-27.8,4.18,9,12.94,13,22.12,13.61l4.10,14.19Z"
+                />
+              </svg>
+            </div>
+            <h2 className="uppercase mt-2 text-sm sm:text-base md:text-lg font-semibold text-center">
+              Women <br />Empowerment
+            </h2>
+          </div>
+        </Link>
+
+        {/* Card: Climate Change */}
+        <Link className="cursor-pointer group" href="/programs#foodandhygine">
+          <div className="flex flex-col items-center">
+            <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 122.88 115.02"
+                className="w-full h-full text-[#205893] transition-all ease-in-out group-hover:text-[#81C421]"
+              >
+                <path
+                  fill="currentColor"
+                  d="M121.38,52.72l.24.19a3.52,3.52,0,0,1,.57,4.8L122,58a4,4,0,0,1-2.61,1.36,4.15,4.15,0,0,1-2.86-.72c-2.59-1.87-4.77-2.24-6.81-1.8a20.36,20.36,0,0,0-6.27,3.14l0,0c-3.3,2.13-6.84,4.41-11.25,5.51s-9.74,1-16.48-1.6l-.24-.1a3.7,3.7,0,0,1-1.87-1.91l0,0a3.51,3.51,0,0,1,0-2.59l.12-.27A3.84,3.84,0,0,1,75.81,57a4.25,4.25,0,0,1,3,0c4.79,1.87,8.6,1.89,11.82,1a29.4,29.4,0,0,0,8.46-4.22l0,0c6.81-4.36,12.66-8.12,22.31-1.13ZM62,24.83V90.19a33.6,33.6,0,0,1-4.51.31,33,33,0,0,1,0-66h0a33.49,33.49,0,0,1,4.51.31ZM60.44,3.7a3.7,3.7,0,1,0-7.39,0v9.46a3.7,3.7,0,1,0,7.39,0V3.7ZM33.13,9.45a3.68,3.68,0,1,0-6.38,3.67l4.74,8.19a3.68,3.68,0,0,0,6.38-3.66l-4.74-8.2ZM12.37,28.07a3.69,3.69,0,0,0-3.7,6.38l8.2,4.73a3.68,3.68,0,0,0,3.69-6.37l-8.19-4.74ZM3.7,54.58A3.7,3.7,0,1,0,3.7,62h9.46a3.7,3.7,0,1,0,0-7.39ZM9.45,81.89a3.68,3.68,0,0,0,3.67,6.38l8.19-4.74a3.67,3.67,0,0,0-3.66-6.37l-8.2,4.73Zm18.62,20.76a3.69,3.69,0,0,0,6.38,3.7l4.73-8.2a3.69,3.69,0,0,0-6.38-3.69l-4.73,8.19Zm26.51,8.68a3.7,3.7,0,0,0,7.39,0v-9.47a3.7,3.7,0,0,0-7.39,0v9.47Zm66.82-81,.22.17a3.56,3.56,0,0,1,.57,4.81l-.19.24a4.13,4.13,0,0,1-5.48.64c-2.6-1.87-4.78-2.23-6.81-1.79a20.14,20.14,0,0,0-6.27,3.14h0c-3.29,2.13-6.84,4.41-11.26,5.52s-9.75,1-16.48-1.6l-.25-.1a3.75,3.75,0,0,1-1.86-1.91,3.52,3.52,0,0,1,0-2.65l.12-.27a3.86,3.86,0,0,1,2.15-1.9,4.14,4.14,0,0,1,3,0,18.57,18.57,0,0,0,11.82,1A29.47,29.47,0,0,0,99,31.43l.06,0c6.79-4.34,12.64-8.08,22.28-1.12l0,0Zm0,44.87.24.18a3.56,3.56,0,0,1,.57,4.81l-.19.24a4,4,0,0,1-2.62,1.37,4.15,4.15,0,0,1-2.86-.72c-5.18-3.75-8.83-1.4-13.07,1.33l0,0c-3.29,2.13-6.84,4.41-11.26,5.52s-9.74,1-16.48-1.6l-.25-.1a3.72,3.72,0,0,1-1.86-1.91,3.54,3.54,0,0,1,0-2.64l.11-.24a3.89,3.89,0,0,1,2.17-1.94,4.19,4.19,0,0,1,3,0c4.79,1.87,8.6,1.89,11.82,1a29.4,29.4,0,0,0,8.46-4.22l0,0c6.81-4.37,12.66-8.12,22.31-1.13Z"
+                />
+              </svg>
+            </div>
+            <h2 className="uppercase mt-2 text-sm sm:text-base md:text-lg font-semibold text-center">
+              Climate Change
+            </h2>
+          </div>
+        </Link>
+      </div>
+    </div>
+  );
+}
+ {
+   /* <Image
                 quality={20}
                 loading="lazy"
                 src={
-                  "https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2Fwomen-empowerment.JPG?alt=media&token=6fa15536-b797-4ae0-9501-b535c3a5cb37&_gl=1*1kvhhxz*_ga*Njc4NjI1OTEyLjE2OTI4NjkyOTU.*_ga_CW55HF8NVT*MTY5NzAxODEyNi4yNS4xLjE2OTcwMTgzMzguNjAuMC4w"
+                  "/assets/icons/women-empowerment.svg"
                 }
                 alt="Health Campaign"
                 height={170}
                 width={170}
                 className="w-full h-full object-cover rounded-full "
-              />
-            </div>
-          </div>
-          <h2 className="uppercase">
-            women
-            <br /> empowerment
-          </h2>
-        </Link>
+              /> */
+ }
 
-        <Link href="/programs#foodandhygine" className="item cursor">
-          <div className="circle">
-            <div
-              className=" border-r-8 rounded-full border-blue-600"
-              style={{ width: "170px", height: "170px" }}
-            >
-              <Image
+ {
+   /* <Image
                 quality={20}
                 loading="lazy"
                 src={
@@ -98,17 +178,7 @@ const WhatWeProvide = () => {
                 height={170}
                 width={170}
                 className="w-full h-full object-cover rounded-full "
-              />
-            </div>
-          </div>
-          <h2 className="uppercase">
-            Nutritive food, <br /> health & hygiene
-          </h2>
-        </Link>
-      </div>
-    </div>
-  );
-}
-
+              /> */
+ }
 export default WhatWeProvide;
 

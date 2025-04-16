@@ -8,20 +8,20 @@ const Nav = () => {
     <>
       <nav className="bg-white border-b border-gray-400 shadow-md sticky top-0 w-full z-40 backdrop-filter backdrop-blur-lg bg-opacity-50">
         <div className=" flex flex-wrap items-center justify-between mx-auto p-1 md:px-8">
-          <Link href="/" className="flex items-center h-50">
+          <a href="/" className="flex items-center h-50">
             <Image
-              src={logo}
+              src='/assets/renukiran-logo-png.png'
               width={150}
               height={40}
               alt="Renukiran"
               priority={true}
             />
-          </Link>
-          <div className="flex gap-5 items-center">
+          </a>
+          <div className="flex items-center">
             <li className="md:hidden block">
               <Link
                 href="/donate"
-                className="bg-[#205893] py-2 pl-3 pr-4 text-white rounded md:hover:border-blue-800 md:px-2 md:hover:text-[#205893] md:hover:border uppercase"
+                className="bg-[#205893] px-2 py-2 text-white rounded md:hover:border-blue-800 md:hover:text-[#205893] md:hover:border uppercase"
               >
                 Support us
               </Link>
@@ -51,11 +51,14 @@ const Nav = () => {
               </svg>
             </button>
           </div>
-          <div className="hidden w-full md:block md:w-auto " id="navbar-default">
+          <div
+            className="hidden w-full md:block md:w-auto "
+            id="navbar-default"
+          >
             <ul className="font-medium flex flex-col p-4 md:p-0 md:items-center mt-4 border md:flex-row   md:mt-0 md:border-0 gap-4">
               <li className="navigation-level-1 nav-bar-heading-text">
                 <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
-                  About
+                  About Us
                   <svg
                     className="w-2.5 h-2.5 ml-2.5"
                     aria-hidden="true"
@@ -77,28 +80,64 @@ const Nav = () => {
                   className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                 >
                   <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    <li className="navigation-level-2">
+                    <li>
                       <Link
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>About Us- Story Behind RWF</span>
+                        <span>About Us</span>
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        href="/founders"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    <li className="navigation-level-2 block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                      <div className="flex justify-between">
+                        <span>Our People</span>
+                        <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            className="w-4"
+                          >
+                            <path
+                              stroke="currentColor"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                      <div
+                        className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                        id="dropdown-2"
                       >
-                        People Behind RWF- Team Acknowledge
-                      </Link>
+                        <ul className="text-sm text-gray-700 dark:text-gray-400">
+                          <li>
+                            <Link
+                              href={"/"}
+                              className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            >
+                              Leadership
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href={"/"}
+                              className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            >
+                              Our People
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
                     </li>
                     <li>
                       <Link
                         href="/team"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Our Vision, Mission and Goal
+                        Mission, Vision, Goal
                       </Link>
                     </li>
                     <li>
@@ -106,7 +145,7 @@ const Nav = () => {
                         href="/programs"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Reach and Presence- India Map with work location
+                        Reach and Presence
                       </Link>
                     </li>
                     <li>
@@ -114,7 +153,15 @@ const Nav = () => {
                         href="/announcements"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        SDG
+                        Sustainable Development Goals
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/announcements"
+                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        Good Governance
                       </Link>
                     </li>
                   </ul>
@@ -150,7 +197,24 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>Quality Education</span>
+                        Education
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/programs"
+                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        Health &amp; Nutritive Food
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link
+                        href="/team"
+                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        Livelihood
                       </Link>
                     </li>
                     <li>
@@ -163,33 +227,17 @@ const Nav = () => {
                     </li>
                     <li>
                       <Link
-                        href="/team"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Livelihood
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/programs"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Health &amp; Nutritive Food
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
                         href="/announcements"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Climate Control
+                        Climate Change
                       </Link>
                     </li>
                   </ul>
                 </div>
               </li>
 
-              <li className="navigation-level-1 nav-bar-heading-text">
+              {/* <li className="navigation-level-1 nav-bar-heading-text">
                 <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
                   Campaigns
                   <svg
@@ -239,6 +287,66 @@ const Nav = () => {
                     </li>
                   </ul>
                 </div>
+              </li> */}
+              <li className="navigation-level-1 nav-bar-heading-text">
+                <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
+                  Resource Center
+                  <svg
+                    className="w-2.5 h-2.5 ml-2.5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </button>
+                <div
+                  id="dropdown-1"
+                  className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                >
+                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
+                    <li className="navigation-level-2">
+                      <Link
+                        href="/about"
+                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
+                      >
+                        The RWF Blogs
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/founders"
+                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        Newsletter
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/team"
+                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        Annual Reports
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/programs"
+                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >
+                        Story of Change
+                      </Link>
+                    </li>
+                   
+                  </ul>
+                </div>
               </li>
 
               <li className="navigation-level-1 nav-bar-heading-text">
@@ -270,7 +378,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>Individual Support</span>
+                        Individual Support
                       </Link>
                     </li>
                     <li>
@@ -278,15 +386,15 @@ const Nav = () => {
                         href="/founders"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        CSR
+                        Be a Fundraiser
                       </Link>
                     </li>
-                    <li>
+                    <li className="navigation-level-2">
                       <Link
                         href="/team"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        CRM and Events
+                        Corporate Partnership
                       </Link>
                     </li>
                     <li>
@@ -294,7 +402,7 @@ const Nav = () => {
                         href="/programs"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Employee Engagement
+                        School Partnership
                       </Link>
                     </li>
                     <li>
@@ -302,7 +410,7 @@ const Nav = () => {
                         href="/announcements"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Payroll Giving
+                        Volunteer & Internship
                       </Link>
                     </li>
                     <li>
@@ -310,15 +418,7 @@ const Nav = () => {
                         href="/announcements"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Be a Fundraiser
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/announcements"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Volunteer and Internship
+                        Work with us
                       </Link>
                     </li>
                   </ul>
@@ -354,7 +454,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>Press Release</span>
+                        <span>Press Releases</span>
                       </Link>
                     </li>
                     <li>
@@ -362,15 +462,7 @@ const Nav = () => {
                         href="/founders"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Workshops and Events
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/team"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Awards and Recognitions
+                        Workshops & Events
                       </Link>
                     </li>
                   </ul>
@@ -406,7 +498,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        <span>Get in Touch</span>
+                        Get in Touch
                       </Link>
                     </li>
                     <li>
@@ -414,7 +506,7 @@ const Nav = () => {
                         href="/founders"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        FAQ
+                        FAQs
                       </Link>
                     </li>
                   </ul>

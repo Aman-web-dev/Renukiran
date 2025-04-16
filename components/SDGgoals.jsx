@@ -1,11 +1,12 @@
 import React from 'react';
 import SDGCards from './SDGCards';
+import SDGGoals from './SDG-Goals';
 
 function SDGgoals() {
   return (
     <div className="renukiran-bg-green-color text-center py-6 md:py-12">
       <div>
-        <h1 className="text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl header-text-400 text-white">
+        <h1 className="text-3xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl header-text-400 text-white">
           Sustainable Development Goals
         </h1>
         <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 background-header-text sub-text">
@@ -15,7 +16,21 @@ function SDGgoals() {
         </p>
       </div>
 
-      <div className="w-full gap-4 grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-col-2 my-4">
+      {/* <div className="w-full gap-4 grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-col-2 my-4">
+        <SDGCards
+          bgColor={"bg-[#289438]"}
+          smallTitle={"Good Health and Well-Being"}
+          pictureSRC={
+            "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/SDGlogos%2FGroup%2013.svg?alt=media&token=e31b0c3d-4443-4ee9-a561-2771b2985f7f"
+          }
+          secondImage={
+            "https://img.freepik.com/free-photo/africa-humanitarian-aid-doctor-taking-care-patient_23-2149117843.jpg?t=st=1703663670~exp=1703664270~hmac=e2632798da58d32bc651ad328600e787923d652b22a679cb2994ec3ed88e8e19"
+          }
+          SDGNumber={"2"}
+          SDGTitle={"Goal 2"}
+          SDGText={""}
+        />
+
         <SDGCards
           bgColor={"bg-[#289438]"}
           smallTitle={"Good Health and Well-Being"}
@@ -59,6 +74,20 @@ function SDGgoals() {
         />
 
         <SDGCards
+          bgColor={"bg-[#289438]"}
+          smallTitle={"Good Health and Well-Being"}
+          pictureSRC={
+            "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/SDGlogos%2FGroup%2013.svg?alt=media&token=e31b0c3d-4443-4ee9-a561-2771b2985f7f"
+          }
+          secondImage={
+            "https://img.freepik.com/free-photo/africa-humanitarian-aid-doctor-taking-care-patient_23-2149117843.jpg?t=st=1703663670~exp=1703664270~hmac=e2632798da58d32bc651ad328600e787923d652b22a679cb2994ec3ed88e8e19"
+          }
+          SDGNumber={"8"}
+          SDGTitle={"Goal 8"}
+          SDGText={""}
+        />
+
+        <SDGCards
           bgColor={"bg-[#4a7634]"}
           smallTitle={"Good Health and Well-Being"}
           pictureSRC={
@@ -71,7 +100,8 @@ function SDGgoals() {
           SDGTitle={"Goal 13"}
           SDGText={""}
         />
-      </div>
+      </div> */}
+      <SDGGoals/>
     </div>
   );
 }

@@ -18,16 +18,13 @@ const SubscribeLetter = () => {
             />
             <input
               type="text"
-              placeholder="Eamil address*"
+              placeholder="Email address*"
               className="input text-black bg-white focus:outline-none focus:ring-0 w-full max-w-xs rounded-none"
             />
             <button className="btn renukiran-bg-green-color text-white border-0 rounded-none self-start">
               Subscribe
             </button>
           </div>
-        </div>
-        <div className='absolute top-0 right-0 bottom-0'>
-          <img src="/assets/images/subscribe-pic.png" className='w-full h-full object-cover' alt="" />
         </div>
       </div>
     </div>

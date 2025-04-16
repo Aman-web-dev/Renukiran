@@ -39,13 +39,11 @@ const Carousel = ({ rows, options }) => {
                     style={{ width: "150px", height: "150px" }}
                   >
                     <div className="brand-image">
-                      <Link href={`/brand/${item.id}`}>
                         <img
                           src={item.icon}
                           alt={item.name}
                           className="object-contain w-full h-full"
                         />
-                      </Link>
                     </div>
                   </div>
                 </div>

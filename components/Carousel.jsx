@@ -1,10 +1,14 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import './component.css'
 import Button from '@mui/material/Button';
 import Image from 'next/image';
 
 
 const Carousel = () => {
+    useEffect(() => {
+        console.log("carousel mounting...")
+    })
     return (
 
         <div id="default-carousel" className="relative w-full" data-carousel="slide">

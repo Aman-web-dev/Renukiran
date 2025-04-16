@@ -16,6 +16,8 @@ import "react-responsive-modal/styles.css";
 import SubscribePopup from './SubscribePopup'
 import { useEffect } from 'react'
 import SubscribeLetter from './SubscribeLetter'
+import TestimonialCarousel from './TestimonialCarousel'
+import SDGGoals from './SDG-Goals'
 
 const App = () => {
   // const isModalShowed = !(localStorage.getItem("isModalShowed")) ? JSON.stringify(localStorage.setItem("isModalShowed" , false)) : JSON.parse(localStorage.getItem("isModalShowed"))
@@ -28,15 +30,17 @@ const App = () => {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <SubscribePopup/>
+      <SubscribePopup />
       <Carousel />
-      <Homeabout />
+      {/* <Homeabout /> */}
       <AvinashInfo />
       <WhatWeProvide />
-      <Campaign />
-      <CompanysLogo />
+      {/* <Campaign /> */}
       <SDGgoals />
-      <Reviews />
+      {/* <SDGGoals/> */}
+      <CompanysLogo />
+      <TestimonialCarousel/>
+      {/* <Reviews /> */}
       <Loader />
       {/* <LastSection /> */}
     </main>

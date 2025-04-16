@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
             <BuyMeal />
             <WhatsappButton />
             <Analytics />
-            <SubscribeLetter/>
+            {/* <SubscribeLetter/> */}
             <Footer />
             <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
             <SpeedInsights/>
