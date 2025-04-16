@@ -2,22 +2,25 @@
 
 import React, { useEffect } from 'react';
 
-const RazorpayButton = () => {
+const RazorpayButton = ({PaymentId,cardId}) => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://checkout.razorpay.com/v1/payment-button.js";
     script.async = true;
-    script.setAttribute("data-payment_button_id", "pl_QJHlGMsTFtCXxA");
+    console.log(PaymentId)
+    script.setAttribute("data-payment_button_id", PaymentId);
+    // script.setAttribute("id", "razorpay-donation-btn");
+
 
     const form = document.createElement("form");
     form.appendChild(script);
-
-    document.getElementById("razorpay-btn-container").appendChild(form);
-    document.querySelector("[data-payment_button_id='pl_QJHlGMsTFtCXxA']").setAttribute("class", "h-40 bg-blue-900");
-
+    // document.getElementById(cardId).appendChild(form)
+    // document.getElementsByClassName
+    
+    document.getElementById(cardId).appendChild(form);
   }, []);
 
-  return <div className='' id="razorpay-btn-container"></div>;
+  return <div  id={cardId}></div>;
 };
 
 export default RazorpayButton;

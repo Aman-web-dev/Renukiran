@@ -28,3 +28,14 @@ body {
 .hoverable:hover img {
   opacity: 0;
 }
+
+#razorpay-donation-btn{
+  height: 20;
+  width: 40;
+  background-color: black;
+}
+
+
+#razorpay-btn-container :first-child{
+
+}

@@ -1,9 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from '../public/assets/images/official-logo.png'
-// import Home from '../public/assets/carousel-images/House.gif'
-// import { Image } from 'next/image'
-
+import Link from 'next/link'
 import House from '../public/assets/carousel-images/home.gif'
 
 
@@ -11,7 +9,6 @@ import House from '../public/assets/carousel-images/home.gif'
 const Nav = () => {
   return (
     <>
-
       <nav className="bg-white border-b border-gray-400 shadow-md sticky top-0 w-full z-40 backdrop-filter backdrop-blur-lg bg-opacity-50">
         <div className=" flex flex-wrap items-center justify-between mx-auto p-1 md:px-8">
           <a href="/" className="flex items-center h-50">
@@ -163,7 +160,7 @@ const Nav = () => {
 
 
               <li>
-                <a href="/general-donations" className="bg-[#205893] block py-2 pl-3 pr-4 text-white rounded md:hover:border-blue-800 md:border-0 md:px-2 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:text-[#205893]">Donate us</a>
+                <Link href="/general-donations" className="bg-[#205893] block py-2 pl-3 pr-4 text-white rounded md:hover:border-blue-800 md:border-0 md:px-2 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:text-[#205893]">Donate us</Link>
               </li>
 
             </ul>
