@@ -26,14 +26,10 @@ const SDGGoals = () => {
   const colorGoals = [2, 3, 4, 5, 8, 13];
 
   return (
-    <div className="p-8 rounded-lg">
-      {/* <h1 className="text-3xl font-bold mb-6 text-center">
-        Sustainable Development Goals
-      </h1> */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
+    <div className="p-8 rounded-lg max-w-4xl">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
         {sdgGoals.map((goalNumber) => {
           const isColor = colorGoals.includes(goalNumber);
-        console.log('goal-number: ', goalNumber)
           return (
             <div
               key={goalNumber}

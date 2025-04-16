@@ -4,12 +4,12 @@ import SDGGoals from './SDG-Goals';
 
 function SDGgoals() {
   return (
-    <div className="renukiran-bg-green-color text-center py-6 md:py-12">
+    <div className=" text-center py-3 md:py-6 flex flex-col items-center">
       <div>
-        <h1 className="text-3xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl header-text-400 text-white">
+        <h1 className="text-3xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl header-text-400 text-black">
           Sustainable Development Goals
         </h1>
-        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 background-header-text sub-text">
+        <p style={{color:"black"}} className="mb-6 text-lg font-normal lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 background-header-text sub-text">
           Empowering Lives at Renukiran Welfare Foundation: Focused on WHO's
           Main SDGs - Health (SDG 3), Education (SDG 4), Gender Equality (SDG
           5), and Climate Action (SDG 13).
