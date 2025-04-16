@@ -17,7 +17,9 @@ const TestimonialsCard = (props) => {
                 fill="currentColor"
               />
             </svg>
-            <span className="text-base font-semibold text-indigo-600">4.9</span>
+            <span className="text-base font-semibold text-indigo-600">
+              {props.ratings}
+            </span>
           </div>
 
           {/* REVIEW TEXT — trimmed after 4 lines */}
@@ -29,8 +31,9 @@ const TestimonialsCard = (props) => {
         <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
           <img
             className="rounded-full h-10 w-10 object-cover"
-            src="https://pagedone.io/asset/uploads/1696229969.png"
+            src={props.imgURL}
             alt="avatar"
+            onError={(e) => (e.target.src = "https://cdn-icons-png.flaticon.com/512/266/266033.png")}
           />
           <div className="block">
             <h5 className="text-gray-900 font-medium transition-all duration-500 mb-1">

@@ -205,7 +205,7 @@ const Nav = () => {
                         href="/programs"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Health &amp; Nutritive Food
+                        Health &amp; Hygiene
                       </Link>
                     </li>
 
@@ -317,7 +317,7 @@ const Nav = () => {
                         href="/about"
                         className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                       >
-                        The RWF Blogs
+                        The Blogs
                       </Link>
                     </li>
                     <li>
