@@ -8,22 +8,18 @@ import { Analytics } from '@vercel/analytics/react'
 import WhatsappButton from '@/components/WhatsappButton'
 import BuyMeal from '@/components/buyMealButton'
 import Loader from '@/components/Loader'
-// import { useState, useEffect } from 'react'
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import SubscribeLetter from '@/components/SubscribeLetter'
 
 const mulish = Mulish({ subsets: ['latin-ext'] })
 
 export const metadata = {
-  title: 'Renukiran',
+  title: 'Renukiran Welfare Foundation',
   description: 'A NGO that works for the underprivlieged',
   script: ''
 }
 
 export default function RootLayout({ children }) {
-
-
-
-
   return (
     <>
       <html lang="en">
@@ -33,6 +29,9 @@ export default function RootLayout({ children }) {
           <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
           <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
           <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
         </Head>
 
         <body className={mulish.className}>
@@ -42,6 +41,7 @@ export default function RootLayout({ children }) {
             <BuyMeal />
             <WhatsappButton />
             <Analytics />
+            {/* <SubscribeLetter/> */}
             <Footer />
             <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
             <SpeedInsights/>

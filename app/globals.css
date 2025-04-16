@@ -1,6 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.text-content {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.sub-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+.sub-text-white {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.sub-text-400 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 16px;
+}
+
+.sub-text-heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600; /* semi-bold */
+  color: black;
+  font-size: 16px;
+}
+
+.nav-bar-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: black
+}
+
+.header-text-600 {
+  font-family: "Bebas Neue", serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 53px;
+  letter-spacing: 2px;
+}
+
+.header-text-400 {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 33px;
+  letter-spacing: 2px;
+}
+
+.header-sub-text {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.background-color-blue {
+  background-color: #2e5893;
+}
+
+.background-color-light-blue {
+  background-color: #4C4D4C;
+}
+
+.background-header-text {
+  color: white;
+}
+
+.navigation-level-1:hover #dropdown-1 {
+  display: block;
+  position: absolute;
+}
+
+.navigation-level-2:hover #dropdown-2 {
+  display: block;
+  position: absolute;
+}
+
+.navigation-level-3 {
+  position: relative !important;
+}
+
+.navigation-level-3:hover #dropdown-3 {
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.component-padding-global-top-bottom {
+  padding: 3rem 0;
+}
+
+.sub-component-padding-top-bottom {
+  padding: 2rem 0;
+}
+.renukiran-bg-green-color {
+  background-color: #81C421;
+}
+
+.renukiran-green-color {
+  color: #81C421;
+}
+
+.renukiran-blue-color {
+  color: #2e5893;
+}
 
 *{
   margin: 0;
@@ -22,7 +141,7 @@ body {
 
 .hoverable img {
   opacity: 1;
-  transition: opacity 0.5s ease; /* Adjust the duration and easing as needed */
+  transition: opacity 0.5s ease;
 }
 
 .hoverable:hover img {
@@ -35,7 +154,3 @@ body {
   background-color: black;
 }
 
-
-#razorpay-btn-container :first-child{
-
-}
