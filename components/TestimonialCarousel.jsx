@@ -52,8 +52,8 @@ const TestimonialCarousel = () => {
         };
     }, [])
   return (
-    <section class="md:py-12 py-6 renukiran-bg-green-color main-swiper">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section className="md:py-12 py-6 renukiran-bg-green-color main-swiper">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center lg:px-40 md:mb-12 mb-6">
           <h1 className="header-text-400 md:text-5xl text-3xl lg:text-6xl uppercase text-white">
             Testimonials
@@ -66,14 +66,14 @@ const TestimonialCarousel = () => {
           </p>
         </div>
 
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper flex items-center justify-center">
-            {/* <div class="swiper-slide">
-              <div class="group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
-                <div class="">
-                  <div class="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500  ">
+        <div className="swiper mySwiper">
+          <div className="swiper-wrapper flex items-center justify-center">
+            {/* <div className="swiper-slide">
+              <div className="group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
+                <div className="">
+                  <div className="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500  ">
                     <svg
-                      class="w-5 h-5"
+                      className="w-5 h-5"
                       viewBox="0 0 18 17"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -83,26 +83,26 @@ const TestimonialCarousel = () => {
                         fill="currentColor"
                       />
                     </svg>
-                    <span class="text-base font-semibold text-indigo-600">
+                    <span className="text-base font-semibold text-indigo-600">
                       4.9
                     </span>
                   </div>
-                  <p class="text-base text-gray-600 leading-6  transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
+                  <p className="text-base text-gray-600 leading-6  transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
                     Pagedone has made it possible for me to stay on top of my
                     portfolio and make informed decisions quickly and easily.
                   </p>
                 </div>
-                <div class="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
+                <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
                   <img
-                    class="rounded-full h-10 w-10 object-cover"
+                    className="rounded-full h-10 w-10 object-cover"
                     src="https://pagedone.io/asset/uploads/1696229969.png"
                     alt="avatar"
                   />
-                  <div class="block">
-                    <h5 class="text-gray-900 font-medium transition-all duration-500  mb-1">
+                  <div className="block">
+                    <h5 className="text-gray-900 font-medium transition-all duration-500  mb-1">
                       Jane D
                     </h5>
-                    <span class="text-sm leading-4 text-gray-500">CEO </span>
+                    <span className="text-sm leading-4 text-gray-500">CEO </span>
                   </div>
                 </div>
               </div>
@@ -145,7 +145,7 @@ const TestimonialCarousel = () => {
               ratings="4.0"
             />
           </div>
-          <div class="swiper-pagination"></div>
+          <div className="swiper-pagination"></div>
         </div>
       </div>
     </section>

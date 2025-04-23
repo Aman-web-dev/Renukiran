@@ -8,24 +8,20 @@ import {
 } from "lucide-react";
 import RazorpayButton from "@/components/razorpayPaymnetButton";
 import DonationCard from "@/components/donationCard";
+import { Venus, TreeDeciduous } from "lucide-react";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 
 export default function DonationPage() {
-  const handleDonation = () => {
-    alert("Thank you for your donation!");
-    // In a real application, this would connect to a payment processor
-  };
-
   return (
     <div className="max-w-screen bg-gradient-to-b from-blue-50 to-white">
       {/* Hero Section with Visual Appeal */}
       <div className="relative bg-blue-700 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
-          <img
-            src="https://images.unsplash.com/photo-1505155485412-30b3a45080ec?q=80&w=2362&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        <div className="absolute bg-blue-700 inset-0 opacity-20">
+          {/* <img
+            src="https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/CarouselPics%2Fcarouselbg_l3ol6o_c_scale%2Cw_857.webp?alt=media&token=1b8c4290-2828-47e6-93e3-75faf89327c0"
             alt=""
-            className="w-full h-full object-cover"
-          />
+            className="w-full h-5xl bg-blue-500 object-cover"
+          /> */}
         </div>
         <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
@@ -35,38 +31,54 @@ export default function DonationPage() {
             Your support enables us to continue our vital work in communities
             around the world
           </p>
-          <RazorpayButton
+          {/* <RazorpayButton
                   PaymentId={"pl_QJHlGMsTFtCXxA"}
                   cardId={"cajcxzxssgvcsdd"}
-                />
+                /> */}
         </div>
       </div>
 
       {/* Impact Stats Bar */}
       <div className="bg-white shadow-md py-6">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="max-w-8xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div className="flex items-center justify-center">
+              <TreeDeciduous className="text-blue-600 h-10 w-10 mr-4" />
+              <div>
+                <p className="text-3xl font-bold text-blue-800">500+</p>
+                <p className="text-gray-600">
+                  Trees Planted across Country to create a cleaner and greener
+                  atmosphere{" "}
+                </p>
+              </div>
+            </div>
             <div className="flex items-center justify-center">
               <Droplet className="text-blue-600 h-10 w-10 mr-4" />
               <div>
-                <p className="text-3xl font-bold text-blue-800">15,000+</p>
-                <p className="text-gray-600">People with clean water access</p>
+                <p className="text-3xl font-bold text-blue-800">30,000+</p>
+                <p className="text-gray-600">
+                  Seed balls Made and Distributed to promote greenry and
+                  sustainability
+                </p>
               </div>
             </div>
             <div className="flex items-center justify-center">
               <BookOpen className="text-blue-600 h-10 w-10 mr-4" />
               <div>
-                <p className="text-3xl font-bold text-blue-800">8,000+</p>
+                <p className="text-3xl font-bold text-blue-800">21,000+</p>
                 <p className="text-gray-600">
-                  Children with educational resources
+                  Children got access to education resources and professional
+                  guidance
                 </p>
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <Users className="text-blue-600 h-10 w-10 mr-4" />
+              <Venus className="text-blue-600 h-10 w-10 mr-4" />
               <div>
                 <p className="text-3xl font-bold text-blue-800">2,500+</p>
-                <p className="text-gray-600">Families supported</p>
+                <p className="text-gray-600">
+                  Women empowered Through awareness session and support{" "}
+                </p>
               </div>
             </div>
           </div>
@@ -81,7 +93,7 @@ export default function DonationPage() {
             Current Initiatives
           </h2>
           <div className="flex flex-col lg:flex-row gap-8">
-            <div className="lg:w-1/2">
+            {/* <div className="lg:w-1/2">
               <div className="sticky top-8 rounded-xl overflow-hidden shadow-xl">
                 <img
                   src="https://images.unsplash.com/photo-1505155485412-30b3a45080ec?q=80&w=2362&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -89,11 +101,11 @@ export default function DonationPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-            </div>
+            </div> */}
 
             <div
               id="card_container"
-              className="lg:w-1/2 max-h-screen overflow-y-auto scrollbar-thin scrollbar-thumb-blue-500 scrollbar-track-blue-100 pr-2"
+              className="grid md:grid-cols-3 grid-cols-1 gap-4 pr-2  w-full"
             >
               {donationCardDetails.map((elem) => (
                 <DonationCard
@@ -111,37 +123,21 @@ export default function DonationPage() {
 
         {/* Impact statement with better design */}
         <div className="bg-blue-800 text-white mx-6 p-10 rounded-2xl mb-16 shadow-lg transform hover:shadow-xl transition-all">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-6xl mx-auto text-center">
             <h3 className="text-2xl font-bold mb-6 text-center text-[#81c421]">
               Our Impact
             </h3>
             <p className="text-lg mb-6 opacity-90">
-              In the past year alone, we've helped over 15,000 people gain
-              access to clean water, provided educational resources to 8,000
-              children, and supported 2,500 families with sustainable farming
-              initiatives.
+            Our initiatives have made a significant impact, with over 500 trees planted nationwide to foster a cleaner, greener environment. We've distributed more than 30,000 seed balls to promote sustainability and greenery. Additionally, we've provided educational resources and professional guidance to over 21,000 children, empowering their futures. Through awareness sessions and support, we've empowered more than 2,500 women, driving positive change in communities across the country.
             </p>
             <p className="text-lg opacity-90">
               We commit to using{" "}
-              <span className="text-[#81c421] font-bold">92%</span> of all
-              donations directly for program expenses, with only 8% going toward
+              <span className="text-[#81c421] font-bold">90%</span> of all
+              donations directly for program expenses, with only{" "}
+              <span className="text-[#81c421] font-bold">10%</span> going toward
               administrative costs. Your generosity makes a real, measurable
               difference in people's lives.
             </p>
-
-            {/* Progress bar */}
-            <div className="mt-8">
-              <div className="flex justify-between mb-2 text-sm">
-                <span>Monthly Goal: $50,000</span>
-                <span>$37,500 (75%)</span>
-              </div>
-              <div className="w-full bg-blue-950 rounded-full h-4">
-                <div
-                  className="bg-[#81c421] h-4 rounded-full"
-                  style={{ width: "75%" }}
-                ></div>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -183,7 +179,7 @@ export default function DonationPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-blue-800 mb-2">
-                 Health and Hygiene
+                  Health and Hygiene
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Empowering communities through quality education and
@@ -205,7 +201,7 @@ export default function DonationPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-blue-800 mb-2">
-                 Climate Change
+                  Climate Change
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Delivering essential healthcare to underserved communities
@@ -229,14 +225,13 @@ export default function DonationPage() {
                 Ready to Make a Difference?
               </h2>
               <p className="text-lg mb-8 opacity-90">
-                Your donation today will help transform lives and communities.
-                Join us in our mission to create lasting positive change.
+              Your contributions are eligible for up to 50% tax benefit under Section 80G as Renukiran Welfare Foundation is registered as a non-profit organization.
+              
               </p>
               <div className="mb-8">
-                <RazorpayButton
-                  PaymentId={"pl_QJHlGMsTFtCXxA"}
-                  cardId={"card_1237"}
-                />
+                <span className="text-lg font-bold"> Details: </span>
+PAN: AACTS7973G | 80G NUMBER: AACTS7973GF20210
+                
               </div>
               <p className="text-sm opacity-80 flex items-center">
                 <svg
@@ -262,40 +257,14 @@ export default function DonationPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="relative p-10 text-center flex flex-col justify-center items-center h-full ">
-                <div className="mb-6 p-3 bg-white bg-opacity-20 rounded-full inline-block">
-                  <Heart className="text-red-400" size={32} />
-                </div>
-                <div className="mb-6 text-white">
-                  <p className="text-3xl font-bold mb-2">$1,245,678</p>
-                  <p className="opacity-80">Raised so far</p>
-                </div>
-                <div className="grid grid-cols-3 gap-4 w-full max-w-xs text-white">
-                  <div className=" bg-opacity-20 p-3 rounded-lg">
-                    <p className="text-xl font-bold">7,234</p>
-                    <p className="text-sm opacity-80">Donors</p>
-                  </div>
-                  <div className=" bg-opacity-20 p-3 rounded-lg">
-                    <p className="text-xl font-bold">92%</p>
-                    <p className="text-sm opacity-80">To Programs</p>
-                  </div>
-                  <div className=" bg-opacity-20 p-3 rounded-lg">
-                    <p className="text-xl font-bold">54</p>
-                    <p className="text-sm opacity-80">Countries</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-
         {/* Testimonials Section */}
         <div className="mb-16">
           <TestimonialCarousel />
         </div>
       </div>
-
-
     </div>
   );
 }

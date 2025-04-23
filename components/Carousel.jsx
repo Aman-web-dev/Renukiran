@@ -18,7 +18,7 @@ const Carousel = () => {
                         <h1 className='md:absolute hidden md:block'>Child <br />Education</h1>
                         <Button href='/donate' className='donation-button' variant="contained" style={{ padding: '10px 30px' }}>Donate now</Button>
                     </div>
-                    <Image quality={70} src="/assets/carousel-images/carouselbg_l3ol6o_c_scale,w_1280.webp" fill sizes="(max-width: 1280px) 100vw, 1280px"
+                    <Image quality={70} src="https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/CarouselPics%2Fcarouselbg_l3ol6o_c_scale%2Cw_1280.webp?alt=media&token=17c037b0-cf18-40c2-9feb-2d04216337ca" fill sizes="(max-width: 1280px) 100vw, 1280px"
                  className="absolute grayscale-[100%] block object-cover" alt="child education image" priority/>
                 </div>
 
@@ -28,7 +28,7 @@ const Carousel = () => {
                         <Button href='/donate' className='donation-button' variant="contained" style={{ padding: '10px 30px' }}>Donate now</Button>
                     </div>
                     <Image quality={70} sizes="(max-width: 1400px) 100vw, 1400px"
-                        src="/assets/carousel-images/carousel2Bg_hyinot_c_scale,w_1400.webp" fill  className="absolute grayscale-[100%] block object-cover" alt="Women empowerment image"  priority/>
+                        src="https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/CarouselPics%2Fcarousel2Bg_hyinot_c_scale%2Cw_1400.webp?alt=media&token=bcd3b242-2711-447f-b4a1-ff1c533724d8" fill  className="absolute grayscale-[100%] block object-cover" alt="Women empowerment image"  priority/>
 
 
                         <div className='h-screen w-screen bg-black'>
@@ -44,7 +44,7 @@ const Carousel = () => {
                     </div>
                     <Image quality={70} sizes="(max-width: 1152px) 100vw, 1152px"
                         className="absolute grayscale-[100%] block object-cover"
-                        src="/assets/carousel-images/carousel3Bg_dsqnuh_c_scale,w_1152.webp" fill  priority/>
+                        src="https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/CarouselPics%2Fcarousel3Bg_dsqnuh_c_scale%2Cw_1152.webp?alt=media&token=01230571-0ee7-4bab-b746-09ef6d5e9303" fill  priority/>
                 </div>
 
                 <div className="hidden ease-in-out duration-1000 " data-carousel-item>
@@ -53,7 +53,7 @@ const Carousel = () => {
                         <Button href='/donate' className='donation-button' variant="contained" style={{ padding: '10px 30px' }}>Donate now</Button>
                     </div>
                     <Image quality={70} sizes="(max-width: 1280px) 100vw, 1280px"
-                        src="/assets/carousel-images/carousel4Bg_nclumo_c_scale,w_1280.webp" fill  className="absolute bottom-0 grayscale-[100%] block object-cover" alt="4" priority/>
+                        src="https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/CarouselPics%2Fcarousel4Bg_nclumo_c_scale%2Cw_1280.webp?alt=media&token=3d4308e7-8e2a-4903-a4a8-d171f95d36dc" fill  className="absolute bottom-0 grayscale-[100%] block object-cover" alt="4" priority/>
                 </div>
 
             </div>

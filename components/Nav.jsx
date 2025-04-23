@@ -1,19 +1,87 @@
-import React from 'react'
-import Image from 'next/image'
-import logo from '../public/assets/images/official-logo.png'
-import Link from 'next/link'
-import House from '../public/assets/carousel-images/home.gif'
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
-
+const navRoutes = [
+  {
+    heading: 'About Us',
+    disabled: false,
+    subRoutes: [
+      { label: 'About Us', href: '/about', disabled: false },
+      {
+        label: 'Our People',
+        href: '#',
+        disabled: false,
+        nestedRoutes: [
+          { label: 'Leadership', href: '/', disabled: false },
+          { label: 'Our People', href: '/', disabled: false },
+        ],
+      },
+      { label: 'Mission, Vision, Goal', href: '/team', disabled: false },
+      { label: 'Reach and Presence', href: '/programs', disabled: false },
+      { label: 'Sustainable Development Goals', href: '/announcements', disabled: false },
+      { label: 'Good Governance', href: '/announcements', disabled: false },
+    ],
+  },
+  {
+    heading: 'Our Work',
+    disabled: false,
+    subRoutes: [
+      { label: 'Education', href: '/about', disabled: false },
+      { label: 'Health & Hygiene', href: '/programs', disabled: false },
+      { label: 'Livelihood', href: '/team', disabled: false },
+      { label: 'Women Empowerment', href: '/founders', disabled: false },
+      { label: 'Climate Change', href: '/announcements', disabled: false },
+    ],
+  },
+  {
+    heading: 'Resource Center',
+    disabled: false,
+    subRoutes: [
+      { label: 'The Blogs', href: '/about', disabled: false },
+      { label: 'Newsletter', href: '/founders', disabled: false },
+      { label: 'Annual Reports', href: '/team', disabled: false },
+      { label: 'Story of Change', href: '/programs', disabled: false },
+    ],
+  },
+  {
+    heading: 'Get Involved',
+    disabled: false,
+    subRoutes: [
+      { label: 'Individual Support', href: '/about', disabled: false },
+      { label: 'Be a Fundraiser', href: '/founders', disabled: false },
+      { label: 'Corporate Partnership', href: '/team', disabled: false },
+      { label: 'School Partnership', href: '/programs', disabled: false },
+      { label: 'Volunteer & Internship', href: '/announcements', disabled: false },
+      { label: 'Work with Us', href: '/announcements', disabled: false },
+    ],
+  },
+  {
+    heading: 'Media Centre',
+    disabled: false,
+    subRoutes: [
+      { label: 'Press Releases', href: '/about', disabled: false },
+      { label: 'Workshops & Events', href: '/founders', disabled: false },
+    ],
+  },
+  {
+    heading: 'Contact Us',
+    disabled: false,
+    subRoutes: [
+      { label: 'Get in Touch', href: '/about', disabled: false },
+      { label: 'FAQs', href: '/founders', disabled: false },
+    ],
+  },
+];
 
 const Nav = () => {
   return (
     <>
       <nav className="bg-white border-b border-gray-400 shadow-md sticky top-0 w-full z-40 backdrop-filter backdrop-blur-lg bg-opacity-50">
-        <div className=" flex flex-wrap items-center justify-between mx-auto p-1 md:px-8">
+        <div className="flex flex-wrap items-center justify-between mx-auto p-1 md:px-8">
           <a href="/" className="flex items-center h-50">
             <Image
-              src='/assets/renukiran-logo-png.png'
+              src="/assets/renukiran-logo-png.png"
               width={150}
               height={40}
               alt="Renukiran"
@@ -54,557 +122,106 @@ const Nav = () => {
               </svg>
             </button>
           </div>
-          <div
-            className="hidden w-full md:block md:w-auto "
-            id="navbar-default"
-          >
-            <ul className="font-medium flex flex-col p-4 md:p-0 md:items-center mt-4 border md:flex-row   md:mt-0 md:border-0 gap-4">
-              <li className="navigation-level-1 nav-bar-heading-text">
-                <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
-                  About Us
-                  <svg
-                    className="w-2.5 h-2.5 ml-2.5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
+          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul className="font-medium flex flex-col p-4 md:p-0 md:items-center mt-4 border md:flex-row md:mt-0 md:border-0 gap-4">
+              {navRoutes.map((route, index) => (
+                <li key={index} className="navigation-level-1 nav-bar-heading-text">
+                  <button
+                    className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase"
+                    disabled={route.disabled}
                   >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-                <div
-                  id="dropdown-1"
-                  className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                >
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    <li>
-                      <Link
-                        href="/about"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
-                      >
-                        <span>About Us</span>
-                      </Link>
-                    </li>
-                    <li className="navigation-level-2 block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
-                      <div className="flex justify-between">
-                        <span>Our People</span>
-                        <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            className="w-4"
-                          >
-                            <path
-                              stroke="currentColor"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                            />
-                          </svg>
-                        </button>
-                      </div>
-                      <div
-                        className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                        id="dropdown-2"
-                      >
-                        <ul className="text-sm text-gray-700 dark:text-gray-400">
-                          <li>
+                    {route.heading}
+                    <svg
+                      className="w-2.5 h-2.5 ml-2.5"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 10 6"
+                    >
+                      <path
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="m1 1 4 4 4-4"
+                      />
+                    </svg>
+                  </button>
+                  <div
+                    id={`dropdown-${index}`}
+                    className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                  >
+                    <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
+                      {route.subRoutes.map((subRoute, subIndex) => (
+                        <li
+                          key={subIndex}
+                          className={subRoute.nestedRoutes ? 'navigation-level-2' : ''}
+                        >
+                          {subRoute.nestedRoutes ? (
+                            <div className="flex justify-between">
+                              <span>{subRoute.label}</span>
+                              <button
+                                className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase"
+                                disabled={subRoute.disabled}
+                              >
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  fill="none"
+                                  viewBox="0 0 24 24"
+                                  className="w-4"
+                                >
+                                  <path
+                                    stroke="currentColor"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          ) : (
                             <Link
-                              href={"/"}
-                              className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                              href={subRoute.href}
+                              className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
+                              disabled={subRoute.disabled}
                             >
-                              Leadership
+                              {subRoute.label}
                             </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href={"/"}
-                              className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          )}
+                          {subRoute.nestedRoutes && (
+                            <div
+                              className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                              id={`dropdown-${index}-${subIndex}`}
                             >
-                              Our People
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <Link
-                        href="/team"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Mission, Vision, Goal
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/programs"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Reach and Presence
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/announcements"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Sustainable Development Goals
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/announcements"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Good Governance
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li className="navigation-level-1 nav-bar-heading-text">
-                <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
-                  Our work
-                  <svg
-                    className="w-2.5 h-2.5 ml-2.5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-                <div
-                  id="dropdown-1"
-                  className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                >
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    <li className="navigation-level-2">
-                      <Link
-                        href="/about"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
-                      >
-                        Education
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/programs"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Health &amp; Hygiene
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link
-                        href="/team"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Livelihood
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/founders"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Women Empowerment
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/announcements"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Climate Change
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              {/* <li className="navigation-level-1 nav-bar-heading-text">
-                <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
-                  Campaigns
-                  <svg
-                    className="w-2.5 h-2.5 ml-2.5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-                <div
-                  id="dropdown-1"
-                  className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                >
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    <li className="navigation-level-2">
-                      <Link
-                        href="/about"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
-                      >
-                        <span>Blood donation Camp</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/founders"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Plantation Drive
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/team"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Other Drives
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </li> */}
-              <li className="navigation-level-1 nav-bar-heading-text">
-                <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
-                  Resource Center
-                  <svg
-                    className="w-2.5 h-2.5 ml-2.5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-                <div
-                  id="dropdown-1"
-                  className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                >
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    <li className="navigation-level-2">
-                      <Link
-                        href="/about"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
-                      >
-                        The Blogs
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/founders"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Newsletter
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/team"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Annual Reports
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/programs"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Story of Change
-                      </Link>
-                    </li>
-                   
-                  </ul>
-                </div>
-              </li>
-
-              <li className="navigation-level-1 nav-bar-heading-text">
-                <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
-                  Get involved
-                  <svg
-                    className="w-2.5 h-2.5 ml-2.5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-                <div
-                  id="dropdown-1"
-                  className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                >
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    <li className="navigation-level-2">
-                      <Link
-                        href="/about"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
-                      >
-                        Individual Support
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/founders"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Be a Fundraiser
-                      </Link>
-                    </li>
-                    <li className="navigation-level-2">
-                      <Link
-                        href="/team"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Corporate Partnership
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/programs"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        School Partnership
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/announcements"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Volunteer & Internship
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/announcements"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Work with us
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li className="navigation-level-1 nav-bar-heading-text">
-                <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
-                  Media centre
-                  <svg
-                    className="w-2.5 h-2.5 ml-2.5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-                <div
-                  id="dropdown-1"
-                  className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                >
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    <li className="navigation-level-2">
-                      <Link
-                        href="/about"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
-                      >
-                        <span>Press Releases</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/founders"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        Workshops & Events
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li className="navigation-level-1 nav-bar-heading-text">
-                <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
-                  Contact Us
-                  <svg
-                    className="w-2.5 h-2.5 ml-2.5"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 10 6"
-                  >
-                    <path
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="m1 1 4 4 4-4"
-                    />
-                  </svg>
-                </button>
-                <div
-                  id="dropdown-1"
-                  className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                >
-                  <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                    <li className="navigation-level-2">
-                      <Link
-                        href="/about"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
-                      >
-                        Get in Touch
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/founders"
-                        className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >
-                        FAQs
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-
-              <li className="hidden">
-                <ul className="font-medium flex lg:gap-2 gap-4 mx-auto md:my-0 my-2 p-4 md:p-0 md:items-center mt-4 border md:flex-row md:space-x-2 md:mt-0 md:border-0">
-                  {/* <li>
-                    <Link
-                      href="https://www.facebook.com/renukiranorg/"
-                      target="_blank"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5"
-                        fill="currentColor"
-                        style={{ color: "#1877f2" }}
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
-                      </svg>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      href="https://www.instagram.com/renukiran_foundation/?hl=en"
-                      target="_blank"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5"
-                        fill="currentColor"
-                        style={{ color: "#c13584" }}
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                      </svg>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link
-                      href="https://youtube.com/@renukiranwelfarefoundation3066?si=7PXcYS4IRIH4PI-u"
-                      target="_blank"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5"
-                        fill="currentColor"
-                        style={{ color: "#ff0000" }}
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
-                      </svg>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="https://twitter.com/RenukiranW" target="_blank">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5"
-                        fill="currentColor"
-                        style={{ color: "#1da1f2" }}
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                      </svg>
-                    </Link>
-                  </li> */}
-
-                  {/* <li>
-                    <Link
-                      href="https://wa.me/message/U7OZ4BHQNPA4J1"
-                      target="_blank"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5"
-                        fill="currentColor"
-                        style={{ color: "#128c7e" }}
-                        viewBox="0 0 24 24"
-                      >
-                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
-                      </svg>
-                    </Link>
-                  </li> */}
-                </ul>
-              </li>
-
-
+                              <ul className="text-sm text-gray-700 dark:text-gray-400">
+                                {subRoute.nestedRoutes.map((nestedRoute, nestedIndex) => (
+                                  <li key={nestedIndex}>
+                                    <Link
+                                      href={nestedRoute.href}
+                                      className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                                      disabled={nestedRoute.disabled}
+                                    >
+                                      {nestedRoute.label}
+                                    </Link>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </li>
+              ))}
               <li>
-                <Link href="/general-donations" className="bg-[#205893] block py-2 pl-3 pr-4 text-white rounded md:hover:border-blue-800 md:border-0 md:px-2 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:text-[#205893]">Donate us</Link>
+                <Link
+                  href="/general-donations"
+                  className="bg-[#205893] block py-2 pl-3 pr-4 text-white rounded md:hover:border-blue-800 md:border-0 md:px-2 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:text-[#205893]"
+                >
+                  Donate us
+                </Link>
               </li>
             </ul>
           </div>
