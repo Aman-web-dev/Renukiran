@@ -82,12 +82,12 @@
   color: white;
 }
 
-.navigation-level-1:hover #dropdown-1 {
+.navigation-level-1:hover #dropdown {
   display: block;
   position: absolute;
 }
 
-.navigation-level-2:hover #dropdown-2 {
+.navigation-level-2:hover #dropdown {
   display: block;
   position: absolute;
 }
@@ -96,7 +96,7 @@
   position: relative !important;
 }
 
-.navigation-level-3:hover #dropdown-3 {
+.navigation-level-3:hover #dropdown {
   display: block;
   position: absolute;
   top: 0;

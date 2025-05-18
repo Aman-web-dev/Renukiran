@@ -5,16 +5,16 @@ import Link from 'next/link';
 const navRoutes = [
   {
     heading: 'About Us',
-    disabled: false,
+    disabled:true,
     subRoutes: [
-      { label: 'About Us', href: '/about', disabled: false },
+      { label: 'About Us', href: '/about', disabled: true },
       {
         label: 'Our People',
         href: '#',
         disabled: false,
         nestedRoutes: [
-          { label: 'Leadership', href: '/', disabled: false },
-          { label: 'Our People', href: '/', disabled: false },
+          { label: 'Leadership', href: '/leadership', disabled: false },
+          { label: 'Team', href: '/team', disabled: false },
         ],
       },
       { label: 'Mission, Vision, Goal', href: '/team', disabled: false },
@@ -125,10 +125,9 @@ const Nav = () => {
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 md:items-center mt-4 border md:flex-row md:mt-0 md:border-0 gap-4">
               {navRoutes.map((route, index) => (
-                <li key={index} className="navigation-level-1 nav-bar-heading-text">
+                <li  key={index} className="navigation-level-1 nav-bar-heading-text">
                   <button
                     className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase"
-                    disabled={route.disabled}
                   >
                     {route.heading}
                     <svg
@@ -148,7 +147,7 @@ const Nav = () => {
                     </svg>
                   </button>
                   <div
-                    id={`dropdown-${index}`}
+                    id={`dropdown`}
                     className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                   >
                     <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
@@ -158,12 +157,12 @@ const Nav = () => {
                           className={subRoute.nestedRoutes ? 'navigation-level-2' : ''}
                         >
                           {subRoute.nestedRoutes ? (
-                            <div className="flex justify-between">
-                              <span>{subRoute.label}</span>
+                            <div className="flex justify-between ">
                               <button
-                                className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase"
-                                disabled={subRoute.disabled}
+                                className="flex w-full block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
+                                // disabled={subRoute.disabled}
                               >
+                                {subRoute.label}
                                 <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   fill="none"
@@ -184,15 +183,15 @@ const Nav = () => {
                             <Link
                               href={subRoute.href}
                               className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
-                              disabled={subRoute.disabled}
+                              // disabled={subRoute.disabled}
                             >
                               {subRoute.label}
                             </Link>
                           )}
                           {subRoute.nestedRoutes && (
                             <div
-                              className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                              id={`dropdown-${index}-${subIndex}`}
+                              className="navigation-level-3 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                              id={`dropdown`}
                             >
                               <ul className="text-sm text-gray-700 dark:text-gray-400">
                                 {subRoute.nestedRoutes.map((nestedRoute, nestedIndex) => (
