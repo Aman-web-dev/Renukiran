@@ -1,7 +1,7 @@
 'use client'
 
 import React,{useEffect} from 'react'
-import  EventData from '@/EventData'
+import EventData from '@/EventData'
 import Link from 'next/link'
 
 function events() {
