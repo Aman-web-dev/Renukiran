@@ -1,7 +1,7 @@
 'use client'
 
 import React,{useEffect} from 'react'
-import eventData from '@/eventData'
+import {EventData} from '@/EventData'
 import Link from 'next/link'
 
 function events() {
@@ -12,7 +12,7 @@ function events() {
 
   return (
     <section className='w-full flex-wrap flex items-center justify-center my-auto px-6 md:px-4 gap-12 py-8'>
-      {eventData.map(data => {
+      {EventData.map(data => {
         return <>
           <div key={data.id}
   className="flex flex-col rounded-lg bg-white shadow-md md:max-w-md md:flex-row ">

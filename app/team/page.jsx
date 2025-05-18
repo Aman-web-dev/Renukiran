@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { Linkedin, Info, Users, Heart, ArrowRight } from 'lucide-react'
-import TeamCard from '@/components/teamCards'
+import TeamCard from '@/components/TeamCard'
 
 // Main Team Component
 function Team() {

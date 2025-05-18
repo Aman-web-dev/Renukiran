@@ -1,5 +1,5 @@
 'use client'
-import eventData from '@/eventData';
+import eventData from '@/EventData';
 import Image from 'next/image';
 
 

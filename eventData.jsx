@@ -1,4 +1,4 @@
-const eventData = [
+export const EventData = [
     {
         id:1,
         title: `COVID Relief - Ration & Hygiene Kit Distribution for Residents of Yamuna Bank Settlement Report`,
@@ -470,4 +470,3 @@ const eventData = [
 
 ]
 
-export default eventData

@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react';
 
-const RazorpayButton = ({PaymentId,cardId}) => {
+const RazorpayPaymentButton = ({PaymentId,cardId}) => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://checkout.razorpay.com/v1/payment-button.js";
@@ -23,4 +23,4 @@ const RazorpayButton = ({PaymentId,cardId}) => {
   return <div  id={cardId}></div>;
 };
 
-export default RazorpayButton;
+export default RazorpayPaymentButton;

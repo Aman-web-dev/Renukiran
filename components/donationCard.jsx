@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import RazorpayButton from "./razorpayPaymnetButton";
+import RazorpayButton from "./RazorpayPaymentButton";
 import Image from "next/image";
 
 function DonationCard({ imageLink, title, description, paymentId, cardId }) {

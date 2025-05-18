@@ -8,7 +8,7 @@ import "./component.css";
 import { Info, Linkedin } from "lucide-react";
 import { useState } from "react";
 
-function TeamCard({ name, designation, pic, desc, linkedin }) {
+export default function TeamCard({ name, designation, pic, desc, linkedin }) {
   const [showDesc, setShowDesc] = useState(false);
 
   return (
@@ -61,4 +61,4 @@ function TeamCard({ name, designation, pic, desc, linkedin }) {
   );
 }
 
-export default TeamCard;
+

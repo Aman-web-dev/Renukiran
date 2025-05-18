@@ -6,7 +6,7 @@ import {
   Users,
   ArrowRight,
 } from "lucide-react";
-import RazorpayButton from "@/components/razorpayPaymnetButton";
+import RazorpayPaymentButton from "@/components/RazorpayPaymentButton";
 import DonationCard from "@/components/donationCard";
 import { Venus, TreeDeciduous } from "lucide-react";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
@@ -31,7 +31,7 @@ export default function DonationPage() {
             Your support enables us to continue our vital work in communities
             around the world
           </p>
-          {/* <RazorpayButton
+          {/* <RazorpayPaymentButton
                   PaymentId={"pl_QJHlGMsTFtCXxA"}
                   cardId={"cajcxzxssgvcsdd"}
                 /> */}
@@ -163,7 +163,7 @@ export default function DonationPage() {
                   Providing access to clean, safe drinking water through
                   sustainable solutions.
                 </p>
-                <RazorpayButton
+                <RazorpayPaymentButton
                   PaymentId={"pl_QJHlGMsTFtCXxA"}
                   cardId={"cajvdsvdscxzxssgd"}
                 />
@@ -185,7 +185,7 @@ export default function DonationPage() {
                   Empowering communities through quality education and
                   resources.
                 </p>
-                <RazorpayButton
+                <RazorpayPaymentButton
                   PaymentId={"pl_QJHlGMsTFtCXxA"}
                   cardId={"cajcxzxssgd"}
                 />
@@ -207,7 +207,7 @@ export default function DonationPage() {
                   Delivering essential healthcare to underserved communities
                   worldwide.
                 </p>
-                <RazorpayButton
+                <RazorpayPaymentButton
                   PaymentId={"pl_QJHlGMsTFtCXxA"}
                   cardId={"cajssgd"}
                 />
