@@ -1,10 +1,10 @@
 'use client'
-import eventData from '@/EventData';
+import EventData from '@/EventData';
 import Image from 'next/image';
 
 
 const EventDetails = ({params}) => {
-  const event = eventData.filter((data) => data.id == params.id);
+  const event = EventData.filter((data) => data.id == params.id);
   const pageData = event[0];
 
   return (
