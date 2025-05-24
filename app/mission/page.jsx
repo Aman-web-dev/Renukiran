@@ -159,9 +159,9 @@ export default function NGOMissionVisionGoals() {
                       </div>
                       <div className="text-center p-6 bg-white rounded-xl shadow-sm">
                         <div className="text-3xl font-bold text-orange-600 mb-2">
-                          8
+                          10+
                         </div>
-                        <div className="text-gray-600">Countries Active</div>
+                        <div className="text-gray-600">States Active</div>
                       </div>
                     </div>
                     <div className="mt-8 p-6 bg-white rounded-xl shadow-sm">
@@ -304,59 +304,8 @@ export default function NGOMissionVisionGoals() {
         </div>
       </section>
 
-      {/* Goals Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">
-              Our Strategic Goals
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Measurable commitments that guide our efforts toward meaningful
-              change
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {goals.map((goal, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105"
-              >
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-green-500 to-blue-600 rounded-full flex items-center justify-center text-white mr-6 shadow-lg">
-                    {goal.icon}
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">
-                      {goal.title}
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed mb-4">
-                      {goal.description}
-                    </p>
-                    <div className="mt-4 pt-4 border-t border-gray-100">
-                      <div className="flex justify-between items-center text-sm mb-2">
-                        <span className="text-gray-500">
-                          Progress Toward Goal
-                        </span>
-                        <span className="text-green-600 font-semibold">
-                          {goal.progress}% Complete
-                        </span>
-                      </div>
-                      <div className="bg-gray-200 rounded-full h-3 overflow-hidden">
-                        <div
-                          className="bg-gradient-to-r from-green-500 to-blue-600 h-3 rounded-full transition-all duration-700 ease-out"
-                          style={{ width: `${goal.progress}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+     
+ 
 
       {/* Impact Stories Teaser */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">

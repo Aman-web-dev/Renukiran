@@ -17,7 +17,7 @@ const navRoutes = [
           { label: 'Team', href: '/team', disabled: false },
         ],
       },
-      { label: 'Mission, Vision, Goal', href: '/team', disabled: false },
+      { label: 'Mission, Vision, Goal', href: '/mission', disabled: false },
       { label: 'Reach and Presence', href: '/programs', disabled: false },
       { label: 'Sustainable Development Goals', href: '/announcements', disabled: false },
       { label: 'Good Governance', href: '/announcements', disabled: false },
