@@ -196,10 +196,7 @@ function About() {
               </h2>
               <div className="space-y-6 text-gray-700">
                 <p className="text-lg leading-relaxed">
-                  In those days' teaching the children belonging from the farmer
-                  communities and daily wage workers living at the riverbanks of
-                  Yamuna in Delhi after the office hours and weekends has been a
-                  day-to-day activity of these two changemakers.
+                 In those days, teaching children from farmer communities and daily wage workers living on the banks of the Yamuna in Delhi was a regular activity. These two changemakers would do this after office hours and on weekends.
                 </p>
                 <p className="text-lg leading-relaxed">
                   Driving unto this path they also started with food

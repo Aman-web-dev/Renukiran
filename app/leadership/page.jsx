@@ -20,8 +20,8 @@ function Founders() {
         <div className="relative max-w-7xl mx-auto px-4 py-20">
           <div className="text-center">
             <div className="flex justify-center items-center mb-6">
-              <h1 className="text-5xl md:text-6xl font-extrabold text-blue-900 mr-4">Founders</h1>
-              <span className="bg-blue-100 text-blue-800 text-2xl font-semibold px-4 py-2 rounded-lg">RWF</span>
+              {/* <h1 className="text-5xl md:text-6xl font-extrabold text-blue-900 mr-4">Founders</h1> */}
+              {/* <span className="bg-blue-100 text-blue-800 text-2xl font-semibold px-4 py-2 rounded-lg">RWF</span> */}
             </div>
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold mb-6">
               Learn About <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">Our Change Makers</span>

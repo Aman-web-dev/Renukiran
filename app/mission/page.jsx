@@ -54,10 +54,10 @@ export default function NGOMissionVisionGoals() {
               </div>
             </div>
             <h1 className="text-4xl font-bold text-gray-800 mb-4">
-              Our Commitment to Change
+              Our Mission, Vision, Goal.
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Together, we're building a world where every person has the
+              Together, we're building a India where every person has the
               opportunity to thrive
             </p>
           </div>
@@ -149,14 +149,7 @@ export default function NGOMissionVisionGoals() {
                         </div>
                         <div className="text-gray-600">Communities Served</div>
                       </div>
-                      <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-                        <div className="text-3xl font-bold text-purple-600 mb-2">
-                          95%
-                        </div>
-                        <div className="text-gray-600">
-                          Program Success Rate
-                        </div>
-                      </div>
+                    
                       <div className="text-center p-6 bg-white rounded-xl shadow-sm">
                         <div className="text-3xl font-bold text-orange-600 mb-2">
                           10+
@@ -239,10 +232,10 @@ export default function NGOMissionVisionGoals() {
               <div className="lg:w-1/2 p-8 lg:p-12 bg-blue-50">
                 <div className="h-full flex items-center">
                   <div className="w-full">
-                    <h3 className="text-2xl font-bold text-gray-800 mb-6">
+                    {/* <h3 className="text-2xl font-bold text-gray-800 mb-6">
                       Path to Change
-                    </h3>
-                    <div className="space-y-6">
+                    </h3> */}
+                    {/* <div className="space-y-6">
                       <div className="flex items-start">
                         <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
                           <span className="text-green-600 font-bold text-sm">
@@ -288,7 +281,7 @@ export default function NGOMissionVisionGoals() {
                           </p>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="mt-8 p-6 bg-white rounded-xl shadow-sm">
                       <blockquote className="text-gray-700 italic">
                         "At Renukiran, we believe in turning compassion into

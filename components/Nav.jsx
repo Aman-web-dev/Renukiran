@@ -1,75 +1,93 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const navRoutes = [
   {
-    heading: 'About Us',
-    disabled:true,
+    heading: "About Us",
+    disabled: true,
     subRoutes: [
-      { label: 'About Us', href: '/about', disabled: true },
+      { label: "About Us", href: "/about", disabled: true },
       {
-        label: 'Our People',
-        href: '#',
+        label: "Our People",
+        href: "#",
         disabled: false,
         nestedRoutes: [
-          { label: 'Leadership', href: '/leadership', disabled: false },
-          { label: 'Team', href: '/team', disabled: false },
+          { label: "Leadership", href: "/leadership", disabled: false },
+          { label: "Team", href: "/team", disabled: false },
         ],
       },
-      { label: 'Mission, Vision, Goal', href: '/mission', disabled: false },
-      { label: 'Reach and Presence', href: '/programs', disabled: false },
-      { label: 'Sustainable Development Goals', href: '/announcements', disabled: false },
-      { label: 'Good Governance', href: '/announcements', disabled: false },
+      { label: "Our Focus", href: "/mission", disabled: false },
+      { label: "Reach and Presence", href: "/presence", disabled: false },
+      { label: "Sustainable Development Goals", href: "/sdg", disabled: false },
     ],
   },
   {
-    heading: 'Our Work',
+    heading: "Our Work",
     disabled: false,
     subRoutes: [
-      { label: 'Education', href: '/about', disabled: false },
-      { label: 'Health & Hygiene', href: '/programs', disabled: false },
-      { label: 'Livelihood', href: '/team', disabled: false },
-      { label: 'Women Empowerment', href: '/founders', disabled: false },
-      { label: 'Climate Change', href: '/announcements', disabled: false },
+      { label: "Education", href: "/work#education", disabled: false },
+      { label: "Health & Hygiene", href: "/work#health", disabled: false },
+      { label: "Livelihood", href: "/work#livelihood", disabled: false },
+      {
+        label: "Women Empowerment",
+        href: "/work#women-empowerment",
+        disabled: false,
+      },
+      {
+        label: "Climate Change",
+        href: "/work#climate-change",
+        disabled: false,
+      },
     ],
   },
   {
-    heading: 'Resource Center',
+    heading: "Media Centre",
     disabled: false,
     subRoutes: [
-      { label: 'The Blogs', href: '/about', disabled: false },
-      { label: 'Newsletter', href: '/founders', disabled: false },
-      { label: 'Annual Reports', href: '/team', disabled: false },
-      { label: 'Story of Change', href: '/programs', disabled: false },
+      { label: "Press Releases", href: "/media#press", disabled: false },
+      {
+        label: "Workshops & Events",
+        href: "/media#workshops",
+        disabled: false,
+      },
+      { label: "Awards & Recognition", href: "/media#awards", disabled: false },
+      { label: "Blogs & Articles", href: "/media#awards", disabled: false },
+      { label: "Newsletter", href: "/media#awards", disabled: false },
+      { label: "Annual Reports", href: "/media#awards", disabled: false },
+      { label: "Story of Change", href: "/media#awards", disabled: false },
     ],
   },
+  // {
+  //   heading: 'Resource Center',
+  //   disabled: false,
+  //   subRoutes: [
+
+  //   ],
+  // },
   {
-    heading: 'Get Involved',
+    heading: "Get Involved",
     disabled: false,
     subRoutes: [
-      { label: 'Individual Support', href: '/about', disabled: false },
-      { label: 'Be a Fundraiser', href: '/founders', disabled: false },
-      { label: 'Corporate Partnership', href: '/team', disabled: false },
-      { label: 'School Partnership', href: '/programs', disabled: false },
-      { label: 'Volunteer & Internship', href: '/announcements', disabled: false },
-      { label: 'Work with Us', href: '/announcements', disabled: false },
+      { label: "Individual Support", href: "/about", disabled: false },
+      { label: "Be a Fundraiser", href: "/founders", disabled: false },
+      { label: "Corporate Partnership", href: "/team", disabled: false },
+      { label: "School Partnership", href: "/programs", disabled: false },
+      {
+        label: "Volunteer & Internship",
+        href: "/announcements",
+        disabled: false,
+      },
+      { label: "Work with Us", href: "/announcements", disabled: false },
     ],
   },
+
   {
-    heading: 'Media Centre',
+    heading: "Contact Us",
     disabled: false,
     subRoutes: [
-      { label: 'Press Releases', href: '/about', disabled: false },
-      { label: 'Workshops & Events', href: '/founders', disabled: false },
-    ],
-  },
-  {
-    heading: 'Contact Us',
-    disabled: false,
-    subRoutes: [
-      { label: 'Get in Touch', href: '/about', disabled: false },
-      { label: 'FAQs', href: '/founders', disabled: false },
+      { label: "Get in Touch", href: "/about", disabled: false },
+      { label: "FAQs", href: "/founders", disabled: false },
     ],
   },
 ];
@@ -125,94 +143,101 @@ const Nav = () => {
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 md:items-center mt-4 border md:flex-row md:mt-0 md:border-0 gap-4">
               {navRoutes.map((route, index) => (
-                <li  key={index} className="navigation-level-1 nav-bar-heading-text">
-                  <button
-                    className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase"
+                <Link href={route.href}>
+                  <li
+                    key={index}
+                    className="navigation-level-1 nav-bar-heading-text"
                   >
-                    {route.heading}
-                    <svg
-                      className="w-2.5 h-2.5 ml-2.5"
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 10 6"
+                    <button className="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-black nav-bar-text hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto uppercase">
+                      {route.heading}
+                      <svg
+                        className="w-2.5 h-2.5 ml-2.5"
+                        aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 10 6"
+                      >
+                        <path
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="m1 1 4 4 4-4"
+                        />
+                      </svg>
+                    </button>
+                    <div
+                      id={`dropdown`}
+                      className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                     >
-                      <path
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="m1 1 4 4 4-4"
-                      />
-                    </svg>
-                  </button>
-                  <div
-                    id={`dropdown`}
-                    className="hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                  >
-                    <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
-                      {route.subRoutes.map((subRoute, subIndex) => (
-                        <li
-                          key={subIndex}
-                          className={subRoute.nestedRoutes ? 'navigation-level-2' : ''}
-                        >
-                          {subRoute.nestedRoutes ? (
-                            <div className="flex justify-between ">
-                              <button
-                                className="flex w-full block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
+                      <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
+                        {route.subRoutes.map((subRoute, subIndex) => (
+                          <li
+                            key={subIndex}
+                            className={
+                              subRoute.nestedRoutes ? "navigation-level-2" : ""
+                            }
+                          >
+                            {subRoute.nestedRoutes ? (
+                              <div className="flex justify-between ">
+                                <button
+                                  className="flex w-full block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
+                                  // disabled={subRoute.disabled}
+                                >
+                                  {subRoute.label}
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    className="w-4"
+                                  >
+                                    <path
+                                      stroke="currentColor"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth="2"
+                                      d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                                    />
+                                  </svg>
+                                </button>
+                              </div>
+                            ) : (
+                              <Link
+                                href={subRoute.href}
+                                className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
                                 // disabled={subRoute.disabled}
                               >
                                 {subRoute.label}
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  fill="none"
-                                  viewBox="0 0 24 24"
-                                  className="w-4"
-                                >
-                                  <path
-                                    stroke="currentColor"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                                  />
-                                </svg>
-                              </button>
-                            </div>
-                          ) : (
-                            <Link
-                              href={subRoute.href}
-                              className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
-                              // disabled={subRoute.disabled}
-                            >
-                              {subRoute.label}
-                            </Link>
-                          )}
-                          {subRoute.nestedRoutes && (
-                            <div
-                              className="navigation-level-3 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
-                              id={`dropdown`}
-                            >
-                              <ul className="text-sm text-gray-700 dark:text-gray-400">
-                                {subRoute.nestedRoutes.map((nestedRoute, nestedIndex) => (
-                                  <li key={nestedIndex}>
-                                    <Link
-                                      href={nestedRoute.href}
-                                      className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                      disabled={nestedRoute.disabled}
-                                    >
-                                      {nestedRoute.label}
-                                    </Link>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-                          )}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </li>
+                              </Link>
+                            )}
+                            {subRoute.nestedRoutes && (
+                              <div
+                                className="navigation-level-3 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+                                id={`dropdown`}
+                              >
+                                <ul className="text-sm text-gray-700 dark:text-gray-400">
+                                  {subRoute.nestedRoutes.map(
+                                    (nestedRoute, nestedIndex) => (
+                                      <li key={nestedIndex}>
+                                        <Link
+                                          href={nestedRoute.href}
+                                          className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                                          disabled={nestedRoute.disabled}
+                                        >
+                                          {nestedRoute.label}
+                                        </Link>
+                                      </li>
+                                    )
+                                  )}
+                                </ul>
+                              </div>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </li>
+                </Link>
               ))}
               <li>
                 <Link
