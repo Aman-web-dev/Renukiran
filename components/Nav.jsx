@@ -5,6 +5,7 @@ import Link from "next/link";
 const navRoutes = [
   {
     heading: "About Us",
+    href:"#",
     disabled: true,
     subRoutes: [
       { label: "About Us", href: "/about", disabled: true },
@@ -24,6 +25,7 @@ const navRoutes = [
   },
   {
     heading: "Our Work",
+     href:"#",
     disabled: false,
     subRoutes: [
       { label: "Education", href: "/work#education", disabled: false },
@@ -43,6 +45,7 @@ const navRoutes = [
   },
   {
     heading: "Media Centre",
+     href:"/media",
     disabled: false,
     subRoutes: [
       { label: "Press Releases", href: "/media#press", disabled: false },
@@ -67,6 +70,7 @@ const navRoutes = [
   // },
   {
     heading: "Get Involved",
+    href:"#",
     disabled: false,
     subRoutes: [
       { label: "Individual Support", href: "/about", disabled: false },
@@ -84,6 +88,7 @@ const navRoutes = [
 
   {
     heading: "Contact Us",
+     href:"/contact",
     disabled: false,
     subRoutes: [
       { label: "Get in Touch", href: "/about", disabled: false },
