@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
           <>
             <Nav />
             {children}
-            <BuyMeal />
+            {/* <BuyMeal /> */}
             <WhatsappButton />
             <Analytics />
             {/* <SubscribeLetter/> */}

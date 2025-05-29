@@ -8,7 +8,7 @@ function BuyMeal() {
       className="fixed top-32 right-8 z-50"
     >
       <div>
-        <span className="text-black bg-white px-4 py-2 mb-4 fixed sm:bottom-40 bottom-14 z-50 right-2 inline-block rounded-full text-sm shadow-md">
+        <span className="text-black hover:visible bg-white px-4 py-2 mb-4 fixed sm:bottom-40 bottom-14 z-50 right-2 inline-block rounded-full text-sm shadow-md">
           Help through meal
         </span>
         <button

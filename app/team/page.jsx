@@ -17,9 +17,9 @@ function Team() {
   const teamMembers = [
         {
       name: "Abdul Mazid",
-      designation: "Trainer - Skill Development",
-      pic: "https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FsandhyaProfile.webp?alt=media&token=cc6c8c91-6923-44d0-9398-35364200e3ff&_gl=1*o8n2bm*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5NzgwMy4zMi4wLjA.",
-      desc: "Hello, I'm Sandhya! I joined Renukiran Welfare Foundation on September 3, 2023, and the journey since then has been truly rewarding. Being part of this mission has not only deepened my passion for social work but also helped me grow personally and professionally. I’ve developed strong public speaking skills and learned how to connect with people from different walks of life. One of the most fulfilling aspects of my work is the opportunity to share my knowledge with others while continuing to learn myself. I believe in the power of teaching as a tool for mutual growth. My passion for stitching aligns perfectly with Renukiran’s goal of empowering women through skill development. I find joy in helping others gain the confidence and tools they need to build a better future. This experience has been both inspiring and empowering, and I’m excited to continue making a difference through my journey with Renukiran."
+      designation: "",
+      pic: "",
+      desc: ""
     },
        {
       name: "Bibhav Kumar",
