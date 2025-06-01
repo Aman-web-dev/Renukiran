@@ -36,6 +36,8 @@ export default function TeamCard({ name, designation, pic, desc, linkedin }) {
               height={128}
               className="w-full h-full object-cover"
               loading="lazy"
+              onError={(e) => e.target.src = "/assets/images/unknown.svg"}
+        
             />
           </div>
         </div>

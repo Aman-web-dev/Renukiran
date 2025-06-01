@@ -87,19 +87,15 @@
   position: absolute;
 }
 
-.navigation-level-2:hover #dropdown {
-  display: block;
-  position: absolute;
-}
-
-.navigation-level-3 {
+/* .navigation-level-2 {
   position: relative !important;
-}
+ } */
 
-.navigation-level-3:hover #dropdown {
+.navigation-level-2:hover #dropdown-2 {
   display: block;
   position: absolute;
-  top: 0;
+  z-index: 999;
+  min-width: 11rem;
 }
 
 .component-padding-global-top-bottom {
@@ -152,6 +148,14 @@ body {
   height: 20;
   width: 40;
   background-color: black;
+}
+
+.line-clamp-4-css {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @keyframes float {

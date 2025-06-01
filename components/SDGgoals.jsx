@@ -11,8 +11,8 @@ function SDGgoals() {
         </h1>
         <p style={{color:"black"}} className="mb-6 text-lg font-normal lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 background-header-text sub-text">
           Empowering Lives at Renukiran Welfare Foundation: Focused on UN's
-          Main SDGs - Health (SDG 3), Education (SDG 4), Gender Equality (SDG
-          5), and Climate Action (SDG 13).
+          Main SDGs - Zero Hunder (SDG2), Health (SDG 3), Education (SDG 4), Gender Equality (SDG
+          5), Decent Work and Economic Growth (SDG8) and Climate Action (SDG 13).
         </p>
       </div>
 

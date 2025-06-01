@@ -1,8 +1,20 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { Heart, Users, Globe, Award, ArrowRight, Star } from "lucide-react";
-import Image from "next/image";
+import {
+  Heart,
+  Users,
+  Globe,
+  Award,
+  ArrowRight,
+  Star,
+  Boxes,
+  Handshake,
+  BookCheck,
+  ShieldCheck,
+  Brain,
+  Building2,
+} from "lucide-react";
 
 function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -17,25 +29,24 @@ function About() {
       icon: <Users className="w-8 h-8" />,
       number: "10,000+",
       label: "Lives Impacted",
-   
     },
     {
       icon: <Globe className="w-8 h-8" />,
       number: "15+",
       label: "Communities Served",
-      imgSrc: "",
+      icon: "",
     },
     {
       icon: <Heart className="w-8 h-8" />,
       number: "6",
       label: "UN SDG Goals",
-      imgSrc: "",
+      icon: "",
     },
     {
       icon: <Award className="w-8 h-8" />,
       number: "2018",
       label: "Year Established",
-      imgSrc: "",
+      icon: "",
     },
   ];
 
@@ -44,29 +55,43 @@ function About() {
       title: "Respect",
       description:
         "Treating everyone with dignity, fairness, and empathy in all actions.",
-           imgSrc:
-        "https://cdn.pixabay.com/photo/2023/02/11/15/34/upasika-7783179_1280.jpg",
+      icon: <Handshake className="w-20 h-20 renukiran-green-color" />,
+    },
+    {
+      title: "Partnership",
+      description:
+        "Upholding honesty, transparency, and strong moral principles at all times.",
+      icon: <Building2 className="w-20 h-20 renukiran-green-color" />,
+    },
+    {
+      title: "Customer Commitment",
+      description:
+        "Dedicated to our mission with passion, persistence, and responsibility.",
+      icon: <BookCheck className="w-20 h-20 renukiran-green-color" />,
+    },
+    {
+      title: "Quality",
+      description:
+        "Striving for the highest quality and continuous improvement in everything we do.",
+      icon: <ShieldCheck className="w-20 h-20 renukiran-green-color" />,
     },
     {
       title: "Integrity",
       description:
-        "Upholding honesty, transparency, and strong moral principles at all times.",
-               imgSrc:
-        "https://cdn.pixabay.com/photo/2018/08/05/10/57/fence-3585348_1280.jpg",
-    },
-    {
-      title: "Commitment",
-      description:
-        "Dedicated to our mission with passion, persistence, and responsibility.",
-               imgSrc:
-        "https://cdn.pixabay.com/photo/2023/02/11/15/34/upasika-7783179_1280.jpg",
+        "Striving for the highest quality and continuous improvement in everything we do.",
+      icon: <Boxes className="w-20 h-20 renukiran-green-color" />,
     },
     {
       title: "Excellence",
       description:
         "Striving for the highest quality and continuous improvement in everything we do.",
-               imgSrc:
-        "https://cdn.pixabay.com/photo/2023/02/11/15/34/upasika-7783179_1280.jpg",
+      icon: <Brain className="w-20 h-20 renukiran-green-color" />,
+    },
+    {
+      title: "Beneficiary Focus",
+      description:
+        "Striving for the highest quality and continuous improvement in everything we do.",
+      icon: <Users className="w-20 h-20 renukiran-green-color" />,
     },
   ];
 
@@ -196,7 +221,10 @@ function About() {
               </h2>
               <div className="space-y-6 text-gray-700">
                 <p className="text-lg leading-relaxed">
-                 In those days, teaching children from farmer communities and daily wage workers living on the banks of the Yamuna in Delhi was a regular activity. These two changemakers would do this after office hours and on weekends.
+                  In those days, teaching children from farmer communities and
+                  daily wage workers living on the banks of the Yamuna in Delhi
+                  was a regular activity. These two changemakers would do this
+                  after office hours and on weekends.
                 </p>
                 <p className="text-lg leading-relaxed">
                   Driving unto this path they also started with food
@@ -226,15 +254,14 @@ function About() {
               {values.map((value, index) => (
                 <div
                   key={index}
-                  className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-gradient-to-r from-blue-600 to-green-600"
+                  className="bg-white rounded-xl py-2 shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-[#81C421]"
                 >
-                  <Image height={40} width={40} src={value.imgSrc} className="h-40 w-full" alt={value.imgSrc}/>
-
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">
+                  <div className="flex justify-center mb-2">{value.icon}</div>
+                  <div className="px-4">
+                    <h3 className="text-xl font-bold sub-text-heading">
                       {value.title}
                     </h3>
-                    <p className="text-gray-600">{value.description}</p>
+                    <p className="sub-text">{value.description}</p>
                   </div>
                 </div>
               ))}

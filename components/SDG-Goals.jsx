@@ -37,7 +37,7 @@ const SDGGoals = () => {
             >
               <div
                 className={`${
-                  isColor ? "" : "grayscale-[100%]"
+                  isColor ? "" : "grayscale-[100%] opacity-50"
                 } rounded-lg overflow-hidden shadow-md`}
               >
                 {/* Using placeholder image since we don't have actual SDG images */}

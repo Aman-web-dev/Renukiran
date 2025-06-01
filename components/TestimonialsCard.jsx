@@ -1,6 +1,13 @@
+"use client"
 import React from "react";
+import { useRef } from "react";
 
 const TestimonialsCard = (props) => {
+  const reviewsRef = useRef(null)
+  const handleReadMore = () => {
+    console.log(reviewsRef)
+    reviewsRef.current.classList.remove("line-clamp-4-css");
+  }
   return (
     <div className="swiper-slide">
       <div className="group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500 w-full sm:max-w-sm mx-auto hover:border-indigo-600 hover:shadow-sm slide_active:border-indigo-600">
@@ -23,9 +30,13 @@ const TestimonialsCard = (props) => {
           </div>
 
           {/* REVIEW TEXT — trimmed after 4 lines */}
-          <p className="text-base text-gray-600 leading-6 transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800 line-clamp-2">
+          <p
+            ref={reviewsRef}
+            className="sub-text leading-6 transition-all duration-500 line-clamp-4-css"
+          >
             {props.review}
           </p>
+          <span className="cursor-pointer text-sm text-black" onClick={handleReadMore}>Read more</span>
         </div>
 
         <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">
@@ -33,7 +44,10 @@ const TestimonialsCard = (props) => {
             className="rounded-full h-10 w-10 object-cover"
             src={props.imgURL}
             alt="avatar"
-            onError={(e) => (e.target.src = "https://cdn-icons-png.flaticon.com/512/266/266033.png")}
+            onError={(e) =>
+              (e.target.src =
+                "https://cdn-icons-png.flaticon.com/512/266/266033.png")
+            }
           />
           <div className="block">
             <h5 className="text-gray-900 font-medium transition-all duration-500 mb-1">

@@ -5,9 +5,9 @@ import {
   Target,
   Users,
   Globe,
-  Handshake,
   TreePine,
   BookOpen,
+  Goal,
 } from "lucide-react";
 
 export default function NGOMissionVisionGoals() {
@@ -54,7 +54,7 @@ export default function NGOMissionVisionGoals() {
               </div>
             </div>
             <h1 className="text-4xl font-bold text-gray-800 mb-4">
-              Our Mission, Vision, Goal.
+              Our Vision, Mission, Goal.
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Together, we're building a India where every person has the
@@ -64,244 +64,124 @@ export default function NGOMissionVisionGoals() {
         </div>
       </div>
 
-      {/* Mission Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-            <div className="flex flex-col lg:flex-row">
-              <div className="lg:w-1/2 bg-gradient-to-br from-green-600 to-emerald-700 p-8 lg:p-12 text-white">
-                <div className="flex items-center mb-6">
-                  <Target className="w-12 h-12 mr-4" />
-                  <h2 className="text-3xl font-bold">Our Mission</h2>
-                </div>
-                <p className="text-lg leading-relaxed mb-6">
-                  At <strong>Renukiran Welfare Foundation,</strong> our mission
-                  is to <strong>uplift lives and empower communities</strong> by
-                  ensuring that every individual—regardless of their
-                  socio-economic background—has access to the{" "}
-                  <strong>resources, opportunities, and support</strong> needed
-                  to live with dignity, purpose, and independence.
-                </p>
-
-                <p className="text-md leading-relaxed mb-6">
-                  Driven by compassion and rooted in grassroots action, we
-                  strive to:
-                </p>
-
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <p className="text-green-100">
-                      <strong>1. Empower Through Education and Skills:</strong>{" "}
-                      Provide quality education, vocational training, and
-                      livelihood opportunities—especially for women and
-                      children—to break the cycle of poverty and dependency.
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <p className="text-green-100">
-                      <strong>2. Promote Health and Hygiene:</strong> Facilitate
-                      access to healthcare services, nutrition, and sanitation
-                      to build healthier, more resilient communities.
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <p className="text-green-100">
-                      <strong>3. Champion Women Empowerment:</strong> Foster
-                      self-reliance and confidence among women through targeted
-                      programs that support leadership, income generation, and
-                      equality.
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <p className="text-green-100">
-                      <strong>4. Support Climate Conscious Living:</strong>{" "}
-                      Engage in initiatives that promote environmental
-                      responsibility and sustainable practices to protect our
-                      planet.
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <p className="text-green-100">
-                      <strong>5. Inspire Inclusive Change:</strong> Create a
-                      collaborative, inclusive environment where communities
-                      work together to overcome challenges and build a better
-                      future.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:w-1/2 p-8 lg:p-12 bg-green-50">
-                <div className="h-full flex items-center">
-                  <div className="w-full">
-                    <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                      Impact by Numbers
-                    </h3>
-                    <div className="grid grid-cols-2 gap-6">
-                      <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-                        <div className="text-3xl font-bold text-green-600 mb-2">
-                          250K+
-                        </div>
-                        <div className="text-gray-600">Lives Touched</div>
-                      </div>
-                      <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-                        <div className="text-3xl font-bold text-blue-600 mb-2">
-                          120
-                        </div>
-                        <div className="text-gray-600">Communities Served</div>
-                      </div>
-                    
-                      <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-                        <div className="text-3xl font-bold text-orange-600 mb-2">
-                          10+
-                        </div>
-                        <div className="text-gray-600">States Active</div>
-                      </div>
-                    </div>
-                    <div className="mt-8 p-6 bg-white rounded-xl shadow-sm">
-                      <div className="flex items-center text-sm text-gray-600 mb-2">
-                        <Handshake className="w-4 h-4 mr-2" />
-                        <span>What we Aspire</span>
-                      </div>
-                      <p className="text-gray-700">
-                        Guided by our tagline,
-                        <strong>“Kiran Umeed Ki” (A Ray of Hope)</strong>,we are
-                        committed to
-                        <strong>
-                          {" "}
-                          spreading hope, nurturing potential, and empowering
-                          people to transform their lives with courage and
-                          confidence.
-                        </strong>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Vision Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
             <div className="flex flex-col lg:flex-row-reverse">
-              <div className="lg:w-1/2 bg-gradient-to-br from-blue-600 to-indigo-700 p-8 lg:p-12 text-white">
+              <div className=" bg-gradient-to-br from-blue-600 to-indigo-700 p-8 lg:p-12 text-white">
                 <div className="flex items-center mb-6">
                   <Eye className="w-12 h-12 mr-4" />
                   <h2 className="text-3xl font-bold">Our Vision</h2>
                 </div>
                 <p className="text-xl leading-relaxed mb-6">
-                  Rooted in the compassionate dream of Renu Ji and brought to
-                  life by our founder Avinash Kumar, the vision of
-                  <strong> Renukiran Welfare Foundation </strong> is to build a
-                  world where
-                  <strong>
-                    every individual—regardless of background—has access to
-                    opportunities that lead to a life of dignity, fulfillment,
-                    and self-reliance.
-                  </strong>
+                  <strong>Renukiran Welfare Foundation</strong> envisions a just
+                  and compassionate world where every individual lives with
+                  dignity, self-reliance, and equal access to opportunities for
+                  a brighter, inclusive future.
                 </p>
-                <p className="text-xl leading-relaxed mb-6">
-                  We are committed to{" "}
-                  <strong>
-                    bridging critical gaps in education, women empowerment,
-                    livelihood, health and hygiene, and climate action
-                  </strong>{" "}
-                  by nurturing talent, fostering inclusivity, and enabling
-                  communities to overcome adversity with strength and hope.
-                </p>
-
-                <p className="text-xl leading-relaxed mb-6">
-                  <strong>
-                    {" "}
-                    Guided by the values of empathy, resilience, and equality,{" "}
-                  </strong>{" "}
-                  our mission is to{" "}
-                  <strong>
-                    inspire and uplift underprivileged individuals and families{" "}
-                  </strong>{" "}
-                  by providing them with the skills, resources, and confidence
-                  to transform their lives. At Renukiran, we believe in turning
-                  compassion into action and dreams into reality—for a brighter,
-                  more just, and sustainable future for all.
-                </p>
-                
-              </div>
-              <div className="lg:w-1/2 p-8 lg:p-12 bg-blue-50">
-                <div className="h-full flex items-center">
-                  <div className="w-full">
-                    {/* <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                      Path to Change
-                    </h3> */}
-                    {/* <div className="space-y-6">
-                      <div className="flex items-start">
-                        <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                          <span className="text-green-600 font-bold text-sm">
-                            NOW
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-lg font-semibold text-gray-800">
-                            Immediate Relief
-                          </h4>
-                          <p className="text-gray-600">
-                            Providing essential aid and emergency support
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex items-start">
-                        <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                          <span className="text-blue-600 font-bold text-sm">
-                            2-5Y
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-lg font-semibold text-gray-800">
-                            Sustainable Programs
-                          </h4>
-                          <p className="text-gray-600">
-                            Building capacity and self-reliance in communities
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex items-start">
-                        <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4">
-                          <span className="text-purple-600 font-bold text-sm">
-                            10Y+
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-lg font-semibold text-gray-800">
-                            Systemic Change
-                          </h4>
-                          <p className="text-gray-600">
-                            Transforming systems for lasting impact
-                          </p>
-                        </div>
-                      </div>
-                    </div> */}
-                    <div className="mt-8 p-6 bg-white rounded-xl shadow-sm">
-                      <blockquote className="text-gray-700 italic">
-                        "At Renukiran, we believe in turning compassion into
-                        action and dreams into reality—for a brighter, more
-                        just, and sustainable future for all. "
-                      </blockquote>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-     
- 
+      {/* Mission Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div className="flex flex-col lg:flex-row">
+              <div className="bg-gradient-to-br from-green-600 to-emerald-700 p-8 lg:p-12 text-white">
+                <div className="flex items-center mb-6">
+                  <Target className="w-12 h-12 mr-4" />
+                  <h2 className="text-3xl font-bold">Our Mission</h2>
+                </div>
+                <p className="text-lg leading-relaxed mb-6">
+                  <strong>Renukiran Welfare Foundation</strong> is dedicated to
+                  empowering underserved communities through education,
+                  healthcare, women’s empowerment, and sustainable, inclusive
+                  development rooted in grassroots action.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div className="flex flex-col lg:flex-row-reverse">
+              <div className=" bg-gradient-to-br from-blue-600 to-indigo-700 p-8 lg:p-12 text-white">
+                <div className="flex items-center mb-6">
+                  <Goal className="w-12 h-12 mr-4" />
+                  <h2 className="text-3xl font-bold">Our Goal</h2>
+                </div>
+                <p className="text-xl leading-relaxed mb-6">
+                  Enhance Access to{" "}
+                  <strong>Quality Education & Skills Training</strong>.
+                </p>
+
+                <p className="text-lg leading-relaxed mb-6">
+                  Equip{" "}
+                  <strong>
+                    underprivileged children and youth—especially girls—with
+                    foundational education, digital literacy, and vocational
+                    skills
+                  </strong>{" "}
+                  to break the cycle of poverty and build self-reliance.
+                </p>
+                <p className="text-lg leading-relaxed mb-6">
+                  Strengthen <strong>Women’s Empowerment</strong> and
+                  <strong>Leadership</strong>.
+                </p>
+                <p className="text-lg leading-relaxed mb-6">
+                  Promote <strong>gender equity</strong> by creating platforms
+                  for women to lead, earn, and participate fully in economic and
+                  community development.
+                </p>
+                <p className="text-lg leading-relaxed mb-6">
+                  Improve <strong>Community Health, Hygiene & Nutrition</strong>
+                  .
+                </p>
+                <p className="text-lg leading-relaxed mb-6">
+                  Ensure vulnerable populations have access to basic{" "}
+                  <strong>
+                    healthcare, clean water, menstrual hygiene awareness, and
+                    nutritional support
+                  </strong>{" "}
+                  for a healthier, more resilient society.
+                </p>
+                <p className="text-lg leading-relaxed mb-6">
+                  Foster <strong>Climate-Conscious</strong> and{" "}
+                  <strong>Sustainable Living</strong>
+                </p>
+                <p className="text-lg leading-relaxed mb-6">
+                  Drive{" "}
+                  <strong>environmental education and green initiatives</strong>{" "}
+                  at the grassroots level, including waste management, tree
+                  plantation, and climate-resilient practices.
+                </p>
+                <p className="text-lg leading-relaxed mb-6">
+                  Build <strong>Inclusive</strong> and{" "}
+                  <strong>Empowered Communities</strong>.
+                </p>
+                <p className="text-lg leading-relaxed mb-6">
+                  Create{" "}
+                  <strong>
+                    safe, collaborative spaces where marginalized individuals
+                  </strong>{" "}
+                  can voice their needs, participate in decision-making, and
+                  build better futures through collective action.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Impact Stories Teaser */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      {/* <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
@@ -341,7 +221,7 @@ export default function NGOMissionVisionGoals() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
