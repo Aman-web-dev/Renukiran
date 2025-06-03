@@ -1,12 +1,16 @@
 "use client"
-import React from "react";
+import React, { useState } from "react";
 import { useRef } from "react";
 
 const TestimonialsCard = (props) => {
+  const [isReadMore, setIsReadMore] = useState(true)
   const reviewsRef = useRef(null)
   const handleReadMore = () => {
-    console.log(reviewsRef)
     reviewsRef.current.classList.remove("line-clamp-4-css");
+    setIsReadMore(false)
+  }
+  const handleReadLess = () => {
+    reviewsRef.current.classList.add("line-clamp-4-css")
   }
   return (
     <div className="swiper-slide">
@@ -36,7 +40,12 @@ const TestimonialsCard = (props) => {
           >
             {props.review}
           </p>
-          <span className="cursor-pointer text-sm text-black" onClick={handleReadMore}>Read more</span>
+          <span
+            className="cursor-pointer text-sm text-black"
+            onClick={isReadMore ? handleReadMore : handleReadLess}
+          >
+            {isReadMore ? "Read more" : "Read less"}
+          </span>
         </div>
 
         <div className="flex items-center gap-5 border-t border-solid border-gray-200 pt-5">

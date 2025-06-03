@@ -1,7 +1,8 @@
 'use client'
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { MapPin, Users, Heart, BookOpen, Briefcase, Shield, Sparkles } from 'lucide-react';
+import IndianMap from "@/india.svg"
 
 const OurPresence = () => {
   const [selectedState, setSelectedState] = useState(null);
@@ -11,6 +12,7 @@ const OurPresence = () => {
     setIsVisible(true);
   }, []);
 
+ 
   const states = [
     {
       name: "Assam",
@@ -158,6 +160,10 @@ const OurPresence = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Each state presents unique challenges and opportunities. We've tailored our programs to meet local needs while staying true to our mission.
           </p>
+        </div>
+
+        <div className='lg:mb-20 mb-12 w-full flex justify-center py-8'>
+          <IndianMap/>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

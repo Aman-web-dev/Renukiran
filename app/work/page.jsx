@@ -154,7 +154,7 @@ const OurWorkPage = () => {
       </div>
 
       {/* Navigation Menu */}
-      <div className="sticky top-0 z-50 bg-white shadow-lg border-b border-gray-200">
+      {/* <div className="sticky top-0 z-50 bg-white shadow-lg border-b border-gray-200">
         <div className="container mx-auto px-6">
           <nav className="flex flex-wrap justify-center md:justify-between items-center py-4">
             <div className="flex items-center mb-2 md:mb-0">
@@ -179,7 +179,7 @@ const OurWorkPage = () => {
             </div>
           </nav>
         </div>
-      </div>
+      </div> */}
 
       {/* Education Section */}
       <section

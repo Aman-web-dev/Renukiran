@@ -58,16 +58,23 @@ function About() {
       icon: <Handshake className="w-20 h-20 renukiran-green-color" />,
     },
     {
-      title: "Partnership",
+      title: "Integrity",
       description:
-        "Upholding honesty, transparency, and strong moral principles at all times.",
-      icon: <Building2 className="w-20 h-20 renukiran-green-color" />,
+        "Striving for the highest quality and continuous improvement in everything we do.",
+      icon: <Boxes className="w-20 h-20 renukiran-green-color" />,
     },
     {
-      title: "Customer Commitment",
+      title: "Commitment",
       description:
         "Dedicated to our mission with passion, persistence, and responsibility.",
       icon: <BookCheck className="w-20 h-20 renukiran-green-color" />,
+    },
+
+    {
+      title: "Excellence",
+      description:
+        "Striving for the highest quality and continuous improvement in everything we do.",
+      icon: <Brain className="w-20 h-20 renukiran-green-color" />,
     },
     {
       title: "Quality",
@@ -76,23 +83,17 @@ function About() {
       icon: <ShieldCheck className="w-20 h-20 renukiran-green-color" />,
     },
     {
-      title: "Integrity",
-      description:
-        "Striving for the highest quality and continuous improvement in everything we do.",
-      icon: <Boxes className="w-20 h-20 renukiran-green-color" />,
-    },
-    {
-      title: "Excellence",
-      description:
-        "Striving for the highest quality and continuous improvement in everything we do.",
-      icon: <Brain className="w-20 h-20 renukiran-green-color" />,
-    },
-    {
       title: "Beneficiary Focus",
       description:
         "Striving for the highest quality and continuous improvement in everything we do.",
       icon: <Users className="w-20 h-20 renukiran-green-color" />,
     },
+    {
+      title: "Partnership",
+      description:
+        "Upholding honesty, transparency, and strong moral principles at all times.",
+      icon: <Building2 className="w-20 h-20 renukiran-green-color" />,
+    }
   ];
 
   return (
