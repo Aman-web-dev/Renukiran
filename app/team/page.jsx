@@ -17,7 +17,7 @@ function Team() {
   const teamMembers = [
     {
       name: "Abdul Mazid",
-      designation: "",
+      designation: "Program Officer",
       pic: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/team%2Fabdul.jpg?alt=media&token=6b77dad9-b43b-444b-a9bf-c8e946c6c737",
       desc: "I am honored to join Renukiran as a Program Officer, where I hope to contribute meaningfully to the organization’s mission of empowering communities and promoting inclusive development. With dual master’s degrees in public administration and social work from Jamia Millia Islamia, I bring both a policy-oriented perspective and a people-centric approach to program planning and implementation. My academic journey and field experiences have instilled in me a deep commitment to social justice, sustainable development, and grassroots empowerment. I have always believed that true transformation begins at the community level, and that sustainable change can only be achieved when development efforts are inclusive, participatory, and rooted in local realities. Renukiran’s holistic approach—working across Education, Livelihood, Women Empowerment, Health & Hygiene, and Climate Action—resonates strongly with my values and vision. I am particularly inspired by the organization’s commitment to uplifting underserved communities through integrated interventions that not only address immediate needs but also build long-term resilience and self-reliance. At Renukiran, I look forward to working collaboratively with a passionate team, continuously learning from the communities we serve, and implementing impactful initiatives that promote dignity, equity, and opportunity for all.",
     },
@@ -61,7 +61,7 @@ function Team() {
     },
     {
       name: "Raksha Saini",
-      designation: "Community Mobilizer and Content creator",
+      designation: "Project planner & content creator",
       pic: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/team%2FRaksha%20photo.jpg?alt=media&token=e598ee83-592f-443c-8ead-4d9b36779fd5",
       linkedin: "https://www.linkedin.com/in/raksha-saini-76740022b/",
       desc: "Hello readers! I’m Raksha, and I began my journey with Renukiran Welfare Foundation on December 9, 2024, as a Community Mobilizer. While that was my initial role, I’ve had the opportunity to explore various other areas as well, including managing social media, preparing reports, and participating in events. Stepping beyond my job description has been an incredible learning experience, helping me grow both personally and professionally. What stands out most to me is the supportive and family-like environment here. This is a place where ideas are welcomed, and open discussions are encouraged, which makes working here even more fulfilling. Every day brings a new opportunity to learn something valuable, and being part of a mission-driven organization that is committed to positive change makes the journey even more meaningful. I’m truly grateful to be part of a team that feels more like a family and shares a common goal of uplifting others.",

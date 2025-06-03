@@ -85,15 +85,15 @@ function About() {
     {
       title: "Beneficiary Focus",
       description:
-        "Striving for the highest quality and continuous improvement in everything we do.",
+        "We prioritize the needs and dignity of our beneficiaries in everything we do.",
       icon: <Users className="w-20 h-20 renukiran-green-color" />,
     },
     {
       title: "Partnership",
       description:
-        "Upholding honesty, transparency, and strong moral principles at all times.",
+        "We believe in collaborative partnerships that drive collective impact and sustainable change.",
       icon: <Building2 className="w-20 h-20 renukiran-green-color" />,
-    }
+    },
   ];
 
   return (
