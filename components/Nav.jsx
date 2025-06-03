@@ -6,7 +6,7 @@ import Link from "next/link";
 const navRoutes = [
   {
     heading: "About Us",
-    href: "#",
+    href: "/about",
     disabled: true,
     subRoutes: [
       { label: "About Us", href: "/about", disabled: true },
@@ -26,7 +26,7 @@ const navRoutes = [
   },
   {
     heading: "Our Work",
-    href: "#",
+    href: "/work",
     disabled: false,
     subRoutes: [
       { label: "Education", href: "/work#education", disabled: false },

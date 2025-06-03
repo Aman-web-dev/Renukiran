@@ -2,8 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import linkedinlogo from "../public/assets/icons/linkedin.svg";
-import about from "../public/assets/icons/about.svg";
 import "./component.css";
 import { Info, Linkedin } from "lucide-react";
 import { useState } from "react";

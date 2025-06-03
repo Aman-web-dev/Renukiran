@@ -73,13 +73,13 @@ function About() {
     {
       title: "Excellence",
       description:
-        "Striving for the highest quality and continuous improvement in everything we do.",
+        "We pursue excellence in all our work, ensuring quality and impact for the communities we serve.",
       icon: <Brain className="w-20 h-20 renukiran-green-color" />,
     },
     {
       title: "Quality",
       description:
-        "Striving for the highest quality and continuous improvement in everything we do.",
+        "We deliver quality programs and services that make a real difference in people's lives.",
       icon: <ShieldCheck className="w-20 h-20 renukiran-green-color" />,
     },
     {
@@ -152,19 +152,11 @@ function About() {
             </div>
             <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
               <p className="text-lg md:text-xl leading-relaxed text-gray-700 mb-6">
-                Renukiran started as a shared dream between our founder, Avinash
-                Kumar, and his mother, Renu Ji. Renu Ji envisioned a world where
-                everyone could live a life of dignity through education,
-                training, and essential life skills. After her passing from
-                cancer, Avinash, along with Pooja Gupta, turned this dream into
-                reality.
-              </p>
-              <p className="text-lg md:text-xl leading-relaxed text-gray-700">
-                The journey began in 2013 when Avinash and Pooja would teach
-                children from farming and daily wage families living near the
-                Yamuna riverbanks in Delhi. After office hours and on weekends,
-                they taught, distributed food, organized healthcare camps, and
-                conducted WASH (Water, Sanitation, and Hygiene) campaigns.
+                <strong>Renukiran Welfare Foundation</strong> is a passionate
+                non-profit organization dedicated to creating a positive and
+                lasting impact on communities across India. Our mission is to
+                build a fairer and more sustainable world by providing support,
+                resources, and advocacy for those who need it most.
               </p>
             </div>
           </div>
@@ -178,20 +170,22 @@ function About() {
                 </h2>
                 <div className="space-y-6 text-gray-700">
                   <p className="text-lg leading-relaxed">
-                    Their efforts culminated in the official establishment of{" "}
-                    <strong>Renukiran Welfare Foundation in 2018.</strong> With
-                    endless energy and passion, the organization focuses on
-                    uplifting underprivileged children, women, and communities
-                    across India.
+                    Founded by <strong>Avinash Kumar and Pooja Gupta</strong>,
+                    <strong> Renukiran's</strong> journey began in 2013 with a
+                    simple yet profound act: teaching children from farming and
+                    daily wage families living near the Yamuna riverbanks in
+                    Delhi. Inspired by Avinash's mother, Renu Ji, who envisioned
+                    a world where everyone could live a life of dignity through
+                    education, training, and essential life skills, we worked
+                    tirelessly to turn her dream into reality.
                   </p>
                   <p className="text-lg leading-relaxed">
-                    Renukiran Welfare Foundation is a passionate non-profit
-                    organization dedicated to creating a positive and lasting
-                    impact on communities across India. Since we started, we've
-                    worked tirelessly to tackle some of the most critical
-                    challenges people face every day. Our mission is to build a
-                    fairer and more sustainable world by providing support,
-                    resources, and advocacy for those who need it most.
+                    After Renu Ji's passing due to cancer, Avinash and Pooja
+                    continued her legacy, distributing food, organizing
+                    healthcare camps, and conducting WASH (Water, Sanitation,
+                    and Hygiene) campaigns. These efforts culminated in the
+                    official establishment of Renukiran Welfare Foundation in
+                    2018.
                   </p>
                 </div>
               </div>
@@ -204,10 +198,11 @@ function About() {
                     </h3>
                   </div>
                   <p className="text-blue-100">
-                    A humbled Initiative to fulfil Renu Ji's unfulfilled dream
-                    post her death due to cancer. Her vision continues to
-                    inspire our work in transforming countless lives across
-                    India.
+                    This journey is a tribute to <strong>Renu Ji's</strong>{" "}
+                    unfulfilled dream, which continues to inspire our work in
+                    transforming countless lives across India. We're committed
+                    to carrying forward her legacy, ensuring that her vision of
+                    a dignified life for all becomes a reality.
                   </p>
                 </div>
               </div>
@@ -222,22 +217,13 @@ function About() {
               </h2>
               <div className="space-y-6 text-gray-700">
                 <p className="text-lg leading-relaxed">
-                  In those days, teaching children from farmer communities and
-                  daily wage workers living on the banks of the Yamuna in Delhi
-                  was a regular activity. These two changemakers would do this
-                  after office hours and on weekends.
-                </p>
-                <p className="text-lg leading-relaxed">
-                  Driving unto this path they also started with food
-                  distribution drives, healthcare camps, and WASH campaigns.
-                  Bringing together all these efforts and collaboration{" "}
-                  <strong>RENUKIRAN WELFARE FOUNDATION</strong> was officially
-                  established in the year 2018.
-                </p>
-                <p className="text-lg leading-relaxed">
-                  With a never-ending enthusiasm and passion to nurture lives of
-                  the many underprivileged children, woman, and communities
-                  became the organization's foundational element.
+                  With endless energy and passion, we've worked to uplift
+                  <strong>
+                    underprivileged children, women, and communities
+                  </strong>{" "}
+                  across India. Our initiatives focus on{" "}
+                  <strong>education, healthcare, and empowerment</strong> ,
+                  aiming to create a lasting impact.
                 </p>
               </div>
             </div>
@@ -270,7 +256,7 @@ function About() {
           </div>
 
           {/* CTA Section */}
-          <div className="text-center bg-gradient-to-r from-blue-600 to-green-600 rounded-2xl p-12 text-white">
+          {/* <div className="text-center bg-gradient-to-r from-blue-600 to-green-600 rounded-2xl p-12 text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Explore Our Programs
             </h2>
@@ -286,7 +272,7 @@ function About() {
               Learn More About Our Programs
               <ArrowRight className="w-5 h-5 ml-2" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
 

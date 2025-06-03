@@ -132,8 +132,7 @@ export default function NGOMissionVisionGoals() {
                   to break the cycle of poverty and build self-reliance.
                 </p>
                 <p className="text-lg leading-relaxed mb-6">
-                  Strengthen <strong>Women’s Empowerment</strong> and
-                  <strong>Leadership</strong>.
+                  Strengthen <strong>Women’s Empowerment</strong> and<strong> Leadership</strong>.
                 </p>
                 <p className="text-lg leading-relaxed mb-6">
                   Promote <strong>gender equity</strong> by creating platforms
@@ -224,7 +223,7 @@ export default function NGOMissionVisionGoals() {
       </section> */}
 
       {/* CTA Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      {/* <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="bg-gradient-to-r from-green-600 to-blue-700 rounded-2xl shadow-xl p-8 lg:p-12 text-center text-white">
             <Heart className="w-16 h-16 mx-auto mb-6 opacity-90" />
@@ -248,7 +247,7 @@ export default function NGOMissionVisionGoals() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
