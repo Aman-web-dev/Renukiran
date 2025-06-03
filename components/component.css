@@ -214,6 +214,25 @@
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  max-height: 95vh;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .embla__container {
+    max-height: 50vh;
+  }
+}
+
+
 @media (max-width: 1150px) {
   .description {
     width: 350px;
