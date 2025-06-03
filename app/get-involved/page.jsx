@@ -1,9 +1,9 @@
 import React from 'react'
-import Education from './Education'
+import GetInvolved from './GetInvolved'
 
 const page = () => {
   return (
-    <Education />
+    <GetInvolved/>
   )
 }
 

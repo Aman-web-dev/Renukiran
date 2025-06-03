@@ -113,8 +113,8 @@ const OurWorkPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50">
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-indigo-900 via-blue-900 to-purple-900">
-        <div className="absolute inset-0 bg-black opacity-20"></div>
+      <div className="relative overflow-hidden bg-gradient-to-r from-blue-800 to-lime-500">
+        <div className="absolute inset-0 our-work-bg-img opacity-20"></div>
 
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden">
@@ -133,9 +133,9 @@ const OurWorkPage = () => {
           >
             <div className="flex items-center justify-center mb-6">
               <Target className="w-12 h-12 text-blue-400 mr-4" />
-              <h1 className="text-5xl md:text-7xl font-bold text-white">
+              <h1 className="text-3xl lg:text-6xl md:text-5xl header-text-400 font-bold text-white">
                 Our{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+                <span className="text-transparent bg-clip-text bg-white">
                   Work
                 </span>
               </h1>
@@ -632,18 +632,16 @@ const OurWorkPage = () => {
               </div>
             </div>
             <div className="bg-gradient-to-r from-emerald-500 to-green-600 rounded-3xl p-8 text-white mb-8">
-          <h3 className="text-2xl font-bold mb-4">Community Education</h3>
-          <p className="text-lg leading-relaxed">
-            During the pandemic, we stepped up to distribute raashan (essential
-            food supplies) to families hit hardest by the lockdown. For many,
-            these supplies were a lifeline — ensuring survival during a time of
-            uncertainty and despair.
-          </p>
-        </div>
+              <h3 className="text-2xl font-bold mb-4">Community Education</h3>
+              <p className="text-lg leading-relaxed">
+                During the pandemic, we stepped up to distribute raashan
+                (essential food supplies) to families hit hardest by the
+                lockdown. For many, these supplies were a lifeline — ensuring
+                survival during a time of uncertainty and despair.
+              </p>
+            </div>
           </div>
-                 
         </div>
- 
       </section>
     </div>
   );

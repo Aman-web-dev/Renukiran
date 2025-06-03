@@ -35,7 +35,7 @@ const MediaCentre = () => {
         "We are delighted to share that our efforts were recognized by FSIA with the prestigious 'Real Superheroes – Corona Warrior' certificate. During the unprecedented challenges of the COVID-19 pandemic in 2020, we stood strong as silent warriors, working tirelessly behind the scenes to spread positivity, hope, and encouragement.",
       year: "2020",
       category: "Pandemic Response",
-      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2FFSIA_RECOGNITION.jpg?alt=media&token=93fd6548-5417-42b2-a8e2-49d7f3184125",
+      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2Faward-3.jpg?alt=media&token=7afc29f9-5cb0-410f-8ac5-b481eb939143",
     },
     {
       id: 3,
@@ -65,7 +65,7 @@ const MediaCentre = () => {
         "We are honored to receive the Leadership Icon Award from Brand Opus for our dedicated social service efforts in supporting underprivileged children. This recognition, presented in Bangalore, highlights our ongoing commitment to creating a brighter future for children in need through education, care, and empowerment.",
       year: "2024",
       category: "Leadership Excellence",
-      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2FLEADORSHIP_ICON.jpg?alt=media&token=a3027dd1-8486-422b-bf1b-806fbf96668b",
+      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2Faward-4.jpg?alt=media&token=d11dffe2-38c3-4a74-af0f-b1139d4085ac",
     },
   ];
 

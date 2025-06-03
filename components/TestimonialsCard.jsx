@@ -11,6 +11,7 @@ const TestimonialsCard = (props) => {
   }
   const handleReadLess = () => {
     reviewsRef.current.classList.add("line-clamp-4-css")
+    setIsReadMore(true)
   }
   return (
     <div className="swiper-slide">
@@ -41,7 +42,7 @@ const TestimonialsCard = (props) => {
             {props.review}
           </p>
           <span
-            className="cursor-pointer text-sm text-black"
+            className="cursor-pointer text-sm text-blue-500"
             onClick={isReadMore ? handleReadMore : handleReadLess}
           >
             {isReadMore ? "Read more" : "Read less"}

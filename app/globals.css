@@ -158,6 +158,13 @@ body {
   text-overflow: ellipsis;
 }
 
+.our-work-bg-img {
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/Plantation%2Fclimate-1.jpg?alt=media&token=4efd6cc3-bcdb-4018-9132-6cd69e915423');
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
 @keyframes float {
   0% { transform: translate(-50%, -50%) rotate(0deg) translateY(0px); }
   50% { transform: translate(-50%, -50%) rotate(180deg) translateY(-20px); }

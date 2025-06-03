@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 const WhatWeProvide = () => {
   return (
@@ -10,7 +9,7 @@ const WhatWeProvide = () => {
       <div className="pb-6 max-w-5xl border-b border-solid border-black flex flex-wrap justify-center m-auto md:gap-16 gap-5 text-black md:space-y-0  items-center justify-content-center">
         <Link
           className="cursor-pointer group"
-          href="/programs#women-empowerment"
+          href="/work#education"
         >
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
@@ -42,7 +41,7 @@ const WhatWeProvide = () => {
         {/* Card: Women Empowerment */}
         <Link
           className="cursor-pointer group"
-          href="/programs#women-empowerment"
+          href="/work#women-empowerment"
         >
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
@@ -67,7 +66,7 @@ const WhatWeProvide = () => {
         </Link>
 
         {/* Card: Healthcare */}
-        <Link className="cursor-pointer group" href="/programs#foodandhygine">
+        <Link className="cursor-pointer group" href="/work#health">
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
               <svg
@@ -105,7 +104,7 @@ const WhatWeProvide = () => {
         {/* Card: Livelihood */}
         <Link
           className="cursor-pointer group"
-          href="/programs#women-empowerment"
+          href="/work#livelihood"
         >
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
@@ -131,7 +130,7 @@ const WhatWeProvide = () => {
         </Link>
 
         {/* Card: Climate Change */}
-        <Link className="cursor-pointer group" href="/programs#foodandhygine">
+        <Link className="cursor-pointer group" href="/work#climate-change">
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 sm:w-32 sm:h-32 md:w-36 md:h-36 lg:w-32 lg:h-32 flex items-center justify-center overflow-hidden">
               <svg

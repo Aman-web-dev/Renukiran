@@ -63,37 +63,30 @@ const navRoutes = [
     ],
   },
   // {
-  //   heading: 'Resource Center',
+  //   heading: "Get Involved",
+  //   href: "/get-involved",
   //   disabled: false,
   //   subRoutes: [
-
+  //     { label: "Individual Support", href: "/about", disabled: false },
+  //     { label: "Be a Fundraiser", href: "/founders", disabled: false },
+  //     { label: "Corporate Partnership", href: "/team", disabled: false },
+  //     { label: "School Partnership", href: "/programs", disabled: false },
+  //     {
+  //       label: "Volunteer & Internship",
+  //       href: "/announcements",
+  //       disabled: false,
+  //     },
+  //     { label: "Work with Us", href: "/announcements", disabled: false },
   //   ],
   // },
-  {
-    heading: "Get Involved",
-    href: "#",
-    disabled: false,
-    subRoutes: [
-      { label: "Individual Support", href: "/about", disabled: false },
-      { label: "Be a Fundraiser", href: "/founders", disabled: false },
-      { label: "Corporate Partnership", href: "/team", disabled: false },
-      { label: "School Partnership", href: "/programs", disabled: false },
-      {
-        label: "Volunteer & Internship",
-        href: "/announcements",
-        disabled: false,
-      },
-      { label: "Work with Us", href: "/announcements", disabled: false },
-    ],
-  },
 
   {
     heading: "Contact Us",
     href: "/contact",
     disabled: false,
     subRoutes: [
-      { label: "Get in Touch", href: "/about", disabled: false },
-      { label: "FAQs", href: "/founders", disabled: false },
+      { label: "Get in Touch", href: "/contact", disabled: false },
+      { label: "FAQs", href: "/faqs", disabled: false },
     ],
   },
 ];
@@ -188,7 +181,7 @@ const Nav = () => {
                                 {subRoute.nestedRoutes ? (
                                   <li className="flex justify-between navigation-level-2">
                                     <button
-                                      className="flex w-full px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
+                                      className="flex w-full px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:text-white group-hover:bg-gray-100"
                                       // disabled={subRoute.disabled}
                                     >
                                       {subRoute.label}
@@ -232,7 +225,7 @@ const Nav = () => {
                                 ) : (
                                   <Link
                                     href={subRoute.href}
-                                    className="block px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white group-hover:bg-gray-100 dark:group-hover:bg-gray-600"
+                                    className="block px-4 py-2 font-bold text-black hover:bg-gray-100  group-hover:bg-gray-100"
                                     // disabled={subRoute.disabled}
                                   >
                                     {subRoute.label}
