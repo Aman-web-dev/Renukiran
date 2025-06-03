@@ -9,6 +9,7 @@ import CompanysLogo from "@/components/CompanysLogo"
 import { register } from "swiper/element/bundle";
 register();
 import SubscribePopup from './SubscribePopup'
+import TestimonialCarousel from "@/components/TestimonialCarousel"
 
 const App = () => {
   return (
