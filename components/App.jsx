@@ -10,6 +10,7 @@ import { register } from "swiper/element/bundle";
 register();
 import SubscribePopup from './SubscribePopup'
 import TestimonialCarousel from "@/components/TestimonialCarousel"
+import NewsArticles from "./NewsArticles"
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <WhatWeProvide />
       <SDGgoals />
       <CompanysLogo />
+      {/* <NewsArticles/> */}
       <TestimonialCarousel/>
       <Loader />
     </main>

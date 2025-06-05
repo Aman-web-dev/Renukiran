@@ -23,8 +23,8 @@ function Team() {
     },
     {
       name: "Bibhav Kumar",
-      designation: "Executive Corporate Social Responsibility",
-      pic: "https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FbibhavProfile.webp?alt=media&token=e108abd1-ba0b-491f-9bef-c9aca2cdf1b8&_gl=1*rh6zb3*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5Nzc0NS4zMC4wLjA.",
+      designation: "Centre Incharge",
+      pic: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/team%2Fvaibhav_50.jpg?alt=media&token=a7581e63-ac1d-40f3-b377-5f95972ee2d3",
       linkedin:
         "https://www.linkedin.com/in/bibhav-kumar-b539b5233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       desc: "Hello, I’m Vaibhav, and I serve as the Centre Coordinator at Renukiran Welfare Foundation. In my role, I act as a vital link between the headquarters and the training centre, ensuring smooth communication and effective coordination. I am responsible for managing both the trainers and the individuals who join our programs, making sure everything runs efficiently and harmoniously. The organization’s vision and mission truly resonate with me, and I feel proud to be a part of a team that is working toward meaningful social change. What I enjoy most about working here is the continuous learning—each day brings new challenges, experiences, and opportunities for personal and professional growth. Being part of such a positive and purpose-driven environment has been incredibly fulfilling. It’s inspiring to contribute to a cause that empowers communities and transforms lives through education, skill development, and support. I look forward to continuing this journey of impact and growth.",
@@ -38,7 +38,7 @@ function Team() {
     },
     {
       name: "Deepak",
-      designation: "Event Coordinator",
+      designation: "IT trainer",
       pic: "https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FDeeepakProfile.webp?alt=media&token=303a89b0-fa34-4ec1-9fbc-bbac6788737f&_gl=1*29wi69*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5NzY4Mi4xOS4wLjA.",
       linkedin:
         "https://www.linkedin.com/in/deepak-1688b8287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

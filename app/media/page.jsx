@@ -156,40 +156,44 @@ const MediaCentre = () => {
   );
 
   const AwardCard = ({ award }) => (
-  <div className="flex flex-col md:flex-row w-full gap-6">
-  {/* Card Content */}
-  <div className="flex-1 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-    <div className="h-48 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
-      <div className="text-center p-6">
-        <Award className="h-16 w-16 text-blue-600 mx-auto mb-4" />
-        <div className="text-sm text-gray-600 mb-2">{award.category}</div>
-        <div className="text-lg font-bold text-gray-800">{award.year}</div>
+    <div className="flex flex-col md:flex-row w-full max-w-sm">
+      {/* Card Content */}
+      <div className="flex-1 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div className="flex-1 flex items-center justify-center">
+          <div className="w-full h-full p-4 relative">
+            <Image
+              src={award.img}
+              width={200}
+              height={200}
+              alt={award.title}
+              className="rounded-xl object-cover w-full h-full shadow-md"
+            />
+            <div className="absolute top-5 left-5 renukiran-bg-green-color rounded-full p-1">
+              <div className="flex items-center">
+                <Award className="h-10 w-10 text-white" />
+                <div className="text-base text-white flex flex-col px-2">
+                  <span>{award.category}</span>
+                  <span>{award.year}</span>
+                </div>
+                {/* <div className="text-lg font-bold text-gray-800">
+                  {award.year}
+                </div> */}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-6">
+          <h3 className="text-xl font-bold text-gray-800 mb-2">
+            {award.title}
+          </h3>
+          <p className="text-blue-600 font-medium mb-3">{award.subtitle}</p>
+          <p className="text-gray-600 text-sm leading-relaxed">
+            {award.description}
+          </p>
+        </div>
       </div>
     </div>
-    <div className="p-6">
-      <h3 className="text-xl font-bold text-gray-800 mb-2">
-        {award.title}
-      </h3>
-      <p className="text-blue-600 font-medium mb-3">{award.subtitle}</p>
-      <p className="text-gray-600 text-sm leading-relaxed">
-        {award.description}
-      </p>
-    </div>
-  </div>
-
-  {/* Image */}
-  <div className="flex-1 flex items-center justify-center">
-    <div className="w-full h-full p-4">
-      <Image
-        src={award.img}
-        width={500}
-        height={300}
-        alt={award.title}
-        className="rounded-xl object-cover w-full h-full shadow-md"
-      />
-    </div>
-  </div>
-</div>
   );
 
   const PressReleaseCard = ({ release }) => (
@@ -303,7 +307,7 @@ const MediaCentre = () => {
                 promise we renew every day.
               </p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
+            <div className="flex flex-wrap gap-8">
               {awards.map((award) => (
                 <AwardCard key={award.id} award={award} />
               ))}
