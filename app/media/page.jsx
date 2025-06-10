@@ -72,27 +72,203 @@ const MediaCentre = () => {
   const pressReleases = [
     {
       id: 1,
-      title: "Renukiran Welfare Foundation Launches New Education Initiative",
-      date: "March 15, 2024",
-      excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      category: "Education",
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2F1.jpg?alt=media&token=f7476e66-b89a-45f7-b068-e7f7d95dde60",
     },
     {
       id: 2,
-      title: "Partnership Announcement with Local Schools",
-      date: "February 28, 2024",
-      excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      category: "Partnership",
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2F2.jpg?alt=media&token=87dee69b-b18c-40bc-90ca-61f9d8038a8d",
     },
     {
       id: 3,
-      title: "Annual Impact Report 2023 Released",
-      date: "January 20, 2024",
-      excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      category: "Annual Report",
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2F3.jpg?alt=media&token=990515c1-2f9b-49e1-8a69-e7ffd5045158",
+    },
+    {
+      id: 4,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2F4.jpg?alt=media&token=5e4e6bc6-4af6-4e6b-9c6e-53ecd5a447ea",
+    },
+    {
+      id: 5,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2F5.jpg?alt=media&token=0ac8461d-229b-4f75-bcd4-5872a212ecaf",
+    },
+    {
+      id: 6,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2F6.jpg?alt=media&token=ecc8dab9-9968-422f-848f-994158c5a53f",
+    },
+    {
+      id: 7,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2F7.jpg?alt=media&token=5555b0cf-dbe9-47c9-9371-56dce1a74d5c",
+    },
+    {
+      id: 8,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-06-24%20at%2011.29.08%20AM.jpeg?alt=media&token=79731803-6d3b-444c-a907-319319f4fea3",
+    },
+    {
+      id: 9,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-06-24%20at%2011.38.42%20AM.jpeg?alt=media&token=d79eba56-4ed8-418d-8d8a-f3705da9d93a",
+    },
+    {
+      id: 10,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-06-25%20at%207.22.13%20AM.jpeg?alt=media&token=59ee93e2-e19f-49e3-8950-999daf6ed2fd",
+    },
+    {
+      id: 11,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-07-11%20at%207.39.46%20PM.jpeg?alt=media&token=2feff50b-406a-4191-84d8-5708c15a3975",
+    },
+    {
+      id: 12,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-07-11%20at%207.39.47%20PM.jpeg?alt=media&token=fb36975f-fce4-49a9-8d7b-6049039953fa",
+    },
+    {
+      id: 13,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-07-12%20at%2011.15.29%20AM.jpeg?alt=media&token=798da385-d4d6-4862-9d30-8c0f696bf197",
+    },
+    {
+      id: 14,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-07-12%20at%207.50.51%20AM.jpeg?alt=media&token=412a2f03-f94d-47a5-8391-0f6e96c69424",
+    },
+    {
+      id: 15,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-08-01%20at%2010.13.35%20AM.jpeg?alt=media&token=2620c22e-dca4-4fa6-bfd1-f8acfb6ae6b9",
+    },
+    {
+      id: 16,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-08-01%20at%205.14.44%20PM.jpeg?alt=media&token=eda58705-338e-4968-820e-ba3afb36df63",
+    },
+    {
+      id: 17,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-08-01%20at%207.52.16%20PM%20(1).jpeg?alt=media&token=8e87b2df-19f3-4f63-9a04-7c7dd15ce4b9",
+    },
+    {
+      id: 18,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-08-01%20at%207.52.16%20PM.jpeg?alt=media&token=0f9e860a-986f-4cd8-870b-0e62a2d2ba5e",
+    },
+    {
+      id: 19,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-08-01%20at%208.27.03%20PM.jpeg?alt=media&token=668777ee-dd62-469d-b8c5-c849df7c14bd",
+    },
+    {
+      id: 20,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-08-01%20at%209.57.03%20AM.jpeg?alt=media&token=c6ff838f-4486-4c7b-955b-027a7c2d3edc",
+    },
+    {
+      id: 21,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-08-01%20at%209.57.04%20AM.jpeg?alt=media&token=2bec54b7-d8be-4191-a988-6cc81d969135",
+    },
+    {
+      id: 22,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-08-03%20at%203.12.38%20PM.jpeg?alt=media&token=fe0f04f4-8d10-41f8-99c4-25b653ac927c",
+    },
+    {
+      id: 23,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-08-03%20at%203.13.18%20PM.jpeg?alt=media&token=a49427fe-f20c-41fd-8fcc-ab709c3985cb",
+    },
+    {
+      id: 24,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-01%20at%207.11.29%20PM.jpeg?alt=media&token=0b746cb4-5604-4433-8011-2ad2c6e888b4",
+    },
+    {
+      id: 25,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-01%20at%207.25.33%20AM.jpeg?alt=media&token=15d2b89d-aab6-47ae-a477-aed22116ff1a",
+    },
+    {
+      id: 26,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-02%20at%204.20.24%20AM.jpeg?alt=media&token=75d0005f-e21b-4937-9d7e-7998e61ed463",
+    },
+    {
+      id: 27,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-03%20at%207.23.10%20AM.jpeg?alt=media&token=a0bb5352-a44e-48a6-8254-8ad74a9a2053",
+    },
+    {
+      id: 28,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-03%20at%207.28.48%20AM.jpeg?alt=media&token=7767f715-202f-4584-8f92-be7aa10eea61",
+    },
+    {
+      id: 29,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-03%20at%208.20.41%20PM.jpeg?alt=media&token=23b145e0-0c52-4191-a9d7-f8a71276d7b1",
+    },
+    {
+      id: 30,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-03%20at%208.45.11%20AM.jpeg?alt=media&token=68314342-e68a-41a5-a65a-417832ef7132",
+    },
+    {
+      id: 31,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-03%20at%208.45.27%20AM.jpeg?alt=media&token=b3d6a952-1dbb-42df-8340-3189d2d4ade7",
+    },
+    {
+      id: 32,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-05%20at%206.40.25%20AM.jpeg?alt=media&token=21d82285-0376-4699-9e54-00cb83cee156",
+    },
+    {
+      id: 33,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-09-05%20at%206.40.26%20AM.jpeg?alt=media&token=6e239592-24ce-4979-8afb-ff806a7bba0c",
+    },
+    {
+      id: 34,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-10-03%20at%206.49.10%20AM.jpeg?alt=media&token=07f40d5c-e8ea-4070-85c6-9092e66ef9b7",
+    },
+    {
+      id: 35,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202024-10-03%20at%209.12.16%20AM.jpeg?alt=media&token=d10288b2-12dc-455c-abc9-327f66fb5891",
+    },
+    {
+      id: 36,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202025-04-21%20at%2009.50.35.jpeg?alt=media&token=c26b92be-9e69-4719-8f59-17a95142c531",
+    },
+    {
+      id: 37,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202025-04-21%20at%2009.50.39.jpeg?alt=media&token=5d46bc83-b43f-41c2-9fec-5a01af7a543e",
+    },
+    {
+      id: 38,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202025-04-21%20at%2010.12.43.jpeg?alt=media&token=9cbb4762-f6fd-4453-b79e-d8628394fca7",
+    },
+    {
+      id: 39,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202025-04-21%20at%2010.12.46%20(1).jpeg?alt=media&token=4882434c-55b3-4734-aaf2-addf5eadcab0",
+    },
+    {
+      id: 40,
+      imageLink:
+        "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/news%20articles%2FWhatsApp%20Image%202025-04-21%20at%2010.12.46%20(2).jpeg?alt=media&token=39e96f90-5045-441e-8856-9a6aeae4da0a",
     },
   ];
 
@@ -197,20 +373,23 @@ const MediaCentre = () => {
   );
 
   const PressReleaseCard = ({ release }) => (
-    <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-      <div className="flex items-start justify-between mb-4">
+    <div className="bg-white rounded-lg shadow-md p-6 max-h-80">
+      <div className="w-full h-full">
+        <img src={release.imageLink} alt={release.id} className="w-full h-full object-cover" />
+      </div>
+      {/* <div className="flex items-start justify-between mb-4">
         <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">
           {release.category}
         </span>
         <span className="text-sm text-gray-500">{release.date}</span>
-      </div>
-      <h3 className="text-lg font-semibold text-gray-800 mb-3">
+      </div> */}
+      {/* <h3 className="text-lg font-semibold text-gray-800 mb-3">
         {release.title}
-      </h3>
-      <p className="text-gray-600 text-sm">{release.excerpt}</p>
-      <button className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center">
+      </h3> */}
+      {/* <p className="text-gray-600 text-sm">{release.excerpt}</p> */}
+      {/* <button className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center">
         Read More <ChevronRight className="h-4 w-4 ml-1" />
-      </button>
+      </button> */}
     </div>
   );
 

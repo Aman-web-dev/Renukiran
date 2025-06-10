@@ -56,29 +56,29 @@ const navRoutes = [
         disabled: false,
       },
       { label: "Awards & Recognition", href: "/media#awards", disabled: false },
-      { label: "Blogs & Articles", href: "/media#awards", disabled: false },
+      { label: "The RWF Blog", href: "/media#awards", disabled: false },
       { label: "Newsletter", href: "/media#awards", disabled: false },
       { label: "Annual Reports", href: "/media#awards", disabled: false },
       { label: "Story of Change", href: "/media#awards", disabled: false },
     ],
   },
-  // {
-  //   heading: "Get Involved",
-  //   href: "/get-involved",
-  //   disabled: false,
-  //   subRoutes: [
-  //     { label: "Individual Support", href: "/about", disabled: false },
-  //     { label: "Be a Fundraiser", href: "/founders", disabled: false },
-  //     { label: "Corporate Partnership", href: "/team", disabled: false },
-  //     { label: "School Partnership", href: "/programs", disabled: false },
-  //     {
-  //       label: "Volunteer & Internship",
-  //       href: "/announcements",
-  //       disabled: false,
-  //     },
-  //     { label: "Work with Us", href: "/announcements", disabled: false },
-  //   ],
-  // },
+  {
+    heading: "Get Involved",
+    href: "/get-involved",
+    disabled: false,
+    subRoutes: [
+      { label: "Individual Support", href: "/about", disabled: false },
+      { label: "Be a Fundraiser", href: "/founders", disabled: false },
+      { label: "Corporate Partnership", href: "/team", disabled: false },
+      { label: "School Partnership", href: "/programs", disabled: false },
+      {
+        label: "Volunteer & Internship",
+        href: "/announcements",
+        disabled: false,
+      },
+      { label: "Work with Us", href: "/announcements", disabled: false },
+    ],
+  },
 
   {
     heading: "Contact Us",
