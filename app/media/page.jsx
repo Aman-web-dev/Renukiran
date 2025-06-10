@@ -381,7 +381,7 @@ const MediaCentre = () => {
   );
 
   const PressReleaseCard = ({ release }) => (
-    <div className="bg-white rounded-lg shadow-md p-6 max-h-80 cursor-pointer">
+    <div className="border-2 border-black rounded-lg shadow-md p-6 max-h-80 cursor-pointer">
       <div className="w-full h-full">
         <img
           onClick={(e) => handleActiveArticle(e)}
