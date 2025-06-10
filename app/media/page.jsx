@@ -12,10 +12,18 @@ import {
 } from "lucide-react";
 
 import Image from "next/image";
+import ArticleModal from "@/components/ArticleModal"
 
 const MediaCentre = () => {
   const [activeSection, setActiveSection] = useState("awards");
+  const [showMore, setIsShowMore] = useState(false)
+  const [activeArticle, setActiveArticle] = useState(false)
+  const [currentActiveArticle, setCurrentActiveArticle] = useState(null)
 
+  const handleActiveArticle = (e) => {
+    document.getElementById("my_modal_5").showModal();
+    setCurrentActiveArticle(e.target?.src);
+  }
   const awards = [
     {
       id: 1,
@@ -373,9 +381,14 @@ const MediaCentre = () => {
   );
 
   const PressReleaseCard = ({ release }) => (
-    <div className="bg-white rounded-lg shadow-md p-6 max-h-80">
+    <div className="bg-white rounded-lg shadow-md p-6 max-h-80 cursor-pointer">
       <div className="w-full h-full">
-        <img src={release.imageLink} alt={release.id} className="w-full h-full object-cover" />
+        <img
+          onClick={(e) => handleActiveArticle(e)}
+          src={release.imageLink}
+          alt={release.id}
+          className="w-full h-full object-cover"
+        />
       </div>
       {/* <div className="flex items-start justify-between mb-4">
         <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">
@@ -506,10 +519,29 @@ const MediaCentre = () => {
                 equitable society.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {pressReleases.map((release) => (
-                <PressReleaseCard key={release.id} release={release} />
-              ))}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative">
+                <ArticleModal currentArticle={currentActiveArticle} />
+              {pressReleases.map((release) => {
+                if (release.id <= 20 && !showMore) {
+                  return (
+                    <PressReleaseCard key={release.id} release={release} />
+                  );
+                } else if (showMore) {
+                  return (
+                    <PressReleaseCard key={release.id} release={release} />
+                  );
+                }
+              })}
+            </div>
+            <div className="text-center">
+              <button
+                onClick={() =>
+                  !showMore ? setIsShowMore(true) : setIsShowMore(false)
+                }
+                className="lg:text-xl text-lg renukiran-blue-color"
+              >
+                {!showMore ? "Show More" : "Show Less"}
+              </button>
             </div>
           </div>
         )}
