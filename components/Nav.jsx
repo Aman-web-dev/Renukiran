@@ -67,9 +67,17 @@ const navRoutes = [
     href: "/get-involved",
     disabled: false,
     subRoutes: [
-      { label: "Individual Support", href: "/get-involved/individual-support", disabled: false },
+      {
+        label: "Individual Support",
+        href: "/get-involved/individual-support",
+        disabled: false,
+      },
       { label: "Be a Fundraiser", href: "/founders", disabled: false },
-      { label: "Corporate Partnership", href: "/team", disabled: false },
+      {
+        label: "Corporate Partnership",
+        href: "/get-involved/corporate-partnership",
+        disabled: false,
+      },
       { label: "School Partnership", href: "/programs", disabled: false },
       {
         label: "Volunteer & Internship",
