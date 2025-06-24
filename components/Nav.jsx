@@ -78,7 +78,7 @@ const navRoutes = [
         href: "/get-involved/corporate-partnership",
         disabled: false,
       },
-      { label: "School Partnership", href: "/programs", disabled: false },
+      { label: "School Partnership", href: "/get-involved/school-partnership", disabled: false },
       {
         label: "Volunteer & Internship",
         href: "/announcements",
