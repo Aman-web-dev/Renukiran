@@ -94,7 +94,6 @@ export default function IndividualSupport() {
             </p>
           </div>
         </div>
-        <div className=" bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent"></div>
       </div>
 
       {/* Mission Section */}

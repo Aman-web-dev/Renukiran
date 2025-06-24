@@ -200,37 +200,6 @@ export default function Volunteering() {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-12">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h4 className="text-2xl font-bold mb-4">
-            Renukiran Welfare Foundation
-          </h4>
-          <p className="text-gray-400 mb-6">
-            Creating positive social change, one volunteer at a time.
-          </p>
-          <div className="flex justify-center space-x-6">
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              Contact
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              About
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
-              Programs
-            </a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
