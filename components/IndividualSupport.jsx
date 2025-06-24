@@ -76,13 +76,13 @@ export default function IndividualSupport() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50">
       {/* Header Section */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white">
+      <div className="relative overflow-hidden bg-gradient-to-r from-[#2e5893] to-[#81C421] text-white">
         <div className=" inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center">
             <div className="flex justify-center mb-6">
               <div className="p-3 bg-white bg-opacity-20 rounded-full backdrop-blur-sm">
-                <Heart className="w-12 h-12 text-white" />
+                <Heart className="w-12 h-12 renukiran-blue-color" />
               </div>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-pink-200">
@@ -104,10 +104,10 @@ export default function IndividualSupport() {
             <Sparkles className="w-5 h-5 text-indigo-600" />
             <span className="text-indigo-800 font-semibold">Your Impact</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+          <h2 className="md:text-5xl text-4xl header-text-600 font-bold text-gray-900 mb-8">
             Transform Lives Through Your Support
           </h2>
-          <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg sub-text-400 text-gray-700 max-w-4xl mx-auto leading-relaxed">
             When you support Renukiran individually, you are directly impacting
             lives. Your generosity helps us extend crucial initiatives like
             menstrual hygiene awareness sessions, health education workshops,
@@ -137,10 +137,6 @@ export default function IndividualSupport() {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {option.description}
                 </p>
-                <div className="flex items-center text-indigo-600 font-semibold group-hover:translate-x-2 transition-transform duration-300">
-                  <span>Learn More</span>
-                  <ChevronRight className="w-4 h-4 ml-1" />
-                </div>
               </div>
               <div
                 className={` inset-0 bg-gradient-to-r ${option.color} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
@@ -150,7 +146,7 @@ export default function IndividualSupport() {
         </div>
 
         {/* Why Support Matters Section */}
-        <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
+        <div className="bg-gradient-to-r from-[#2e5893] to-[#81C421] rounded-3xl p-8 md:p-12 text-white relative overflow-hidden">
           <div className="inset-0 bg-black opacity-10"></div>
           <div className="relative z-10">
             <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">
@@ -167,7 +163,7 @@ export default function IndividualSupport() {
               <div className="grid md:grid-cols-3 gap-8 mt-12">
                 <div className="text-center">
                   <div className="bg-white bg-opacity-20 rounded-full p-4 w-16 h-16 mx-auto mb-4 backdrop-blur-sm">
-                    <Users className="w-8 h-8 text-white" />
+                    <Users className="w-8 h-8 renukiran-blue-color" />
                   </div>
                   <h4 className="font-semibold text-lg mb-2">Empower Women</h4>
                   <p className="text-sm opacity-80">
@@ -176,7 +172,7 @@ export default function IndividualSupport() {
                 </div>
                 <div className="text-center">
                   <div className="bg-white bg-opacity-20 rounded-full p-4 w-16 h-16 mx-auto mb-4 backdrop-blur-sm">
-                    <BookOpen className="w-8 h-8 text-white" />
+                    <BookOpen className="w-8 h-8 renukiran-blue-color" />
                   </div>
                   <h4 className="font-semibold text-lg mb-2">
                     Nurture Children
@@ -187,7 +183,7 @@ export default function IndividualSupport() {
                 </div>
                 <div className="text-center">
                   <div className="bg-white bg-opacity-20 rounded-full p-4 w-16 h-16 mx-auto mb-4 backdrop-blur-sm">
-                    <Heart className="w-8 h-8 text-white" />
+                    <Heart className="w-8 h-8 renukiran-blue-color" />
                   </div>
                   <h4 className="font-semibold text-lg mb-2">
                     Strengthen Communities
@@ -202,7 +198,7 @@ export default function IndividualSupport() {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
             Join Us in Making a Difference
           </h3>
@@ -218,7 +214,7 @@ export default function IndividualSupport() {
               Learn More About Us
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
