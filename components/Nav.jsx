@@ -42,6 +42,11 @@ const navRoutes = [
         href: "/work#climate-change",
         disabled: false,
       },
+      {
+        label: "Plantation Drive",
+        href: "/plantation-drive",
+        disabled: false,
+      },
     ],
   },
   {
@@ -72,7 +77,7 @@ const navRoutes = [
         href: "/get-involved/individual-support",
         disabled: false,
       },
-      { label: "Be a Fundraiser", href: "/founders", disabled: false },
+      // { label: "Be a Fundraiser", href: "/founders", disabled: false },
       {
         label: "Corporate Partnership",
         href: "/get-involved/corporate-partnership",
@@ -86,6 +91,12 @@ const navRoutes = [
       },
       { label: "Work with Us", href: "/announcements", disabled: false },
     ],
+  },
+  {
+    heading: "Plantation Initiatives",
+    href: "/plantation-initiatives",
+    disabled: false,
+    subRoutes:[]
   },
 
   {

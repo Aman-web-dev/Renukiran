@@ -44,21 +44,6 @@ function Team() {
         "https://www.linkedin.com/in/deepak-1688b8287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       desc: " I am currently working with Renukiran Welfare Foundation, an organization dedicated to uplifting underprivileged communities through education and welfare initiatives. I joined the foundation in September 2024 and have been contributing in multiple roles. As a IT Trainer, I am helping to equip children with essential digital skills, enabling them to confidently navigate the modern world. In addition, I am supporting the organization’s backend operations by managing accounting and financial tasks, ensuring smooth and transparent functioningMy goal is to see Renukiran Welfare Foundation grow continuously through my efforts — both in the classroom and in administrative support. By strengthening both the educational impact and the organizational structure, I aim to contribute meaningfully to the foundation’s mission of empowering children and expanding its reach",
     },
-
-    {
-      name: "Khushi Kumari",
-      designation: " Program Officer (Women Empowerment)",
-      pic: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/team%2Fkhushi.jpg?alt=media&token=37b7d793-7d53-491a-a0ef-1e0f4e42497f",
-      linkedin: "",
-      desc: "Thank you for taking a moment to read my words. It is with great enthusiasm and a deep sense of purpose that I share my journey and aspirations as I step into my role with Renukiran Welfare Foundation. I hope this message helps you understand the passion and intent behind my work. I am proud to join Renukiran Welfare Foundation as a Program Officer – Women Empowerment. The foundation’s mission across key areas—health and hygiene, education, zero hunger, and especially women empowerment—resonates strongly with my own values of social justice, equality, and sustainability. With a Bachelor's degree in Physics from Vinoba Bhave University and valuable experience as a volunteer at Satyalok, I’ve witnessed how local engagement can drive meaningful change. What inspires me most about Renukiran is its long-term vision of empowering women by helping them commercialize their skills, along with its dedication to child education and skill development initiatives. In this role, I aim to contribute to building a world where every woman can discover and express her individual identity. I believe empowerment starts when a woman is seen, heard, and supported  I am excited to be part of a team working tirelessly to turn that belief into reality.",
-    },
-    {
-      name: "Kumkum",
-      designation: "Parlor Trainer",
-      pic: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/team%2Fkumkum.jpg?alt=media&token=3375b302-23af-4c2b-b179-e55929a9adde",
-      // linkedin: "https://www.linkedin.com/in/bibhav-kumar-b539b5233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      desc: "I recently began my journey with Renukiran Welfare Foundation as a parlor trainer, and it has already been a wonderful experience. From the very beginning, I never felt like a newcomer—everyone here has been incredibly welcoming and supportive. The positive and collaborative environment makes it easy to feel at home and motivated every day. What truly inspires me is the organization’s vision and mission of creating real change in people’s lives. Being part of an initiative that empowers individuals, especially women, through skill development gives me a deep sense of purpose. It’s more than just a job; it’s a chance to contribute to something meaningful. I’m proud to be involved in a cause that uplifts communities and opens new doors for so many. Working here not only helps me grow professionally but also fills me with pride to be part of a mission that is transforming lives for the better.",
-    },
     {
       name: "Raksha Saini",
       designation: "Project planner & content creator",
@@ -73,13 +58,7 @@ function Team() {
       pic: "https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FsandhyaProfile.webp?alt=media&token=cc6c8c91-6923-44d0-9398-35364200e3ff&_gl=1*o8n2bm*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5NzgwMy4zMi4wLjA.",
       desc: "Hello, I'm Sandhya! I joined Renukiran Welfare Foundation on September 3, 2023, and the journey since then has been truly rewarding. Being part of this mission has not only deepened my passion for social work but also helped me grow personally and professionally. I’ve developed strong public speaking skills and learned how to connect with people from different walks of life. One of the most fulfilling aspects of my work is the opportunity to share my knowledge with others while continuing to learn myself. I believe in the power of teaching as a tool for mutual growth. My passion for stitching aligns perfectly with Renukiran’s goal of empowering women through skill development. I find joy in helping others gain the confidence and tools they need to build a better future. This experience has been both inspiring and empowering, and I’m excited to continue making a difference through my journey with Renukiran.",
     },
-    {
-      name: "Shivan Kashyap",
-      designation: "Soft Skills and IT Trainer",
-      pic: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/team%2FIMG-20250508-WA0004.jpg?alt=media&token=112a6387-89b0-4518-87ca-97ac59cef13f",
-      // linkedin: "https://www.linkedin.com/in/bibhav-kumar-b539b5233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      desc: "This is Shivan Kashyap here! I’m currently working as a Soft Skills and IT Trainer with the Renukiran Welfare Foundation.My journey stems from a simple yet powerful desire — to become the person I once needed. And Renukiran Welfare Foundation gave me the perfect platform to fulfill that purpose.I joined the foundation in February 2025, and ever since, I’ve remained inspired and enthusiastic about teaching and learning alongside our amazing students.What truly draws me to this organization is its work style and location. Operating in a rural setting, Renukiran is not just serving the community — it’s empowering and transforming it.Personally, I resonate deeply with the foundation’s vision. We both believe that true success lies in helping students discover their potential, develop emotional intelligence, and thrive in both their personal and professional lives.When that happens, we know we’re making a real difference.",
-    },
+
 
     // {
     //   name: "Raj Kushwaha",
