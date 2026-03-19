@@ -41,12 +41,7 @@ const navRoutes = [
         label: "Climate Change",
         href: "/work#climate-change",
         disabled: false,
-      },
-      {
-        label: "Plantation Drive",
-        href: "/plantation-drive",
-        disabled: false,
-      },
+      }
     ],
   },
   {
