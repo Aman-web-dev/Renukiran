@@ -41,6 +41,11 @@ const navRoutes = [
         label: "Climate Change",
         href: "/work#climate-change",
         disabled: false,
+      },
+      {
+        label: "Employee Volunteering Program",
+        href: "/work/employee-volunteering",
+        disabled: false,
       }
     ],
   },
