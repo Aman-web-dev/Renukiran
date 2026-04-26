@@ -30,13 +30,6 @@ function Team() {
       desc: "Hello, I’m Vaibhav, and I serve as the Centre Coordinator at Renukiran Welfare Foundation. In my role, I act as a vital link between the headquarters and the training centre, ensuring smooth communication and effective coordination. I am responsible for managing both the trainers and the individuals who join our programs, making sure everything runs efficiently and harmoniously. The organization’s vision and mission truly resonate with me, and I feel proud to be a part of a team that is working toward meaningful social change. What I enjoy most about working here is the continuous learning—each day brings new challenges, experiences, and opportunities for personal and professional growth. Being part of such a positive and purpose-driven environment has been incredibly fulfilling. It’s inspiring to contribute to a cause that empowers communities and transforms lives through education, skill development, and support. I look forward to continuing this journey of impact and growth.",
     },
     {
-      name: "Chitra Sachan",
-      designation: "Fundraising Manager",
-      pic: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/team%2FWhatsApp%20Image%202025-05-24%20at%2019.06.24.jpeg?alt=media&token=7f5db74b-6d42-404b-86f4-811b1ce715d1",
-      linkedin: "https://www.linkedin.com/in/chitra-sachan-079802161",
-      desc: "As Fundraising Manager at Renukiran Welfare Foundation, I've witnessed the transformative power of compassion and collaboration. With a rich background in the social sector, having worked with renowned organizations like Smile Foundation, CARE India, UNICEF, World Vision India, CRY, and Navsrishti, I confidently endorse the impact of our collective efforts. Every contribution, big or small, brings us closer to a world where every individual has the opportunity to thrive. Join us in this journey of making a difference, and together, let's create a brighter, more compassionate world for all.",
-    },
-    {
       name: "Deepak",
       designation: "IT trainer",
       pic: "https://firebasestorage.googleapis.com/v0/b/speakup-aa4f8.appspot.com/o/thumbnails%2FDeeepakProfile.webp?alt=media&token=303a89b0-fa34-4ec1-9fbc-bbac6788737f&_gl=1*29wi69*_ga*NTkyODU4MjY0LjE2OTY1Nzc5MzE.*_ga_CW55HF8NVT*MTY5ODM5NTEwMi45LjEuMTY5ODM5NzY4Mi4xOS4wLjA.",
