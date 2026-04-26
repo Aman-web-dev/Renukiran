@@ -9,6 +9,10 @@ import {
   Users,
   Heart,
   Globe,
+  BookOpen,
+  ExternalLink,
+  Pencil,
+  Clock,
 } from "lucide-react";
 
 import Image from "next/image";
@@ -16,9 +20,11 @@ import ArticleModal from "@/components/ArticleModal"
 
 const MediaCentre = () => {
   const [activeSection, setActiveSection] = useState("awards");
-  const [showMore, setIsShowMore] = useState(false)
-  const [activeArticle, setActiveArticle] = useState(false)
-  const [currentActiveArticle, setCurrentActiveArticle] = useState(null)
+  const [showMore, setIsShowMore] = useState(false);
+  const [activeArticle, setActiveArticle] = useState(false);
+  const [currentActiveArticle, setCurrentActiveArticle] = useState(null);
+  const [showPdfModal, setShowPdfModal] = useState(false);
+  const [selectedPdf, setSelectedPdf] = useState(null);
 
   const handleActiveArticle = (e) => {
     document.getElementById("my_modal_5").showModal();
@@ -313,14 +319,97 @@ const MediaCentre = () => {
     },
   ];
 
+  const newsletters = [
+    {
+      id: 1,
+      title: "Annual Report 2024-2025",
+      url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FANNUAL%20REPORT%202024-2025.pdf?alt=media&token=57474e2e-b8fc-4add-8e3d-6762b2cbe82d",
+      type: "Annual Report",
+    },
+    {
+      id: 2,
+      title: "Annual Report 2023-24",
+      url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FANNUAL%20REPORT%202023-24.pdf?alt=media&token=ba45bb3d-8446-40d2-adfe-28265d587d36",
+      type: "Annual Report",
+    },
+    {
+      id: 3,
+      title: "Annual Report 2021-22",
+      url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FAnnual%20report%2021-22.pdf%20(2).pdf?alt=media&token=a1b982d1-4b1f-42b5-b086-1aa84c25a70a",
+      type: "Annual Report",
+    },
+    {
+      id: 4,
+      title: "Annual Report 2020-21",
+      url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FAnnual%20Report%2020-21.pdf%20(1).pdf?alt=media&token=803f9361-720d-4f61-b267-d864e8ef0364",
+      type: "Annual Report",
+    },
+    {
+      id: 5,
+      title: "Annual Newsletter",
+      url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FAnnual%20newsletter%20(4).pdf?alt=media&token=54f9a7c3-5c57-4772-9668-e055ea02572b",
+      type: "Newsletter",
+    },
+  ];
+
+  const blogs = [
+    {
+      id: 1,
+      slug: "breaking-barriers",
+      title: "Breaking Barriers: Challenging Deep-Rooted Norms through Skill Development",
+      excerpt: "In many parts of India, gender roles have long been shaped by tradition. Discover how Renukiran Welfare Foundation is breaking these barriers by empowering women with skills, confidence, and the ability to redefine their place in society.",
+      date: "2025-04-15",
+      readTime: "4 min read",
+      author: "Renukiran Team",
+      category: "Women Empowerment",
+      pdfUrl: "/blogs/Breaking Barriers.pdf",
+      image: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/blog%20thumbnail%2FWhatsApp%20Image%202026-04-21%20at%2012.53.20.jpeg?alt=media&token=a9c7afe9-a44a-4f9a-aa67-a05d768af88e",
+    },
+    {
+      id: 2,
+      slug: "if-empowerment-had-a-resume",
+      title: "If Empowerment Had a Resume",
+      excerpt: "An insightful look at how corporate partnerships and skill training programs are creating employment opportunities for underprivileged communities across India.",
+      date: "2025-03-28",
+      readTime: "4 min read",
+      author: "Renukiran Team",
+      category: "Livelihood",
+      pdfUrl: "/blogs/If Empowerment Had a Resume.pdf",
+      image: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/blog%20thumbnail%2FWhatsApp%20Image%202026-04-21%20at%2014.48.47.jpeg?alt=media&token=9a399a17-5d5e-47da-98d0-9d2975f1c5ea",
+    },
+    {
+      id: 3,
+      slug: "sustainable-impact-vs-one-time-donations",
+      title: "Sustainable Impact vs One-Time Donations",
+      excerpt: "Why long-term engagement and sustainable development approaches create lasting change in communities, and how Renukiran is leading this transformation.",
+      date: "2025-03-10",
+      readTime: "6 min read",
+      author: "Renukiran Team",
+      category: "Development",
+      pdfUrl: "/blogs/Sustainable Impact vs One.pdf",
+      image: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/blog%20thumbnail%2FWhatsApp%20Image%202026-04-21%20at%2013.12.23.jpeg?alt=media&token=53771a58-d24e-4159-ae57-c3275ba92c28",
+    },
+    {
+      id: 4,
+      slug: "why-ngos-matter",
+      title: "Why NGOs Like Renukiran Welfare Foundation Are Crucial",
+      excerpt: "Understanding the vital role NGOs play in bridging the gap between government initiatives and community needs, especially for the most vulnerable sections of society.",
+      date: "2025-02-20",
+      readTime: "7 min read",
+      author: "Renukiran Team",
+      category: "NGO Impact",
+      pdfUrl: "/blogs/Why NGOs Like Renukiran Welfare Foundation Are Cru.pdf",
+      image: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/blog%20thumbnail%2FWhatsApp%20Image%202026-04-21%20at%2011.51.51.jpeg?alt=media&token=374f5db0-6810-48bc-99d0-ff91086db50d",
+    },
+  ];
+
   const SectionButton = ({ id, icon: Icon, label, count }) => (
     <button
       onClick={() => setActiveSection(id)}
-      className={`flex items-center justify-between w-full p-4 rounded-lg transition-all duration-300 ${
-        activeSection === id
-          ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
-          : "bg-white text-gray-700 hover:bg-gray-50 border border-gray-200"
-      }`}
+      className={`flex items-center justify-between w-full p-4 rounded-lg transition-all duration-300 ${activeSection === id
+        ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg"
+        : "bg-white text-gray-700 hover:bg-gray-50 border border-gray-200"
+        }`}
     >
       <div className="flex items-center space-x-3">
         <Icon className="h-5 w-5" />
@@ -328,15 +417,83 @@ const MediaCentre = () => {
       </div>
       <div className="flex items-center space-x-2">
         <span
-          className={`px-2 py-1 rounded-full text-xs ${
-            activeSection === id ? "bg-white/20" : "bg-gray-100"
-          }`}
+          className={`px-2 py-1 rounded-full text-xs ${activeSection === id ? "bg-white/20" : "bg-gray-100"
+            }`}
         >
           {count}
         </span>
         <ChevronRight className="h-4 w-4" />
       </div>
     </button>
+  );
+
+  const NewsletterCard = ({ newsletter }) => (
+    <div
+      className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group"
+      onClick={() => window.open(newsletter.url, "_blank")}
+    >
+      <div className="p-6">
+        <div className="flex items-start justify-between mb-4">
+          <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">
+            {newsletter.type}
+          </span>
+          <BookOpen className="h-6 w-6 text-gray-400 group-hover:text-blue-600 transition-colors" />
+        </div>
+        <h3 className="text-lg font-semibold text-gray-800 mb-3">
+          {newsletter.title}
+        </h3>
+        <div className="flex items-center text-blue-600 font-medium">
+          <span>View PDF</span>
+          <ExternalLink className="h-4 w-4 ml-2" />
+        </div>
+      </div>
+    </div>
+  );
+
+  const BlogCard = ({ blog }) => (
+    <div
+      className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 cursor-pointer group"
+      onClick={() => window.location.href = `/blogs/${blog.slug}`}
+    >
+      <div className="relative h-40 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
+        <div className="absolute inset-0 bg-gray-200 border-2 border-dashed rounded-t-xl" />
+        {blog.image ? (
+          <img
+            src={blog.image}
+            alt={blog.title}
+            className="w-full h-full object-cover transition-transform duration-700 scale-110"
+          />
+        ) : (
+          <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+            <span className="text-gray-400 text-sm">No Image Available</span>
+          </div>
+        )}
+      </div>
+      <div className="p-6">
+        <div className="flex items-start justify-between mb-4">
+          <span className="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">
+            {blog.category}
+          </span>
+          <Pencil className="h-6 w-6 text-gray-400 group-hover:text-blue-600 transition-colors" />
+        </div>
+        <h3 className="text-lg font-semibold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors">
+          {blog.title}
+        </h3>
+        <p className="text-gray-600 text-sm mb-4 line-clamp-2">
+          {blog.excerpt}
+        </p>
+        <div className="flex items-center gap-4 text-sm text-gray-500 pt-4 border-t">
+          <div className="flex items-center gap-1">
+            <Calendar className="h-4 w-4" />
+            <span>{new Date(blog.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <Clock className="h-4 w-4" />
+            <span>{blog.readTime}</span>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 
   const AwardCard = ({ award }) => (
@@ -410,11 +567,10 @@ const MediaCentre = () => {
     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
       <div className="flex items-start justify-between mb-4">
         <span
-          className={`px-3 py-1 text-xs font-medium rounded-full ${
-            workshop.status === "Upcoming"
-              ? "bg-green-100 text-green-800"
-              : "bg-gray-100 text-gray-800"
-          }`}
+          className={`px-3 py-1 text-xs font-medium rounded-full ${workshop.status === "Upcoming"
+            ? "bg-green-100 text-green-800"
+            : "bg-gray-100 text-gray-800"
+            }`}
         >
           {workshop.status}
         </span>
@@ -482,6 +638,18 @@ const MediaCentre = () => {
             label="Workshops & Events"
             count={workshops.length}
           />
+          <SectionButton
+            id="newsletters"
+            icon={BookOpen}
+            label="Newsletters & Annual Reports"
+            count={newsletters.length}
+          />
+          <SectionButton
+            id="blogs"
+            icon={Pencil}
+            label="The RWF Blog"
+            count={blogs.length}
+          />
         </div>
 
         {/* Content Sections */}
@@ -520,7 +688,7 @@ const MediaCentre = () => {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative">
-                <ArticleModal currentArticle={currentActiveArticle} />
+              <ArticleModal currentArticle={currentActiveArticle} />
               {pressReleases.map((release) => {
                 if (release.id <= 20 && !showMore) {
                   return (
@@ -561,6 +729,42 @@ const MediaCentre = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {workshops.map((workshop) => (
                 <WorkshopCard key={workshop.id} workshop={workshop} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {activeSection === "newsletters" && (
+          <div className="space-y-8">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-4">
+                Newsletters & Annual Reports
+              </h2>
+              <p className="text-gray-600 max-w-3xl mx-auto">
+                Stay informed about our activities, achievements, and impact through our newsletters and annual reports.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {newsletters.map((newsletter) => (
+                <NewsletterCard key={newsletter.id} newsletter={newsletter} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {activeSection === "blogs" && (
+          <div className="space-y-8">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold text-gray-800 mb-4">
+                The RWF Blog
+              </h2>
+              <p className="text-gray-600 max-w-3xl mx-auto">
+                Insights, stories, and updates from our journey of creating positive change in communities across India.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {blogs.map((blog) => (
+                <BlogCard key={blog.id} blog={blog} />
               ))}
             </div>
           </div>

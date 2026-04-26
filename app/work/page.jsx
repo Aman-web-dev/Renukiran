@@ -17,6 +17,9 @@ import {
   Target,
   Sparkles,
   ArrowUp,
+  BicepsFlexed,
+  X,
+  ShipWheel
 } from "lucide-react";
 
 const OurWorkPage = () => {
@@ -125,11 +128,10 @@ const OurWorkPage = () => {
 
         <div className="relative container mx-auto px-6 py-20 text-center">
           <div
-            className={`transform transition-all duration-1000 ${
-              isVisible
-                ? "translate-y-0 opacity-100"
-                : "translate-y-10 opacity-0"
-            }`}
+            className={`transform transition-all duration-1000 ${isVisible
+              ? "translate-y-0 opacity-100"
+              : "translate-y-10 opacity-0"
+              }`}
           >
             <div className="flex items-center justify-center mb-6">
               <Target className="w-12 h-12 text-blue-400 mr-4" />
@@ -375,22 +377,43 @@ const OurWorkPage = () => {
             <div className="grid md:grid-cols-2 gap-12 mb-12">
               <div className="space-y-8">
                 <div className="bg-white rounded-2xl p-8 shadow-xl">
+                  {/* Header */}
                   <div className="flex items-center mb-6">
                     <div className="bg-green-100 p-3 rounded-full mr-4">
                       <Scissors className="w-6 h-6 text-green-600" />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-800">
-                      Skill Development Center
+                      Skill Development Centers
                     </h3>
                   </div>
-                  <p className="text-gray-700 mb-4">
-                    Our ongoing center in Faridabad offers hands-on training in
-                    beautician services, stitching, and computer courses -
-                    gateways to a better future.
-                  </p>
-                  <div className="text-sm text-green-600 font-medium">
-                    📍 Faridabad, Haryana
+
+                  {/* Palla Center */}
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-2">
+                      Palla Center (Faridabad)
+                    </h4>
+                    <ul className="list-disc pl-5 text-gray-700 space-y-1">
+                      <li>Stitching & tailoring training (basic to advanced)</li>
+                      <li>Beauty & parlor skills (facials, makeup, hygiene)</li>
+                      <li>Computer & digital literacy (MS Office, internet)</li>
+                      <li>Hands-on practical training with real projects</li>
+                      <li>Focus on employment & small business opportunities</li>
+                    </ul>
                   </div>
+
+                  {/* Garhi Center */}
+                  <div className="mb-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-2">
+                      Garhi Center
+                    </h4>
+                    <ul className="list-disc pl-5 text-gray-700 space-y-1">
+                      <li>Stitching & garment creation training</li>
+                      <li>Practical, hands-on learning approach</li>
+                      <li>Encourages home-based income opportunities</li>
+                      <li>Supports women in starting small tailoring work</li>
+                    </ul>
+                  </div>
+
                 </div>
 
                 <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl p-8 text-white">
@@ -490,11 +513,49 @@ const OurWorkPage = () => {
               </p>
             </div>
 
+            <div className="bg-white rounded-2xl p-8 shadow-xl mb-12">
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                Our Vision
+              </h3>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Empowering women begins with access—to knowledge, resources, opportunities,
+                and the confidence to make informed decisions. At Renukiran Welfare Foundation,
+                we work towards creating an environment where women are aware of their rights,
+                take charge of their health, and become financially and socially independent.
+              </p>
+
+              <h4 className="text-lg font-semibold text-gray-800 mb-3">
+                Key Focus Areas
+              </h4>
+              <ul className="grid md:grid-cols-2 gap-3 text-gray-700">
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                  Breaking the Silence
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                  Sustainable Solutions
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                  Health & Hygiene Awareness
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                  Confidence and Capacity Building
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-purple-600 rounded-full mr-3"></span>
+                  Holistic Empowerment
+                </li>
+              </ul>
+            </div>
+
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-8">
                 <div className="bg-white rounded-2xl p-8 shadow-xl">
                   <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
-                    <Award className="w-6 h-6 text-purple-600 mr-3" />
+                    <X className="w-6 h-6 text-purple-600 mr-3" />
                     Breaking the Silence
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
@@ -515,6 +576,16 @@ const OurWorkPage = () => {
                     from underprivileged communities, making menstrual products
                     accessible while promoting environmentally sustainable
                     practices.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-2xl p-8 shadow-xl">
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                    <Award className="w-6 h-6 text-purple-600 mr-3" />
+                    Health & Hygiene Awareness
+                  </h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    We empower women through health and hygiene awareness, focusing on menstrual health, sanitation, and nutrition. By providing knowledge, resources, and support, we enable women to make informed choices, improve well-being, and lead healthier, confident, and self-reliant lives.
                   </p>
                 </div>
               </div>
@@ -551,13 +622,24 @@ const OurWorkPage = () => {
                 </div>
 
                 <div className="bg-white rounded-2xl p-6 shadow-xl">
-                  <h4 className="text-lg font-bold text-gray-800 mb-3">
-                    Holistic Empowerment
+                  <h4 className="text-lg font-bold text-gray-800 mb-3 flex items-center">
+                    <BicepsFlexed className="w-5 h-5 text-purple-600 mr-3" />
+                    Confidence and Capacity Building
                   </h4>
-                  <p className="text-gray-700 text-sm">
+                  <p className="text-gray-700 ">
                     Beyond health awareness, we run skill development programs
                     including tailoring and entrepreneurship training, providing
                     tools for financial independence and self-reliance.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-2xl p-6 shadow-xl">
+                  <h4 className="text-lg font-bold text-gray-800 mb-3 flex items-center">
+                    <ShipWheel className="w-5 h-5 text-purple-600 mr-3 " />
+                    Holistic Empowerment
+                  </h4>
+                  <p className="text-gray-700">
+                    We strengthen women’s confidence and capacity through skill training, mentorship, and awareness programs, enabling them to enhance decision-making, build leadership skills, become self-reliant, and actively contribute to their families, livelihoods, and communities.
                   </p>
                 </div>
               </div>
@@ -569,7 +651,7 @@ const OurWorkPage = () => {
       {/* Climate Action Section */}
       <section
         id="climate-change"
-        className="py-20 bg-gradient-to-br from-emerald-50 to-green-50"
+        className="py-20 bg-gradient-to-br from-emerald-50 to-green-50 flex flex-row items-center justify-center"
       >
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
@@ -608,12 +690,10 @@ const OurWorkPage = () => {
                   <Sparkles className="w-8 h-8 text-blue-600" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-4">
-                  Waste Management
+                  Cleaning Drives
                 </h3>
                 <p className="text-gray-700">
-                  Our Thermocol Waste Management Project in Uttar Pradesh
-                  tackles persistent non-biodegradable pollutants for a cleaner
-                  environment.
+                  We conduct cleanliness drives to create healthier, greener communities. We engage volunteers in cleaning public spaces while promoting awareness on hygiene and waste management. Our aim is to inspire lasting habits for a cleaner environment.
                 </p>
               </div>
 
