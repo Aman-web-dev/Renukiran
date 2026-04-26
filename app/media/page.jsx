@@ -350,6 +350,12 @@ const MediaCentre = () => {
       url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FAnnual%20newsletter%20(4).pdf?alt=media&token=54f9a7c3-5c57-4772-9668-e055ea02572b",
       type: "Newsletter",
     },
+        {
+      id: 5,
+      title: "Newsletter",
+      url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FNewsletter.pdf?alt=media&token=fac117b1-cc84-4161-8094-d2ab833a0678",
+      type: "Newsletter",
+    },
   ];
 
   const blogs = [
