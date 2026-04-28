@@ -39,7 +39,7 @@ const MediaCentre = () => {
         "We are proud to share that Renukiran Welfare Foundation has been honored with the CSR Impact National Award for Most Trusted NGO of the Year 2024 at the prestigious National CSR Connect Summit. This recognition was awarded to us in acknowledgment of our impactful dedication and innovative approach to driving positive change and empowering society.",
       year: "2024",
       category: "National Recognition",
-      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2FIMG-20260427-WA0003.jpg?alt=media&token=127c3907-e8b4-41de-a390-40f1ba2c0e53",
+      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2Fbackground-removed-background-removed.png?alt=media&token=e198e777-855a-4914-8e29-cde80f91457d",
     },
     {
       id: 2,
@@ -59,7 +59,7 @@ const MediaCentre = () => {
         "Through the NGO Accreditation Program, we were proudly recognized as a Silver Certified Partner by the NIIT Foundation for the period of 2023 to 2024. This certification reflects our commitment to excellence, transparency, and impactful community service.",
       year: "2023-2024",
       category: "Partnership Excellence",
-      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2FIMG-20260427-WA0005.jpg?alt=media&token=2d3cbc5d-57be-4522-b002-12e79d80aa94",
+      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2Fbackground-removed-background-removed%20(2).png?alt=media&token=6bdd9234-0a74-48ad-b8cb-7674e13e9110",
     },
     {
       id: 4,
@@ -69,7 +69,7 @@ const MediaCentre = () => {
         "We are proud to hold an ISO 9001:2015 certification for our Quality Management System. Our processes have been independently assessed and found to be in full conformity with the international standards of quality management. This certification covers our work in the fields of education, digital literacy, and financial literacy.",
       year: "2023",
       category: "Quality Standards",
-      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2FIMG-20260427-WA0006.jpg?alt=media&token=41873198-9b98-4499-82b5-0286e8198da3",
+      img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2Fbackground-removed-background-removed%20(14).png?alt=media&token=609f3552-f1ac-41d1-b8a2-1cf342f130dc",
     },
     {
       id: 5,
