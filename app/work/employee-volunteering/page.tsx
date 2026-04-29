@@ -26,6 +26,15 @@ export default function EmployeeVolunteeringProgram() {
     '/evp/EYBX8545.JPG.jpeg',
     '/evp/IMG_1300.JPG.jpeg',
     '/evp/IMG_1344.JPG.jpeg',
+    '/evp/EDCBHF2.JPG.jpeg',
+    '/evp/CBHDPS.JPG.jpeg',
+    '/evp/HDGGCHY.JPG.jpeg',
+    '/evp/DHBCHUT.JPG.jpeg',
+    '/evp/FHCNPO.JPG.jpeg',
+    '/evp/GHBCHFG.JPG.jpeg',
+    '/evp/HPIHBHC.JPG.jpeg',
+    '/evp/HGBHCJS.JPG.jpeg',
+    '/evp/HBHCJKL.jpeg',
     '/evp/WhatsApp Image 2026-04-01 at 17.47.37 (1).jpeg',
     '/evp/WhatsApp Image 2026-04-01 at 17.47.37.jpeg',
     '/evp/WhatsApp Image 2026-04-01 at 17.47.38 (1).jpeg',
@@ -198,7 +207,7 @@ export default function EmployeeVolunteeringProgram() {
       {/* Education Volunteering Section */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="container mx-auto px-6">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-8xl mx-auto">
             <div className="text-center mb-12">
               <div className="flex items-center justify-center mb-6">
                 <div className="bg-gradient-to-r from-blue-500 to-indigo-600 p-4 rounded-full">
@@ -213,10 +222,18 @@ export default function EmployeeVolunteeringProgram() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="relative h-80 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/evp/ACRM7074.JPG.jpeg"
+                  src="/evp/CBHDPS.JPG.jpeg"
+                  alt="Education volunteering"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+                <div className="relative h-80 rounded-2xl overflow-hidden shadow-xl">
+                <Image
+                  src="/evp/HDGGCHY.JPG.jpeg"
                   alt="Education volunteering"
                   fill
                   className="object-cover"
@@ -224,7 +241,7 @@ export default function EmployeeVolunteeringProgram() {
               </div>
               <div className="relative h-80 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/evp/IMG_1300.JPG.jpeg"
+                  src="/evp/EDCBHF2.JPG.jpeg"
                   alt="Teaching children"
                   fill
                   className="object-cover"
@@ -322,7 +339,7 @@ export default function EmployeeVolunteeringProgram() {
               </div>
               <div className="relative h-64 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/evp/EYBX8545.JPG.jpeg"
+                  src="/evp/DHBCHUT.JPG.jpeg"
                   alt="Food distribution"
                   fill
                   className="object-cover"
@@ -426,7 +443,7 @@ export default function EmployeeVolunteeringProgram() {
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="relative h-80 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/evp/AOOQ4236.JPG.jpeg"
+                  src="/evp/FHCNPO.JPG.jpeg"
                   alt="Skill training"
                   fill
                   className="object-cover"
@@ -434,7 +451,7 @@ export default function EmployeeVolunteeringProgram() {
               </div>
               <div className="relative h-80 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/evp/WhatsApp Image 2026-04-01 at 17.47.37.jpeg"
+                  src="/evp/GHBCHFG.JPG.jpeg"
                   alt="Livelihood program"
                   fill
                   className="object-cover"
@@ -529,7 +546,7 @@ export default function EmployeeVolunteeringProgram() {
               </div>
               <div className="relative h-64 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/evp/WhatsApp Image 2026-04-01 at 17.47.39.jpeg"
+                  src='/evp/HGBHCJS.JPG.jpeg'
                   alt="Awareness program"
                   fill
                   className="object-cover"
@@ -537,7 +554,7 @@ export default function EmployeeVolunteeringProgram() {
               </div>
               <div className="relative h-64 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/evp/WhatsApp Image 2026-04-01 at 17.47.40.jpeg"
+                  src='/evp/HPIHBHC.JPG.jpeg'
                   alt="Women's workshop"
                   fill
                   className="object-cover"
@@ -618,10 +635,18 @@ export default function EmployeeVolunteeringProgram() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="relative h-80 rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/evp/WhatsApp Image 2026-04-01 at 17.47.41.jpeg"
+                  alt="Tree plantation"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+               <div className="relative h-80 rounded-2xl overflow-hidden shadow-xl">
+                <Image
+                  src='/evp/HBHCJKL.jpeg'
                   alt="Tree plantation"
                   fill
                   className="object-cover"
