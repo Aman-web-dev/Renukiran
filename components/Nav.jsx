@@ -93,12 +93,77 @@ const navRoutes = [
     ],
   },
   {
-    heading: "Plantation Initiatives",
+    heading: "Grow Trees With Us",
     href: "/plantation-initiatives",
     disabled: false,
-    subRoutes:[]
+    subRoutes: [{
+      label: "Active sustainability Projects",
+      href: "/plantation-initiatives/sustainability-projects",
+      disabled: false,
+    },
+    {
+      label: "ESG Sustainability Partnerships",
+      href: "/plantation-initiatives/sustainability-partnerships",
+      disabled: false,
+    },
+    {
+      label: "Celebration tree programs",
+      href: "/plantation-initiatives/celebration-tree-programs",
+      disabled: false,
+    },
+    {
+      label: "Large scale tree plantation projects",
+      href: "/plantation-initiatives/large-scale-tree-plantation-projects",
+      disabled: false,
+    },
+    {
+      label: "Sustainable Delivery carbon offset",
+      href: "/plantation-initiatives/carbon-offset",
+      disabled: false,
+    },
+    {
+      label: "Green Legacy Hub",
+      href: "/plantation-initiatives/green-legacy",
+      disabled: false,
+    },
+    ]
   },
-
+  {
+    heading: "Corporates",
+    href: "/rwf-corporates",
+    disabled: false,
+    subRoutes: [{
+      label: "CSR Project Implementation & Community Development Programs",
+      href: "/rwf-corporates/csr",
+      disabled: false,
+    },
+    {
+      label: "Employee Engagement Activities & Corporate Volunteering Programs",
+      href: "/rwf-corporates/employee-enagagement",
+      disabled: false,
+    },
+    {
+      label: "Tree Plantation, Climate Action & Environmental Sustainability Programs",
+      href: "/rwf-corporates/climate",
+      disabled: false,
+    },
+    {
+      label: "ESG Sustainability Support & Environmental Impact Programs",
+      href: "/rwf-corporates/esg-Sustainability",
+      disabled: false,
+    },
+    {
+      label: "Cause Marketing, Sustainability Campaigns & Purpose-Driven Engagement",
+      href: "/rwf-corporates/cause-marketing",
+      disabled: false,
+    },
+    {
+      label: "CSR Monitoring, ESG Reporting & Impact Documentation",
+      href: "/rwf-corporates/csr-monitoring",
+      disabled: false,
+    },
+    ]
+  },
   {
     heading: "Contact Us",
     href: "/contact",
@@ -201,7 +266,7 @@ const Nav = () => {
                                   <li className="flex justify-between navigation-level-2">
                                     <button
                                       className="flex w-full px-4 py-2 font-bold text-black hover:bg-gray-100 dark:hover:text-white group-hover:bg-gray-100"
-                                      // disabled={subRoute.disabled}
+                                    // disabled={subRoute.disabled}
                                     >
                                       {subRoute.label}
                                       <svg
@@ -245,7 +310,7 @@ const Nav = () => {
                                   <Link
                                     href={subRoute.href}
                                     className="block px-4 py-2 font-bold text-black hover:bg-gray-100  group-hover:bg-gray-100"
-                                    // disabled={subRoute.disabled}
+                                  // disabled={subRoute.disabled}
                                   >
                                     {subRoute.label}
                                   </Link>
