@@ -81,6 +81,26 @@ const MediaCentre = () => {
       category: "Leadership Excellence",
       img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2Faward-4.jpg?alt=media&token=d11dffe2-38c3-4a74-af0f-b1139d4085ac",
     },
+    {
+      id: 6,
+      title: "Community Impact Excellence Award",
+      subtitle: "Recognized for sustained grassroots work",
+      description:
+        "Our sustained work in education and women-led livelihood programs earned us recognition for community impact and long-term service delivery at the grassroots level.",
+      year: "2025",
+      category: "Grassroots Excellence",
+      img: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+      id: 7,
+      title: "Certificate of Appreciation",
+      subtitle: "For community welfare and public service",
+      description:
+        "We were honoured by local institutions for our continued support in welfare programs, public awareness drives, and community service during critical periods.",
+      year: "2024",
+      category: "Public Service",
+      img: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80",
+    },
   ];
 
   const pressReleases = [
@@ -286,36 +306,27 @@ const MediaCentre = () => {
     },
   ];
 
-  const workshops = [
+  const caseStudies = [
     {
       id: 1,
-      title: "Digital Literacy Workshop for Rural Communities",
-      date: "April 12, 2024",
-      time: "10:00 AM - 4:00 PM",
-      location: "Community Center, Village Sundarpur",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      status: "Upcoming",
+      title: "Empowering Women Through Skill-Based Learning",
+      summary:
+        "A closer look at how practical training and mentorship helped women move towards financial independence and stronger community leadership.",
+      impact: "Improved confidence, income opportunities, and household resilience",
     },
     {
       id: 2,
-      title: "Financial Literacy Training Program",
-      date: "March 25, 2024",
-      time: "2:00 PM - 5:00 PM",
-      location: "Regional Training Center",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      status: "Completed",
+      title: "Education Support for Children in Underserved Communities",
+      summary:
+        "How focused learning support and community engagement created a lasting impact on attendance, motivation, and academic confidence.",
+      impact: "Stronger participation, learning continuity, and family engagement",
     },
     {
       id: 3,
-      title: "Women Empowerment Summit 2024",
-      date: "May 8, 2024",
-      time: "9:00 AM - 6:00 PM",
-      location: "City Convention Hall",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      status: "Upcoming",
+      title: "Community-led Environmental Restoration",
+      summary:
+        "A story of how local participation helped turn public spaces into greener, healthier environments through sustained action.",
+      impact: "Cleaner neighbourhoods, stronger stewardship, and increased awareness",
     },
   ];
 
@@ -639,10 +650,10 @@ const MediaCentre = () => {
             count={pressReleases.length}
           />
           <SectionButton
-            id="workshops"
-            icon={Calendar}
-            label="Workshops & Events"
-            count={workshops.length}
+            id="case-studies"
+            icon={FileText}
+            label="Case Studies"
+            count={caseStudies.length}
           />
           <SectionButton
             id="newsletters"
@@ -720,21 +731,23 @@ const MediaCentre = () => {
           </div>
         )}
 
-        {activeSection === "workshops" && (
+        {activeSection === "case-studies" && (
           <div className="space-y-8">
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                Workshops & Events
+                Case Studies
               </h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                Join us in our mission to empower communities through
-                educational workshops, training programs, and impactful events
-                designed to create lasting change.
+                A closer view of the change created through sustained action, partnerships, and community participation.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {workshops.map((workshop) => (
-                <WorkshopCard key={workshop.id} workshop={workshop} />
+              {caseStudies.map((study) => (
+                <div key={study.id} className="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-3">{study.title}</h3>
+                  <p className="text-gray-600 mb-4">{study.summary}</p>
+                  <div className="text-sm font-medium text-blue-600">{study.impact}</div>
+                </div>
               ))}
             </div>
           </div>

@@ -17,7 +17,7 @@ function ESGSustainabilityPage() {
         <div className="relative container mx-auto px-6 py-24 text-center">
           <div className="flex items-center justify-center mb-6">
             <Globe className="w-12 h-12 text-teal-200 mr-4" />
-            <h1 className="text-4xl md:text-5xl font-bold text-white">ESG Sustainability Support & Environmental Impact Programs</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-white">ESG Sustainability Support</h1>
           </div>
           <p className="text-xl text-gray-100 max-w-4xl mx-auto leading-relaxed mb-8">Partnering for Sustainable Business Excellence - Renukiran Welfare Foundation provides comprehensive ESG sustainability support to help organizations achieve their environmental, social, and governance goals.</p>
         </div>

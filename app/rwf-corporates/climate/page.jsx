@@ -17,7 +17,7 @@ function ClimatePage() {
         <div className="relative container mx-auto px-6 py-24 text-center">
           <div className="flex items-center justify-center mb-6">
             <Leaf className="w-12 h-12 text-green-200 mr-4" />
-            <h1 className="text-4xl md:text-5xl font-bold text-white">Tree Plantation, Climate Action & Environmental Sustainability Programs</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-white">Climate Action Programs</h1>
           </div>
           <p className="text-xl text-gray-100 max-w-4xl mx-auto leading-relaxed mb-8">Taking Bold Climate Action Through Nature-Based Solutions - Renukiran Welfare Foundation partners with organizations to implement meaningful environmental programs that combat climate change and promote sustainability.</p>
         </div>

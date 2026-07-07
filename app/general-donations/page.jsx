@@ -15,14 +15,16 @@ export default function DonationPage() {
   return (
     <div className="max-w-screen bg-gradient-to-b from-blue-50 to-white">
       {/* Hero Section with Visual Appeal */}
-      <div className="relative bg-blue-700 text-white overflow-hidden">
-        <div className="absolute bg-blue-700 inset-0 opacity-20">
-          {/* <img
-            src="https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/CarouselPics%2Fcarouselbg_l3ol6o_c_scale%2Cw_857.webp?alt=media&token=1b8c4290-2828-47e6-93e3-75faf89327c0"
-            alt=""
-            className="w-full h-5xl bg-blue-500 object-cover"
-          /> */}
-        </div>
+      <div
+        className="relative text-white overflow-hidden"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1800&q=80')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-blue-950/70" />
         <div className="relative max-w-6xl mx-auto px-6 py-24 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
             Help Us Make a <span className="text-[#81c421]">Difference</span>
@@ -45,7 +47,7 @@ export default function DonationPage() {
             <div className="flex items-center justify-center">
               <TreeDeciduous className="text-blue-600 h-10 w-10 mr-4" />
               <div>
-                <p className="text-3xl font-bold text-blue-800">500+</p>
+                <p className="text-3xl font-bold text-blue-800">200000+</p>
                 <p className="text-gray-600">
                   Trees Planted across Country to create a cleaner and greener
                   atmosphere{" "}
@@ -128,7 +130,7 @@ export default function DonationPage() {
               Our Impact
             </h3>
             <p className="text-lg mb-6 opacity-90">
-            Our initiatives have made a significant impact, with over 500 trees planted nationwide to foster a cleaner, greener environment. We've distributed more than 30,000 seed balls to promote sustainability and greenery. Additionally, we've provided educational resources and professional guidance to over 21,000 children, empowering their futures. Through awareness sessions and support, we've empowered more than 2,500 women, driving positive change in communities across the country.
+            Our initiatives have made a significant impact, with over 200000 trees planted nationwide to foster a cleaner, greener environment. We've distributed more than 30,000 seed balls to promote sustainability and greenery. Additionally, we've provided educational resources and professional guidance to over 21,000 children, empowering their futures. Through awareness sessions and support, we've empowered more than 2,500 women, driving positive change in communities across the country.
             </p>
             <p className="text-lg opacity-90">
               We commit to using{" "}
@@ -275,7 +277,7 @@ const donationCardDetails = [
     description:
       "RWF empowers underprivileged communities by focusing on education-centric initiatives. Our programs provide academic support to children in need through access to quality education, essential learning resources like stationery and school bags, and exposure to new experiences via educational tours. We emphasize digital literacy and vocational training for both children and women, ensuring they gain practical skills for the future. Our efforts primarily target children in underserved, remote, or challenging environments, aiming to create long-term educational impact and foster meaningful change in alignment with the Sustainable Development Goals.",
     imageLink:
-      "https://media.istockphoto.com/id/1395727822/photo/happy-village-girl-kid-with-school-uniform-playing-using-toy-cardboard-aeroplane-at-paddy.jpg?s=1024x1024&w=is&k=20&c=iD5kfzII3XIyynivF4HR2waRdMgd5iteOGeBq8kJiX0=",
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80",
     paymentLink: "pl_QERQGOIXMinZCo",
     cardId: "education_razorpay_button_container",
   },
@@ -284,7 +286,7 @@ const donationCardDetails = [
     description:
       "RWF empowers women and girls through holistic initiatives, including menstrual awareness sessions and sanitary pad distribution in rural areas and government schools. We focus on building self-esteem and confidence, while also conducting financial literacy awareness sessions to equip women with essential skills for financial management. Our programs aim to break taboos, promote health and hygiene, and foster economic independence, ultimately creating a more equitable and sustainable world for women and girls.",
     imageLink:
-      "https://cdn.pixabay.com/photo/2015/05/06/13/06/woman-755227_1280.jpg",
+      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80",
     paymentLink: "pl_QERaFWq5PthBLT",
     cardId: "women_empowerment_razorpay_button_container",
   },
@@ -293,7 +295,7 @@ const donationCardDetails = [
     description:
       "RWF empowers individuals through skill development initiatives, offering training in stitching, beauty, and computer skills. Our programs focus on equipping individuals with essential skills to enhance their livelihoods, promote entrepreneurship, and increase employability. By providing comprehensive skill training, we aim to empower women and youth to build sustainable futures and secure better opportunities for themselves and their communities.",
     imageLink:
-      "https://media.istockphoto.com/id/1279844456/photo/young-indian-business-woman-entrepreneur-looking-at-camera-in-the-office.jpg?s=1024x1024&w=is&k=20&c=PcLgXCRFtcBusMiH8r-pUgCZI0JbvnpGQxPw2RMqH-4=",
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80",
     paymentLink: "pl_QJePWVvMQeQyQ5",
     cardId: "liveli_hood_card",
   },

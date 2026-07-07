@@ -93,11 +93,27 @@ const OurPresence = () => {
       description: "In one of India’s most populous states, Uttar Pradesh, we work from urban hubs to the remotest villages, focusing on education access, women’s empowerment, healthcare, and skill development. Our initiatives are designed to uplift communities by building resilience, promoting literacy, and fostering economic independence.",
       focus: ["Education Access", "Women's Empowerment", "Healthcare", "Skill Development"],
       speciality: "Large-scale community impact"
+    },
+    {
+      name: "Maharashtra",
+      color: "from-teal-500 to-cyan-600",
+      icon: "🌆",
+      description: "In Maharashtra, we work with urban and peri-urban communities to strengthen education access, livelihood opportunities, and health awareness. Our approach combines direct support with local partnerships to create durable impact in fast-changing environments.",
+      focus: ["Urban Outreach", "Livelihood Support", "Health Awareness", "Community Partnerships"],
+      speciality: "Urban and peri-urban impact"
+    },
+    {
+      name: "Tamil Nadu",
+      color: "from-fuchsia-500 to-violet-600",
+      icon: "🌴",
+      description: "In Tamil Nadu, we focus on supporting families through education, women-led livelihood initiatives, and community care programs that help build self-reliance and stronger local institutions.",
+      focus: ["Education", "Women-led Livelihoods", "Community Care", "Local Partnerships"],
+      speciality: "Community-led self-reliance"
     }
   ];
 
   const impactStats = [
-    { icon: <Users className="w-8 h-8" />, number: "10", label: "States Covered", color: "text-blue-600" },
+    { icon: <Users className="w-8 h-8" />, number: "12", label: "States Covered", color: "text-blue-600" },
     { icon: <Heart className="w-8 h-8" />, number: "50K+", label: "Lives Touched", color: "text-red-600" },
     { icon: <BookOpen className="w-8 h-8" />, number: "200+", label: "Programs Running", color: "text-green-600" },
     { icon: <Briefcase className="w-8 h-8" />, number: "15K+", label: "Skills Trained", color: "text-purple-600" }
@@ -106,8 +122,16 @@ const OurPresence = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-indigo-900 via-purple-900 to-pink-900">
-        <div className="absolute inset-0 bg-black opacity-20"></div>
+      <div
+        className="relative overflow-hidden"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1800&q=80')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-indigo-950/70"></div>
         <div className="relative container mx-auto px-6 py-20 text-center">
           <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <div className="flex items-center justify-center mb-6">

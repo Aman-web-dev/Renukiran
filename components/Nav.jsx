@@ -55,16 +55,10 @@ const navRoutes = [
     disabled: false,
     subRoutes: [
       { label: "Press Releases", href: "/media#press", disabled: false },
-      {
-        label: "Workshops & Events",
-        href: "/media#workshops",
-        disabled: false,
-      },
       { label: "Awards & Recognition", href: "/media#awards", disabled: false },
-      { label: "Newsletters", href: "/media/newsletters", disabled: false },
+      { label: "Case Studies", href: "/media#case-studies", disabled: false },
+      { label: "Newsletters & Annual Reports", href: "/media#newsletters", disabled: false },
       { label: "The RWF Blog", href: "/blogs", disabled: false },
-      { label: "Annual Reports", href: "/media#awards", disabled: false },
-      { label: "Story of Change", href: "/media#awards", disabled: false },
     ],
   },
   {
@@ -89,7 +83,6 @@ const navRoutes = [
         href: "/get-involved/volunteering",
         disabled: false,
       },
-      { label: "Work with Us", href: "/announcements", disabled: false },
     ],
   },
   {

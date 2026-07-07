@@ -17,7 +17,7 @@ function CSRPage() {
         <div className="relative container mx-auto px-6 py-24 text-center">
           <div className="flex items-center justify-center mb-6">
             <Building2 className="w-12 h-12 text-blue-200 mr-4" />
-            <h1 className="text-4xl md:text-5xl font-bold text-white">CSR Project Implementation & Community Development Programs</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-white">CSR Project Implementation</h1>
           </div>
           <p className="text-xl text-gray-100 max-w-4xl mx-auto leading-relaxed mb-8">Empowering Communities Through Purpose-Driven Corporate Social Responsibility Initiatives - Renukiran Welfare Foundation collaborates with organizations to design, implement, and manage impactful CSR projects that create meaningful change.</p>
         </div>

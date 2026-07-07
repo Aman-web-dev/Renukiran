@@ -17,7 +17,7 @@ function CarbonOffsetPage() {
         <div className="relative container mx-auto px-6 py-24 text-center">
           <div className="flex items-center justify-center mb-6">
             <Leaf className="w-12 h-12 text-blue-200 mr-4" />
-            <h1 className="text-4xl md:text-5xl font-bold text-white">Sustainable Delivery Carbon Offset</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-white">Carbon Offset</h1>
           </div>
           <p className="text-xl text-gray-100 max-w-4xl mx-auto leading-relaxed mb-8">Driving Sustainable Deliveries for a Greener Future - The Green Delivery Impact Initiative by Renukiran Welfare Foundation is designed to help businesses, logistics partners, e-commerce platforms, and consumers contribute towards a healthier planet.</p>
         </div>

@@ -17,7 +17,7 @@ function EmployeeEngagementPage() {
         <div className="relative container mx-auto px-6 py-24 text-center">
           <div className="flex items-center justify-center mb-6">
             <Users className="w-12 h-12 text-orange-200 mr-4" />
-            <h1 className="text-4xl md:text-5xl font-bold text-white">Employee Engagement Activities & Corporate Volunteering Programs</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-white">Employee Engagement Programs</h1>
           </div>
           <p className="text-xl text-gray-100 max-w-4xl mx-auto leading-relaxed mb-8">Building Purpose-Driven Workplaces Through Meaningful Employee Engagement - At Renukiran Welfare Foundation, we help organizations create engaging volunteer and social impact programs that inspire employees and strengthen communities.</p>
         </div>

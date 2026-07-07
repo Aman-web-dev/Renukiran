@@ -18,6 +18,13 @@ function SustainabilityProjectsPage() {
     { icon: <Wind className="w-8 h-8" />, title: "Clean Air Initiative", desc: "Air quality monitoring and pollution reduction programs across urban and rural areas." }
   ];
 
+  const highlights = [
+    "Community-led restoration work",
+    "Native species plantation and local stewardship",
+    "Easy access to volunteer participation",
+    "Long-term environmental monitoring",
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-green-50">
       <div className="relative overflow-hidden bg-gradient-to-r from-green-800 via-emerald-700 to-teal-600">
@@ -69,7 +76,7 @@ function SustainabilityProjectsPage() {
             <Globe className="w-16 h-16 text-white mx-auto mb-6" />
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Join Our Sustainability Journey</h2>
             <p className="text-xl text-green-100 mb-8">Partner with us to implement sustainability projects that make a real difference.</p>
-            <button className="bg-white text-green-700 px-10 py-4 rounded-full font-bold text-lg hover:bg-green-50 transition-all duration-300 shadow-xl flex items-center mx-auto">Get Involved <ArrowRight className="w-5 h-5 ml-2" /></button>
+            <a href="/general-donations" className="bg-white text-green-700 px-10 py-4 rounded-full font-bold text-lg hover:bg-green-50 transition-all duration-300 shadow-xl flex items-center mx-auto">Donate Now <ArrowRight className="w-5 h-5 ml-2" /></a>
           </div>
         </div>
       </div>
