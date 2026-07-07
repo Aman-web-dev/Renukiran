@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import "./work.css";
 import {
   BookOpen,
   Heart,
@@ -19,8 +20,179 @@ import {
   ArrowUp,
   BicepsFlexed,
   X,
-  ShipWheel
+  ShipWheel,
+  ImagePlus,
 } from "lucide-react";
+
+/* ============================================================
+   Image gallery data
+   ------------------------------------------------------------
+   Each section has 4 placeholder slots. Replace the `src`
+   value with your Firebase Storage URL when ready:
+     const FIREBASE = "https://firebasestorage.googleapis.com/...";
+     src: `${FIREBASE}/education%2Fclassroom.jpg?alt=media&token=...`
+   Keep the `id` so the layout order is preserved while you swap.
+   ============================================================ */
+const galleryImages = {
+  education: [
+    {
+      id: "edu-1",
+      src: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80",
+      alt: "Children studying in classroom",
+      caption: "Faridpuri Center Weekend Classes",
+    },
+    {
+      id: "edu-2",
+      src: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=900&q=80",
+      alt: "Student writing in notebook",
+      caption: "Interactive Learning Sessions",
+    },
+    {
+      id: "edu-3",
+      src: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=900&q=80",
+      alt: "Group of children raising hands",
+      caption: "Confidence & Curiosity Building",
+    },
+    {
+      id: "edu-4",
+      src: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=900&q=80",
+      alt: "Books and school supplies",
+      caption: "Scholarship Programs",
+    },
+  ],
+  health: [
+    {
+      id: "hlth-1",
+      src: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80",
+      alt: "Health check-up camp",
+      caption: "Free Healthcare Camps",
+    },
+    {
+      id: "hlth-2",
+      src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80",
+      alt: "Volunteers distributing food",
+      caption: "Seva Sandwich Drive",
+    },
+    {
+      id: "hlth-3",
+      src: "https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=900&q=80",
+      alt: "Food for life ration kit",
+      caption: "Food for Life Initiative",
+    },
+    {
+      id: "hlth-4",
+      src: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=900&q=80",
+      alt: "Hygiene awareness session",
+      caption: "Menstrual Health Awareness",
+    },
+  ],
+  livelihood: [
+    {
+      id: "liv-1",
+      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80",
+      alt: "Woman learning tailoring",
+      caption: "Stitching & Tailoring \u2014 Palla",
+    },
+    {
+      id: "liv-2",
+      src: "https://images.unsplash.com/photo-1522335789203-aaa2f6e5dcde?auto=format&fit=crop&w=900&q=80",
+      alt: "Beautician course training",
+      caption: "Beautician Skills Training",
+    },
+    {
+      id: "liv-3",
+      src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
+      alt: "Computer literacy class",
+      caption: "Digital Literacy Program",
+    },
+    {
+      id: "liv-4",
+      src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80",
+      alt: "Women entrepreneurs at market",
+      caption: "Market Linkage & Entrepreneurship",
+    },
+  ],
+  "women-empowerment": [
+    {
+      id: "we-1",
+      src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80",
+      alt: "Women in a discussion circle",
+      caption: "Breaking the Silence Workshops",
+    },
+    {
+      id: "we-2",
+      src: "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=900&q=80",
+      alt: "Reusable sanitary napkins",
+      caption: "Sustainable Hygiene Solutions",
+    },
+    {
+      id: "we-3",
+      src: "https://images.unsplash.com/photo-1521798552670-0d5f7b89ec00?auto=format&fit=crop&w=900&q=80",
+      alt: "Mentorship and training",
+      caption: "Confidence & Capacity Building",
+    },
+    {
+      id: "we-4",
+      src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80",
+      alt: "Community gathering",
+      caption: "Holistic Empowerment",
+    },
+  ],
+  "climate-change": [
+    {
+      id: "cc-1",
+      src: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=80",
+      alt: "Volunteers planting trees",
+      caption: "Tree Plantation Drives",
+    },
+    {
+      id: "cc-2",
+      src: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=900&q=80",
+      alt: "Community cleaning drive",
+      caption: "Cleaning & Sanitation Drives",
+    },
+    {
+      id: "cc-3",
+      src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
+      alt: "Solar panels in field",
+      caption: "Clean Energy Adoption",
+    },
+    {
+      id: "cc-4",
+      src: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=80",
+      alt: "Community environmental awareness",
+      caption: "Sustainability Education",
+    },
+  ],
+};
+
+// Reusable theme-gallery component used in every section.
+function ThemeGallery({ theme, images, accent }) {
+  return (
+    <div className="theme-gallery" data-theme={theme} aria-label={`${theme} photo gallery`}>
+      <div className="theme-gallery__header">
+        <ImagePlus className="theme-gallery__icon" aria-hidden="true" />
+        <div>
+          <h3 className="theme-gallery__title">Glimpses of our {theme.replace("-", " ")} work</h3>
+          <p className="theme-gallery__sub">
+            Images will be loaded from Firebase Storage — placeholder slots below.
+          </p>
+        </div>
+      </div>
+      <div className="theme-gallery__grid">
+        {images.map((img) => (
+          <figure key={img.id} className="theme-gallery__card" style={{ "--accent": accent }}>
+            <div className="theme-gallery__frame">
+              <img src={img.src} alt={img.alt} loading="lazy" />
+              <span className="theme-gallery__slot">Slot {img.id.split("-")[1]}</span>
+            </div>
+            <figcaption className="theme-gallery__caption">{img.caption}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 const OurWorkPage = () => {
   const [activeSection, setActiveSection] = useState("education");
@@ -114,10 +286,15 @@ const OurWorkPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50">
-      {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-blue-800 to-lime-500">
-        <div className="absolute inset-0 our-work-bg-img opacity-20"></div>
+    <div className="work-page">
+      {/* Fixed background image — stays in place while content scrolls */}
+      <div className="work-page__bg" aria-hidden="true" />
+      <div className="work-page__overlay" aria-hidden="true" />
+
+      <div className="work-page__content min-h-screen">
+        {/* Hero Section */}
+        <div className="relative overflow-hidden bg-gradient-to-r from-blue-800 to-lime-500">
+          <div className="absolute inset-0 our-work-bg-img opacity-20"></div>
 
         {/* Animated background elements */}
         <div className="absolute inset-0 overflow-hidden">
@@ -269,6 +446,12 @@ const OurWorkPage = () => {
                 </div>
               </div>
             </div>
+
+            <ThemeGallery
+              theme="education"
+              images={galleryImages.education}
+              accent="#3b82f6"
+            />
           </div>
         </div>
       </section>
@@ -348,6 +531,12 @@ const OurWorkPage = () => {
                 survival during a time of uncertainty and despair.
               </p>
             </div>
+
+            <ThemeGallery
+              theme="health"
+              images={galleryImages.health}
+              accent="#ec4899"
+            />
           </div>
         </div>
       </section>
@@ -487,6 +676,12 @@ const OurWorkPage = () => {
                 </div>
               </div>
             </div>
+
+            <ThemeGallery
+              theme="livelihood"
+              images={galleryImages.livelihood}
+              accent="#10b981"
+            />
           </div>
         </div>
       </section>
@@ -644,6 +839,12 @@ const OurWorkPage = () => {
                 </div>
               </div>
             </div>
+
+            <ThemeGallery
+              theme="women-empowerment"
+              images={galleryImages["women-empowerment"]}
+              accent="#a855f7"
+            />
           </div>
         </div>
       </section>
@@ -720,9 +921,16 @@ const OurWorkPage = () => {
                 survival during a time of uncertainty and despair.
               </p>
             </div>
+
+            <ThemeGallery
+              theme="climate-change"
+              images={galleryImages["climate-change"]}
+              accent="#059669"
+            />
           </div>
         </div>
       </section>
+      </div>
     </div>
   );
 };

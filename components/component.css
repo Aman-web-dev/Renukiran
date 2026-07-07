@@ -214,16 +214,772 @@
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
+/* ===============================
+   Hero Carousel (embla)
+   =============================== */
+
+.embla-wrapper {
+  width: 100%;
+  /* Deterministic sizing based on width rather than viewport height so
+     the carousel never re-flows when the browser adds a scrollbar,
+     fonts load, or autoplay starts. */
+  aspect-ratio: 16 / 7;
+  min-height: 360px;
+  max-height: 760px;
+  height: auto;
+  background-color: #0a1f3d;
+}
+
 .embla {
   overflow: hidden;
+  height: 100%;
 }
+
 .embla__container {
   display: flex;
   max-height: 95vh;
+  height: 100%;
+  touch-action: pan-y;
 }
+
 .embla__slide {
   flex: 0 0 100%;
   width: 100%;
+  height: 100%;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.embla__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  user-select: none;
+  pointer-events: none;
+  /* Slight initial zoom so the image covers the slide edges after the
+     CSS settles \u2014 prevents a perceived "shrink" jump on first paint.
+     The default here matches the animation's `from` keyframe so that
+     removing the active class leaves the image at the same scale. */
+  transform: scale(1.04);
+  will-change: transform;
+}
+
+/* Subtle Ken Burns zoom on the currently active slide only.
+   The `from` value matches the default transform above to avoid any
+   visible snap when a slide enters or leaves the active state. */
+.embla__slide--active .embla__img {
+  animation: embla-kenburns 9s linear forwards;
+}
+
+@keyframes embla-kenburns {
+  from {
+    transform: scale(1.04);
+  }
+  to {
+    transform: scale(1.12);
+  }
+}
+
+/* Gradient overlays for text legibility */
+.embla__overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.embla__overlay--bottom {
+  background: linear-gradient(
+    to top,
+    rgba(10, 16, 33, 0.85) 0%,
+    rgba(10, 16, 33, 0.45) 25%,
+    rgba(10, 16, 33, 0) 55%
+  );
+}
+
+.embla__overlay--left {
+  background: linear-gradient(
+    to right,
+    rgba(10, 16, 33, 0.7) 0%,
+    rgba(10, 16, 33, 0.25) 40%,
+    rgba(10, 16, 33, 0) 75%
+  );
+}
+
+/* Caption */
+.embla__caption-wrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  z-index: 5;
+}
+
+.embla__caption {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 7rem;
+  color: #ffffff;
+  animation: embla-fade-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes embla-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.embla__eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: #b7f0c2;
+  background: rgba(45, 159, 68, 0.18);
+  border: 1px solid rgba(45, 159, 68, 0.45);
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(6px);
+}
+
+.embla__title {
+  font-size: clamp(1.875rem, 4.5vw, 3.5rem);
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.45);
+  margin: 0 0 1rem;
+  max-width: 22ch;
+}
+
+.embla__description {
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  line-height: 1.6;
+  max-width: 56ch;
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  margin: 0 0 1.75rem;
+}
+
+.embla__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1.6rem;
+  background-color: #2d9f44;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  border-radius: 9999px;
+  text-decoration: none;
+  box-shadow: 0 12px 30px -10px rgba(45, 159, 68, 0.65),
+    0 4px 12px rgba(0, 0, 0, 0.18);
+  transition: transform 0.25s ease, background-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.embla__cta:hover {
+  background-color: #247e36;
+  transform: translateY(-2px);
+  box-shadow: 0 18px 36px -10px rgba(45, 159, 68, 0.75),
+    0 6px 14px rgba(0, 0, 0, 0.22);
+}
+
+.embla__cta:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+.embla__cta-icon {
+  width: 1.05rem;
+  height: 1.05rem;
+  transition: transform 0.25s ease;
+}
+
+.embla__cta:hover .embla__cta-icon {
+  transform: translateX(4px);
+}
+
+/* Slide counter (top-left) */
+.embla__counter {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.5rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.9rem;
+  background: rgba(10, 16, 33, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+  color: #ffffff;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+
+.embla__counter-current {
+  color: #b7f0c2;
+}
+
+.embla__counter-sep {
+  width: 1.25rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+}
+
+.embla__counter-total {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Navigation arrows */
+.embla__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 12;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 9999px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease, background 0.25s ease,
+    transform 0.25s ease, color 0.25s ease;
+}
+
+.embla-wrapper:hover .embla__arrow {
+  opacity: 1;
+}
+
+.embla__arrow:hover {
+  background: #ffffff;
+  color: #2d9f44;
+  transform: translateY(-50%) scale(1.08);
+}
+
+.embla__arrow:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+  opacity: 1;
+}
+
+.embla__arrow--prev {
+  left: 1.25rem;
+}
+.embla__arrow--next {
+  right: 1.25rem;
+}
+
+.embla__arrow svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke-width: 2.4;
+}
+
+/* Dot indicators */
+.embla__dots {
+  position: absolute;
+  bottom: 1.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 12;
+  display: flex;
+  gap: 0.55rem;
+  padding: 0.5rem 0.85rem;
+  background: rgba(10, 16, 33, 0.45);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+
+.embla__dot {
+  position: relative;
+  width: 2.25rem;
+  height: 0.35rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.embla__dot-inner {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 9999px;
+  transition: background 0.25s ease, width 0.35s ease;
+}
+
+.embla__dot:hover .embla__dot-inner {
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.embla__dot--active .embla__dot-inner {
+  background: #2d9f44;
+  animation: embla-dot-fill 7s linear forwards;
+}
+
+@keyframes embla-dot-fill {
+  from {
+    width: 0%;
+    background: #2d9f44;
+  }
+  to {
+    width: 100%;
+    background: #ffffff;
+  }
+}
+
+.embla__dot:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+  border-radius: 9999px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Use a more compact aspect ratio on small screens so the hero
+     doesn't dominate the page on mobile. */
+  .embla-wrapper {
+    aspect-ratio: 4 / 3;
+    min-height: 320px;
+    max-height: 600px;
+  }
+
+  .embla__caption {
+    padding: 4.5rem 1.1rem 5.5rem;
+  }
+
+  .embla__arrow {
+    opacity: 0.85;
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .embla__arrow--prev {
+    left: 0.6rem;
+  }
+  .embla__arrow--next {
+    right: 0.6rem;
+  }
+
+  .embla__counter {
+    top: 0.85rem;
+    left: 0.85rem;
+    font-size: 0.75rem;
+    padding: 0.4rem 0.7rem;
+  }
+
+  .embla__dots {
+    bottom: 1rem;
+    padding: 0.4rem 0.7rem;
+  }
+
+  .embla__dot {
+    width: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .embla__title {
+    font-size: 1.6rem;
+  }
+  .embla__description {
+    font-size: 0.9rem;
+  }
+  .embla__cta {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .embla__img,
+  .embla__caption,
+  .embla__dot--active .embla__dot-inner {
+    animation: none !important;
+  }
+}
+
+/* ============================================
+   Theme Gallery (used on /work page)
+   Reusable across all thematic sections.
+   Each section passes an --accent CSS var.
+   ============================================ */
+
+.theme-gallery {
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px dashed rgba(0, 0, 0, 0.12);
+}
+
+.theme-gallery__header {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.theme-gallery__icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: var(--accent, #0e4198);
+  flex-shrink: 0;
+}
+
+.theme-gallery__title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #1a1f36;
+  margin: 0 0 0.2rem;
+  letter-spacing: -0.005em;
+  text-transform: capitalize;
+}
+
+.theme-gallery__sub {
+  font-size: 0.85rem;
+  color: #5a6478;
+  margin: 0;
+}
+
+/* Responsive grid: 1 col mobile, 2 cols sm, 4 cols lg */
+.theme-gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .theme-gallery__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme-gallery__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.theme-gallery__card {
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px -10px rgba(14, 65, 152, 0.2);
+  border: 1px solid rgba(14, 65, 152, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    border-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.theme-gallery__card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent, #0e4198);
+  box-shadow: 0 14px 30px -12px rgba(14, 65, 152, 0.35);
+}
+
+.theme-gallery__frame {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: #eef2f7;
+}
+
+.theme-gallery__frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.theme-gallery__card:hover .theme-gallery__frame img {
+  transform: scale(1.06);
+}
+
+.theme-gallery__slot {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  background-color: rgba(10, 16, 33, 0.75);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.3rem 0.6rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 2;
+}
+
+.theme-gallery__caption {
+  padding: 0.85rem 1rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1a1f36;
+  border-top: 3px solid var(--accent, #0e4198);
+  line-height: 1.4;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-gallery__card,
+  .theme-gallery__frame img {
+    transition: none;
+  }
+  .theme-gallery__card:hover {
+    transform: none;
+  }
+  .theme-gallery__card:hover .theme-gallery__frame img {
+    transform: none;
+  }
+}
+
+/* ===============================
+   Announcement / Vision Ticker
+   Palette: blue #0E4198, green #81C31C, white #FFFFFF
+   =============================== */
+
+.ticker {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: 46px;
+  background-color: #0e4198;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+/* "Updates" badge on the left — green pill with a curved right edge */
+.ticker__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0 1.4rem 0 1.1rem;
+  margin-right: -0.6rem;
+  background-color: #81c31c;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  flex-shrink: 0;
+  border-radius: 0 9999px 9999px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.ticker__badge-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #ffffff;
+}
+
+/* Centre viewport */
+.ticker__viewport {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+/* The scrolling track */
+.ticker__track {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  animation: ticker-scroll 40s linear infinite;
+}
+
+.ticker:hover .ticker__track,
+.ticker:focus-within .ticker__track {
+  animation-play-state: paused;
+}
+
+.ticker__item {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ticker__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.45rem 1.1rem;
+  margin: 0 0.35rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+  border-radius: 9999px;
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ticker__link:hover,
+.ticker__link:focus-visible {
+  background-color: #ffffff;
+  color: #0e4198;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ticker__icon {
+  width: 1rem;
+  height: 1rem;
+  color: #81c31c;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
+}
+
+.ticker__link:hover .ticker__icon,
+.ticker__link:focus-visible .ticker__icon {
+  color: #0e4198;
+}
+
+.ticker__text {
+  white-space: nowrap;
+}
+
+/* Right-side "Reach Us" pill — mirror of the badge */
+.ticker__contact {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 1.1rem 0 1.4rem;
+  margin-left: -0.6rem;
+  background-color: #81c31c;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+  border-radius: 9999px 0 0 9999px;
+  position: relative;
+  z-index: 2;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.ticker__contact:hover,
+.ticker__contact:focus-visible {
+  background-color: #ffffff;
+  color: #0e4198;
+  outline: none;
+}
+
+/* Small circular separator between items */
+.ticker__item + .ticker__item .ticker__link {
+  position: relative;
+}
+
+.ticker__item + .ticker__item .ticker__link::before {
+  content: "";
+  position: absolute;
+  left: -0.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+/* Seamless marquee: items array is duplicated once, so 50% translation
+   places the second copy exactly where the first began. */
+@keyframes ticker-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .ticker {
+    height: 42px;
+  }
+  .ticker__badge {
+    font-size: 0.65rem;
+    padding: 0 1.1rem 0 0.85rem;
+    margin-right: -0.5rem;
+  }
+  .ticker__link {
+    font-size: 0.78rem;
+    padding: 0.4rem 0.9rem;
+    margin: 0 0.25rem;
+  }
+  .ticker__contact {
+    font-size: 0.65rem;
+    padding: 0 0.85rem 0 1.1rem;
+    margin-left: -0.5rem;
+  }
+  .ticker__item + .ticker__item .ticker__link::before {
+    left: -0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ticker__badge-icon {
+    width: 0.85rem;
+    height: 0.85rem;
+  }
+  .ticker__icon {
+    width: 0.85rem;
+    height: 0.85rem;
+  }
+  .ticker__link {
+    font-size: 0.74rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker__track {
+    animation: none;
+  }
 }
 
 @media (max-width: 768px) {

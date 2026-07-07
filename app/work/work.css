@@ -1,0 +1,370 @@
+/* ============================================
+   Our Work page \u2014 fixed background + galleries
+   Palette: blue #0E4198, green #81C31C, white
+   ============================================ */
+
+/* ---- Fixed page background ---- */
+.work-page {
+  position: relative;
+  min-height: 100vh;
+  isolation: isolate; /* creates a stacking context so z-index is local */
+}
+
+.work-page__bg {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=2000&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  will-change: transform;
+  /* Subtle zoom for parallax feel */
+  animation: work-bg-zoom 30s ease-in-out infinite alternate;
+}
+
+@keyframes work-bg-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.08);
+  }
+}
+
+/* Soft dark overlay for text legibility on top of the photo */
+.work-page__overlay {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    180deg,
+    rgba(247, 249, 252, 0.78) 0%,
+    rgba(247, 249, 252, 0.7) 40%,
+    rgba(247, 249, 252, 0.78) 100%
+  );
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+/* Make sure content sits above the fixed background */
+.work-page__content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Keep the hero gradient intact on top of the background */
+.work-page__content > div:first-child {
+  /* The hero sits at the very top \u2014 keep its dark gradient */
+  position: relative;
+  z-index: 2;
+}
+
+/* Make every themed section mostly transparent so the fixed background
+   photo shows through strongly. Each section gets only a soft accent
+   tint so the page still feels color-coded per theme. */
+.work-page section[id] {
+  position: relative;
+  /* Kill the opaque Tailwind gradients and use a very translucent panel */
+  background-image: none !important;
+  background-color: rgba(247, 249, 252, 0.25) !important;
+  backdrop-filter: blur(6px) saturate(1.05);
+  -webkit-backdrop-filter: blur(6px) saturate(1.05);
+}
+
+/* Soft accent tints per section so the page still feels segmented,
+   but stays very translucent for the photo to show through clearly. */
+.work-page #education {
+  background-color: rgba(239, 246, 255, 0.25) !important; /* blue-50 */
+}
+.work-page #health {
+  background-color: rgba(254, 242, 242, 0.25) !important; /* red-50 */
+}
+.work-page #livelihood {
+  background-color: rgba(240, 253, 244, 0.25) !important; /* green-50 */
+}
+.work-page #women-empowerment {
+  background-color: rgba(250, 245, 255, 0.25) !important; /* purple-50 */
+}
+.work-page #climate-change {
+  background-color: rgba(236, 253, 245, 0.25) !important; /* emerald-50 */
+}
+
+/* The gallery wrapper keeps its solid background so the cards inside
+   have a solid base to sit on. */
+.work-page .theme-gallery {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.92) 0%,
+    rgba(255, 255, 255, 0.86) 50%,
+    rgba(255, 255, 255, 0.92) 100%
+  ) !important;
+}
+
+/* Smooth scrolling behavior so the fixed bg effect feels intentional */
+.work-page {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .work-page__bg {
+    animation: none;
+  }
+  .work-page {
+    scroll-behavior: auto;
+  }
+}
+
+.theme-gallery {
+  margin-top: 3.5rem;
+  padding: 2.5rem 1.75rem;
+  background: linear-gradient(
+    135deg,
+    rgba(14, 65, 152, 0.06) 0%,
+    rgba(255, 255, 255, 0.55) 50%,
+    rgba(129, 195, 28, 0.08) 100%
+  );
+  border-radius: 24px;
+  border: 1px solid rgba(14, 65, 152, 0.08);
+  box-shadow: 0 10px 30px -18px rgba(14, 65, 152, 0.25);
+}
+
+.theme-gallery {
+  margin-top: 3.5rem;
+  padding: 2.5rem 1.75rem;
+  background: linear-gradient(
+    135deg,
+    rgba(14, 65, 152, 0.06) 0%,
+    rgba(255, 255, 255, 0.55) 50%,
+    rgba(129, 195, 28, 0.08) 100%
+  );
+  border-radius: 24px;
+  border: 1px solid rgba(14, 65, 152, 0.08);
+  box-shadow: 0 10px 30px -18px rgba(14, 65, 152, 0.25);
+}
+
+.theme-gallery__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px dashed rgba(14, 65, 152, 0.18);
+}
+
+.theme-gallery__icon {
+  width: 2.6rem;
+  height: 2.6rem;
+  flex-shrink: 0;
+  color: #ffffff;
+  background: linear-gradient(135deg, #0e4198 0%, var(--accent, #0e4198) 100%);
+  border-radius: 12px;
+  padding: 0.55rem;
+  box-shadow: 0 6px 14px -4px var(--accent, #0e4198);
+}
+
+.theme-gallery__title {
+  font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+  font-weight: 800;
+  color: #0e4198;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.01em;
+  text-transform: capitalize;
+}
+
+.theme-gallery__sub {
+  font-size: 0.85rem;
+  color: #5a6478;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Grid: 1 col mobile, 2 cols sm, 4 cols lg */
+.theme-gallery__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .theme-gallery__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme-gallery__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.theme-gallery__card {
+  position: relative;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 18px -10px rgba(14, 65, 152, 0.22),
+    0 2px 6px -2px rgba(14, 65, 152, 0.08);
+  border: 1px solid rgba(14, 65, 152, 0.08);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.35s ease, border-color 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.theme-gallery__card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent, #0e4198);
+  box-shadow: 0 18px 36px -14px var(--accent, #0e4198),
+    0 6px 14px -4px rgba(14, 65, 152, 0.15);
+}
+
+.theme-gallery__card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 60%,
+    var(--accent, #0e4198) 200%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.theme-gallery__card:hover::before {
+  opacity: 0.08;
+}
+
+.theme-gallery__frame {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: linear-gradient(135deg, #f7f9fc 0%, #e5ebf3 100%);
+}
+
+.theme-gallery__frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    filter 0.35s ease;
+  display: block;
+}
+
+.theme-gallery__card:hover .theme-gallery__frame img {
+  transform: scale(1.08);
+}
+
+/* Slot badge top-right */
+.theme-gallery__slot {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  background-color: rgba(10, 16, 33, 0.78);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.32rem 0.65rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.theme-gallery__slot::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background-color: var(--accent, #0e4198);
+  box-shadow: 0 0 8px var(--accent, #0e4198);
+}
+
+/* Accent stripe on top of caption */
+.theme-gallery__caption {
+  position: relative;
+  padding: 0.95rem 1.1rem 1.1rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #1a1f36;
+  background-color: #ffffff;
+  line-height: 1.4;
+  border-top: 4px solid var(--accent, #0e4198);
+  z-index: 2;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.theme-gallery__caption::before {
+  content: "";
+  position: absolute;
+  left: 1.1rem;
+  top: -4px;
+  width: 2.5rem;
+  height: 4px;
+  background-color: var(--accent, #0e4198);
+  filter: blur(2px);
+}
+
+/* Empty-state hint overlay on each card before Firebase swap */
+.theme-gallery__hint {
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(4px);
+  color: #5a6478;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.3rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid rgba(14, 65, 152, 0.12);
+  z-index: 2;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.theme-gallery__card:hover .theme-gallery__hint {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .theme-gallery {
+    padding: 1.75rem 1rem;
+  }
+  .theme-gallery__caption {
+    font-size: 0.85rem;
+    padding: 0.8rem 0.9rem 0.95rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-gallery__card,
+  .theme-gallery__frame img,
+  .theme-gallery__hint {
+    transition: none !important;
+  }
+  .theme-gallery__card:hover {
+    transform: none;
+  }
+  .theme-gallery__card:hover .theme-gallery__frame img {
+    transform: none;
+  }
+}

@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Carousel from "@/components/Carousel"
+import AnnouncementTicker from "@/components/AnnouncementTicker"
 import AvinashInfo from "@/components/AvinashInfo"
 import WhatWeProvide from "@/components/WhatWeProvide"
 import SDGgoals from "@/components/SDGgoals"
@@ -16,6 +17,8 @@ const App = () => {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <SubscribePopup />
+      {/* Running announcement / vision ticker sits right below the navbar */}
+      <AnnouncementTicker />
       <Carousel />
       <AvinashInfo />
       <WhatWeProvide />
