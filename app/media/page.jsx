@@ -101,6 +101,56 @@ const MediaCentre = () => {
       category: "Public Service",
       img: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80",
     },
+    {
+      id: 8,
+      title: "National Sustainability Champion Award",
+      subtitle: "Recognized for climate-positive plantation drives",
+      description:
+        "Honored for conducting one of the largest volunteer-driven tree plantation drives in North India, restoring degraded landscapes across multiple states and engaging thousands of community members.",
+      year: "2024",
+      category: "Environmental Excellence",
+      img: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+      id: 9,
+      title: "Women Empowerment Excellence Award",
+      subtitle: "Recognized for grassroots women-led livelihood programs",
+      description:
+        "Awarded for creating measurable impact through skill development, digital literacy, and entrepreneurship programs for underprivileged women across rural and urban communities.",
+      year: "2025",
+      category: "Women Empowerment",
+      img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+      id: 10,
+      title: "Education Innovation Award",
+      subtitle: "Recognized for creative learning models",
+      description:
+        "Honoured for designing and implementing innovative education programs for underserved children, including weekend learning centers and digital literacy initiatives.",
+      year: "2025",
+      category: "Education",
+      img: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+      id: 11,
+      title: "Healthcare Access Recognition",
+      subtitle: "For community health and hygiene initiatives",
+      description:
+        "Recognized for organizing free health camps and hygiene awareness drives that reached thousands of beneficiaries in underserved communities across India.",
+      year: "2024",
+      category: "Healthcare",
+      img: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80",
+    },
+    {
+      id: 12,
+      title: "Volunteer Engagement Excellence Award",
+      subtitle: "Recognized for impactful volunteer mobilization",
+      description:
+        "Awarded for creating one of the most active volunteer networks in the social sector, engaging students, professionals, and corporate employees in meaningful community action.",
+      year: "2025",
+      category: "Volunteer Engagement",
+      img: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=900&q=80",
+    },
   ];
 
   const pressReleases = [
@@ -327,6 +377,20 @@ const MediaCentre = () => {
       summary:
         "A story of how local participation helped turn public spaces into greener, healthier environments through sustained action.",
       impact: "Cleaner neighbourhoods, stronger stewardship, and increased awareness",
+    },
+    {
+      id: 4,
+      title: "COVID-19 Food Relief: Reaching the Last Mile",
+      summary:
+        "How Renukiran Welfare Foundation mobilized essential ration kits and Seva Sandwiches to deliver nourishment and dignity to vulnerable families during the pandemic.",
+      impact: "Thousands of meals served, stronger trust with community partners",
+    },
+    {
+      id: 5,
+      title: "Breaking the Silence: Menstrual Health Awareness",
+      summary:
+        "The journey of creating safe, stigma-free conversations around menstrual hygiene, distributing reusable sanitary kits, and empowering adolescent girls.",
+      impact: "Improved school attendance, reduced absenteeism, lasting behavioural change",
     },
   ];
 
@@ -564,50 +628,6 @@ const MediaCentre = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      {/* <div className="flex items-start justify-between mb-4">
-        <span className="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">
-          {release.category}
-        </span>
-        <span className="text-sm text-gray-500">{release.date}</span>
-      </div> */}
-      {/* <h3 className="text-lg font-semibold text-gray-800 mb-3">
-        {release.title}
-      </h3> */}
-      {/* <p className="text-gray-600 text-sm">{release.excerpt}</p> */}
-      {/* <button className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center">
-        Read More <ChevronRight className="h-4 w-4 ml-1" />
-      </button> */}
-    </div>
-  );
-
-  const WorkshopCard = ({ workshop }) => (
-    <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-      <div className="flex items-start justify-between mb-4">
-        <span
-          className={`px-3 py-1 text-xs font-medium rounded-full ${workshop.status === "Upcoming"
-            ? "bg-green-100 text-green-800"
-            : "bg-gray-100 text-gray-800"
-            }`}
-        >
-          {workshop.status}
-        </span>
-        <Calendar className="h-5 w-5 text-gray-400" />
-      </div>
-      <h3 className="text-lg font-semibold text-gray-800 mb-3">
-        {workshop.title}
-      </h3>
-      <div className="space-y-2 mb-4">
-        <div className="text-sm text-gray-600">
-          <strong>Date:</strong> {workshop.date}
-        </div>
-        <div className="text-sm text-gray-600">
-          <strong>Time:</strong> {workshop.time}
-        </div>
-        <div className="text-sm text-gray-600">
-          <strong>Location:</strong> {workshop.location}
-        </div>
-      </div>
-      <p className="text-gray-600 text-sm">{workshop.description}</p>
     </div>
   );
 

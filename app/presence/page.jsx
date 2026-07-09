@@ -12,7 +12,7 @@ const OurPresence = () => {
     setIsVisible(true);
   }, []);
 
- 
+
   const states = [
     {
       name: "Assam",
@@ -149,7 +149,7 @@ const OurPresence = () => {
             </p>
           </div>
         </div>
-        
+
         {/* Floating elements */}
         <div className="absolute top-20 left-10 animate-bounce">
           <div className="w-4 h-4 bg-yellow-400 rounded-full opacity-70"></div>
@@ -223,7 +223,7 @@ const OurPresence = () => {
                   <p className="text-gray-700 mb-4 leading-relaxed">
                     {state.description}
                   </p>
-                  
+
                   <div className="space-y-3">
                     <h4 className="font-semibold text-gray-800 flex items-center">
                       <Shield className="w-4 h-4 mr-2 text-blue-600" />
@@ -250,8 +250,16 @@ const OurPresence = () => {
         </div>
       </div>
 
-      {/* Mission Statement */}
-      <div className=" bg-[#233876] text-white py-16">
+      {/* Mission Statement - With Background Image */}
+      <div
+        className="relative text-white py-16 bg-[#233876]"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(35, 56, 118, 0.85), rgba(35, 56, 118, 0.85)), url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1800&q=80')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-4xl mx-auto">
             <h3 className="text-3xl md:text-4xl font-bold mb-6">
@@ -278,7 +286,7 @@ const OurPresence = () => {
               </div>
             </div>
             <p className="text-xl mt-8 text-gray-200">
-              Together, we stand tall as a true <span className="text-yellow-400 font-bold">"Kiran Umeed Ki"</span> — 
+              Together, we stand tall as a true <span className="text-yellow-400 font-bold">"Kiran Umeed Ki"</span> —
               committed to creating equitable opportunities and building a stronger, more compassionate India.
             </p>
           </div>
@@ -296,7 +304,7 @@ const OurPresence = () => {
             transform: translateY(0);
           }
         }
-        
+
         .animate-fadeIn {
           animation: fadeIn 0.8s ease-out forwards;
         }

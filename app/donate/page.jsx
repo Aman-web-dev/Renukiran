@@ -20,10 +20,10 @@ export const metadata = {
 };
 
 const impactStats = [
-  { num: "12,000+", label: "Lives Touched", Icon: Users },
-  { num: "45,000+", label: "Trees Planted", Icon: Trees },
-  { num: "500+", label: "Children in School", Icon: GraduationCap },
+  { num: "200,000+", label: "Lives Touched", Icon: Users },
+  { num: "100,000+", label: "Trees Planted", Icon: Trees },
   { num: "28", label: "Active Programs", Icon: Heart },
+  { num: "12+", label: "States Reached", Icon: GraduationCap },
 ];
 
 const trustItems = [

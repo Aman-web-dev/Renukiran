@@ -25,31 +25,6 @@ const navRoutes = [
     ],
   },
   {
-    heading: "Our Work",
-    href: "/work",
-    disabled: false,
-    subRoutes: [
-      { label: "Education", href: "/work#education", disabled: false },
-      { label: "Health & Hygiene", href: "/work#health", disabled: false },
-      { label: "Livelihood", href: "/work#livelihood", disabled: false },
-      {
-        label: "Women Empowerment",
-        href: "/work#women-empowerment",
-        disabled: false,
-      },
-      {
-        label: "Climate Change",
-        href: "/work#climate-change",
-        disabled: false,
-      },
-      {
-        label: "Employee Volunteering Program",
-        href: "/work/employee-volunteering",
-        disabled: false,
-      }
-    ],
-  },
-  {
     heading: "Media Centre",
     href: "/media",
     disabled: false,
@@ -90,7 +65,7 @@ const navRoutes = [
     href: "/plantation-initiatives",
     disabled: false,
     subRoutes: [{
-      label: "Active sustainability Projects",
+      label: "Active Sustainability Projects",
       href: "/plantation-initiatives/sustainability-projects",
       disabled: false,
     },
@@ -100,17 +75,12 @@ const navRoutes = [
       disabled: false,
     },
     {
-      label: "Celebration tree programs",
+      label: "Celebration Tree Programs",
       href: "/plantation-initiatives/celebration-tree-programs",
       disabled: false,
     },
     {
-      label: "Large scale tree plantation projects",
-      href: "/plantation-initiatives/large-scale-tree-plantation-projects",
-      disabled: false,
-    },
-    {
-      label: "Sustainable Delivery carbon offset",
+      label: "Sustainable Delivery Carbon Offset",
       href: "/plantation-initiatives/carbon-offset",
       disabled: false,
     },
@@ -126,22 +96,12 @@ const navRoutes = [
     href: "/rwf-corporates",
     disabled: false,
     subRoutes: [{
-      label: "CSR Project Implementation & Community Development Programs",
+      label: "CSR Project Implementation",
       href: "/rwf-corporates/csr",
       disabled: false,
     },
     {
-      label: "Employee Engagement Activities & Corporate Volunteering Programs",
-      href: "/rwf-corporates/employee-enagagement",
-      disabled: false,
-    },
-    {
-      label: "Tree Plantation, Climate Action & Environmental Sustainability Programs",
-      href: "/rwf-corporates/climate",
-      disabled: false,
-    },
-    {
-      label: "ESG Sustainability Support & Environmental Impact Programs",
+      label: "ESG Sustainability Support",
       href: "/rwf-corporates/esg-Sustainability",
       disabled: false,
     },

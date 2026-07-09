@@ -403,7 +403,16 @@
 
 /* ---------- Trust strip ---------- */
 .donate-trust {
-  background-color: #0e4198;
+  position: relative;
+  background-image: linear-gradient(
+      135deg,
+      rgba(14, 65, 152, 0.92) 0%,
+      rgba(14, 65, 152, 0.7) 50%,
+      rgba(129, 195, 28, 0.7) 100%
+    ),
+    url("https://images.unsplash.com/photo-1532629345422-75194fceb71d?auto=format&fit=crop&w=2000&q=80");
+  background-size: cover;
+  background-position: center;
   color: #ffffff;
   padding: 2.5rem 1.5rem;
 }
