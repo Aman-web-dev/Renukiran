@@ -81,76 +81,76 @@ const MediaCentre = () => {
       category: "Leadership Excellence",
       img: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/awards%2Faward-4.jpg?alt=media&token=d11dffe2-38c3-4a74-af0f-b1139d4085ac",
     },
-    {
-      id: 6,
-      title: "Community Impact Excellence Award",
-      subtitle: "Recognized for sustained grassroots work",
-      description:
-        "Our sustained work in education and women-led livelihood programs earned us recognition for community impact and long-term service delivery at the grassroots level.",
-      year: "2025",
-      category: "Grassroots Excellence",
-      img: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      id: 7,
-      title: "Certificate of Appreciation",
-      subtitle: "For community welfare and public service",
-      description:
-        "We were honoured by local institutions for our continued support in welfare programs, public awareness drives, and community service during critical periods.",
-      year: "2024",
-      category: "Public Service",
-      img: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      id: 8,
-      title: "National Sustainability Champion Award",
-      subtitle: "Recognized for climate-positive plantation drives",
-      description:
-        "Honored for conducting one of the largest volunteer-driven tree plantation drives in North India, restoring degraded landscapes across multiple states and engaging thousands of community members.",
-      year: "2024",
-      category: "Environmental Excellence",
-      img: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      id: 9,
-      title: "Women Empowerment Excellence Award",
-      subtitle: "Recognized for grassroots women-led livelihood programs",
-      description:
-        "Awarded for creating measurable impact through skill development, digital literacy, and entrepreneurship programs for underprivileged women across rural and urban communities.",
-      year: "2025",
-      category: "Women Empowerment",
-      img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      id: 10,
-      title: "Education Innovation Award",
-      subtitle: "Recognized for creative learning models",
-      description:
-        "Honoured for designing and implementing innovative education programs for underserved children, including weekend learning centers and digital literacy initiatives.",
-      year: "2025",
-      category: "Education",
-      img: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      id: 11,
-      title: "Healthcare Access Recognition",
-      subtitle: "For community health and hygiene initiatives",
-      description:
-        "Recognized for organizing free health camps and hygiene awareness drives that reached thousands of beneficiaries in underserved communities across India.",
-      year: "2024",
-      category: "Healthcare",
-      img: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80",
-    },
-    {
-      id: 12,
-      title: "Volunteer Engagement Excellence Award",
-      subtitle: "Recognized for impactful volunteer mobilization",
-      description:
-        "Awarded for creating one of the most active volunteer networks in the social sector, engaging students, professionals, and corporate employees in meaningful community action.",
-      year: "2025",
-      category: "Volunteer Engagement",
-      img: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=900&q=80",
-    },
+    // {
+    //   id: 6,
+    //   title: "Community Impact Excellence Award",
+    //   subtitle: "Recognized for sustained grassroots work",
+    //   description:
+    //     "Our sustained work in education and women-led livelihood programs earned us recognition for community impact and long-term service delivery at the grassroots level.",
+    //   year: "2025",
+    //   category: "Grassroots Excellence",
+    //   img: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80",
+    // },
+    // {
+    //   id: 7,
+    //   title: "Certificate of Appreciation",
+    //   subtitle: "For community welfare and public service",
+    //   description:
+    //     "We were honoured by local institutions for our continued support in welfare programs, public awareness drives, and community service during critical periods.",
+    //   year: "2024",
+    //   category: "Public Service",
+    //   img: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80",
+    // },
+    // {
+    //   id: 8,
+    //   title: "National Sustainability Champion Award",
+    //   subtitle: "Recognized for climate-positive plantation drives",
+    //   description:
+    //     "Honored for conducting one of the largest volunteer-driven tree plantation drives in North India, restoring degraded landscapes across multiple states and engaging thousands of community members.",
+    //   year: "2024",
+    //   category: "Environmental Excellence",
+    //   img: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=80",
+    // },
+    // {
+    //   id: 9,
+    //   title: "Women Empowerment Excellence Award",
+    //   subtitle: "Recognized for grassroots women-led livelihood programs",
+    //   description:
+    //     "Awarded for creating measurable impact through skill development, digital literacy, and entrepreneurship programs for underprivileged women across rural and urban communities.",
+    //   year: "2025",
+    //   category: "Women Empowerment",
+    //   img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80",
+    // },
+    // {
+    //   id: 10,
+    //   title: "Education Innovation Award",
+    //   subtitle: "Recognized for creative learning models",
+    //   description:
+    //     "Honoured for designing and implementing innovative education programs for underserved children, including weekend learning centers and digital literacy initiatives.",
+    //   year: "2025",
+    //   category: "Education",
+    //   img: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=900&q=80",
+    // },
+    // {
+    //   id: 11,
+    //   title: "Healthcare Access Recognition",
+    //   subtitle: "For community health and hygiene initiatives",
+    //   description:
+    //     "Recognized for organizing free health camps and hygiene awareness drives that reached thousands of beneficiaries in underserved communities across India.",
+    //   year: "2024",
+    //   category: "Healthcare",
+    //   img: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80",
+    // },
+    // {
+    //   id: 12,
+    //   title: "Volunteer Engagement Excellence Award",
+    //   subtitle: "Recognized for impactful volunteer mobilization",
+    //   description:
+    //     "Awarded for creating one of the most active volunteer networks in the social sector, engaging students, professionals, and corporate employees in meaningful community action.",
+    //   year: "2025",
+    //   category: "Volunteer Engagement",
+    //   img: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=900&q=80",
+    // },
   ];
 
   const pressReleases = [
