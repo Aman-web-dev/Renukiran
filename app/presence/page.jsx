@@ -136,17 +136,17 @@ const OurPresence = () => {
           <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <div className="flex items-center justify-center mb-6">
               <Sparkles className="w-12 h-12 text-yellow-400 mr-4" />
-              <h1 className="text-5xl md:text-7xl font-bold text-white">
+              <h1 className="text-5xl md:text-7xl font-bold text-black">
                 Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Presence</span>
               </h1>
               <Sparkles className="w-12 h-12 text-yellow-400 ml-4" />
             </div>
-            <p className="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed">
+            {/* <p className="text-xl md:text-2xl text-[#81C421] max-w-4xl mx-auto leading-relaxed">
               <span className="text-yellow-400 font-semibold">"Kiran Umeed Ki"</span> - A Ray of Hope across India
             </p>
-            <p className="text-lg text-gray-300 mt-4 max-w-3xl mx-auto">
+            <p className="text-lg text-black mt-4 max-w-3xl mx-auto">
               Touching lives with dignity, leaving no one behind, and driving sustainable progress across diverse states
-            </p>
+            </p> */}
           </div>
         </div>
 
