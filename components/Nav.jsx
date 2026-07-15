@@ -10,6 +10,10 @@ const navRoutes = [
     disabled: true,
     subRoutes: [
       { label: "About Us", href: "/about", disabled: true },
+      { label: "Our Work", href: "/work", disabled: false },
+      { label: "Our Focus", href: "/mission", disabled: false },
+      { label: "Reach and Presence", href: "/presence", disabled: false },
+      { label: "Sustainable Development Goals", href: "/sdg", disabled: false },
       {
         label: "Our People",
         href: "#",
@@ -19,9 +23,6 @@ const navRoutes = [
           { label: "Team", href: "/team", disabled: false },
         ],
       },
-      { label: "Our Focus", href: "/mission", disabled: false },
-      { label: "Reach and Presence", href: "/presence", disabled: false },
-      { label: "Sustainable Development Goals", href: "/sdg", disabled: false },
     ],
   },
   {
@@ -113,6 +114,11 @@ const navRoutes = [
     {
       label: "CSR Monitoring, ESG Reporting & Impact Documentation",
       href: "/rwf-corporates/csr-monitoring",
+      disabled: false,
+    },
+    {
+      label: "Our Impact Partners",
+      href: "/impact-partners",
       disabled: false,
     },
     ]
@@ -276,7 +282,7 @@ const Nav = () => {
                   </Link>
                 ))}
               <Link
-                href="/general-donations"
+                href="/donate"
                 className="bg-[#205893] block py-2 pl-3 pr-4 text-white rounded md:hover:border-blue-800 md:border-0 md:px-2 md:hover:bg-transparent dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:hover:text-[#205893]"
               >
                 Support Us

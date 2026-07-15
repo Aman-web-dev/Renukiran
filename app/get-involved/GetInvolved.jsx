@@ -10,7 +10,7 @@ const GetInvolved = () => {
     {
       title: 'Donate Now',
       description: 'Support education, health, women-led livelihoods, and community restoration through a direct contribution.',
-      href: '/general-donations',
+      href: '/donate',
       button: 'Donate Now',
       color: 'bg-blue-600',
     },

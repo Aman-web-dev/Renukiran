@@ -126,7 +126,7 @@ function CarbonOffsetPage() {
               The Green Delivery Impact Initiative transforms everyday business activities into opportunities for positive environmental change. By combining responsible operations with nature-based solutions, we can create a future where economic growth and environmental stewardship go hand in hand.
             </p>
             <a
-              href="/general-donations"
+              href="/donate"
               className="bg-white text-blue-700 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-all duration-300 shadow-xl flex items-center mx-auto"
             >
               Start Offsetting <ArrowRight className="w-5 h-5 ml-2" />

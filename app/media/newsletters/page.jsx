@@ -4,6 +4,13 @@ import React, { useState } from "react";
 import { FileText, ChevronLeft, X, ExternalLink, Download } from "lucide-react";
 
 const newsletters = [
+
+    {
+    id: 1,
+    title: "Annual Report 2025-2026",
+    url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2F_Annual%20Report%202025-2026%20(2).pdf?alt=media&token=eac8d794-d64e-40c3-926d-3d90b1605d57",
+    type: "Annual Report",
+  },
   {
     id: 1,
     title: "Annual Report 2024-2025",

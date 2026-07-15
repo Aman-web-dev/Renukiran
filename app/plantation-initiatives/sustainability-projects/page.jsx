@@ -303,7 +303,7 @@ const SustainabilityProjectsPage = () => {
               Every tree planted is a step towards a healthier planet. Join us in our mission to restore ecosystems, combat climate change, and create sustainable communities.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a href="/general-donations" className="bg-white text-green-700 px-10 py-4 rounded-full font-bold text-lg hover:bg-green-50 transition-all duration-300 shadow-xl flex items-center">
+              <a href="/donate" className="bg-white text-green-700 px-10 py-4 rounded-full font-bold text-lg hover:bg-green-50 transition-all duration-300 shadow-xl flex items-center">
                 <Heart className="w-6 h-6 mr-2" /> Donate Now
               </a>
               <a href="/get-involved/volunteering" className="bg-transparent border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-green-700 transition-all duration-300 shadow-xl flex items-center">

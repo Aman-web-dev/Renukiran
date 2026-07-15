@@ -84,7 +84,7 @@ const GrowTreesPage = () => {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a
-                href="/general-donations"
+                href="/donate"
                 className="bg-white text-green-700 px-8 py-4 rounded-full font-bold text-lg hover:bg-green-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 flex items-center"
               >
                 <Heart className="w-5 h-5 mr-2" />

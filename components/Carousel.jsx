@@ -27,7 +27,7 @@ const slides = [
     link: "/get-involved",
   },
   {
-    src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/CarouselPics%2Frenukiran%20on%20wall.JPG?alt=media&token=2ad6c5a6-ad14-488e-8c91-3d520928a7e4",
+    src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/education%2FChatGPT%20Image%20Jul%2011%2C%202026%2C%2002_07_36%20PM.png?alt=media&token=89eab8d8-9112-4575-a5ba-ea5f40152cb4",
     alt: "Children learning together in a classroom setting",
     eyebrow: "Community Impact",
     title: "Together We Rise",
@@ -38,6 +38,16 @@ const slides = [
   },
   {
     src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/CarouselPics%2Fcarousel2Bg_hyinot_c_scale%2Cw_1400.webp?alt=media&token=bcd3b242-2711-447f-b4a1-ff1c533724d8",
+    alt: "Students at Renukiran supported school",
+    eyebrow: "Our Reach",
+    title: "A Movement of Hope",
+    description:
+      "Transforming lives across regions through dedicated programs in education, environment, and women empowerment.",
+    cta: "See Our Work",
+    link: "/work",
+  },
+    {
+    src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/Employee%2Fimage%20cropped%20employee%20_waifu2x_noise3_scale2x.png?alt=media&token=1f609747-7c13-4ffc-8204-a59d90bedfe4",
     alt: "Students at Renukiran supported school",
     eyebrow: "Our Reach",
     title: "A Movement of Hope",

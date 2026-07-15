@@ -43,6 +43,8 @@
     "@svgr/webpack": "^8.1.0",
     "@types/node": "22.15.18",
     "daisyui": "^3.7.6",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.2.10",
     "typescript": "5.8.3"
   }
 }

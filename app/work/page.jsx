@@ -24,38 +24,29 @@ import {
   ImagePlus,
 } from "lucide-react";
 
-/* ============================================================
-   Image gallery data
-   ------------------------------------------------------------
-   Each section has 4 placeholder slots. Replace the `src`
-   value with your Firebase Storage URL when ready:
-     const FIREBASE = "https://firebasestorage.googleapis.com/...";
-     src: `${FIREBASE}/education%2Fclassroom.jpg?alt=media&token=...`
-   Keep the `id` so the layout order is preserved while you swap.
-   ============================================================ */
 const galleryImages = {
   education: [
     {
       id: "edu-1",
-      src: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/education%2FIMG-20230528-WA0033.jpg?alt=media&token=9e9f0a1b-cd9d-4f00-b27e-f04bc9a5eced",
       alt: "Child engaged in focused learning session",
       caption: "Faridpuri Center Weekend Classes",
     },
     {
       id: "edu-2",
-      src: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/education%2FIMG_20230416_110936_482.jpg?alt=media&token=120b299f-abf3-4eb6-8929-745cef8419cf",
       alt: "Children studying in classroom",
       caption: "Interactive Learning Sessions",
     },
     {
       id: "edu-3",
-      src: "https://images.unsplash.com/photo-1509062522246-587797dc60f3?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/education%2FIMG_20231112_103007_053.jpg?alt=media&token=3436275d-c1cd-4a06-b370-187b0b104531",
       alt: "Group of students learning together",
       caption: "Confidence & Curiosity Building",
     },
     {
       id: "edu-4",
-      src: "https://images.unsplash.com/photo-1503676382574-8f9d29a9eed8?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/education%2FIMG_20241208_110006_144.jpg?alt=media&token=5404cd9d-3398-4dc9-aa18-732bc487c075",
       alt: "Reading and literacy program materials",
       caption: "Scholarship Programs",
     },
@@ -63,25 +54,25 @@ const galleryImages = {
   health: [
     {
       id: "hlth-1",
-      src: "https://images.unsplash.com/photo-1505751172876-fa1923c3c448?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/health%20and%20hygiene%2FCopy%20of%20IMG_1327%20(1).JPG?alt=media&token=7d6509e6-8b5e-47a2-80ac-14956be862e4",
       alt: "Community health awareness session",
       caption: "Healthcare & Hygiene Awareness",
     },
     {
       id: "hlth-2",
-      src: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/health%20and%20hygiene%2FCopy%20of%20IMG_1342.JPG?alt=media&token=0b54ca1b-c0b5-4e25-8139-876e092a2f0a",
       alt: "Health and hygiene awareness training",
       caption: "Hygiene Awareness Drives",
     },
     {
       id: "hlth-3",
-      src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/health%20and%20hygiene%2FDSC_0073.JPG?alt=media&token=f8e50e5e-1358-4c68-86c4-0737c0d62f68",
       alt: "Community volunteers serving food",
       caption: "Food for Life Initiative",
     },
     {
       id: "hlth-4",
-      src: "https://images.unsplash.com/photo-1486825586573-7131f7991bdd?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/health%20and%20hygiene%2FIMG20260624115139.jpg?alt=media&token=8d738cd5-6fb5-479d-bdf2-5810f9dd4be9",
       alt: "Community health and nutrition support",
       caption: "Nutrition & Well-being Support",
     },
@@ -89,51 +80,51 @@ const galleryImages = {
   livelihood: [
     {
       id: "liv-1",
-      src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/livelihood%2FIMG_1181%20(1).JPG?alt=media&token=18e457bd-67d1-4425-9735-863b40a4a876",
       alt: "Woman learning tailoring",
       caption: "Stitching & Tailoring — Palla",
     },
     {
       id: "liv-2",
-      src: "https://images.unsplash.com/photo-1521798452844-d3b5bc62ab9c?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/livelihood%2FIMG_1171%20(1).JPG?alt=media&token=ba169921-147f-4aa5-a7d4-176d2d4597b6",
       alt: "Skill development training",
       caption: "Beautician Skills Training",
     },
     {
       id: "liv-3",
-      src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/livelihood%2FIMG-20220921-WA0008.jpg?alt=media&token=be523eb6-8f7e-46a9-812d-a86333a8d6e6",
       alt: "Computer literacy class",
       caption: "Digital Literacy Program",
     },
     {
       id: "liv-4",
-      src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/livelihood%2FIMG-20250702-WA0023.jpg?alt=media&token=47482b79-6ded-4939-8b34-d8d4277d88b5",
       alt: "Women entrepreneurs at market",
-      caption: "Market Linkage & Entrepreneurship",
+      caption: "Youth carrying the green Initiative",
     },
   ],
   "women-empowerment": [
     {
       id: "we-1",
-      src: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/women%20Empowerment%2FIMG_1181%20(1).JPG?alt=media&token=66778915-44c4-440a-ab9a-8bdb794cdf68",
       alt: "Women in a discussion circle",
-      caption: "Breaking the Silence Workshops",
+      caption: "Encouraging Women's Voices",
     },
     {
       id: "we-2",
-      src: "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/women%20Empowerment%2FDSC_0066.JPG?alt=media&token=8940a67c-6325-4426-863b-c0c170fe3bcc",
       alt: "Reusable sanitary napkins",
       caption: "Sustainable Hygiene Solutions",
     },
     {
       id: "we-3",
-      src: "https://images.unsplash.com/photo-1521798552670-0d5f7b89ec00?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/women%20Empowerment%2FIMG_3685.JPG?alt=media&token=e7179a81-9165-4bd1-b651-8962464f1b27",
       alt: "Mentorship and training",
       caption: "Confidence & Capacity Building",
     },
     {
       id: "we-4",
-      src: "https://images.unsplash.com/photo-1573164574230-db1d5e960238?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/women%20Empowerment%2FCopy%20of%20IMG_1295.JPG?alt=media&token=570829e7-413d-432d-889a-58a103ef4be8",
       alt: "Women participating in community gathering",
       caption: "Holistic Empowerment",
     },
@@ -141,27 +132,27 @@ const galleryImages = {
   "climate-change": [
     {
       id: "cc-1",
-      src: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/Plantation%2FCopy%20of%20IMG_20260510_082316077_HDR.jpg?alt=media&token=75254ad6-c46b-41a8-9232-9249f967bffb",
       alt: "Volunteers planting trees",
       caption: "Tree Plantation Drives",
     },
     {
       id: "cc-2",
-      src: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/Plantation%2FWhatsApp%20Image%202025-01-14%20at%205.52.36%20PM%20(1).jpeg?alt=media&token=bd06918c-a7a9-4b5d-894d-17c841c34be6",
       alt: "Community cleaning drive",
-      caption: "Cleaning & Sanitation Drives",
+      caption: "Women and Plants",
     },
     {
       id: "cc-3",
-      src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/Plantation%2FWhatsApp%20Image%202025-06-01%20at%2014.32.31.jpeg?alt=media&token=10c9266a-2aa9-4d76-9946-683a2d9e5503",
       alt: "Solar panels in field",
       caption: "Clean Energy Adoption",
     },
     {
       id: "cc-4",
-      src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80",
+      src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/Plantation%2FWhatsApp%20Image%202026-07-11%20at%2013.41.21.jpeg?alt=media&token=03738334-6506-4b53-94e0-4611d3cb0aa2",
       alt: "Community environmental engagement",
-      caption: "Sustainability Education",
+      caption: "Kids and Plants",
     },
   ],
 };
@@ -184,7 +175,7 @@ function ThemeGallery({ theme, images, accent }) {
           <figure key={img.id} className="theme-gallery__card" style={{ "--accent": accent }}>
             <div className="theme-gallery__frame">
               <img src={img.src} alt={img.alt} loading="lazy" />
-              <span className="theme-gallery__slot">Slot {img.id.split("-")[1]}</span>
+              {/* <span className="theme-gallery__slot">{img.id.split("-")[1]}</span> */}
             </div>
             <figcaption className="theme-gallery__caption">{img.caption}</figcaption>
           </figure>

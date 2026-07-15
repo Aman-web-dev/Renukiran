@@ -397,6 +397,12 @@ const MediaCentre = () => {
   const newsletters = [
     {
       id: 1,
+      title: "Annual Report 2025-2026",
+      url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2F_Annual%20Report%202025-2026%20(2).pdf?alt=media&token=eac8d794-d64e-40c3-926d-3d90b1605d57",
+      type: "Annual Report",
+    },
+    {
+      id: 1,
       title: "Annual Report 2024-2025",
       url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FANNUAL%20REPORT%202024-2025.pdf?alt=media&token=57474e2e-b8fc-4add-8e3d-6762b2cbe82d",
       type: "Annual Report",
@@ -425,7 +431,7 @@ const MediaCentre = () => {
       url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FAnnual%20newsletter%20(4).pdf?alt=media&token=54f9a7c3-5c57-4772-9668-e055ea02572b",
       type: "Newsletter",
     },
-        {
+    {
       id: 5,
       title: "Newsletter",
       url: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/newsletters%2FNewsletter.pdf?alt=media&token=fac117b1-cc84-4161-8094-d2ab833a0678",

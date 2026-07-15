@@ -170,7 +170,7 @@ function SustainabilityPartnershipsPage() {
               Through Green Legacy Parks, Climate-Positive Events, and Green Impact Meetings, Renukiran Welfare Foundation helps organizations move beyond commitments and create real environmental change. Together, we can build greener communities, strengthen climate resilience, and leave a lasting legacy for generations to come.
             </p>
             <a
-              href="/general-donations"
+              href="/donate"
               className="bg-white text-teal-700 px-10 py-4 rounded-full font-bold text-lg hover:bg-teal-50 transition-all duration-300 shadow-xl flex items-center mx-auto"
             >
               Partner With Us <ArrowRight className="w-5 h-5 ml-2" />
