@@ -376,31 +376,7 @@ export function ImpactPartnerHeader({ partner }) {
   );
 }
 
-/**
- * Photo gallery for the activity.
- */
-export function ImpactPartnerGallery({ gallery }) {
-  if (!gallery?.length) return null;
-  return (
-    <div className="ip-gallery">
-      {gallery.map((image, index) => (
-        <figure key={`${image.src}-${index}`} className="ip-gallery__item">
-          <Image
-            src={image.src}
-            alt={image.alt || "Activity photograph"}
-            fill
-            sizes="(min-width: 1024px) 360px, (min-width: 600px) 50vw, 100vw"
-            style={{ objectFit: "cover" }}
-            unoptimized
-          />
-          {image.caption ? (
-            <figcaption className="ip-gallery__caption">{image.caption}</figcaption>
-          ) : null}
-        </figure>
-      ))}
-    </div>
-  );
-}
+export { default as ImpactPartnerGallery } from "./ImpactPartnerGallery";
 
 /**
  * Sidebar with map, impact stats, SDGs and QR.
