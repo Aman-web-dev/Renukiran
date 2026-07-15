@@ -80,73 +80,73 @@ export const impactPartners = [
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0717.JPG?alt=media&token=5ef4ad88-8432-46ee-a311-6fea19a508cc", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0721.JPG?alt=media&token=d3a8b554-b61c-43da-990e-5d6f7f0a96ea", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0757.JPG?alt=media&token=b09b5570-1753-410a-b6d3-8e8c41cd6618", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0762.JPG?alt=media&token=5882fcb5-1058-4256-8b3c-801eb250bfe6", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0770.JPG?alt=media&token=45778530-dadb-4201-9987-b7fc2628e0f4", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0777.JPG?alt=media&token=20c89a72-8037-4967-8b85-6493df54c571", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0802.JPG?alt=media&token=2555cce8-0e63-42a0-897b-7129241c9b0c", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0821.JPG?alt=media&token=47f7a1ad-5223-4593-857b-97ff4a2e4270", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0825.JPG?alt=media&token=62835d30-af33-41a2-8004-e4a5396b230b", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0851.JPG?alt=media&token=2b472f27-0bf1-4d7e-a474-b614d44b88cb", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0852.JPG?alt=media&token=e089a0e1-b329-4880-8f52-35e0d8843753", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
       {
         src: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Fpictures%2FDSC_0876.JPG?alt=media&token=b3620282-bc9d-4f05-9e0c-56e602e1ff3f", // Space left empty as requested
         alt: "Educational murals on school walls",
         caption:
-          "Vibrant artwork created by vivo India volunteers to make learning more engaging for students.",
+          ".",
       },
 
     ],
