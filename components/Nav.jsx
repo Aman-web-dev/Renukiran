@@ -65,7 +65,13 @@ const navRoutes = [
     heading: "Grow Trees With Us",
     href: "/plantation-initiatives",
     disabled: false,
-    subRoutes: [{
+    subRoutes: [
+      {
+        label: "Plantation Partners",
+        href: "/plantation-partners",
+        disabled: false,
+      },
+      {
       label: "Active Sustainability Projects",
       href: "/plantation-initiatives/sustainability-projects",
       disabled: false,
@@ -119,6 +125,11 @@ const navRoutes = [
     {
       label: "Our Impact Partners",
       href: "/impact-partners",
+      disabled: false,
+    },
+    {
+      label: "Plantation Partners",
+      href: "/plantation-partners",
       disabled: false,
     },
     ]

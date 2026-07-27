@@ -157,7 +157,7 @@ const Carousel = () => {
                 alt={slide.alt}
                 className="embla__img"
                 loading={index === 0 ? "eager" : "lazy"}
-                fetchpriority={index === 0 ? "high" : "auto"}
+                fetchPriority={index === 0 ? "high" : "auto"}
               />
 
               {/* Gradient overlays for readable text */}
