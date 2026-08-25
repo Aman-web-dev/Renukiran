@@ -44,12 +44,36 @@ export default function PlantationPartnerGallery({ gallery }) {
 
   if (!gallery?.length) return null;
 
-  const activeImage = activeIndex === null ? null : gallery[activeIndex];
+  // Normalise entries: support both bare URL strings and {src, alt, caption}
+  // objects, and skip non-image URLs (videos, blanks, fragments) so the
+  // <Image> component never receives an unusable src.
+  const items = gallery
+    .map((entry) => {
+      if (!entry) return null;
+      if (typeof entry === "string") {
+        const src = entry.trim();
+        if (!src || /\.(mp4|webm|mov|m4v|avi)(\?|$)/i.test(src)) return null;
+        return { src, alt: "", caption: "", position: "center" };
+      }
+      const src = (entry.src || "").trim();
+      if (!src || /\.(mp4|webm|mov|m4v|avi)(\?|$)/i.test(src)) return null;
+      return {
+        src,
+        alt: entry.alt || "",
+        caption: entry.caption || "",
+        position: entry.position || "center",
+      };
+    })
+    .filter(Boolean);
+
+  if (!items.length) return null;
+
+  const activeImage = activeIndex === null ? null : items[activeIndex];
 
   return (
     <>
       <div className="pp-gallery">
-        {gallery.map((image, index) => (
+        {items.map((image, index) => (
           <button
             type="button"
             key={`${image.src}-${index}`}
@@ -93,7 +117,7 @@ export default function PlantationPartnerGallery({ gallery }) {
             <X size={26} />
           </button>
 
-          {gallery.length > 1 ? (
+          {items.length > 1 ? (
             <>
               <button
                 type="button"
@@ -138,7 +162,7 @@ export default function PlantationPartnerGallery({ gallery }) {
             <figcaption className="pp-lightbox__caption">
               {activeImage.caption ? <span>{activeImage.caption}</span> : null}
               <small>
-                Photograph {activeIndex + 1} of {gallery.length}
+                Photograph {activeIndex + 1} of {items.length}
               </small>
             </figcaption>
           </figure>

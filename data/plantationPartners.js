@@ -23,7 +23,7 @@ export const plantationPartnerTemplate = {
   company: {
     name: "Company name",
     shortName: "Company",
-    logo: "",
+    logo: "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/dot%2Fdot-logo.svg?alt=media&token=30520064-cc33-4f65-9710-bf93c21f5f4f",
     website: "",
     description: [
       "Introduce the company and its sustainability or CSR commitment.",
@@ -90,7 +90,60 @@ export const plantationPartnerTemplate = {
   ],
   // (Optional) top-level "From the field" curated gallery.
   // If empty, the profile renders the year-by-year photos inside the timeline only.
-  gallery: [],
+  gallery: [
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.11.59%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.01%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.02%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.02%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.04%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.06%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.08%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.10%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.12%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.14%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.15%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.17%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.19%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.22%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.24%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.26%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.27%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.27%20PM%20(2).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.27%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.28%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.28%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.29%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.29%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.30%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.31%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.31%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.32%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.33%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.34%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.34%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.35%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.36%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.36%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.37%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.37%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.38%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.39%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.39%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.41%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.42%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.42%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.43%20PM%20(1).webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.43%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.44%20PM.webp",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.33%20PM.mp4",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.38%20PM.mp4",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.40%20PM%20(1).mp4",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.40%20PM.mp4",
+    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.41%20PM.mp4"
+  ]
+  ,
   map: {
     latitude: null,
     longitude: null,
@@ -140,342 +193,323 @@ export const plantationPartnerTemplate = {
 // object inside `timeline`; the same shape is used for every new company.
 export const plantationPartners = [
   {
-    slug: "amazon-india-hyderabad-green-legacy",
-    published: true,
-    featured: true,
-    order: 1,
-    status: "Year 2 · Growing",
-    company: {
-      name: "Amazon India",
-      shortName: "Amazon India",
-      logo: img("WhatsApp%20Image%202026-03-06%20at%2012.45.18.jpeg"),
-      website: "https://www.aboutamazon.in/sustainability",
-      description: [
-        "Amazon India is committed to The Climate Pledge — a path to net-zero carbon by 2040. In India, the company invests in sustainability programmes that include renewable energy, packaging innovation and large-scale tree plantation to sequester carbon and restore green cover around its operations and communities.",
-        "In partnership with Renukiran Welfare Foundation, Amazon India employees are co-creating a living, multi-year green legacy on a dedicated site on the outskirts of Hyderabad. Every year of the project is documented publicly on this page — with new species, new photographs and updated growth metrics — so that anyone can track the legacy as it grows.",
-      ],
+    "slug": "dot-pune-green-legacy",
+    "published": true,
+    "featured": true,
+    "order": 1,
+    "status": "Year 1 · Just Planted",
+    "company": {
+      "name": "DOT Professionals Pvt. Ltd.",
+      "shortName": "DOT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/dot%2Fdot-logo.svg?alt=media&token=30520064-cc33-4f65-9710-bf93c21f5f4f",
+      "website": "https://thedothq.com/",
+      "description": [
+        "DOT Professionals Pvt. Ltd. believes that meaningful change begins with small, purposeful actions. As part of its commitment to sustainability and climate action, DOT has initiated this project to contribute to greener spaces, improved air quality, enhanced biodiversity, and a healthier environment.",
+        "This initiative brings together employees and local community members, turning plantation into an engaging experience of learning, participation, and environmental responsibility. It reflects DOT’s vision of creating lasting impact—planting today for a greener tomorrow."
+      ]
     },
-    drive: {
-      title: "Amazon India × Renukiran Green Legacy, Hyderabad",
-      type: "Multi-year CSR Plantation Drive",
-      model: "Native species + Miyawaki clusters",
-      theme: "Climate Action & Biodiversity",
-      date: "Monsoon 2023 — ongoing",
-      dateISO: "2023-08-12",
-      location: "Mamidipally, Ranga Reddy, Telangana",
-      locations: ["Mamidipally, Hyderabad", "Ranga Reddy District, Telangana"],
-      summary:
-        "A multi-year, geo-tagged green legacy of 6.5 acres on the outskirts of Hyderabad — established with 2,000+ native saplings, expanded with year-round stewardship and audited each monsoon. This page is updated every year with new species, new photographs and the latest growth data.",
-      objective:
-        "Build a resilient, ecologically diverse green space that sequesters carbon, supports biodiversity and provides Amazon employees with a meaningful, recurring engagement opportunity — and to document the journey transparently for stakeholders year after year.",
-      details: [
+    "drive": {
+      "title": "Roots of Change – DOT’s Green Legacy, Pune",
+      "type": "Corporate Plantation Drive",
+      "model": "Diverse native species",
+      "theme": "Climate Action & Community Engagement",
+      "date": "June 2026",
+      "dateISO": "2026-06-20",
+      "location": "Sidhabet, Alandi, Pune, Maharashtra",
+      "locations": ["Alandi, Pune", "Pune, Maharashtra"],
+      "summary": "A 100-tree plantation initiative in Pune transforming an open land parcel into a thriving green space that contributes to biodiversity, carbon sequestration, and climate resilience.",
+      "objective": "To green an open parcel of land, combat climate change through carbon absorption, restore local biodiversity, regenerate soil health, and drive meaningful CSR impact through employee and community engagement.",
+      "details": [
         {
-          title: "Inaugural monsoon drive (2023)",
-          description:
-            "Amazon India employees came together for the first planting day, supported by Renukiran's field team and the local Mamidipally community.",
-          points: [
-            "Site assessment and pit preparation across 6.5 acres",
-            "Planting of 2,000+ native saplings in four zones",
-            "Engagement of 180+ employee volunteers across two batches",
-            "Geo-tagged record of every planting pocket for transparency",
-          ],
+          "title": "Inaugural Plantation (2026)",
+          "description": "DOT Professionals Pvt. Ltd. launched its Green Legacy with the first major planting drive, bringing together employees and partners to establish the initial 100 saplings.",
+          "points": [
+            "Comprehensive site preparation including clearing and pit digging",
+            "Soil enrichment using well-decomposed organic compost",
+            "Planting of 100 native saplings across seven diverse species",
+            "Engagement of 25-30 employee volunteers in the inauguration"
+          ]
         },
         {
-          title: "Year-round stewardship",
-          description:
-            "After the first monsoon, the Renukiran team established a year-round schedule of watering, mulching and protection — the work that turns a single drive into a legacy.",
-          points: [
-            "Drip-line installation across the boundary belt",
-            "Quarterly survival audits with photo evidence",
-            "Local women's self-help group engaged for daily rounds",
-            "Fencing, signage and grazing protection",
-          ],
+          "title": "Stewardship & Care",
+          "description": "Following the initial planting, the project ensures the long-term survival and healthy development of the saplings through dedicated care.",
+          "points": [
+            "Ongoing maintenance including regular watering and weeding",
+            "Strategic distribution of saplings to allow for canopy development",
+            "Creation of a balanced mix of flowering, fruit-bearing, and shade trees",
+            "Focus on establishing strong root systems during the early growth stage"
+          ]
         },
         {
-          title: "Annual public update",
-          description:
-            "Every year we publish new photographs, growth metrics and species updates on this page so stakeholders can see the legacy grow — not just the day it was planted.",
-          points: [
-            "Annual height, girth and survival measurements",
-            "Bloom, fruit and biodiversity observations",
-            "Public access to all records and photographs",
-            "Year-on-year expansion planning",
-          ],
+          "title": "Future Monitoring",
+          "description": "As a 'living journal', this page will be updated annually to track the progress and impact of the plantation.",
+          "points": [
+            "Annual updates on growth metrics and tree health",
+            "New photographs documenting the site's transformation",
+            "Observations on biodiversity and ecological changes",
+            "Transparent record of the project's long-term development"
+          ]
+        }
+      ]
+    },
+    "site": {
+      "name": "Sidhabet, Alandi",
+      "areaAcres": "To be updated",
+      "areaSqM": "To be updated",
+      "address": "Sidhabet, Alandi, Pune, Maharashtra (Refer to GPS for location)",
+      "microclimate": "Semi-urban open land in Pune with a warm tropical climate, distinct summer and monsoon seasons.",
+      "soilHealth": "Improved with comprehensive land preparation, including site clearing, pit digging, soil loosening, weed removal, and the incorporation of well-decomposed organic compost for fertility and moisture retention."
+    },
+    "coverImage": {
+      "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.17%20PM.webp",
+      "alt": "DOT Professionals team and volunteers at the plantation site in Pune",
+      "position": "center"
+    },
+    "map": {
+      "latitude": 18.6765,
+      "longitude": 73.8945,
+      "zoom": 15,
+      "label": "Sidhabet, Alandi, Pune",
+      "embedUrl": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3780.533372526978!2d73.89194277520907!3d18.67649998249509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDQwJzM1LjQiTiA3M8K... (truncated for brevity, use provided goo.gl link to generate)",
+      "earthUrl": "https://earth.google.com/web/search/Sidhabet,+Alandi,+Pune,+Maharashtra",
+      "mapsUrl": "https://maps.app.goo.gl/z5s9pw8R2ZcsE13b6"
+    },
+    "plantation": {
+      "methodology": "A diverse, climate-suitable plantation approach was adopted, selecting species native to the local soil and climatic conditions of Pune. Trees are strategically distributed to allow adequate space for canopy development and sunlight, creating a balanced mix of flowering, fruit-bearing, and shade trees.",
+      "species": [
+        {
+          "name": "Chafa",
+          "role": "Flowering & Canopy Tree"
         },
+        {
+          "name": "Karanj",
+          "role": "Shade & Biodiversity Support"
+        },
+        {
+          "name": "Badam",
+          "role": "Canopy & Shade Tree"
+        },
+        {
+          "name": "Chinch",
+          "role": "Large Canopy & Soil Stabilisation"
+        },
+        {
+          "name": "Jambhul",
+          "role": "Fruit Tree & Wildlife Support"
+        },
+        {
+          "name": "Kanchan",
+          "role": "Flowering & Pollinator Support"
+        },
+        {
+          "name": "Peru",
+          "role": "Fruit Tree & Biodiversity Support"
+        }
       ],
+      "stewardship": "Supported by proper pit preparation, soil conditioning, initial watering, and regular maintenance to help saplings establish strong root systems during their early growth stage.",
+      "monitoring": "The project focuses on creating the right conditions for long-term survival and healthy development, with progress to be tracked via annual updates."
     },
-    site: {
-      name: "Mamidipally Green Legacy Park",
-      areaAcres: 6.5,
-      areaSqM: 26300,
-      address:
-        "Survey No. 184, Mamidipally Village, Ranga Reddy District, Telangana 501401",
-      microclimate:
-        "Semi-arid Deccan plateau; laterite pockets with good drainage. Hot summers, monsoonal July–September.",
-      soilHealth:
-        "Improved with 80 tonnes of organic compost, mulching rounds and bio-fertilizer application; mycorrhizal treatment on new pits.",
-    },
-    coverImage: {
-      src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.18.jpeg"),
-      alt: "Amazon India employees planting native saplings on the inaugural plantation day in Hyderabad",
-      position: "center",
-    },
-    map: {
-      latitude: 17.2312,
-      longitude: 78.3828,
-      zoom: 14,
-      label: "Mamidipally Green Legacy Park, Hyderabad",
-      embedUrl:
-        "https://maps.google.com/maps?q=17.2312,78.3828&t=k&z=14&output=embed",
-      earthUrl: "https://earth.google.com/web/search/Mamidipally,+Telangana",
-      mapsUrl: "https://www.google.com/maps/search/?api=1&query=17.2312%2C78.3828",
-    },
-    plantation: {
-      methodology:
-        "The site is divided into four zones: a native-species belt along the boundary, a central Miyawaki cluster, a fruit-orchard zone and a pollinator-friendly understory layer. Pit preparation, mulching and drip irrigation are standardised across all zones, and every pit is geo-tagged at planting for future audits.",
-      species: [
-        { name: "Neem (Azadirachta indica)", role: "Boundary belt" },
-        { name: "Peepal (Ficus religiosa)", role: "Sacred canopy" },
-        { name: "Banyan (Ficus benghalensis)", role: "Landmark canopy" },
-        { name: "Teak (Tectona grandis)", role: "Timber belt" },
-        { name: "Mango (Mangifera indica)", role: "Fruit orchard" },
-        { name: "Amla (Phyllanthus emblica)", role: "Fruit orchard" },
-        { name: "Gulmohar (Delonix regia)", role: "Pollinator support" },
-        { name: "Mahua (Madhuca longifolia)", role: "Pollinator belt" },
-        { name: "Bamboo (Bambusoideae)", role: "Soil binding" },
-        { name: "Sissoo (Dalbergia sissoo)", role: "Windbreak" },
-        { name: "Kadamb (Neolamarckia cadamba)", role: "Canopy gap-filler" },
-      ],
-      stewardship:
-        "A year-round schedule of watering, mulching, weeding, de-suckering and pest monitoring is maintained by Renukiran's field team in partnership with a local women's self-help group. Fencing and signage protect the site from grazing. Replacement saplings are kept ready for the gap-filling drive every monsoon.",
-      monitoring:
-        "All zones are geo-tagged at pit level. Quarterly audits record survival, height, girth, bloom and biodiversity observations. Every audit is photographed and the records are published on this page so the project's progress is independently verifiable.",
-    },
-    timeline: [
+    "timeline": [
       {
-        year: 2023,
-        phase: "Inauguration",
-        title: "2,000+ native saplings planted by 180+ Amazon volunteers",
-        summary:
-          "The first Amazon India × Renukiran plantation day took place during the 2023 monsoon. Volunteers planted a mixed native-species belt and a central Miyawaki cluster, with every pit geo-tagged for future audits.",
-        date: "12 August 2023",
-        status: "Planted",
-        species: [
-          { name: "Neem (Azadirachta indica)", quantity: 600, role: "Boundary belt" },
-          { name: "Teak (Tectona grandis)", quantity: 350, role: "Timber belt" },
-          { name: "Mango (Mangifera indica)", quantity: 250, role: "Fruit orchard" },
-          { name: "Amla (Phyllanthus emblica)", quantity: 200, role: "Fruit orchard" },
-          { name: "Peepal (Ficus religiosa)", quantity: 200, role: "Sacred canopy" },
-          { name: "Gulmohar (Delonix regia)", quantity: 150, role: "Pollinator support" },
-          { name: "Banyan (Ficus benghalensis)", quantity: 100, role: "Landmark canopy" },
-          { name: "Mahua (Madhuca longifolia)", quantity: 100, role: "Pollinator belt" },
-          { name: "Bamboo (Bambusoideae)", quantity: 50, role: "Soil binding" },
+        "year": 2026,
+        "phase": "Inauguration",
+        "title": "Inaugural Plantation Drive: 100 Saplings Planted",
+        "summary": "The plantation drive began with an introduction to the cause, followed by an explanation of proper planting and nurturing techniques. The event was marked by the enthusiasm and cheerful spirit of the volunteers, fostering a genuine sense of ownership and collective environmental responsibility.",
+        "date": "20th June 2026",
+        "status": "Planted",
+        "species": [
+          {
+            "name": "Chafa",
+            "quantity": 40,
+            "role": "Flowering & Canopy Tree"
+          },
+          {
+            "name": "Karanj",
+            "quantity": 10,
+            "role": "Shade & Biodiversity Support"
+          },
+          {
+            "name": "Badam",
+            "quantity": 10,
+            "role": "Canopy & Shade Tree"
+          },
+          {
+            "name": "Chinch",
+            "quantity": 10,
+            "role": "Large Canopy & Soil Stabilisation"
+          },
+          {
+            "name": "Jambhul",
+            "quantity": 10,
+            "role": "Fruit Tree & Wildlife Support"
+          },
+          {
+            "name": "Kanchan",
+            "quantity": 10,
+            "role": "Flowering & Pollinator Support"
+          },
+          {
+            "name": "Peru",
+            "quantity": 10,
+            "role": "Fruit Tree & Biodiversity Support"
+          }
         ],
-        totalTreesPlantedThisYear: 2000,
-        totalVolunteersThisYear: 180,
-        photos: [
+        "totalTreesPlantedThisYear": 100,
+        "totalVolunteersThisYear": "25 - 30",
+        "photos": [
           {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.20.jpeg"),
-            alt: "Amazon India volunteers at the briefing tent, August 2023",
-            caption: "Welcome tent and briefing on planting day",
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM.webp",
+            "alt": "Volunteers gathering for the introduction and briefing",
+            "caption": "Briefing session before the plantation begins"
           },
           {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.22.jpeg"),
-            alt: "Amazon team planting a Neem sapling together",
-            caption: "Planting the first Neem saplings of the day",
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.04%20PM.webp",
+            "alt": "Team members digging pits and preparing the soil",
+            "caption": "Site preparation and pit digging in progress"
           },
           {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.24.jpeg"),
-            alt: "Miyawaki cluster being prepared by the field team",
-            caption: "Preparing the central Miyawaki cluster",
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.10%20PM.webp",
+            "alt": "Volunteers carefully planting a sapling together",
+            "caption": "Volunteers planting a sapling with care"
           },
           {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.23.jpeg"),
-            alt: "Group photo with the inaugural batch of Amazon volunteers",
-            caption: "Group photo with the inaugural batch of volunteers",
-          },
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.27%20PM.webp",
+            "alt": "Group photo of the enthusiastic DOT team and volunteers",
+            "caption": "Group photo of the successful inauguration team"
+          }
         ],
-        metrics: {
-          areaCovered: "6.5 acres",
-          totalSpecies: 9,
-          totalVolunteers: 180,
-          geoTaggedPits: 2050,
-          zonesCreated: 4,
+        "metrics": {
+          "areaCovered": "To be updated",
+          "totalSpecies": 7,
+          "totalVolunteers": "25 - 30",
+          "geoTaggedPits": "To be updated",
+          "zonesCreated": "Mixed Green Landscape"
         },
-        note: "Planting was completed across two consecutive weekends to manage volunteer batches safely.",
-      },
-      {
-        year: 2024,
-        phase: "Survival audit & gap-filling",
-        title: "Year-1 survival audit and gap-filling drive",
-        summary:
-          "The first survival audit confirmed a 92% sapling survival rate across the site. The Renukiran field team led a gap-filling round in late 2024, replacing lost saplings and adding a fresh pollinator-support belt.",
-        date: "August 2024",
-        status: "Growing",
-        species: [
-          { name: "Sissoo (Dalbergia sissoo)", quantity: 60, role: "Windbreak extension" },
-          { name: "Neem (Azadirachta indica)", quantity: 50, role: "Boundary gap-filling" },
-          { name: "Mahua (Madhuca longifolia)", quantity: 40, role: "Pollinator belt" },
-          { name: "Peepal (Ficus religiosa)", quantity: 30, role: "Sacred canopy gap-filling" },
-        ],
-        totalTreesPlantedThisYear: 180,
-        totalVolunteersThisYear: 60,
-        photos: [
-          {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.21.jpeg"),
-            alt: "Field team conducting the Year-1 survival audit",
-            caption: "Survival audit walk with the field team",
-          },
-          {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.25.jpeg"),
-            alt: "Gap-filling drive in progress, 2024",
-            caption: "Gap-filling drive — replacing lost saplings",
-          },
-          {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.27.jpeg"),
-            alt: "First monsoon growth comparison, 2024",
-            caption: "First monsoon growth comparison",
-          },
-          {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.19.jpeg"),
-            alt: "New pollinator-support belt, 2024",
-            caption: "New pollinator-support belt added this year",
-          },
-        ],
-        metrics: {
-          survivalRate: "92%",
-          treesAlive: 1840,
-          averageHeight: "1.4 m",
-          heightGain: "+1.1 m since planting",
-          newPits: 180,
-          carbonSequesteredEstimateKg: "≈ 4,200 kg / yr",
-        },
-        note: "Boundary drip-line commissioned; community women's self-help group engaged for daily watering rounds.",
-      },
-      {
-        year: 2025,
-        phase: "Year-2 growth assessment",
-        title: "Year-2 growth: canopy closure, first flowers, biodiversity returns",
-        summary:
-          "By the second monsoon, the boundary belt has formed a continuous canopy. Mango and Amla have produced their first flowers; bird and pollinator counts have doubled. Year-3 planning is underway with a community-forest expansion of 2 acres.",
-        date: "September 2025",
-        status: "Growing",
-        species: [
-          { name: "Kadamb (Neolamarckia cadamba)", quantity: 80, role: "Canopy gap-filler" },
-        ],
-        totalTreesPlantedThisYear: 80,
-        totalVolunteersThisYear: 40,
-        photos: [
-          {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.31.jpeg"),
-            alt: "Year-2 canopy closure along the boundary belt",
-            caption: "Year-2 canopy closure along the boundary",
-          },
-          {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.30.jpeg"),
-            alt: "Mango first flowering, 2025",
-            caption: "First flowering on the mango trees",
-          },
-          {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.32.jpeg"),
-            alt: "Biodiversity returning to the site, 2025",
-            caption: "Biodiversity returning to the site",
-          },
-          {
-            src: img("WhatsApp%20Image%202026-03-06%20at%2016.15.19.jpeg"),
-            alt: "Adjacent pond restored for groundwater recharge",
-            caption: "Adjacent pond restored for groundwater recharge",
-          },
-        ],
-        metrics: {
-          survivalRate: "88%",
-          treesAlive: 1919,
-          averageHeight: "2.6 m",
-          heightGain: "+1.2 m in year 2",
-          canopyCover: "≈ 4.2 acres",
-          biodiversityIndex: "2.1× the baseline",
-          carbonSequesteredEstimateKg: "≈ 8,800 kg / yr (cumulative)",
-        },
-        note: "Year-3 expansion plan: +2 acres community forest, +500 mixed-species saplings, pollinator hotel.",
-      },
+        "note": "The event concluded with the presentation of a certificate to DOT Professionals Pvt. Ltd. in recognition of their contribution."
+      }
     ],
-    gallery: [
-      {
-        src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.18.jpeg"),
-        alt: "Aerial view of the Green Legacy Park during the planting day",
-        caption: "The park on planting day",
-      },
-      {
-        src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.26.jpeg"),
-        alt: "Field team on a documentation walk",
-        caption: "Field team on a documentation walk",
-      },
-      {
-        src: img("WhatsApp%20Image%202026-03-06%20at%2012.45.28.jpeg"),
-        alt: "Pollinator garden, 2024",
-        caption: "Pollinator garden — Year 1",
-      },
-      {
-        src: img("WhatsApp%20Image%202026-03-06%20at%2016.21.50.jpeg"),
-        alt: "Community cleaning drive around the site",
-        caption: "Community cleaning drive around the site",
-      },
+    "gallery": [
+
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.11.59%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.01%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.02%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.02%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.04%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.06%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.08%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.10%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.12%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.14%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.15%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.17%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.19%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.22%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.24%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.26%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.27%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.27%20PM%20(2).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.27%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.28%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.28%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.29%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.29%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.30%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.31%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.31%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.32%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.33%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.34%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.34%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.35%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.36%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.36%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.37%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.37%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.38%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.39%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.39%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.41%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.42%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.42%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.43%20PM%20(1).webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.43%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.44%20PM.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.33%20PM.mp4",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.38%20PM.mp4",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.40%20PM%20(1).mp4",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.40%20PM.mp4",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.41%20PM.mp4"
     ],
-    impact: {
-      heading: "A growing green legacy — tracked year after year",
-      paragraphs: [
-        "The Amazon India × Renukiran plantation has grown from a single monsoon day into a year-on-year living legacy. We measure success not just in trees planted, but in trees that survive, grow, flower and become habitat.",
-        "Every annual update on this page is a public commitment: transparent species counts, geo-tagged records, growth measurements and field photographs. Future years will continue to add new species, expand the park and invite more employees to participate.",
+    "impact": {
+      "heading": "A New Green Legacy Takes Root in Pune",
+      "paragraphs": [
+        "The plantation of 100 trees by DOT Professionals Pvt. Ltd. is designed to create measurable environmental value by increasing green cover, supporting biodiversity, improving the ecological condition of the land, and contributing to long-term climate resilience.",
+        "This initiative converts DOT’s CSR commitment into a tangible, nature-based intervention with long-term value, establishing a living green asset that will continue generating environmental benefits as the trees mature."
       ],
-      metrics: {
-        treesPlanted: 2180,
-        treesAlive: 1919,
-        areaSqM: 26300,
-        areaAcres: 6.5,
-        volunteers: 280,
-        yearsActive: 2,
-        speciesPlanted: 11,
+      "metrics": {
+        "treesPlanted": 100,
+        "treesAlive": 100,
+        "areaSqM": "To be updated",
+        "areaAcres": "To be updated",
+        "volunteers": "25 - 30",
+        "yearsActive": 1,
+        "speciesPlanted": 7
       },
-      stats: [
-        { value: "2,180", label: "Saplings planted to date" },
-        { value: "1,919", label: "Trees alive today" },
-        { value: "6.5 acres", label: "Area under restoration" },
-        { value: "11", label: "Native species planted" },
-        { value: "280+", label: "Employee volunteers" },
-        { value: "2 yrs", label: "Stewardship ongoing" },
+      "stats": [
+        {
+          "value": "100",
+          "label": "Saplings planted"
+        },
+        {
+          "value": "7",
+          "label": "Native species"
+        },
+        {
+          "value": "25-30",
+          "label": "Employee volunteers"
+        },
+        {
+          "value": "1",
+          "label": "Year stewardship"
+        }
       ],
-      sdgs: [
-        { number: "13", label: "Climate Action" },
-        { number: "15", label: "Life on Land" },
-        { number: "06", label: "Clean Water & Sanitation" },
-        { number: "11", label: "Sustainable Cities and Communities" },
-        { number: "17", label: "Partnerships for the Goals" },
-      ],
+      "sdgs": [
+        {
+          "number": "13",
+          "label": "Climate Action"
+        },
+        {
+          "number": "15",
+          "label": "Life on Land"
+        },
+        {
+          "number": "11",
+          "label": "Sustainable Cities and Communities"
+        },
+        {
+          "number": "03",
+          "label": "Good Health and Well-Being"
+        },
+        {
+          "number": "12",
+          "label": "Responsible Consumption and Production"
+        }
+      ]
     },
-    conclusion:
-      "Two monsoons in, the Mamidipally Green Legacy Park is already a recognisable, thriving green space — and a model for how a single corporate plantation day can become a multi-year, multi-species, multi-stakeholder climate-action programme. Year-3 planning is already underway with a 2-acre community-forest expansion.",
-    thankingNote:
-      "Renukiran Welfare Foundation thanks Amazon India for backing a multi-year stewardship commitment, the 280+ employee volunteers who showed up rain or shine, the Mamidipally community and the local women's self-help group who protect the site, and the Renukiran field team for the rigorous, year-on-year documentation that keeps this legacy honest.",
-    specialMentions: [
+    "conclusion": "The successful inauguration of the Sidhabet Green Legacy Park marks the beginning of a multi-year journey. With the right conditions established for long-term survival, this initiative reflects responsible corporate environmental stewardship and a commitment to a greener future for Pune.",
+    "thankingNote": "We extend our sincere appreciation to the DOT Professionals Pvt. Ltd. team, including Mr. Kehul Patel (Founder & Director), Mr. Manoj Kadam (Operations Director), Mr. Raam (Technical Advisor), and Mr. Shashi Gajiwala (HR Manager), for their valuable support and active involvement. Special thanks to Ms. Vancy Fernandes for her coordination and efforts in contributing to the successful execution of the initiative.",
+    "specialMentions": [
       {
-        name: "Amazon India CSR & Sustainability Team",
-        role: "Programme partner",
-        note: "For funding, multi-year commitment and mobilising employees across two batches.",
-        url: "https://www.aboutamazon.in/sustainability",
-        linkLabel: "Amazon India sustainability",
-      },
-      {
-        name: "Renukiran Field Team — Hyderabad",
-        role: "On-ground implementation",
-        note: "For year-round stewardship, quarterly audits and the data that powers this page.",
-      },
-      {
-        name: "Mamidipally Community & Women's Self-Help Group",
-        role: "Local stewardship partners",
-        note: "For daily protection, watering rounds and biodiversity observations.",
-      },
-    ],
-  },
+        "name": "DOT Professionals Pvt. Ltd. Team",
+        "role": "Corporate Partner",
+        "note": "For their leadership, commitment, and active participation in making the plantation initiative a success.",
+        "url": "https://thedothq.com/",
+        "linkLabel": "DOT Website"
+      }
+    ]
+  }
 ];
 
 export function getPublishedPlantationPartners() {
@@ -505,10 +539,10 @@ export function getPlantationPartnerSummaries() {
     yearsActive: partner.timeline?.length || 0,
     site: partner.site
       ? {
-          name: partner.site.name,
-          areaAcres: partner.site.areaAcres,
-          areaSqM: partner.site.areaSqM,
-        }
+        name: partner.site.name,
+        areaAcres: partner.site.areaAcres,
+        areaSqM: partner.site.areaSqM,
+      }
       : null,
     stats: (partner.impact?.stats || []).slice(0, 2),
   }));

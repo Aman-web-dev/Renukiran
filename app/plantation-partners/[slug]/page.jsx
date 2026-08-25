@@ -214,6 +214,19 @@ export default function PlantationPartnerProfilePage({ params }) {
             </section>
           ) : null}
 
+          {partner.gallery?.length ? (
+            <section className="pp-profile-section">
+              <h2>From the field</h2>
+              <p>
+                A curated gallery of moments captured during the plantation
+                drive — from the first saplings going into the soil to the
+                celebrations and conversations that brought the team together.
+                Click any photograph to open the full image.
+              </p>
+              <PlantationPartnerGallery gallery={partner.gallery} />
+            </section>
+          ) : null}
+
           {partner.plantation ? (
             <section className="pp-profile-section">
               <h2>Designing the plantation</h2>
