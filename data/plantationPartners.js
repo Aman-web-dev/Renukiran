@@ -58,7 +58,7 @@ export const plantationPartnerTemplate = {
     soilHealth: "Brief description of soil treatment / preparation",
   },
   coverImage: {
-    src: "",
+    src: "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.12%20PM.webp",
     alt: "",
     position: "center",
   },
@@ -78,7 +78,7 @@ export const plantationPartnerTemplate = {
       totalTreesPlantedThisYear: 600,
       totalVolunteersThisYear: 50,
       photos: [
-        { src: "", alt: "", caption: "" },
+        { src: "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.12%20PM.webp", alt: "", caption: "" },
       ],
       metrics: {
         areaCovered: "0 acres",
@@ -95,7 +95,6 @@ export const plantationPartnerTemplate = {
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM%20(1).webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.01%20PM.webp",
-    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.02%20PM%20(1).webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.02%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.04%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.06%20PM.webp",
@@ -104,7 +103,6 @@ export const plantationPartnerTemplate = {
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.12%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.14%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.15%20PM.webp",
-    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.17%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.19%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.22%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.24%20PM.webp",
@@ -131,7 +129,6 @@ export const plantationPartnerTemplate = {
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.38%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.39%20PM%20(1).webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.39%20PM.webp",
-    "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.41%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.42%20PM%20(1).webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.42%20PM.webp",
     "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.43%20PM%20(1).webp",
@@ -215,7 +212,7 @@ export const plantationPartners = [
       "theme": "Climate Action & Community Engagement",
       "date": "June 2026",
       "dateISO": "2026-06-20",
-      "location": "Sidhabet, Alandi, Pune, Maharashtra",
+      "location": "https://maps.app.goo.gl/szYPKwCVkcnyy5gw6",
       "locations": ["Alandi, Pune", "Pune, Maharashtra"],
       "summary": "A 100-tree plantation initiative in Pune transforming an open land parcel into a thriving green space that contributes to biodiversity, carbon sequestration, and climate resilience.",
       "objective": "To green an open parcel of land, combat climate change through carbon absorption, restore local biodiversity, regenerate soil health, and drive meaningful CSR impact through employee and community engagement.",
@@ -261,7 +258,7 @@ export const plantationPartners = [
       "soilHealth": "Improved with comprehensive land preparation, including site clearing, pit digging, soil loosening, weed removal, and the incorporation of well-decomposed organic compost for fertility and moisture retention."
     },
     "coverImage": {
-      "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.17%20PM.webp",
+      "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.12%20PM.webp",
       "alt": "DOT Professionals team and volunteers at the plantation site in Pune",
       "position": "center"
     },
@@ -271,7 +268,7 @@ export const plantationPartners = [
       "zoom": 15,
       "label": "Sidhabet, Alandi, Pune",
       "embedUrl": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3780.533372526978!2d73.89194277520907!3d18.67649998249509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDQwJzM1LjQiTiA3M8K... (truncated for brevity, use provided goo.gl link to generate)",
-      "earthUrl": "https://earth.google.com/web/search/Sidhabet,+Alandi,+Pune,+Maharashtra",
+      "earthUrl": "https://earth.google.com/earth/d/1iXlypuUqR7246mGCqTcfO3WxRn_smq8d?usp=sharing",
       "mapsUrl": "https://maps.app.goo.gl/z5s9pw8R2ZcsE13b6"
     },
     "plantation": {
@@ -358,22 +355,22 @@ export const plantationPartners = [
         "totalVolunteersThisYear": "25 - 30",
         "photos": [
           {
-            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM.webp",
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.14%20PM.webp",
             "alt": "Volunteers gathering for the introduction and briefing",
             "caption": "Briefing session before the plantation begins"
           },
           {
-            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.04%20PM.webp",
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.06%20PM.webp",
             "alt": "Team members digging pits and preparing the soil",
             "caption": "Site preparation and pit digging in progress"
           },
           {
-            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.10%20PM.webp",
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.22%20PM.webp",
             "alt": "Volunteers carefully planting a sapling together",
             "caption": "Volunteers planting a sapling with care"
           },
           {
-            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.27%20PM.webp",
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.42%20PM.webp",
             "alt": "Group photo of the enthusiastic DOT team and volunteers",
             "caption": "Group photo of the successful inauguration team"
           }
@@ -382,16 +379,13 @@ export const plantationPartners = [
           "areaCovered": "To be updated",
           "totalSpecies": 7,
           "totalVolunteers": "25 - 30",
-          "geoTaggedPits": "To be updated",
+          "geoTaggedPits": "100",
           "zonesCreated": "Mixed Green Landscape"
         },
         "note": "The event concluded with the presentation of a certificate to DOT Professionals Pvt. Ltd. in recognition of their contribution."
       }
     ],
     "gallery": [
-
-      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.11.59%20PM.webp",
-      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM%20(1).webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.00%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.01%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.02%20PM%20(1).webp",
@@ -399,11 +393,9 @@ export const plantationPartners = [
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.04%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.06%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.08%20PM.webp",
-      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.10%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.12%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.14%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.15%20PM.webp",
-      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.17%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.19%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.22%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.24%20PM.webp",
@@ -426,14 +418,12 @@ export const plantationPartners = [
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.36%20PM%20(1).webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.36%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.37%20PM%20(1).webp",
-      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.37%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.38%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.39%20PM%20(1).webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.39%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.41%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.42%20PM%20(1).webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.42%20PM.webp",
-      "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.43%20PM%20(1).webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.43%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Image%202026-08-25%20at%2012.12.44%20PM.webp",
       "https://storage.googleapis.com/renukiran-a6410.appspot.com/dot/WhatsApp%20Video%202026-08-25%20at%2012.12.33%20PM.mp4",
