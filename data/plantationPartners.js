@@ -267,7 +267,7 @@ export const plantationPartners = [
       "longitude": 73.8945,
       "zoom": 15,
       "label": "Sidhabet, Alandi, Pune",
-      "embedUrl": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3780.533372526978!2d73.89194277520907!3d18.67649998249509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDQwJzM1LjQiTiA3M8K... (truncated for brevity, use provided goo.gl link to generate)",
+      "embedUrl": "https://maps.google.com/maps?q=18.6765,73.8945&t=k&z=15&output=embed",
       "earthUrl": "https://earth.google.com/earth/d/1iXlypuUqR7246mGCqTcfO3WxRn_smq8d?usp=sharing",
       "mapsUrl": "https://maps.app.goo.gl/z5s9pw8R2ZcsE13b6"
     },
@@ -376,7 +376,7 @@ export const plantationPartners = [
           }
         ],
         "metrics": {
-          "areaCovered": "To be updated",
+          "areaCovered": "0.70 Acres",
           "totalSpecies": 7,
           "totalVolunteers": "25 - 30",
           "geoTaggedPits": "100",
