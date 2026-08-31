@@ -251,8 +251,8 @@ export const plantationPartners = [
     },
     "site": {
       "name": "Sidhabet, Alandi",
-      "areaAcres": "To be updated",
-      "areaSqM": "To be updated",
+      "areaAcres": "0.40 Acres",
+      "areaSqM": "1618.743 Sq. M",
       "address": "Sidhabet, Alandi, Pune, Maharashtra (Refer to GPS for location)",
       "microclimate": "Semi-urban open land in Pune with a warm tropical climate, distinct summer and monsoon seasons.",
       "soilHealth": "Improved with comprehensive land preparation, including site clearing, pit digging, soil loosening, weed removal, and the incorporation of well-decomposed organic compost for fertility and moisture retention."
@@ -376,7 +376,7 @@ export const plantationPartners = [
           }
         ],
         "metrics": {
-          "areaCovered": "0.70 Acres",
+          "areaCovered": "0.40 Acres",
           "totalSpecies": 7,
           "totalVolunteers": "25 - 30",
           "geoTaggedPits": "100",
@@ -441,8 +441,8 @@ export const plantationPartners = [
       "metrics": {
         "treesPlanted": 100,
         "treesAlive": 100,
-        "areaSqM": "To be updated",
-        "areaAcres": "To be updated",
+        "areaSqM": "1618.743 Sq. M",
+        "areaAcres": "0.40 Acres",
         "volunteers": "25 - 30",
         "yearsActive": 1,
         "speciesPlanted": 7
