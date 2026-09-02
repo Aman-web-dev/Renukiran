@@ -489,7 +489,7 @@ export const plantationPartners = [
       ]
     },
     "conclusion": "The successful inauguration of the Sidhabet Green Legacy Park marks the beginning of a multi-year journey. With the right conditions established for long-term survival, this initiative reflects responsible corporate environmental stewardship and a commitment to a greener future for Pune.",
-    "thankingNote": "We extend our sincere appreciation to the DOT Professionals Pvt. Ltd. team, including Mr. Kehul Patel (Founder & Director), Mr. Manoj Kadam (Operations Director), Mr. Raam (Technical Advisor), and Mr. Shashi Gajiwala (HR Manager), for their valuable support and active involvement. Special thanks to Ms. Vancy Fernandes for her coordination and efforts in contributing to the successful execution of the initiative.",
+    "thankingNote": "We extend our sincere appreciation to the DOT Professionals Pvt. Ltd. team, including Mr. Kehul Patel (Founder & Director), Mr. Manoj Kadam (Operations Director), Mr. Raam (Technical Advisor), and Mrs. Shashi Gajiwala (HR Manager), for their valuable support and active involvement. Special thanks to Ms. Vancy Fernandes for her coordination and efforts in contributing to the successful execution of the initiative.",
     "specialMentions": [
       {
         "name": "DOT Professionals Pvt. Ltd. Team",
