@@ -1977,11 +1977,11 @@ export const impactPartners = [
           "label": "School Transformed"
         },
         {
-          "value": "[Insert Number]",
+          "value": "20",
           "label": "Employee Volunteers Engaged"
         },
         {
-          "value": "[Insert Number]",
+          "value": "8",
           "label": "School Spaces Enhanced"
         },
         {
