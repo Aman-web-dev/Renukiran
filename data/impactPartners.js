@@ -1524,7 +1524,7 @@ export const impactPartners = [
     "client": {
       "name": "vivo",
       "shortName": "vivo",
-      "logo": "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_impact%2Flogo%2FVivo-Logo.png?alt=media&token=placeholder-uuid",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/vivo_mural_impact%2Flogo%2FVivo-Logo.png?alt=media&token=7fdaad06-edbc-4e2e-8a97-31bfeceaea20",
       "website": "https://www.vivo.com/in/",
       "description": [
         "vivo partnered with Renukiran Welfare Foundation to strengthen learning opportunities for children through the creation of a dedicated library space at a government school in Sushant Lok, Gurgaon.",
