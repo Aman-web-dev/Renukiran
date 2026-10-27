@@ -16,7 +16,7 @@ const tickerItems = [
     id: "plantation",
     icon: TreePine,
     text: "Mega Plantation Drive · August 15, 2026 · Register your spot",
-    href: "/plantation-initiatives",
+    href: "/plantation-ambitions",
   },
   {
     id: "donate",

@@ -21,6 +21,7 @@ import {
   PlantationPartnersCta,
   computePlantationPartnerTotals,
 } from "@/components/PlantationPartners";
+import MemberDirectory from "@/components/MemberDirectory";
 import {
   getPlantationPartnerBySlug,
   getPublishedPlantationPartners,
@@ -45,7 +46,7 @@ export function generateMetadata({ params }) {
     };
   }
 
-  const path = `/plantation-partners/${partner.slug}`;
+  const path = `/plantation-initiatives/${partner.slug}`;
   const url = `${SITE_URL}${path}`;
   const years = partner.timeline?.length
     ? `${partner.timeline.length}-year documented legacy`
@@ -131,7 +132,7 @@ export default function PlantationPartnerProfilePage({ params }) {
     about: { "@type": "Organization", name: partner.company.name },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE_URL}/plantation-partners/${partner.slug}`,
+      "@id": `${SITE_URL}/plantation-initiatives/${partner.slug}`,
     },
     keywords: [
       partner.company.name,
@@ -146,7 +147,7 @@ export default function PlantationPartnerProfilePage({ params }) {
   };
 
   return (
-    <main className="plantation-partners-page">
+    <main className="plantation-initiatives-page">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
@@ -224,6 +225,19 @@ export default function PlantationPartnerProfilePage({ params }) {
                 Click any photograph to open the full image.
               </p>
               <PlantationPartnerGallery gallery={partner.gallery} />
+            </section>
+          ) : null}
+
+          {partner.members?.listKey ? (
+            <section className="pp-profile-section">
+              <MemberDirectory
+                listKey={partner.members.listKey}
+                title={partner.members.title}
+                intro={partner.members.intro}
+                accent={partner.members.accent}
+                companyName={partner.company.name}
+                activityTitle={partner.drive.title}
+              />
             </section>
           ) : null}
 
@@ -331,7 +345,7 @@ export default function PlantationPartnerProfilePage({ params }) {
                 <span className="pp-eyebrow">More plantation partners</span>
                 <h2>Continue exploring green corporate legacies</h2>
               </div>
-              <Link href="/plantation-partners" className="pp-button pp-button--solid">
+              <Link href="/plantation-initiatives" className="pp-button pp-button--solid">
                 See all projects <ArrowRight size={16} />
               </Link>
             </div>
@@ -339,7 +353,7 @@ export default function PlantationPartnerProfilePage({ params }) {
               {otherPartners.map((p) => (
                 <Link
                   key={p.slug}
-                  href={`/plantation-partners/${p.slug}`}
+                  href={`/plantation-initiatives/${p.slug}`}
                   className="pp-card"
                 >
                   <div className="pp-card__cover">
@@ -408,7 +422,7 @@ export default function PlantationPartnerProfilePage({ params }) {
                 <span className="pp-eyebrow">Plantation network</span>
                 <h2>Help us grow this gallery of green stories</h2>
               </div>
-              <Link href="/plantation-partners" className="pp-button pp-button--solid">
+              <Link href="/plantation-initiatives" className="pp-button pp-button--solid">
                 Back to all projects <ArrowRight size={16} />
               </Link>
             </div>

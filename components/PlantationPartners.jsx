@@ -131,7 +131,7 @@ export function PlantationPartnersHero({
 export function PlantationPartnerCard({ partner }) {
   return (
     <Link
-      href={`/plantation-partners/${partner.slug}`}
+      href={`/plantation-initiatives/${partner.slug}`}
       className="pp-card"
       aria-label={`Read ${partner.companyName}'s plantation story`}
     >
@@ -301,7 +301,7 @@ export function PlantationPartnersCta() {
           Start a conversation <ArrowRight size={17} />
         </Link>
         <Link
-          href="/plantation-initiatives/sustainability-partnerships"
+          href="/plantation-ambitions/sustainability-partnerships"
           className="pp-button pp-button--ghost"
         >
           Explore ESG partnerships <ArrowUpRight size={17} />
@@ -318,10 +318,10 @@ export function PlantationPartnerHeader({ partner }) {
         <div className="pp-profile-hero__content">
           <nav className="pp-breadcrumbs" aria-label="Breadcrumb">
             <Link href="/">Home</Link><span>/</span>
-            <Link href="/plantation-partners">Plantation Partners</Link><span>/</span>
+            <Link href="/plantation-initiatives">Plantation Partners</Link><span>/</span>
             <span aria-current="page">{partner.company.name}</span>
           </nav>
-          <Link href="/plantation-partners" className="pp-back">← All plantation partners</Link>
+          <Link href="/plantation-initiatives" className="pp-back">← All plantation partners</Link>
 
           <div className="pp-profile-hero__identity">
             <div className="pp-logo pp-logo--hero" aria-hidden="true">
@@ -546,7 +546,7 @@ export function PlantationPartnerSidebar({ partner }) {
           This living page can be linked in CSR reports, shared with employees
           and used in QR communications as progress is documented.
         </p>
-        <code>/plantation-partners/{partner.slug}</code>
+        <code>/plantation-initiatives/{partner.slug}</code>
       </section>
     </aside>
   );

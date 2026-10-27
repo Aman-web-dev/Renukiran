@@ -499,6 +499,248 @@ export const plantationPartners = [
         "linkLabel": "DOT Website"
       }
     ]
+  },
+  {
+    "slug": "koshiqa",
+    "published": true,
+    "featured": true,
+    "order": 3,
+    "status": "Year 1 · Just Planted",
+    "company": {
+      "name": "Koshiqa",
+      "shortName": "Koshiqa",
+      "logo": "https://www.koshiqa.com/assets/KoshiqaLogoNavbar.62ba543d.svg",
+      "website": "#",
+      "description": [
+        "Koshiqa partnered with Renukiran Welfare Foundation to support environmental sustainability through a community-focused tree plantation initiative.",
+        "The collaboration reflects a shared commitment to creating greener communities, strengthening local ecosystems, and encouraging collective action towards a more sustainable future. Through this initiative, Koshiqa contributed to a meaningful on-ground environmental intervention while creating an opportunity for employees and community members to participate in climate action."
+      ]
+    },
+    "drive": {
+      "title": "Tree Plantation & Green Cover Restoration",
+      "type": "Corporate Plantation Drive",
+      "model": "Native & climate-resilient species",
+      "theme": "Environment & Climate Action",
+      "date": "10 May, 2026",
+      "dateISO": "2026-05-10",
+      "location": "https://maps.google.com/maps?q=Ram+Singh+Pura+Vatika,+Jaipur",
+      "locations": [
+        "Ram Singh Pura Vatika, Jaipur",
+        "Jaipur, Rajasthan"
+      ],
+      "summary": "A hands-on plantation initiative where Koshiqa employees and volunteers came together with Renukiran Welfare Foundation to plant and nurture trees, contributing to increased green cover and a healthier local environment.",
+      "objective": "To contribute to environmental restoration by increasing green cover, promoting responsible environmental practices, and encouraging individuals and communities to take an active role in protecting nature.",
+      "details": [
+        {
+          "title": "Tree Plantation Drive (2026)",
+          "description": "Volunteers participated in the plantation of saplings across the identified location, helping create a greener and healthier environment.",
+          "points": [
+            "Planted 8,080 saplings across the identified site",
+            "Selected plantation areas based on local environmental requirements",
+            "Encouraged responsible planting techniques and post-care of saplings",
+            "Contributed to long-term green cover creation within the community"
+          ]
+        },
+        {
+          "title": "Employee Volunteering & Collaboration",
+          "description": "The initiative provided Koshiqa employees with an opportunity to step beyond the workplace and participate directly in an environmental cause.",
+          "points": [
+            "Employees and community members worked collaboratively during the drive",
+            "Strengthened team synergy and purpose through a shared ecological goal",
+            "Delivered meaningful corporate engagement via hands-on environmental stewardship",
+            "Reinforced both individual and collective responsibility toward nature"
+          ]
+        },
+        {
+          "title": "Building Environmental Awareness",
+          "description": "Beyond planting trees, the initiative aimed to encourage a broader culture of environmental responsibility.",
+          "points": [
+            "Promoted awareness around the critical value of urban tree canopies",
+            "Advocated for sustainable and climate-conscious community practices",
+            "Highlighted the impact of corporate-NGO partnerships in driving climate action",
+            "Inspired participants to become ongoing ambassadors for green living"
+          ]
+        }
+      ]
+    },
+    // Volunteer roster for this drive. The names live in their own JSON file
+    // (see `data/koshiqaMemberList.json`) and are loaded on demand — see
+    // `data/memberLists.js` for how to register a new roster.
+    "members": {
+      "listKey": "koshiqa",
+      "title": "Find yourself among the planters",
+      "intro": "Koshiqa colleagues and community volunteers planted together at Ram Singh Pura Vatika. Type your name below to find your spot on the roster — and share the moment with your team.",
+      "accent": "green"
+    },
+    "site": {
+      "name": "Ram Singh Pura Vatika",
+      "areaAcres": "Site Level",
+      "areaSqM": "N/A",
+      "address": "Ram Singh Pura Vatika, Jaipur, Rajasthan",
+      "microclimate": "Semi-arid climate characterized by hot summers, distinct monsoon seasons, and sandy loam soil suitable for hardy native vegetation.",
+      "soilHealth": "Prepared specifically for high-density plantation with careful pit preparation, soil loosening, and organic nourishment to optimize sapling survival."
+    },
+    "coverImage": {
+      "src": "https://firebasestorage.googleapis.com/v0/b/renukiran-a6410.appspot.com/o/new-company-details%2FKOSHIQA%2010%20MAY%202026%2C%20PLANTATION%2FCopy%20of%20IMG_20260510_082319042_HDR.webp?alt=media&token=baa650b7-7364-484b-8e99-3537483800e3",
+      "alt": "Koshiqa employees and volunteers planting saplings in Jaipur",
+      "position": "center"
+    },
+    "map": {
+      "latitude": 26.8867,
+      "longitude": 75.7846,
+      "zoom": 15,
+      "label": "Ram Singh Pura Vatika, Jaipur",
+      "embedUrl": "https://maps.google.com/maps?q=Ram+Singh+Pura+Vatika,+Jaipur&t=m&z=15&output=embed",
+      "earthUrl": "https://earth.google.com/web/search/Ram+Singh+Pura+Vatika,+Jaipur",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ram+Singh+Pura+Vatika%2C+Jaipur"
+    },
+    "plantation": {
+      "methodology": "A community-centric, climate-resilient plantation methodology tailored to Jaipur's semi-arid terrain. Saplings were planted with optimized spacing to ensure adequate sunlight, root expansion, and soil moisture retention.",
+      "species": [
+        {
+          "name": "Native & Climate-Resilient Mix",
+          "role": "Canopy, Shade & Soil Regeneration"
+        }
+      ],
+      "stewardship": "Supported by pre-plantation soil enrichment, standard pit dimensioning, immediate watering, and continuous post-planting monitoring to secure high survival rates.",
+      "monitoring": "Regular follow-up visits and health assessments undertaken by Renukiran Welfare Foundation in collaboration with local community caretakers."
+    },
+    "timeline": [
+      {
+        "year": 2026,
+        "phase": "Inauguration",
+        "title": "Inaugural Plantation Drive: 8,080 Saplings Planted",
+        "summary": "Koshiqa employees and local community volunteers joined hands with Renukiran Welfare Foundation for an intensive plantation drive at Ram Singh Pura Vatika, creating an immediate and tangible green footprint.",
+        "date": "10th May 2026",
+        "status": "Planted",
+        "species": [
+          {
+            "name": "Native & Climate-Resilient Mix",
+            "quantity": 8080,
+            "role": "Canopy, Shade & Soil Regeneration"
+          }
+        ],
+        "totalTreesPlantedThisYear": 8080,
+        "totalVolunteersThisYear": "25",
+        "photos": [
+          {
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260509_132854700.webp",
+            "alt": "Koshiqa volunteers gathering at the plantation site in Jaipur",
+            "caption": "Volunteers assembling at the site"
+          },
+          {
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_075614304_HDR.webp",
+            "alt": "Volunteers preparing soil for planting saplings",
+            "caption": "Soil preparation and pit clearing"
+          },
+          {
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_081328114_HDR.webp",
+            "alt": "Koshiqa employee planting a young tree",
+            "caption": "Hands-on plantation in progress"
+          },
+          {
+            "src": "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_085112180_HDR.webp",
+            "alt": "Final overview of the planted site at Ram Singh Pura Vatika",
+            "caption": "Completed plantation at Ram Singh Pura Vatika"
+          }
+        ],
+        "metrics": {
+          "areaCovered": "Plantation Zone",
+          "totalSpecies": 1,
+          "totalVolunteers": "25",
+          "geoTaggedPits": "8080",
+          "zonesCreated": "Green Cover Restoration Zone"
+        },
+        "note": "The drive successfully concluded with dedicated volunteer hours and long-term maintenance commitments."
+      }
+    ],
+    "gallery": [
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260509_132854700.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_075614304_HDR.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_080637172_HDR.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_081328114_HDR.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_081335698_HDR.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_081415165_HDR.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_081819543_HDR.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_082319042_HDR.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_082408737_HDR.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_082459764_HDR.webp",
+      "https://storage.googleapis.com/renukiran-a6410.appspot.com/new-company-details/KOSHIQA%2010%20MAY%202026,%20PLANTATION/Copy%20of%20IMG_20260510_085112180_HDR.webp"
+    ],
+    "impact": {
+      "heading": "Growing Green. Creating Change.",
+      "paragraphs": [
+        "The plantation initiative brought together corporate volunteers and the community around a simple but meaningful environmental action — planting trees for a healthier and more sustainable tomorrow.",
+        "Each sapling planted represents a long-term contribution towards increasing green cover, improving local environmental conditions, and creating greener spaces for communities. Beyond the physical impact, the initiative strengthened environmental consciousness among participating employees and demonstrated how corporate participation can translate into meaningful action on the ground.",
+        "Through collective effort, Koshiqa and Renukiran Welfare Foundation contributed to a greener community while reinforcing the importance of sustained environmental stewardship."
+      ],
+      "metrics": {
+        "treesPlanted": 8080,
+        "treesAlive": 8080,
+        "areaSqM": "N/A",
+        "areaAcres": "Site Level",
+        "volunteers": "25",
+        "yearsActive": 1,
+        "speciesPlanted": 1
+      },
+      "stats": [
+        {
+          "value": "8080",
+          "label": "Saplings planted"
+        },
+        {
+          "value": "25",
+          "label": "Employee volunteers"
+        },
+        {
+          "value": "125",
+          "label": "Volunteer hours"
+        },
+        {
+          "value": "1",
+          "label": "Plantation site"
+        }
+      ],
+      "sdgs": [
+        {
+          "number": "13",
+          "label": "Climate Action"
+        },
+        {
+          "number": "15",
+          "label": "Life on Land"
+        },
+        {
+          "number": "11",
+          "label": "Sustainable Cities and Communities"
+        },
+        {
+          "number": "17",
+          "label": "Partnerships for the Goals"
+        }
+      ]
+    },
+    "conclusion": "Through this plantation initiative, Koshiqa and Renukiran Welfare Foundation demonstrated that meaningful climate action can begin with simple, collective steps. The initiative goes beyond planting saplings — it is about nurturing greener communities, encouraging environmental responsibility, and creating a lasting culture of sustainability. Together, the partnership represents a shared commitment to building a healthier and greener future for generations to come.",
+    "thankingNote": "Renukiran Welfare Foundation expresses its sincere gratitude to Koshiqa and all the participating employee volunteers for their enthusiastic involvement and commitment towards environmental sustainability. Your participation helped turn a plantation drive into a meaningful collective action for the environment. We also thank the local community and supporting stakeholders for their cooperation in making the initiative possible.",
+    "specialMentions": [
+      {
+        "name": "Koshiqa Employee Volunteers",
+        "role": "Corporate Partner",
+        "note": "For their enthusiastic participation, teamwork, and contribution towards creating greener communities.",
+        "url": "#",
+        "linkLabel": "Koshiqa"
+      },
+      {
+        "name": "Renukiran Welfare Foundation",
+        "role": "Implementation Partner",
+        "note": "For project planning, plantation coordination, volunteer engagement, and on-ground execution of the initiative."
+      },
+      {
+        "name": "Local Community / Plantation Site Partner",
+        "role": "Local Support",
+        "note": "For providing the plantation site and supporting the implementation and nurturing of the plantation activity."
+      }
+    ]
   }
 ];
 

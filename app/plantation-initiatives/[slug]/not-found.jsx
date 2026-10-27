@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function PlantationPartnerNotFound() {
   return (
-    <main className="plantation-partners-page">
+    <main className="plantation-initiatives-page">
       <section className="pp-section" style={{ paddingTop: "7rem", paddingBottom: "5rem" }}>
         <div className="pp-shell" style={{ textAlign: "center", maxWidth: 640, marginInline: "auto" }}>
           <span className="pp-eyebrow">404</span>
@@ -19,7 +19,7 @@ export default function PlantationPartnerNotFound() {
             plantation partnerships.
           </p>
           <div className="pp-actions pp-actions--center">
-            <Link href="/plantation-partners" className="pp-button pp-button--solid">
+            <Link href="/plantation-initiatives" className="pp-button pp-button--solid">
               Back to all plantation partners
             </Link>
             <Link href="/contact" className="pp-button pp-button--ghost" style={{ color: "var(--pp-forest)", borderColor: "rgba(36,122,77,0.3)", background: "transparent" }}>

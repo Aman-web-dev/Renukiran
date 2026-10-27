@@ -9,6 +9,7 @@ import {
   ImpactPartnerSidebar,
   ImpactPartnersCta,
 } from "@/components/ImpactPartners";
+import MemberDirectory from "@/components/MemberDirectory";
 import {
   getImpactPartnerBySlug,
   getPublishedImpactPartners,
@@ -161,6 +162,19 @@ export default function ImpactPartnerProfilePage({ params }) {
                 community.
               </p>
               <ImpactPartnerGallery gallery={partner.gallery} />
+            </section>
+          ) : null}
+
+          {partner.members?.listKey ? (
+            <section className="ip-profile-section">
+              <MemberDirectory
+                listKey={partner.members.listKey}
+                title={partner.members.title}
+                intro={partner.members.intro}
+                accent={partner.members.accent}
+                companyName={partner.client.name}
+                activityTitle={partner.activity.title}
+              />
             </section>
           ) : null}
 

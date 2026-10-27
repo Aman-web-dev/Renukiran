@@ -205,6 +205,15 @@ export const impactPartners = [
     "published": true,
     "featured": true,
     "order": 3,
+    // Volunteer roster for this activity. The names live in their own JSON file
+    // (see `data/koshiqaMemberList.json`) and are loaded on demand — see
+    // `data/memberLists.js` for how to register a new roster.
+    "members": {
+      "listKey": "koshiqa",
+      "title": "Find yourself in the crew",
+      "intro": "Over 4,000 colleagues joined Koshiqa for this drive. Type your name below to see your spot on the roster — and share the moment with your team.",
+      "accent": "blue"
+    },
     "client": {
       "name": "Koshiqa",
       "shortName": "Koshiqa",

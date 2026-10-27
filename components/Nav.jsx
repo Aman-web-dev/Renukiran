@@ -63,37 +63,37 @@ const navRoutes = [
   },
   {
     heading: "Grow Trees With Us",
-    href: "/plantation-initiatives",
+    href: "/plantation-ambitions",
     disabled: false,
     subRoutes: [
       {
         label: "Plantation Partners",
-        href: "/plantation-partners",
+        href: "/plantation-initiatives",
         disabled: false,
       },
       {
       label: "Active Sustainability Projects",
-      href: "/plantation-initiatives/sustainability-projects",
+      href: "/plantation-ambitions/sustainability-projects",
       disabled: false,
     },
     {
       label: "ESG Sustainability Partnerships",
-      href: "/plantation-initiatives/sustainability-partnerships",
+      href: "/plantation-ambitions/sustainability-partnerships",
       disabled: false,
     },
     {
       label: "Celebration Tree Programs",
-      href: "/plantation-initiatives/celebration-tree-programs",
+      href: "/plantation-ambitions/celebration-tree-programs",
       disabled: false,
     },
     {
       label: "Sustainable Delivery Carbon Offset",
-      href: "/plantation-initiatives/carbon-offset",
+      href: "/plantation-ambitions/carbon-offset",
       disabled: false,
     },
     {
       label: "Green Legacy Hub",
-      href: "/plantation-initiatives/green-legacy",
+      href: "/plantation-ambitions/green-legacy",
       disabled: false,
     },
     ]
@@ -129,7 +129,7 @@ const navRoutes = [
     },
     {
       label: "Plantation Partners",
-      href: "/plantation-partners",
+      href: "/plantation-initiatives",
       disabled: false,
     },
     ]

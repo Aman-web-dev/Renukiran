@@ -1,6 +1,6 @@
 /* Corporate Plantation Partners — listing and dynamic project profiles */
 
-.plantation-partners-page {
+.plantation-initiatives-page {
   --pp-forest: #123d2d;
   --pp-forest-deep: #08271d;
   --pp-green: #247a4d;
@@ -20,16 +20,16 @@
   font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
 }
 
-.plantation-partners-page *,
-.plantation-partners-page *::before,
-.plantation-partners-page *::after { box-sizing: border-box; }
-.plantation-partners-page h1,
-.plantation-partners-page h2,
-.plantation-partners-page h3,
-.plantation-partners-page p,
-.plantation-partners-page figure { margin-top: 0; }
-.plantation-partners-page img { display: block; max-width: 100%; }
-.plantation-partners-page a { color: inherit; }
+.plantation-initiatives-page *,
+.plantation-initiatives-page *::before,
+.plantation-initiatives-page *::after { box-sizing: border-box; }
+.plantation-initiatives-page h1,
+.plantation-initiatives-page h2,
+.plantation-initiatives-page h3,
+.plantation-initiatives-page p,
+.plantation-initiatives-page figure { margin-top: 0; }
+.plantation-initiatives-page img { display: block; max-width: 100%; }
+.plantation-initiatives-page a { color: inherit; }
 
 .pp-shell { width: min(1180px, calc(100% - 3rem)); margin-inline: auto; }
 
@@ -629,7 +629,7 @@
   .pp-site-overview { padding: 1.2rem 1.15rem; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .plantation-partners-page *,
-  .plantation-partners-page *::before,
-  .plantation-partners-page *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+  .plantation-initiatives-page *,
+  .plantation-initiatives-page *::before,
+  .plantation-initiatives-page *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
